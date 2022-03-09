@@ -15,4 +15,9 @@ A new benchmark suite for machine learning datasets and data-centric algorithms 
 
 The Open Graph Benchmark (OGB) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on graphs. In addition, the research team also proposed OGB Large-Scale Challenge (OGB-LSC), a collection of three real-world datasets for facilitating the advancements in large-scale graph ML.
 
+主要目标：
+- 构建一系列的数据集，特别是基于图的数据集，用于各类数据科学分析方法的评测
+- 构建数据集上的不同挑战与任务，大部分来自真实的开源治理与社区运营的场景
+- 构建不同任务上的评价指标，用于科学的性能评测，并能够指导现实问题
+
 
