@@ -31,6 +31,10 @@ Codabench is a platform allowing you to flexibly specify a benchmark. First you 
 
 The SuiteSparse Matrix Collection (formerly known as the University of Florida Sparse Matrix Collection), is a large and actively growing set of sparse matrices that arise in real applications. The Collection is widely used by the numerical linear algebra community for the development and performance evaluation of sparse matrix algorithms. It allows for robust and repeatable experiments: robust because performance results with artificially-generated matrices can be misleading, and repeatable because matrices are curated and made publicly available in many formats.
 
+8. **Workshop on Graph Learning Benchmarks**：https://graph-learning-benchmarks.github.io/glb2022
+
+GLB is the Workshop of the Graph Learning Benchmarks. Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to (i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, (ii) raising the attention of the synergy of graph learning, and (iii) crowdsourcing benchmark datasets for various tasks of graph ML.
+
 OpenPerf 的主要目标：
 - 构建一系列的数据集，特别是基于图的数据集，用于各类数据科学分析方法的评测
 - 构建数据集上的不同挑战与任务，大部分来自真实的开源治理与社区运营的场景
