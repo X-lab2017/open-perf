@@ -35,6 +35,10 @@ The SuiteSparse Matrix Collection (formerly known as the University of Florida S
 
 GLB is the Workshop of the Graph Learning Benchmarks. Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to (i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, (ii) raising the attention of the synergy of graph learning, and (iii) crowdsourcing benchmark datasets for various tasks of graph ML.
 
+9. **GraphWorld: Advances in Graph Benchmarking**：https://ai.googleblog.com/2022/05/graphworld-advances-in-graph.html
+
+GraphWorld introduce a methodology for analyzing the performance of GNN architectures on millions of synthetic benchmark datasets. Whereas GNN benchmark datasets featured in academic literature are just individual “locations” on a fully-diverse “world” of potential graphs, GraphWorld directly generates this world using probability models, tests GNN models at every location on it, and extracts generalizable insights from the results. We propose GraphWorld as a complementary GNN benchmark that allows researchers to explore GNN performance on regions of graph space that are not covered by popular academic datasets. Furthermore, GraphWorld is cost-effective, running hundreds-of-thousands of GNN experiments on synthetic data with less computational cost than one experiment on a large OGB dataset.
+
 OpenPerf 的主要目标：
 - 构建一系列的数据集，特别是基于图的数据集，用于各类数据科学分析方法的评测
 - 构建数据集上的不同挑战与任务，大部分来自真实的开源治理与社区运营的场景
