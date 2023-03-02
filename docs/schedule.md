@@ -15,7 +15,7 @@
 
 | 名称              | 相关文档                                                    | 负责人        |
 |-----------------|---------------------------------------------------------|------------|
-| 软件供应链数据采集       | https://github.com/orgs/X-lab2017/discussions/230 <br/> | 伍泰炜、吴双、毕枫林 |
+| 软件供应链数据采集       | https://github.com/orgs/X-lab2017/discussions/230 <br/> https://xlab2017.yuque.com/me1x4f/openperf/rn3u0dtz79zumt1d| 伍泰炜、吴双、毕枫林 |
 | 开源数据库数据集采集      |                                                         | 娄泽华        |
 | github机器人账号识别研究 | https://xlab2017.yuque.com/me1x4f/openperf/lzsogo       | 毕枫林        |
 
