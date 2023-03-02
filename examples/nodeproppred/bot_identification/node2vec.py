@@ -1,10 +1,13 @@
+import sys
+sys.path.append("../../../../")
+print(sys.path)
 import argparse
-
+import os
 import torch
 from torch_geometric.nn import Node2Vec
 from torch_geometric.utils import to_undirected
 
-from ogb.nodeproppred import PygNodePropPredDataset
+from openperf.nodepropred import PygNodePropPredDataset
 
 
 def save_embedding(model):
@@ -12,7 +15,7 @@ def save_embedding(model):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='OGBN-Arxiv (Node2Vec)')
+    parser = argparse.ArgumentParser(description='OpenPerf-Bot (Node2Vec)')
     parser.add_argument('--device', type=int, default=0)
     parser.add_argument('--embedding_dim', type=int, default=128)
     parser.add_argument('--walk_length', type=int, default=80)
@@ -27,7 +30,7 @@ def main():
     device = f'cuda:{args.device}' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device)
 
-    dataset = PygNodePropPredDataset(name='openperf-bot-indentification')
+    dataset = PygNodePropPredDataset(name='OpenPerfn-Bot')
     data = dataset[0]
     data.edge_index = to_undirected(data.edge_index, data.num_nodes)
 

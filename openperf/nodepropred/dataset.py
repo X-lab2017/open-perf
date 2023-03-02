@@ -1,6 +1,7 @@
 import pandas as pd
 import shutil, os
 import os.path as osp
+from torch_geometric.data import InMemoryDataset
 from ogb.utils.url import decide_download, download_url, extract_zip
 from ogb.io.read_graph_raw import read_csv_graph_raw, read_csv_heterograph_raw,\
                                     read_node_label_hetero, read_nodesplitidx_split_hetero,\
@@ -9,7 +10,7 @@ from ogb.io.read_graph_raw import read_csv_graph_raw, read_csv_heterograph_raw,\
 import torch
 import numpy as np
 
-class NodePropPredDataset(object):
+class NodePropPredDataset(InMemoryDataset):
     def __init__(self, name, root = 'dataset', meta_dict = None):
         '''
             - name (str): name of the dataset
