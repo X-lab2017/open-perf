@@ -17,3 +17,7 @@
 |dotnet/runtime|862|16641|2298.13|
 |godotengine/godot|2247|11204|2114.51|
 |microsoft/winget-pkgs|539|26600|1703.35|
+
+#### 参考资料
+1.https://blog.frankzhao.cn/how_to_measure_open_source_1/  
+2.https://github.com/X-lab2017/open-digger/blob/master/src/metrics/indices.ts#L109

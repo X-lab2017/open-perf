@@ -19,3 +19,7 @@
 |microsoft/winget-pkgs|0.061954|0.0075|1106.3
 |godotengine/godot|0.203330|0.045|1105.51
 |odoo/odoo|0.175534|0.043|907.97
+
+#### 参考资料
+1.https://blog.frankzhao.cn/how_to_measure_open_source_2/  
+2.https://github.com/X-lab2017/open-digger/blob/master/src/metrics/indices.ts#L21
