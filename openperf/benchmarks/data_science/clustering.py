@@ -1,6 +1,4 @@
 from sklearn.metrics import silhouette_score
-from clustering_models import KMeansModel, AgglomerativeModel
-
 class ClusteringBenchmark:
 
     def __init__(self, name, model):
