@@ -161,7 +161,7 @@ def train_and_evaluate_model(model_list, X_train, X_test, y_train, y_test):
 
 
 def main():
-    filepath = "./data/bothawk_data.csv"
+    filepath = "data/bothawk_data.csv"
     X, y, features = load_data(filepath)
     model_list = preprocess_data(X, y, features)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=42)
