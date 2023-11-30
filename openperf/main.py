@@ -9,7 +9,7 @@ from openperf.benchmarks.data_science.bot_detection import bench
 from openperf.benchmarks.standard.company import activity as c_a, influence as c_i
 from openperf.benchmarks.standard.developer import activity as d_a, influence as d_i
 from openperf.benchmarks.standard.project import activity as p_a, influence as p_i
-
+from openperf.benchmarks.index.rank import activity as index_activity, influence as index_influence
 from openperf.user_interface.data_viewer import DataViewer
 from openperf.user_interface.exporter import Exporter
 from openperf.user_interface.results_visualizer import ResultsVisualizer
@@ -25,6 +25,19 @@ def main():
 def data_science():
     """Data Science Benchmarks"""
     pass
+
+@click.group()
+def index():
+    """index Benchmarks"""
+    pass
+
+@index.command()
+def activity():
+    print(index_activity.run())
+    
+@index.command()
+def influence():
+    print(index_influence.run())
 
 @data_science.command()
 def bot_detection():
@@ -62,7 +75,7 @@ def project():
     print("influence:")
     print(p_i.run())
 
-
+main.add_command(index)
 main.add_command(standard)
 main.add_command(data_science)
 print("Available commands:", main.list_commands(ctx=None))
