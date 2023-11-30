@@ -16,3 +16,4 @@ class ActivityBenchmark:
         if self.result is None:
             self.run()
         return self.result
+
