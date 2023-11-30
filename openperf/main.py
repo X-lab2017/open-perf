@@ -6,6 +6,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import click
 from openperf.benchmarks.data_science.bot_detection import bench 
+from openperf.benchmarks.standard.company import activity as c_a, influence as c_i
+from openperf.benchmarks.standard.developer import activity as d_a, influence as d_i
+from openperf.benchmarks.standard.project import activity as p_a, influence as p_i
+
 from openperf.user_interface.data_viewer import DataViewer
 from openperf.user_interface.exporter import Exporter
 from openperf.user_interface.results_visualizer import ResultsVisualizer
@@ -29,6 +33,37 @@ def bot_detection():
     result_df = bench.run()
     print(result_df.to_string())
 
+@click.group()
+def standard():
+    """Standard Benchmarks"""
+    pass
+
+@standard.command()
+def company():
+    """Run company benchmark."""
+    print("activity:")
+    print(c_a.run())
+    print("influence:")
+    print(c_i.run())
+
+@standard.command()
+def developer():
+    """Run developer benchmark."""
+    print("activity:")
+    print(d_a.run())
+    print("influence:")
+    print(d_i.run())
+
+@standard.command()
+def project():
+    """Run project benchmark."""
+    print("activity:")
+    print(p_a.run())
+    print("influence:")
+    print(p_i.run())
+
+
+main.add_command(standard)
 main.add_command(data_science)
 print("Available commands:", main.list_commands(ctx=None))
 
