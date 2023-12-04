@@ -1,0 +1,1 @@
+include openperf/benchmarks/data_science/bot_detection/data/*.csv
