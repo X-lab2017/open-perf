@@ -18,12 +18,11 @@ import xgboost as xgb
 
 def load_data():
     # Define the path of the CSV file relative to the project root
-    csv_file = Path(__file__).parent / "data" / "bothawk_data.csv"
+    # csv_file = Path(__file__).parent / "data" / "bothawk_data.csv"
+    import pkg_resources
 
-    # Check if the file exists
-    if not csv_file.exists():
-        print(f"Error: The file {csv_file} does not exist.")
-        return
+    # 获取数据文件路径
+    csv_file = pkg_resources.resource_filename('openperf', 'benchmarks/data_science/bot_detection/data/bothawk_data.csv')
 
     # Try to read the CSV file
     try:
@@ -127,7 +126,7 @@ def evaluate_model(X_test, y_test, best_estimators, base_clf):
         # Significance of statistical features
         # perm_importance = permutation_importance(best_estimators[i], X_test, y_test, n_repeats=5,
         #                                          random_state=0, n_jobs=-1)
-        
+
         # sorted_idx = perm_importance.importances_mean.argsort()
         # Store the data in a DataFrame
         # feature_names = X_test.columns.tolist()
@@ -138,7 +137,7 @@ def evaluate_model(X_test, y_test, best_estimators, base_clf):
         #     os.makedirs('result')
         # eval_df.loc['bagging' + name] = [accuracy, precision, recall, f1, pr_auc]
         # eval_df.to_csv(f'result/bagging{name}_metrics.csv')
-        eval_df.loc['bagging' + name] = [accuracy, precision, recall, f1, pr_auc] 
+        eval_df.loc['bagging' + name] = [accuracy, precision, recall, f1, pr_auc]
 
     # print(eval_df.head(10))
     return eval_df
@@ -146,7 +145,7 @@ def evaluate_model(X_test, y_test, best_estimators, base_clf):
 def run():
     # load data
     X_train, X_test, y_train, y_test = load_data()
- 
+
     base_clf = [
         ("DecisionTree", DecisionTreeClassifier()),
         ("KNeighbors", KNeighborsClassifier()),
