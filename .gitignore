@@ -31,3 +31,5 @@ dataset/
 **/logs/**
 **/lightning_logs/**
 .dataset/
+.ipynb_checkpoints/
+openperf.egg-info/

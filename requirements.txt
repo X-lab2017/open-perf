@@ -1,0 +1,20 @@
+certifi==2024.2.2
+charset-normalizer==3.3.2
+click==8.1.7
+idna==3.7
+imbalanced-learn==0.12.2
+imblearn==0.0
+joblib==1.4.0
+numpy==1.26.4
+openperf @ file:///Users/bifenglin/Code/open-perf
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+requests==2.31.0
+scikit-learn==1.1.1
+scipy==1.13.0
+six==1.16.0
+threadpoolctl==3.4.0
+tzdata==2024.1
+urllib3==2.2.1
+xgboost==2.0.3

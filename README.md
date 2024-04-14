@@ -1,50 +1,61 @@
 # OpenPerf
-Benchmark suit for large scale socio-technical datasets in open collaboration
 
-该项目受如下几个工作的启发：
+OpenPerf is a benchmarking suite tailored for the sustainable management of open-source projects. It assesses key metrics and standards vital for the successful development of open-source ecosystems.
 
-1. **ImageNet**：https://image-net.org/
+## Features
 
-The ImageNet project is a large visual database designed for use in visual object recognition software research. More than 14 million images have been hand-annotated by the project to indicate what objects are pictured and in at least one million of the images, bounding boxes are also provided. Since 2010, the ImageNet project runs an annual software contest, the ImageNet Large Scale Visual Recognition Challenge (ILSVRC), where software programs compete to correctly classify and detect objects and scenes.
+- **Data Science Benchmarks**: Focus on analyzing and predicting behaviors that impact the sustainability of open-source projects, such as bot detection mechanisms.
+- **Standard Benchmarks**: Includes a wide range of benchmarks that measure company, developer, and project impacts on open-source community health and growth.
+- **Index Benchmarks**: Provides tools for evaluating and ranking different entities based on metrics critical to open-source sustainability, such as activity levels and influence.
+- **Modular CLI**: A robust command-line interface that allows for straightforward interaction with all available benchmarks, facilitating ease of use and integration into other tools.
+- **Extensible Framework**: Designed to be flexible and expandable, allowing researchers and developers to add new benchmarks and features as the field evolves.
 
-2. **DataPerf**：https://dataperf.org/
+## Installation
 
-A new benchmark suite for machine learning datasets and data-centric algorithms proposed by researchers from Coactive.AI, ETH Zurich, Google, Harvard University, Landing.AI, Meta, Stanford University, and TU Eindhoven. DataPerf is a suite of benchmarks that evaluate the quality of training and test data, and the algorithms for constructing or optimizing such datasets, such as core set selection or labeling error debugging, across a range of common ML tasks such as image classification. We plan to leverage the DataPerf benchmarks through challenges and leaderboards.
+To get started with OpenPerf, clone the repository to your local machine:
 
-3. **Open Graph Benchmark**：https://ogb.stanford.edu/
+```bash
+git clone https://github.com/yourgithubusername/openperf.git
+cd openperf
+```
 
-The Open Graph Benchmark (OGB) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on graphs. In addition, the research team also proposed OGB Large-Scale Challenge (OGB-LSC), a collection of three real-world datasets for facilitating the advancements in large-scale graph ML.
+Install the required dependencies:
 
-4. **Papers With Code: The latest in Machine Learning**：https://paperswithcode.com/
+```bash
+pip install -r requirements.txt
+```
 
-The mission of Papers with Code is to create a free and open resource with Machine Learning papers, code, datasets, methods and evaluation tables.
+## Usage
 
-5. **Codabench**：https://www.codabench.org/
+OpenPerf is equipped with a CLI for easy execution of benchmarks. Here’s how you can run different types of benchmarks:
 
-Codabench is a platform allowing you to flexibly specify a benchmark. First you define tasks, e.g. datasets and metrics of success, then you specify the API for submissions of code (algorithms), add some documentation pages, and [CLICK] your benchmark is created, ready to accept submissions of new algorithms. Participant results get appended to an ever-growing leaderboard.
+### Running Data Science Benchmarks
+To run the bot detection benchmark, which helps understand automated interactions in project management:
+```bash
+openperf data_science bot_detection
+```
 
-6. **AIOps Challenge（国际智能运维挑战赛）**：https://aiops-challenge.com/
+### Running Standard Benchmarks
+Evaluate the impact of companies, developers, and projects on open-source sustainability:
+```bash
+openperf standard company
+openperf standard developer
+openperf standard project
+```
 
-是将人工智能的能力与运维相结合，基于已有的运维数据（日志、监控信息、应用信息等）并通过机器学习的方式来进一步解决自动化运维没办法解决的问题。即以大数据平台和机器学习（算法平台）为核心从各个监控系统中抽取数据、面向用户提供服务，以此来提升运维效率。
+### Running Index Benchmarks
+To assess activity and influence indices, crucial for understanding leadership and contributions in open-source projects:
+```bash
+openperf index activity
+openperf index influence
+```
 
-7. **The SuiteSparse Matrix Collection (formerly the University of Florida Sparse Matrix Collection)**：https://sparse.tamu.edu/
+### Extending OpenPerf
+To add a new benchmark, create a new module under the appropriate directory and update the main.py to include this benchmark in the CLI.
 
-The SuiteSparse Matrix Collection (formerly known as the University of Florida Sparse Matrix Collection), is a large and actively growing set of sparse matrices that arise in real applications. The Collection is widely used by the numerical linear algebra community for the development and performance evaluation of sparse matrix algorithms. It allows for robust and repeatable experiments: robust because performance results with artificially-generated matrices can be misleading, and repeatable because matrices are curated and made publicly available in many formats.
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-8. **Workshop on Graph Learning Benchmarks**：https://graph-learning-benchmarks.github.io/glb2022
-
-GLB is the Workshop of the Graph Learning Benchmarks. Inspired by the conference tracks in the computer vision and natural language processing communities that are dedicated to establishing new benchmark datasets and tasks, we call for contributions that establish novel ML tasks on novel graph-structured data which have the potential to (i) identifying systematic failure modes of existing GNNs and providing new technical challenges for the development of new models which highlight diverse future directions, (ii) raising the attention of the synergy of graph learning, and (iii) crowdsourcing benchmark datasets for various tasks of graph ML.
-
-9. **GraphWorld: Advances in Graph Benchmarking**：https://ai.googleblog.com/2022/05/graphworld-advances-in-graph.html
-
-GraphWorld introduce a methodology for analyzing the performance of GNN architectures on millions of synthetic benchmark datasets. Whereas GNN benchmark datasets featured in academic literature are just individual “locations” on a fully-diverse “world” of potential graphs, GraphWorld directly generates this world using probability models, tests GNN models at every location on it, and extracts generalizable insights from the results. We propose GraphWorld as a complementary GNN benchmark that allows researchers to explore GNN performance on regions of graph space that are not covered by popular academic datasets. Furthermore, GraphWorld is cost-effective, running hundreds-of-thousands of GNN experiments on synthetic data with less computational cost than one experiment on a large OGB dataset.
-
-OpenPerf 的主要目标：
-- 构建一系列的数据集，特别是基于图的数据集，用于各类数据科学分析方法的评测
-- 构建数据集上的不同挑战与任务，大部分来自真实的开源治理与社区运营的场景
-- 构建不同任务上的评价指标，用于科学的性能评测，并能够指导现实问题
-- 构建自动化的任务评测平台
-- 举办国际化的挑战赛
-
-
-
+## Acknowledgments
+Thanks to all the contributors who have helped to expand and maintain OpenPerf.
+Special thanks to the community for the continuous feedback that enriches the project's scope and functionality.

@@ -21,17 +21,8 @@
 
 OSS机器人识别任务中，OpenPerf采用了多种机器学习模型进行实验，包括逻辑回归（LogisticRegression）、决策树（DecisionTreeClassifier）、支持向量机（SVM）、高斯朴素贝叶斯（GaussianNB）、K近邻（KNeighborsClassifier）、随机森林（RandomForestClassifier），以及专门针对OSS机器人识别任务设计的模型BotHunter、BoDeGHa和BotHawk。最终结果如下表。下图可以看出不同算法在不同评价指标下的对比情况。
 
-|Model|Accuracy|Precision|Recall|F1-score|AUC|
-|  ----  | ----  | ----  | ----  | ----  | ----  |
-|LogisticRegression|0.9234|0.4427|0.5376|0.4856|0.5760|
-|DecisionTree|0.7995|0.2188|0.7707|0.3408|0.5024|
-|SVM|0.8936	|0.3495|0.6767|0.4609|0.5414|
-|GaussianNB|0.9548|0.7514|0.4887|0.5923|0.5319|
-|KNeighborsClassifier|0.8309|0.2472|0.7406|0.3706|0.5119|
-|RandomForest|0.8817|0.3441|0.8383|0.4880|0.6486|
-|BotHunter|0.8649|0.2200|0.7528|0.3405|0.5512|
-|BoDeGHa|0.8286|0.2354|0.7910|0.3628|0.5049|
-|BotHawk|0.8799|0.8930|0.8715|0.8821|0.9472|
+
+
 
 ![Alt text](result.png)
 
