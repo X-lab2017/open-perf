@@ -1,15 +1,15 @@
-# 基于链路预测的开源项目推荐
+# Open Source Project Recommendation Based on Link Prediction
 
-### 研究背景
-开源软件开发鼓励全球开发人员以开放协作的方式参与到开发任务中，如错误修复、代码测试和文档改进。每个开发人员都有他们独特的项目需求和技术背景，如果不能将他们与合适的开源项目进行匹配，可能会阻碍开发任务的顺利进行，对开源项目的发展甚至整个开源生态系统的发展产生不利影响。
+### Research Background
+Open source software development encourages global developers to participate in development tasks such as bug fixing, code testing, and documentation improvements in an open collaborative manner. Each developer has their unique project needs and technical background. Failing to match them with appropriate open source projects may hinder the smooth progress of development tasks and adversely affect the development of open source projects and even the entire open source ecosystem.
 
-### 任务描述
-如何基于项目间关系为开发者和社区运营人员推荐感兴趣的开源项目？为开发者推荐感兴趣的开源项目可以帮助他们全面了解目标技术领域的项目，降低开发资源的浪费。
-### 任务难点
-复杂的项目关系：开源项目之间的关系复杂多变，开发者和社区运营人员往往需要投入大量时间和精力来了解和掌握这些关系。如何准确地利用这些关系进行高效的开源项目推荐，是一项重大挑战。  
-项目的多样性：开源项目在技术领域、开发需求、参与者背景等方面存在大量的多样性，这增加了推荐系统的复杂性。  
-关键词搜索和标签匹配的局限性：虽然GitHub等平台提供了基于关键词搜索和标签匹配的功能，但这些方法返回的结果质量参差不齐，且无法完全满足用户的需求。如何提供一种更为有效的方法，以提高开源项目的查找效率和准确度，是需要解决的问题。
+### Task Description
+How can we recommend open source projects of interest to developers and community operators based on relationships between projects? Recommending open source projects of interest can help developers comprehensively understand projects in their target technology areas, reducing the waste of development resources.
 
+### Task Challenges
+Complex project relationships: The relationships between open source projects are complex and variable, and developers and community operators often need to invest a lot of time and effort to understand and master these relationships. How to accurately use these relationships for efficient open source project recommendation is a significant challenge.
+Project diversity: There is a great deal of diversity in open source projects in terms of technology areas, development needs, and participant backgrounds, which increases the complexity of recommendation systems.
+Limitations of keyword search and tag matching: Although platforms like GitHub provide features based on keyword search and tag matching, the quality of the results from these methods is uneven and cannot fully meet users' needs. How to provide a more effective method to improve the efficiency and accuracy of finding open source projects is a problem that needs to be addressed.
 
-#### 参考资料
-1. 王皓月. 基于链接预测的同质开源项目推荐[D].华东师范大学,2022.DOI:10.27149/d.cnki.ghdsu.2022.003970.
+#### References
+1. Wang Haoyue. Recommendation of Homogeneous Open Source Projects Based on Link Prediction[D]. East China Normal University, 2022. DOI:10.27149/d.cnki.ghdsu.2022.003970.

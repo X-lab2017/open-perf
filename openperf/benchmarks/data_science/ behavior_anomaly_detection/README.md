@@ -1,15 +1,14 @@
-# 开源社区行为异常检测
+# Open Source Community Behavior Anomaly Detection
 
-### 研究背景
-开源项目中的开发者行为数据是一种重要的信息资源，可以用来监控项目动态，及时发现并处理项目过程中的异常行为，优化项目管理制度。随着项目参与者数量的增加，手动监控所有异常行为变得不现实，需要一种能快速且高效的自动异常监控方案。
+### Research Background
+Developer behavior data in open source projects is an important information resource that can be used to monitor project dynamics, promptly detect and handle anomalous behavior during the project process, and optimize project management systems. As the number of project participants increases, manually monitoring all anomalous behaviors becomes impractical, necessitating a rapid and efficient automated anomaly monitoring solution.
 
-### 任务描述
-如何设计和实现一个实时异常检测框架，对实时采集的海量开发者行为数据流进行异常检测，达到以下目标：提前预警类似NPM库等异常事件，及时反馈给社区管理人员调整项目管理制度；降低算法的计算规模和耗时，减少对基础设施的需求；过滤异常的行为数据，便于后期对数据进行其他细粒度研究。  
-### 任务难点
-高通用性：开源项目种类繁多，不同项目中的行为数据具有不同的分布与统计特征，因此设计的检测模型需要具有高通用性，能应用于不同的项目。  
-计算效率：要实现实时异常检测，需要降低算法的时间复杂度与计算规模，降低空间复杂度，即需要对持续到来的海量行为数据进行有效压缩和筛选，以降低计算规模。  
-检测精度：在保证实时检测的前提下，需要确保检测方案的高检测精度。
+### Task Description
+How to design and implement a real-time anomaly detection framework that conducts anomaly detection on massive streams of real-time collected developer behavior data, achieving the following objectives: providing early warnings for abnormal events like those in NPM libraries, timely feedback to community managers for adjusting project management systems; reducing the computational scale and time consumption of the algorithm, reducing infrastructure requirements; filtering out anomalous behavior data, facilitating other fine-grained studies on the data later on.
+### Task Challenges
+High Generalizability: Open source projects vary widely, and the behavior data from different projects have different distributions and statistical characteristics, hence the designed detection model needs to be highly generalizable to different projects.
+Computational Efficiency: To achieve real-time anomaly detection, it is necessary to reduce the time complexity and computational scale of the algorithm, and lower the space complexity, meaning effective compression and filtering of continuously arriving massive behavior data is needed to reduce computational scale.
+Detection Accuracy: While ensuring real-time detection, it is crucial to ensure the high detection accuracy of the scheme.
 
-
-#### 参考资料
+#### References
 1. Chen L, Wang W, Yang Y. CELOF: Effective and fast memory efficient local outlier detection in high-dimensional data streams[J]. Applied Soft Computing, 2021, 102: 107079.
