@@ -1,17 +1,17 @@
-# 开源归档项目预测
+# Open Source Archival Project Prediction
 
-### 研究背景
-开源软件生态的可持续性已经成为了一个关键话题。与具有明确交付目标、负责团队和里程碑的传统软件开发生命周期模型不同，开源软件开发在早期阶段高度依赖自组织的贡献者和志愿工作，因此也导致了开源软件项目归档。在开源软件的世界中，大量的项目因各种原因而被归档，即被开发者标记为只读状态，不再接受新的问题、拉取请求或评论。对于在GitHub上活跃的开发者以及关注特定开源项目的其他人来说，预测一个项目是否可能会被归档非常重要。  
+### Research Background
+The sustainability of the open source software ecosystem has become a key topic. Unlike traditional software development lifecycle models with clear delivery targets, responsible teams, and milestones, open source software development in the early stages heavily relies on self-organizing contributors and voluntary work, which also leads to the archiving of open source software projects. In the world of open source software, numerous projects are archived for various reasons, meaning they are marked by developers as read-only, no longer accepting new issues, pull requests, or comments. For developers active on GitHub and others who follow specific open source projects, predicting whether a project is likely to be archived is very important.
 
-### 任务描述
-如何预测一个开源项目是否可能会被归档？该任务需要对大量的数据进行分析，包括但不限于项目的提交历史、项目的活跃度、项目的维护者信息、项目的成熟度等等。需要通过这些数据来找出可能导致项目被归档的关键因素，然后基于这些因素来制定一个能够预测开源项目是否会被归档的模型。
+### Task Description
+How can one predict whether an open source project is likely to be archived? This task requires analysis of a large amount of data, including but not limited to the project's commit history, project activity, maintainer information, and project maturity, among others. This data must be used to identify key factors that may lead to the archiving of a project, and then a model must be developed based on these factors to predict whether an open source project will be archived.
 
-### 任务难点
-影响因素的多样性：开源项目是否被归档的影响因素包括但不限于项目的生命周期、项目的活跃度、开发者的参与程度、项目的贡献者数量、代码的复杂性、项目的依赖性等等。这些因素可能彼此交互，使得预测结果更加复杂。  
-时间的动态性：开源项目的状态是随时间不断变化的，因此预测模型需要能够处理时间序列数据，并能够捕捉到项目状态的动态变化。
+### Task Challenges
+Diversity of influencing factors: Factors influencing whether an open source project is archived include, but are not limited to, the project's lifecycle, activity level, developer engagement, number of contributors, code complexity, and project dependencies. These factors may interact with each other, making the prediction results more complex.
+Time dynamics: The status of open source projects is constantly changing over time, so the prediction model needs to be able to process time series data and capture the dynamic changes in project status.
 
-### 参考代码
+### Reference Code
 https://doi.org/10.5281/zenodo.7230174
 
-#### 参考资料
+#### References
 1. Xia X, Zhao S, Zhang X, et al. Understanding the Archived Projects on GitHub[C]//2023 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER). IEEE, 2023: 13-24.

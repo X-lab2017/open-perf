@@ -1,15 +1,15 @@
-# OpenLeaderboard排行榜
-标杆类基准是一种可测量的业界最佳水平的成绩，用来比较参考尺度；得到认可的绩效水平，作为特定领域的卓越标准。本质上讲，这类基准测试的目的就是向标杆学习。  
-对应到开源数字生态中，可以有标杆开源项目、标杆开源开发者、以及标杆开源企业等，即那些拥有可测量的、开源业界最佳水平的成绩或认可的绩效水平，可以作为相关领域的卓越标准的对象实体。  
-[OpenLeaderBoard](https://open-leaderboard.x-lab.info/) 于2022年6月北美开源峰会上正式发布。该项目旨在洞察开源世界的脉络，帮助用户可以轻松获取一系列有关开源项目的信息，不仅可以看到项目的排名和热度，还可以了解到相关企业在开源领域的贡献和地位，如下图所示。  
-该排行榜使用了 OpenPerf 中的影响力、活跃度等指数类基准，而这些指数类基准又通过“开源项目影响力排序”等任务进行定义并产出最终数据，同时将排名靠前（例如 Top100）的对象作为标杆集。  
-目前，OpenLeaderboard 已经成为软件行业开源领域的风向标。包括开源组件选型、国际开源局势分析、企与开源社区观测等领域，均得到了较好的应用。该项目主要使用了OpenPerf中的活跃度和影响力基准对开源项目进行排序，不仅能够帮助用户了解开源项目的变化趋势，还可以进一步树立业内项目标杆基准，进一步推动开源项目的发展。
-### OpenLeaderboard项目展示
+# OpenLeaderboard Rankings
+Benchmarking is a measurable industry best level of performance, used as a reference scale; it recognizes performance levels as standards of excellence in specific areas. Essentially, the purpose of such benchmark testing is to learn from the benchmarks.
+In the open-source digital ecosystem, this can include benchmark open-source projects, benchmark open-source developers, and benchmark open-source companies, i.e., entities that possess measurable, industry-leading open-source achievements or recognized performance levels that serve as standards of excellence in their respective fields.
+[OpenLeaderBoard](https://open-leaderboard.x-lab.info/) was officially launched at the North American Open Source Summit in June 2022. This project aims to provide insights into the open-source world, helping users easily access a series of information about open-source projects. It allows users not only to see the rankings and popularity of projects but also to understand the contributions and positions of related companies in the open-source field, as shown in the figure below.
+The leaderboard utilizes indices such as influence and activity from OpenPerf, and these benchmarks are defined and produce final data through tasks such as "Open Source Project Influence Rankings," while ranking the top entities (e.g., Top 100) as benchmark sets.
+Currently, OpenLeaderboard has become a weathervane in the software industry's open-source domain. It has been well applied in areas including open-source component selection, analysis of international open-source situations, and observation of enterprises with open-source communities. The project primarily uses the activity and influence benchmarks from OpenPerf to rank open-source projects, not only helping users understand the trends of open-source projects but also establishing industry benchmarks, further promoting the development of open-source projects.
+
+### OpenLeaderboard Project Display
 ![Alt text](open_leaderboard.png)
 
-### OpenLeaderboard项目代码
+### OpenLeaderboard Project Code
 https://github.com/X-lab2017/open-leaderboard
 
-
-### OpenLeaderboard项目地址
+### OpenLeaderboard Project URL
 https://open-leaderboard.x-lab.info/

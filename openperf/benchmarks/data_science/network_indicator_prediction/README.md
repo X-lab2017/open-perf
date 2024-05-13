@@ -1,15 +1,15 @@
-# 开源网络指标预测
+# Open Source Network Metrics Prediction
 
-### 研究背景
-在开源软件（OSS）的开发中，开发者的行为数据表现出复杂的关联性和周期性特征，这些特征对于理解开发者的行为模式、项目的进展以及软件质量的影响都具有重要价值。然而，这些复杂的特性使得利用传统的统计方法难以对开发者行为进行准确的预测和分析，因此出现了很多网络指标对开源软件评估。但是开源运营者等更希望从统计指标来找到增强网络指标的方法，因此构建一个能够适应OSS数据特性的预测模型，能够拟合网络指标和统计型指标，是一项重要的任务。
+### Research Background
+In the development of Open Source Software (OSS), the behavior data of developers exhibit complex correlational and cyclical characteristics, which are crucial for understanding developers' behavior patterns, project progress, and the impact on software quality. However, these complex characteristics make it challenging to accurately predict and analyze developer behaviors using traditional statistical methods, hence the emergence of network metrics for assessing open source software. Nonetheless, open source operators are more inclined to enhance network metrics through statistical indicators, making it vital to build a predictive model that adapts to the OSS data characteristics and can fit both network and statistical indicators.
 
-### 任务描述
-如何构建一个预测模型，统计型指标拟合网络指标？该模型需要能够适应OSS数据的特性，包括各种行为数据之间的复杂关联性和开发者行为数据的周期性。拟合算法需要具有一定的可解释性。
+### Task Description
+How can a predictive model be built that fits network metrics with statistical indicators? This model needs to adapt to the characteristics of OSS data, including the complex correlations among various behavioral data and the cyclicity of developer behavior. The fitting algorithm also needs to have a certain level of interpretability.
 
-### 任务难点
-周期性：开发者行为数据往往表现出周期性，例如开发者可能在工作日编写更多的代码，而在周末提交的代码数量减少。这种周期性特征需要预测模型能够捕捉并考虑到。  
-可解释性：为了理解哪些统计型指标对预测结果更重要，预测模型需要具有一定的可解释性，这对于模型的设计和选择提出了挑战。  
-动态性：OSS项目的发展是动态的，开发者的行为模式、项目的规模以及软件的质量都可能随着时间发生变化。因此，预测模型需要能够适应这种动态性，进行实时或近实时的预测。
+### Task Challenges
+Cyclicality: Developer behavior data often shows cyclicality, for example, developers might write more code on weekdays and less on weekends. This cyclical characteristic needs to be captured and considered by the predictive model.
+Interpretability: To understand which statistical indicators are more important for the prediction outcome, the predictive model needs to have a certain level of interpretability, posing challenges for the model’s design and selection.
+Dynamism: The development of OSS projects is dynamic, and the behavior patterns of developers, the scale of the project, and the quality of the software can change over time. Therefore, the predictive model needs to be able to adapt to this dynamism for real-time or near-real-time prediction.
 
-#### 参考资料
+#### References
 1. Xia X, Weng Z, Wang W, et al. Exploring activity and contributors on GitHub: Who, what, when, and where[C]//2022 29th Asia-Pacific Software Engineering Conference (APSEC). IEEE, 2022: 11-20.

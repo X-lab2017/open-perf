@@ -1,15 +1,15 @@
-# 开源软件供应链风险预测
+# Open Source Software Supply Chain Risk Prediction
 
-### 研究背景
-开源软件作为信息技术创新的基石，其依赖关系的复杂性和规模不断增大，带来了指数级增长的安全问题。这些问题可能会在开源软件供应链中产生连锁反应，影响依赖它的所有系统。目前，全球对开源组件的需求增长迅猛，而开源软件供应链的安全情况却在持续恶化。同时，开源软件供应链作为国家博弈的方式和企业运营的基础，其安全性受到高度重视。
+### Research Background
+Open source software, as a cornerstone of information technology innovation, is characterized by increasing complexity and scale in its dependencies, which brings exponential growth in security issues. These problems can have a domino effect within the open source software supply chain, affecting all systems that rely on it. Currently, the global demand for open source components is growing rapidly, but the security of the open source software supply chain continues to deteriorate. At the same time, the security of the open source software supply chain, as a means of national strategy and a foundation for enterprise operations, is highly prioritized.
 
-### 任务描述
-如何设计和实施一个模型，以预测和管理开源软件供应链中的风险？为了实现这个目标，需要考虑了解和量化软件供应链的各种风险，包括软件的内部属性（如代码行数、软件底层设计、安全漏洞等）和外部属性（如开发团队、活跃度、流行程度等）。需要设计和实施可以对这些风险进行量化评估的预测模型，从而帮助企业和组织更好地管理其供应链。
+### Task Description
+How can a model be designed and implemented to predict and manage risks in the open source software supply chain? To achieve this goal, it is necessary to understand and quantify various risks in the software supply chain, including internal attributes of the software (such as the number of code lines, underlying software design, security vulnerabilities, etc.) and external attributes (such as development team, activity level, popularity, etc.). A predictive model that can quantitatively assess these risks needs to be designed and implemented to help businesses and organizations better manage their supply chains.
 
-### 任务难点
-预测模型的设计和优化：由于需要处理大量的特征，并考虑各种可能影响风险的因素，因此设计和优化一个有效的预测模型可能会非常复杂。  
-评估预测结果的准确性和可用性：需要设计一套评估体系，可以对预测模型的结果进行全面的评估，包括其准确性、稳定性和实用性等。  
-早期开发过程的预测和管理风险：在早期阶段评估和管理软件的维护性可以帮助开发团队和使用者尽早发现软件的问题，采取预防和修正的措施，从而大幅度降低后期使用和维护带来的成本。但如何在早期阶段进行有效的风险预测和管理是一个具有挑战性的问题。
+### Task Challenges
+Design and optimization of the prediction model: Designing and optimizing an effective prediction model can be very complex due to the need to handle a large number of features and consider various factors that might affect the risk.
+Assessing the accuracy and usability of prediction results: A system needs to be designed to comprehensively evaluate the results of the predictive model, including its accuracy, stability, and practicality.
+Predicting and managing risks in the early development process: Assessing and managing the maintainability of software in the early stages can help development teams and users identify problems with the software early on, allowing them to take preventive and corrective measures, thus significantly reducing the costs of later use and maintenance. However, how to effectively predict and manage risks in the early stages is a challenging issue.
 
-#### 参考资料
-1. 孙晴,梁冠宇,武延等.数据驱动的开源软件供应链可维护性风险分析方法[J].华东师范大学学报(自然科学版),2022(05):90-99.
+#### References
+1. Sun Qing, Liang Guanyu, Wu Yan, et al. Data-driven analysis method for maintainability risks in open source software supply chains[J]. Journal of East China Normal University (Natural Science), 2022(05): 90-99.

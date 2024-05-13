@@ -1,45 +1,45 @@
-# 开源行为数据补全与预测
+# Open Source Behavioral Data Completion and Prediction
 
-### 研究背景
-在开源软件领域，高质量的数据治理成为了推动开源发展的重要因素。特别是在数字化进程加速的当下，数据已经转变成一种重要的资源。高质量的数据有助于精准地掌握整个项目的发展现状，而低质量甚至缺失的数据则可能导致研究结论的误差，进而对开源项目的决策造成影响。在从GitHub等开源平台采集开发者行为数据时，由于平台的内部机制、API限制、采集技术和内部相关服务的波动等原因，部分开源项目的行为活动数据无法完全采集，导致部分行为数据出现缺失，这对后续的细粒度研究造成了严重阻碍。
+### Research Background
+In the field of open source software, high-quality data governance has become a crucial factor in driving the development of open source initiatives. Especially in today's era of accelerated digital processes, data has transformed into a vital resource. High-quality data helps to accurately grasp the current state of a project, while poor or missing data can lead to errors in research conclusions, thereby affecting decision-making for open source projects. When collecting developer behavior data from open source platforms like GitHub, incomplete data collection due to platform internal mechanisms, API limitations, collection techniques, and fluctuations in related services can result in missing behavior data for some projects, significantly hindering subsequent granular research.
 
-### 任务描述
-如何设计一个既能补全开源行为数据的缺失值，又能对后续趋势进行预测的模型？该模型需要能够充分挖掘开源行为数据的周期性和关联性，保留数据的时间戳信息，且不需要依赖数据的先验信息和概率分布。同时，模型需要能够有效应对数据缺失的情况，例如，GitHub的采集限制、网络服务的波动等。
+### Task Description
+How can a model be designed that not only completes missing values in open source behavior data but also predicts future trends? This model needs to effectively mine the cyclicality and correlations within open source behavior data, preserve timestamp information, and not rely on prior knowledge or probability distributions of the data. Additionally, the model must effectively handle situations of data missing due to reasons such as GitHub's collection limitations and fluctuations in network services.
 
-### 任务难点
-缺失数据的不确定性：行为数据的缺失可能由许多因素引起，如平台的API限制、网络服务的波动等。这种不确定性使得用统一的方式处理所有的缺失数据变得困难，需要一种能够应对不同缺失情况的灵活方法。  
-时序数据的处理：开源行为数据是一种时间序列数据，需要在处理缺失数据时保留其时间戳信息，以保持数据的时序性。而时间序列数据的处理，特别是在存在缺失值的情况下，比处理静态数据更具挑战性。  
-缺失数据补全与趋势预测的统一处理：模型需要解决数据的缺失问题并进行趋势预测。该模型需要考虑到数据的周期性、关联性、时序性等多种特性。
+### Task Challenges
+Uncertainty of missing data: Missing behavioral data can be caused by many factors, such as platform API limitations and fluctuations in network services. This uncertainty makes it difficult to apply a unified method to handle all missing data, requiring a flexible approach to address different scenarios.
+Handling time-series data: Open source behavior data is a type of time-series data that requires preserving its timestamp information when dealing with missing data, maintaining the temporality of the data. Handling time-series data, especially with missing values, is more challenging than dealing with static data.
+Unified handling of missing data completion and trend prediction: The model needs to address data missing issues and perform trend prediction. It must consider various characteristics of the data, such as cyclicality, correlations, and temporality.
 
-### 数据集
-为了验证基准模型的通用性和预测精度，该任务从OpenLeaderboard中采集了2020年全年活跃度较高的10个开源项目的行为数据集进行测试。其中包括PyTorch、SkyWalking、Tensorflow、TiDB、VSCode、Flutter、Kibana、Kubernetes、Nixpkgs和Rust。该数据集中部分项目的行为数据含有缺失值，为测试基准模型效果提供了较为全面的测试场景。
+### Dataset
+To validate the generality and predictive accuracy of the baseline models, this task used a dataset of the top 10 most active open source projects in 2020 from OpenLeaderboard, including PyTorch, SkyWalking, TensorFlow, TiDB, VSCode, Flutter, Kibana, Kubernetes, Nixpkgs, and Rust. Some projects in this dataset contain missing behavioral data, providing a comprehensive test scenario for evaluating the baseline models.
 
-### 评价指标
-为了验证各个模型对缺失值和未来值的预测效果，选取了NMAE、NRMSE、NMSEA三个评价指标作为评价标准。在实际应用中的效果NMAE和NRMSE主要关注预测值与实际值之间的差异，而NMSEA则更侧重于预测值和实际值之间的相对差异，这三种指标综合起来能对模型的预测性能进行全面的评估。
+### Evaluation Metrics
+To validate the effectiveness of various models in predicting missing and future values, NMAE, NRMSE, and NMSEA were selected as evaluation standards. These metrics collectively assess the model's predictive performance by focusing on the differences and relative differences between the predicted and actual values.
 
-### 模型实验
+### Model Experiments
 
-使用数据集中有缺失值的OSS行为数据作为测试集，然后选择TRMF、正则化MF（RMF）、MF、非负MF（NMF）、概率MF（PMF）、Basic-SVD和BSMF作为比较算法。为了获得更准确的对比效果，设计了以下实验方案: 首先将七种算法的迭代次数设置为固定值1000（可调），然后计算除缺失值外所有其它正常值的预测误差。最后，得到每组算法在五种数据集上的NMSE和NMAE值。最终结果如下表。
+Using OSS behavioral data with missing values from the dataset as a test set, the following comparison algorithms were selected: TRMF, Regularized MF (RMF), MF, Non-negative MF (NMF), Probabilistic MF (PMF), Basic-SVD, and BSMF. To obtain more accurate comparative effects, the following experimental scheme was designed: setting the iteration count of the seven algorithms to a fixed value of 1000 (adjustable), then calculating the prediction error of all other normal values excluding missing values. The table below and the accompanying figure illustrate the NMSE and NMAE values of each algorithm group across five datasets.
 
-|数据集|指标|TAMF|TRMF|L-SVR|L-R|KNN|iForest|K-fold|R-chain|
-|  ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  |
-|Pytorch|NMSE|0.041|0.987|1.236|3.326|2.28|0.161|5.457|1.388|
-|Pytorch|NRMSE|0.203|0.993|1.112|1.823|1.51|0.401|2.336|1.178|
-|Pytorch|NMAE|0.282|1.132|1.371|2.133|1.80|0.518|2.660|1.356|
-|Skywalking|NMSE|0.235|0.264|0.886|0.202|0.21|0.143|0.353|0.875|
-|Skywalking|NRMSE|0.484|0.514|0.941|0.449|0.46|0.379|0.594|0.935|
-|Skywalking|NMAE|0.471|0.671|1.059|0.482|0.49|0.448|0.636|1.042|
-|Tensorflow|NMSE|0.024|0.031|0.051|0.182|0.04|0.049|0.094|0.262|
-|Tensorflow|NRMSE|0.157|0.176|0.225|0.426|0.22|0.223|0.307|0.512|
-|Tensorflow|NMAE|0.210|0.250|0.253|0.429|0.23|0.250|0.318|0.526|
-|Tidb|NMSE|0.043|0.124|6.462|0.23|0.18|0.546|0.272|2.858|
-|Tidb|NRMSE|0.208|0.352|2.542|0.479|0.43|0.739|0.521|1.691|
-|Tidb|NMAE|0.227|0.435|2.261|0.449|0.37|0.640|0.586|1.682|
-|Vscode|NMSE|0.234|0.326|0.482|1.528|0.61|1.753|2.709|0.516|
-|Vscode|NRMSE|0.484|0.571|0.694|1.236|0.78|1.324|1.646|0.718|
-|Vscode|NMAE|0.435|0.535|0.559|1.259|0.75|1.207|1.516|0.677|
+| Dataset      | Metric | TAMF  | TRMF  | L-SVR | L-R   | KNN   | iForest | K-fold | R-chain |
+|--------------|--------|-------|-------|-------|-------|-------|---------|--------|---------|
+| Pytorch      | NMSE   | 0.041 | 0.987 | 1.236 | 3.326 | 2.28  | 0.161   | 5.457  | 1.388   |
+| Pytorch      | NRMSE  | 0.203 | 0.993 | 1.112 | 1.823 | 1.51  | 0.401   | 2.336  | 1.178   |
+| Pytorch      | NMAE   | 0.282 | 1.132 | 1.371 | 2.133 | 1.80  | 0.518   | 2.660  | 1.356   |
+| Skywalking   | NMSE   | 0.235 | 0.264 | 0.886 | 0.202 | 0.21  | 0.143   | 0.353  | 0.875   |
+| Skywalking   | NRMSE  | 0.484 | 0.514 | 0.941 | 0.449 | 0.46  | 0.379   | 0.594  | 0.935   |
+| Skywalking   | NMAE   | 0.471 | 0.671 | 1.059 | 0.482 | 0.49  | 0.448   | 0.636  | 1.042   |
+| Tensorflow   | NMSE   | 0.024 | 0.031 | 0.051 | 0.182 | 0.04  | 0.049   | 0.094  | 0.262   |
+| Tensorflow   | NRMSE  | 0.157 | 0.176 | 0.225 | 0.426 | 0.22  | 0.223   | 0.307  | 0.512   |
+| Tensorflow   | NMAE   | 0.210 | 0.250 | 0.253 | 0.429 | 0.23  | 0.250   | 0.318  | 0.526   |
+| Tidb         | NMSE   | 0.043 | 0.124 | 6.462 | 0.23  | 0.18  | 0.546   | 0.272  | 2.858   |
+| Tidb         | NRMSE  | 0.208 | 0.352 | 2.542 | 0.479 | 0.43  | 0.739   | 0.521  | 1.691   |
+| Tidb         | NMAE   | 0.227 | 0.435 | 2.261 | 0.449 | 0.37  | 0.640   | 0.586  | 1.682   |
+| Vscode       | NMSE   | 0.234 | 0.326 | 0.482 | 1.528 | 0.61  | 1.753   | 2.709  | 0.516   |
+| Vscode       | NRMSE  | 0.484 | 0.571 | 0.694 | 1.236 | 0.78  | 1.324   | 1.646  | 0.718   |
+| Vscode       | NMAE   | 0.435 | 0.535 | 0.559 | 1.259 | 0.75  | 1.207   | 1.516  | 0.677   |
 
 ![Alt text](result.png)
 
-#### 参考资料
+#### References
 1. Chen L, Yang Y, Wang W. Temporal Autoregressive Matrix Factorization for High-Dimensional Time Series Prediction of OSS[J]. IEEE Transactions on Neural Networks and Learning Systems, 2023.
