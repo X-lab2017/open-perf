@@ -1,0 +1,4238 @@
+id,labels,title,body,author_association
+1199053386,documentation,A possible misleading expression in the Virtual Environment Tutorial,"BPO | [43319](https://bugs.python.org/issue43319)
+--- | :---
+Nosy | @miss-islington, @cmhzc, @kamilturek
+PRs | <li>python/cpython#24740</li>
+
+<sup>*Note: these values reflect the state of the issue at the time it was migrated and might not reflect the current state.*</sup>
+
+<details><summary>Show more details</summary><p>
+
+GitHub fields:
+```python
+assignee = None
+closed_at = None
+created_at = <Date 2021-02-25.08:31:46.471>
+labels = ['type-bug', '3.9', 'docs']
+title = 'A possible misleading expression in the Virtual Environment Tutorial'
+updated_at = <Date 2021-03-07.13:57:41.739>
+user = 'https://github.com/cmhzc'
+```
+
+bugs.python.org fields:
+```python
+activity = <Date 2021-03-07.13:57:41.739>
+actor = 'kamilturek'
+assignee = 'docs@python'
+closed = False
+closed_date = None
+closer = None
+components = ['Documentation']
+creation = <Date 2021-02-25.08:31:46.471>
+creator = 'cmhzc'
+dependencies = []
+files = []
+hgrepos = []
+issue_num = 43319
+keywords = ['patch']
+message_count = 2.0
+messages = ['387652', '388228']
+nosy_count = 4.0
+nosy_names = ['docs@python', 'miss-islington', 'cmhzc', 'kamilturek']
+pr_nums = ['24740']
+priority = 'normal'
+resolution = None
+stage = 'patch review'
+status = 'open'
+superseder = None
+type = 'behavior'
+url = 'https://bugs.python.org/issue43319'
+versions = ['Python 3.9']
+```
+
+</p></details>
+",MANNEQUIN
+1255069635,bug,[BUG] a valid `gameName` in the `create a new project` page causes an unexcepted error,"**Describe the bug**
+In the `create a new project` page, uploading a game file named `x.zip` raises an error.
+
+**Expected behavior**
+No errors.
+
+**Screenshots**
+![image](https://user-images.githubusercontent.com/22510026/171018848-740cb11e-0b7f-4ddd-a0cb-7492c7cf0f67.png)
+
+**Desktop (please complete the following information):**
+ - OS: Ubuntu
+ - Browser: Firefox
+ - Version 100.0.2
+",NONE
+1089772715,feature,How to check if a certain entity still exists?,"During a bug in my own code I noticed that the `Comp.attr[id]` notation will also give a value, even if the entity with `id` is already removed. In my implementation, I had a `ForceArrow` component which takes two other entities and applies velocity modifications to them.
+
+It would be nice to have something like `exists(world, eid)` if possible.",NONE
+1000928729,feature,chose the timezone in dbeaver option,"Dbeaver 21.2.0
+
+For all version DBeaver, i put timezone parameter to dbeaver ini file
+I aded string
+-Duser.timezone=Europe/Moscow
+
+But it is very uncomfortable because this operation needs to be performed every DBeaver upgrade.
+",NONE
+1300011093,bug,[Issue]: Multiple Versions of a Movie not working as expected,"### Please describe your bug
+
+The doc at https://jellyfin.org/docs/general/server/media/movies.html#multiple-versions-of-a-movie explains how it should work, and it does work for some movies.
+
+But in this particular case it doesn't, for some reason:
+```
+ls -la /mnt/subramanya/cinema/Manga/2009\ -\ Docter,\ Pete\ \&\ Peterson,\ Bob\ -\ Up\ \[imdbid-tt1049413\]
+total 6719313
+drwxrwxr-x   2 jellyfin      jellyfin          18 Jul 10 22:28 .
+drwxrwxr-x  41 jellyfin      jellyfin          42 Jul 10 22:25 ..
+-rw-r--r--   1 jellyfin  jellyfin      255475 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p-fanart.jpg
+-rw-r--r--   1 jellyfin  jellyfin       43534 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p-logo.png
+-rw-r--r--   1 jellyfin  jellyfin      808879 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p-poster.jpg
+-rw-r--r--   1 jellyfin  jellyfin       58510 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p.chi.srt
+-rw-r--r--   1 jellyfin  jellyfin       62073 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p.eng.srt
+-rw-r--r--   1 jellyfin  jellyfin       61890 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p.fre.srt
+-rw-rw-r--  1 jellyfin  jellyfin  2672422001 Jul 10 22:15 2009 - Docter, Pete & Peterson, Bob - Up - 1080p.mp4
+-rw-r--r--   1 jellyfin  jellyfin        6175 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 1080p.nfo
+-rw-r--r--   1 jellyfin  jellyfin      255475 Jul 10 22:28 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR-fanart.jpg
+-rw-r--r--   1 jellyfin  jellyfin       43534 Jul 10 22:28 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR-logo.png
+-rw-r--r--   1 jellyfin  jellyfin      808879 Jul 10 22:28 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR-poster.jpg
+-rw-r--r--   1 jellyfin  jellyfin       58510 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR.chi.srt
+-rw-r--r--   1 jellyfin  jellyfin       62073 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR.eng.srt
+-rw-r--r--   1 jellyfin  jellyfin       61890 Jul 10 22:27 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR.fre.srt
+-rw-rw-r--  1 jellyfin  jellyfin  4213023289 Jul 10 22:18 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR.mp4
+-rw-r--r--   1 jellyfin  jellyfin        5847 Jul 10 22:28 2009 - Docter, Pete & Peterson, Bob - Up - 4KHEVCHDR.nfo
+```
+This shows two identical movies in the Web interface instead of grouping them.
+And perhaps accordingly, it downloads associated images and subs twice instead of grouping.
+
+### Jellyfin Version
+
+10.8.0
+
+### if other:
+
+10.8.1
+
+### Environment
+
+```markdown
+- OS:
+- Virtualization:
+- Clients:
+- Browser:
+- FFmpeg Version:
+- Playback Method:
+- Hardware Acceleration:
+- Plugins:
+- Reverse Proxy:
+- Base URL:
+- Networking:
+- Storage:
+```
+
+
+### Jellyfin logs
+
+_No response_
+
+### FFmpeg logs
+
+_No response_
+
+### Please attach any browser or client logs here
+
+_No response_
+
+### Please attach any screenshots here
+
+_No response_
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct",NONE
+1315666085,bug,[Bug] 9anime is down,"![Screenshot_20220723-090315_Aniyomi](https://user-images.githubusercontent.com/94333547/180608425-aeb0b717-07ed-4943-b11a-663c117dcc6a.jpg)
+
+
+## Device information
+- Tachiyomi version: not installed
+- Android version: 10
+
+## Source information
+- Name: 9Anime
+- Extension version:  12,7
+
+## Steps to reproduce
+1. Open Aniyomi and switch to 9anime extension (all domains)
+2. Click 9anime in sources downloaded
+
+### Expected behavior
+It should open 9anime's catalogue of animes
+
+### Actual behavior
+It gives an error
+
+## Other details
+The website changed it's entire layout and ui. I wonder if the fork could only pull from source code and it is now deleted or changed",NONE
+715388945,question,GATT Server connected & can write but cannot read services,"* bleak version:0.8.0
+* Python version:3.7
+* Operating System:Windows 10
+* BlueZ version (`bluetoothctl -v`) in case of Linux: 
+
+### Description
+I want to send  command to device after that I want to receive that response of the particular command. I'm able to see the response in output log screen but I can't read via using read_gatt_char.
+
+### What I Did
+```python
+import asyncio
+from bleak import BleakClient
+import time
+from bleak import discover
+import platform
+import logging
+import asyncio
+
+from bleak import BleakClient
+from bleak import _logger as logger
+from bleak.uuids import uuid16_dict
+
+
+address = ""A4:CF:18:8B:A9:DE""
+MODEL_NBR_UUID = ""00002a00-0000-1000-8000-00805f9b34fb""
+SERVICE_UUID = ""0000a0002-0000-1000-8000-00805f9b34fb""
+IO_DATA_CHAR_UUID_W = ""0000c303-0000-1000-8000-00805f9b34fb""
+IO_DATA_CHAR_UUID_R = ""0000c306-0000-1000-8000-00805f9b34fb""
+
+
+def keypress_handler(sender, data):
+    print(""{0}: {1}"".format(sender, data))
+
+def callback(sender: int, data: bytearray):
+    print(f""{sender}: {data}"")
+
+
+async def run(address, loop):
+    read_characteristic: str
+    write_characteristic: str
+    devices = await discover()
+    for d in devices:
+        print(d)
+
+    async with BleakClient(address, timeout=1.0,  loop=loop) as client:
+        #client.write_gatt_char(""Welcome"");
+        x = await client.is_connected()
+        print(""Connected"")
+        if (x == True):
+            service = await client.get_service(SERVICE_UUID)
+            #client.start_notify(IO_DATA_CHAR_UUID_R, callback)
+            #print(""Services : "".format( await client.get_services()))
+            model_number = await client.read_gatt_char(MODEL_NBR_UUID)
+            print(""Model Number: {0}"".format("""".join(map(chr, model_number))))
+
+            #await client.start_notify(IO_DATA_CHAR_UUID_R, keypress_handler)
+
+            write_value = bytearray(b'%batterychgst=0x0#')
+
+            await client.write_gatt_char(IO_DATA_CHAR_UUID_W, write_value)
+            print(""I/O Data Writed Value: {0}"".format(write_value))
+
+            await asyncio.sleep(3.0, loop=loop) # wait for a response
+            print(""Done!"")
+
+            value = await client.read_gatt_char(IO_DATA_CHAR_UUID_R)
+            print(""I/O Data Read Value: {0}"".format(value))
+
+            #await asyncio.sleep(5.0, loop=loop)
+            #await client.stop_notify(IO_DATA_CHAR_UUID_R)
+        else:
+            print(""Not Connected"")
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(run(address, loop))
+```
+
+In log terminal I can connect and Write a data but not able to read the Writed data value Response
+
+",NONE
+1045500850,bug,Zentyal 7 ERROR The client was disconnected by the server because of inactivity,"**Describe the bug**
+Hello, every time I log in into Zentyal 7 as webadmin and leave session (close browser without loging out) next time I'll try to login back I got Error saying
+
+Sorry, an unexpected error has occurred
+DBD::mysql::st execute failed: The client was disconnected by the server because of inactivity. See wait_timeout and interactive_timeout for configuring this behavior. at /usr/share/perl5/EBox/MyDBEngine.pm line 281
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Login to web interface
+2. Close browser without loging out
+3. Wait predefined time so session end (dunno what time it is)
+4. Try to login back
+
+
+**Screenshots**
+![Screenshot_1](https://user-images.githubusercontent.com/47980734/140470257-f729f35d-eca8-40c3-85cf-51bea8f98c01.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/47980734/140470260-428c9e0d-5518-4f65-b47f-21235aba770d.jpg)
+![Screenshot_3](https://user-images.githubusercontent.com/47980734/140470263-76868cd8-03d2-4275-9c0b-94479a374722.jpg)
+![Screenshot_4](https://user-images.githubusercontent.com/47980734/140470266-cbb7a49d-6f51-4944-9df8-18df937c81c4.jpg)
+![Screenshot_5](https://user-images.githubusercontent.com/47980734/140470270-93272ca2-ae9a-40d9-8e0c-d77c79f3a2ea.jpg)
+![Screenshot_6](https://user-images.githubusercontent.com/47980734/140470271-0a97ffb9-4e7a-40e8-a53d-6f8c3e502822.jpg)
+
+
+**Zentyal OS (please complete the following information):**
+ - Version: 7.0.4
+ - Version of the module which has the bug - ?
+ - Modules installed: Firewall, VPN, NTP, Certificate, Logs, Network
+
+
+",NONE
+853171823,bug,defaultValue prop not working on DynamicRangeSlider component,"**Affected Projects**
+React
+
+**Library Version:** 
+Recent stable version
+
+**Describe the bug**
+defaultValue prop not working on DynamicRangeSlider component
+Same issue on RangeInput also
+
+**To Reproduce**
+https://codesandbox.io/s/wispy-darkness-z3edi?file=/src/index.js
+
+**Desktop (please complete the following information):**
+ - OS: Widnows
+ - Browser : All
+
+",NONE
+1273040910,bug,'Invite friends' dialog doesn't look good in the minimized app mode,"# Bug Report
+
+## Steps to reproduce
+0. Get 7 mutual contacts
+1. Create a community and minimize the app (make the app window visible but small)
+2. Click 'Add members'
+
+#### Expected behavior
+The 'Invite friends' dialog looks correct - the contacts elements are not shown in the bottom part of the dialog
+#### Actual behavior
+<img width=""916"" alt=""image"" src=""https://user-images.githubusercontent.com/14942081/173992252-05401172-6bf5-471b-bd0b-544ebe717236.png"">
+
+### Additional Information
+
+Status desktop version: latest master https://ci.status.im/job/status-desktop/job/branches/job/macos/job/master/2197/
+Operating System: macOS Monterey 12.3 Beta (21E5227a)
+
+",NONE
+1243028940,bug,write in append mode doesn't work anymore,"Hello Bertrand,
+the LUA function write in append mode no longer works always returns the following error
+**wakeup() error: /scripts/telemetrie_org/main.lua:283: bad argument #1 to 'write' (FILE* expected, got nil)
+Here the source
+278 f = io.open(filePath..""test.lua"", ""w"")
+279 io.write(f,""test1"")
+280 io.close(f)
+281
+282 f = io.open(filePath..""test.lua"", ""a"")    <-- Append mode will not work!
+**283 io.write(f,Test2"")**
+284 io.close(f)
+
+Thanks Benno",NONE
+1120036721,bug,[bug] Clicking on one of the breadcrumb items causes Files instance to crash,"### Description
+
+On my PC, I use a documents folder to store a folder specifically for all my org documents, so when I enter that dir, I use breadcrumbs to relocate from a child folder to a parent folder quite frequently. Today I found out that the Files instance crashes each time I click on one of the breadcrumb items when I do just that. Please find a recent log attached to this bug report.
+
+### Steps To Reproduce
+
+> Open Files
+> Locatate 2~3 levels into the dir
+> Use breadcrumbs to change dir back to a parent location
+
+### Expected behavior
+
+Dir changes to the parent location
+
+### Files Version
+
+Version: 2.1.4.0 OS Version: 10.0.22543.1000
+
+### Windows Version
+
+Edition	Windows 11 Business Insider Preview Version	Dev Installed on	‎29/‎01/‎2022 OS build	22543.1000 Experience	Windows Feature Experience Pack 1000.22543.1000.0
+
+### Relevant Assets/Logs
+
+
+2022-01-30 16:10:15.7277|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-30 16:10:16.3391|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-30 16:10:16.4421|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-30 16:10:16.5022|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-30 16:10:16.5551|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-30 16:10:17.3011|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-30 16:10:24.8093|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-30 16:11:33.9399|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 17:18:00.1880|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 17:18:00.8104|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 17:18:00.8794|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 17:18:00.9284|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 17:18:00.9804|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 17:18:01.4354|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 17:18:16.0467|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 21:30:27.8720|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 21:30:31.6197|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 21:30:32.2492|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 21:30:32.3412|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 21:30:32.4142|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 21:30:32.4962|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 21:30:32.8962|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 21:30:34.5577|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 22:38:15.9503|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 22:38:20.3773|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 22:38:20.9911|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 22:38:21.1551|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 22:38:21.2661|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 22:38:21.3511|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 22:38:21.6521|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 22:38:23.1493|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 22:59:45.0479|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 22:59:49.6423|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 22:59:50.2192|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 22:59:50.2982|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 22:59:50.3722|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 22:59:50.5112|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 22:59:50.8832|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 22:59:52.4110|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 22:59:55.8075|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 22:59:59.1673|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 22:59:59.8663|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 22:59:59.9653|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:00:00.0543|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:00:00.1193|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:00:00.3665|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 23:00:02.1820|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 23:00:02.8473|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 23:00:02.9413|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:00:03.0363|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:00:03.1073|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:00:03.4253|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 23:00:05.5851|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 23:00:09.8072|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 23:00:18.8395|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 23:00:22.5005|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 23:00:23.0783|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 23:00:23.1483|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:00:23.2103|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:00:23.2753|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:00:23.6573|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 23:00:25.5264|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 23:00:29.8100|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 23:00:37.4414|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 23:00:38.0594|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 23:00:38.1434|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:00:38.2394|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:00:38.4114|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:00:38.6974|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 23:00:44.9447|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 23:01:06.5107|ERROR|AppUnhandledException|Object reference not set to an instance of an object.
+	System.NullReferenceException: Object reference not set to an instance of an object.
+   at Files.ViewModels.NavToolbarViewModel.<PathBoxItem_Tapped>d__208.MoveNext() + 0x5e
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__7_0(Object) + 0x1e
+   at System.Action`1.Invoke(T) + 0x28
+   at System.Threading.WinRTSynchronizationContext.Invoker.InvokeCore() + 0x33
+   at System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(Int32, RuntimeTypeHandle) + 0x21
+   at __Interop.ComCallHelpers.Call(__ComObject, RuntimeTypeHandle, Int32) + 0xb8
+   at __Interop.ForwardComStubs.Stub_10[TThis](__ComObject, Int32) + 0x24
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x3d
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at Microsoft.AppCenter.Utils.ApplicationLifecycleHelper.<.ctor>b__17_1(Object, UnhandledErrorDetectedEventArgs) + 0x75
+   at System.EventHandler`1.Invoke(Object, TEventArgs) + 0x2e
+   at __Interop.Intrinsics.HasThisCall__23[TArg0](Object, IntPtr, Object, TArg0) + 0x36
+   at Files!<BaseAddress>+0x13e81d0
+
+2022-01-31 23:01:08.3948|INFO|OnActivated|App activated by ToastNotification
+2022-01-31 23:01:09.4111|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 23:01:09.6631|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:01:09.7811|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:01:09.8741|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:01:09.9241|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio
+2022-01-31 23:07:31.9926|INFO|IsRunningOnArm|Running on ARM: False
+2022-01-31 23:13:39.6175|INFO|OnLaunched|App launched. Prelaunch: False
+2022-01-31 23:13:40.3829|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2022-01-31 23:13:40.6099|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2022-01-31 23:13:40.6829|INFO|GetDrivesAsync|Drive added: O:\, Fixed
+2022-01-31 23:13:40.7499|INFO|GetDrivesAsync|Drive added: P:\, Fixed
+2022-01-31 23:13:41.0981|INFO|EnumerateDrivesAsync|Adding cloud provider ""OneDrive - Griffin Web Studio"" mapped to O:\OneDrive - Griffin Web Studio",NONE
+1270175611,feature,Any roadmap about OkHttp supports HTTP/3,"I noticed that official HTTP/3 specific is publish as [RFC 9114](https://quicwg.org/).
+
+Is there any roadmap about HTTP/3 support?
+",NONE
+1248029618,feature,[Keyboard Maestro - List Macros] Add Edit Macro Option,"# Extension – [Keyboard Maestro - List Macros](https://github.com/raycast/extensions/tree/cdaaf846198717c2b9cf058b60cc991c9c5aea8e/extensions/keyboard-maestro/)
+Author: @eluce2
+
+Can we add a new option in the list to edit the macro? In Keyboard Maestro's default `Trigger Macro by Name` action, holding Option+Enter will open the selected macro in the Keyboard Maestro Editor.
+
+Any chance we can add similar functionality to this extension?",NONE
+1096784214,bug,[Bug Report] Revite ignores VITE_API_URL,"### What happened?
+
+Since [this update on RevoltClient.tsx](https://github.com/revoltchat/revite/commit/f8b8d96d3d34a7e13b0c8f62c09c01f54d247daa#diff-8a8c61dd3b3475e6654257c7f55e6a39965fd1821510cb1dd7163a9c512e6bc1), VITE_API_URL environment variable is ignored, and the app connects to the official API instead of my server.
+
+I see in the commit that `import.meta.env.VITE_API_URL` and other options are no longer passed to Client
+
+### Branch
+
+Production (app.revolt.chat)
+
+### Commit hash
+
+8d1e26d03e7f1cc1ab785ebd966fb1e738d0f13d
+
+### What browsers are you seeing the problem on?
+
+_No response_
+
+### Relevant log output
+
+_No response_
+
+### Desktop
+
+- [ ] Yes, this bug is specific to Revolt Desktop and is *not* an issue with Revolt Desktop itself.
+
+### PWA
+
+- [ ] Yes, this bug is specific to the PWA.",NONE
+1304309528,bug,Can not find the Demo_China_A_share_market.ipynb,"Thank you for your good work.
+
+For some reason, I could not find the link for ""Demo_China_A_share_market.ipynb"".
+
+The full link was: https://github.com/AI4Finance-Foundation/FinRL-Meta/blob/master/Demo_China_A_share_market.ipynb
+
+Can you please provide some hints?
+
+Thank you.",NONE
+1152075924,bug,"Custom ""compile_path"" setting getting ignored when loading plugins","<!-- Before creating an issue, please search the issue tracker and make sure packer.nvim is up to date -->
+<!-- If your issue is a general usage question, please create a GitHub discussions thread: https://github.com/wbthomason/packer.nvim/discussions -->
+
+- `nvim --version`: 0.6.1
+- `git --version`: 2.35.1
+- Operating system/version: macos 12.2
+- Terminal name/version: iterm
+
+### Steps to reproduce
+
+nvim/lua/plugins.lua file:
+
+```
+vim.cmd[[
+packadd packer.nvim
+]]
+local util = require 'packer.util'
+return require('packer').startup( {
+	function()
+		use 'wbthomason/packer.nvim'
+		use { 'christoomey/vim-tmux-navigator', opt = false }
+		use { 'rayburgemeestre/phpfolding.vim', opt = true, ft = 'php' }
+	end,
+	config = {
+		opt_default = true,
+		compile_path = util.join_paths(vim.fn.stdpath('config'), 'compiled_packer_config', 'packer_compiled.lua'),
+		auto_clean = false
+	},
+})
+```
+
+Generate lazy load file with above config. It appears as expected in `nvim/compile_packer_config` directory.
+
+Open php file. phpfolding.vim and run `:scriptnames`. Plugin does not get loaded by vim. It is not finding the lazy load file in the custom path.
+
+To demonstrate it is still using the default path:
+
+Now add nvim/plugin directory and add symlink there to custom lazy load file at `/nvim/compiled_packer_config/packer_compiled.lua`
+
+Open php file. `:scriptnames` now shows phpfolding.vim loading.
+",NONE
+1197019187,bug,[Bug]: Send findings to securityhub fails when using an aggregation Region,"
+**What happened?**  
+Prowler fails when you use a region configured as findings aggregation region. 
+```
+ ERROR! Failed to send check output to AWS Security Hub
+```
+The problem is that when prowler use ""$AWSCLI securityhub --region ""$regx"" $PROFILE_OPT get-findings --filters ..."" over this region gets additionals findings from other regions.
+
+**How to reproduce it**  
+1. In AWS security configure a region as findings aggregation region (ex: eu-west-1).
+2. Wait until findings from other regions arrive (You can generate events for example executing ./prowler -c check11 -M json-asff -S -r us-east-1).
+3. Launch prowler with -S flag (ex: ./prowler -c check11 -M json-asff -S -r eu-west-1)
+
+**Expected behavior**  
+Prowler should execute securityhub findings lifecycle correctly (archive old findings and create news)
+
+
+**Screenshots or Logs**  
+```
++ EXISTING_FINDINGS=
+++ jq -s .
+++++ jq '[.Findings[].Id] | sort | .[]' ./SH-XXXXXXXXXXX/eu-west-2/existing.json
++++ comm -23 /dev/fd/63 /dev/fd/62
+++++ jq '[.[]] | sort | .[]' ./SH-XXXXXXXXXXX/eu-west-2/findings.json
++ SECURITY_HUB_PREVIOUS_FINDINGS='[]'
++ [[ [] != \[\] ]]
++ for regx in '$REGIONS'
++ REGION_FOLDER=./SH-XXXXXXXXXXX/eu-west-1
++ [[ ! -d ./SH-XXXXXXXXXXX/eu-west-1 ]]
++ local check=check11
+++ get_iso8601_timestamp
+++ bsd_get_iso8601_timestamp
+++ date -u +%Y-%m-%dT%H:%M:%SZ
++ NEW_TIMESTAMP=2022-04-08T08:34:41Z
++ FILTER='{""GeneratorId"":[{""Value"": ""prowler-check11"",""Comparison"":""EQUALS""}],""RecordState"":[{""Value"": ""ACTIVE"",""Comparison"":""EQUALS""}],""AwsAccountId"":[{""Value"": ""XXXXXXXXXXX"",""Comparison"":""EQUALS""}]}'
++ NEW_FINDING_FILE=./SH-XXXXXXXXXXX/eu-west-1/findings.json
+++ echo -n prowler-1.1-XXXXXXXXXXX-eu-west-1-eu-west-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days
+++ jq -cRs 'split("" "")'
++ NEW_FINDING_IDS=
++ EXISTING_FILE=./SH-XXXXXXXXXXX/eu-west-1/existing.json
+++ /opt/homebrew/bin/aws securityhub --region eu-west-1 --profile default get-findings --filters '{""GeneratorId"":[{""Value"": ""prowler-check11"",""Comparison"":""EQUALS""}],""RecordState"":[{""Value"": ""ACTIVE"",""Comparison"":""EQUALS""}],""AwsAccountId"":[{""Value"": ""XXXXXXXXXXX"",""Comparison"":""EQUALS""}]}'
++ EXISTING_FINDINGS=
+++ jq -s .
+++++ jq '[.Findings[].Id] | sort | .[]' ./SH-XXXXXXXXXXX/eu-west-1/existing.json
++++ comm -23 /dev/fd/63 /dev/fd/62
+++++ jq '[.[]] | sort | .[]' ./SH-XXXXXXXXXXX/eu-west-1/findings.json
+++ for id in '$(comm -23 <(jq '\''[.Findings[].Id] | sort | .[]'\'' $EXISTING_FILE) <(jq '\''[.[]] | sort | .[]'\'' $NEW_FINDING_FILE))'
+++ jq --arg updated_at 2022-04-08T08:34:41Z '.Findings[] | select(.Id == ""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"") | .RecordState = ""ARCHIVED"" | .UpdatedAt = $updated_at '
++ SECURITY_HUB_PREVIOUS_FINDINGS='[
+  {
+    ""SchemaVersion"": ""2018-10-08"",
+    ""Id"": ""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",
+    ""ProductArn"": ""arn:aws:securityhub:us-east-1::product/prowler/prowler"",
+    ""ProductName"": ""Prowler"",
+    ""CompanyName"": ""Prowler"",
+    ""Region"": ""us-east-1"",
+    ""GeneratorId"": ""prowler-check11"",
+    ""AwsAccountId"": ""XXXXXXXXXXX"",
+    ""Types"": [
+      ""Software and Configuration Checks""
+    ],
+    ""FirstObservedAt"": ""2022-04-08T08:34:05Z"",
+    ""CreatedAt"": ""2022-04-04T17:34:54Z"",
+    ""UpdatedAt"": ""2022-04-08T08:34:41Z"",
+    ""Severity"": {
+      ""Label"": ""HIGH"",
+      ""Normalized"": 70
+    },
+    ""Title"": ""iam.[check11] Avoid the use of the root account"",
+    ""Description"": ""us-east-1: Root user in the account wasn'\''t accessed in the last 1 days"",
+    ""ProductFields"": {
+      ""ProviderName"": ""Prowler"",
+      ""ProviderVersion"": ""2.8.1-25March2022"",
+      ""ProwlerResourceName"": ""root"",
+      ""aws/securityhub/FindingId"": ""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",
+      ""aws/securityhub/ProductName"": ""Prowler"",
+      ""aws/securityhub/CompanyName"": ""Prowler""
+    },
+    ""Resources"": [
+      {
+        ""Type"": ""AwsAccount"",
+        ""Id"": ""root"",
+        ""Partition"": ""aws"",
+        ""Region"": ""us-east-1""
+      }
+    ],
+    ""Compliance"": {
+      ""Status"": ""PASSED"",
+      ""RelatedRequirements"": [
+        ""Software and Configuration Checks""
+      ]
+    },
+    ""WorkflowState"": ""NEW"",
+    ""Workflow"": {
+      ""Status"": ""NEW""
+    },
+    ""RecordState"": ""ARCHIVED"",
+    ""FindingProviderFields"": {
+      ""Severity"": {
+        ""Label"": ""HIGH""
+      },
+      ""Types"": [
+        ""Software and Configuration Checks""
+      ]
+    }
+  }
+]'
++ [[ [
+  {
+    ""SchemaVersion"": ""2018-10-08"",
+    ""Id"": ""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",
+    ""ProductArn"": ""arn:aws:securityhub:us-east-1::product/prowler/prowler"",
+    ""ProductName"": ""Prowler"",
+    ""CompanyName"": ""Prowler"",
+    ""Region"": ""us-east-1"",
+    ""GeneratorId"": ""prowler-check11"",
+    ""AwsAccountId"": ""XXXXXXXXXXX"",
+    ""Types"": [
+      ""Software and Configuration Checks""
+    ],
+    ""FirstObservedAt"": ""2022-04-08T08:34:05Z"",
+    ""CreatedAt"": ""2022-04-04T17:34:54Z"",
+    ""UpdatedAt"": ""2022-04-08T08:34:41Z"",
+    ""Severity"": {
+      ""Label"": ""HIGH"",
+      ""Normalized"": 70
+    },
+    ""Title"": ""iam.[check11] Avoid the use of the root account"",
+    ""Description"": ""us-east-1: Root user in the account wasn't accessed in the last 1 days"",
+    ""ProductFields"": {
+      ""ProviderName"": ""Prowler"",
+      ""ProviderVersion"": ""2.8.1-25March2022"",
+      ""ProwlerResourceName"": ""root"",
+      ""aws/securityhub/FindingId"": ""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",
+      ""aws/securityhub/ProductName"": ""Prowler"",
+      ""aws/securityhub/CompanyName"": ""Prowler""
+    },
+    ""Resources"": [
+      {
+        ""Type"": ""AwsAccount"",
+        ""Id"": ""root"",
+        ""Partition"": ""aws"",
+        ""Region"": ""us-east-1""
+      }
+    ],
+    ""Compliance"": {
+      ""Status"": ""PASSED"",
+      ""RelatedRequirements"": [
+        ""Software and Configuration Checks""
+      ]
+    },
+    ""WorkflowState"": ""NEW"",
+    ""Workflow"": {
+      ""Status"": ""NEW""
+    },
+    ""RecordState"": ""ARCHIVED"",
+    ""FindingProviderFields"": {
+      ""Severity"": {
+        ""Label"": ""HIGH""
+      },
+      ""Types"": [
+        ""Software and Configuration Checks""
+      ]
+    }
+  }
+] != \[\] ]]
+++ jq '. | length'
+++ echo '[' '{' '""SchemaVersion"":' '""2018-10-08"",' '""Id"":' '""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",' '""ProductArn"":' '""arn:aws:securityhub:us-east-1::product/prowler/prowler"",' '""ProductName"":' '""Prowler"",' '""CompanyName"":' '""Prowler"",' '""Region"":' '""us-east-1"",' '""GeneratorId"":' '""prowler-check11"",' '""AwsAccountId"":' '""XXXXXXXXXXX"",' '""Types"":' '[' '""Software' and Configuration 'Checks""' '],' '""FirstObservedAt"":' '""2022-04-08T08:34:05Z"",' '""CreatedAt"":' '""2022-04-04T17:34:54Z"",' '""UpdatedAt"":' '""2022-04-08T08:34:41Z"",' '""Severity"":' '{' '""Label"":' '""HIGH"",' '""Normalized"":' 70 '},' '""Title"":' '""iam.[check11]' Avoid the use of the root 'account"",' '""Description"":' '""us-east-1:' Root user in the account 'wasn'\''t' accessed in the last 1 'days"",' '""ProductFields"":' '{' '""ProviderName"":' '""Prowler"",' '""ProviderVersion"":' '""2.8.1-25March2022"",' '""ProwlerResourceName"":' '""root"",' '""aws/securityhub/FindingId"":' '""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",' '""aws/securityhub/ProductName"":' '""Prowler"",' '""aws/securityhub/CompanyName"":' '""Prowler""' '},' '""Resources"":' '[' '{' '""Type"":' '""AwsAccount"",' '""Id"":' '""root"",' '""Partition"":' '""aws"",' '""Region"":' '""us-east-1""' '}' '],' '""Compliance"":' '{' '""Status"":' '""PASSED"",' '""RelatedRequirements"":' '[' '""Software' and Configuration 'Checks""' ']' '},' '""WorkflowState"":' '""NEW"",' '""Workflow"":' '{' '""Status"":' '""NEW""' '},' '""RecordState"":' '""ARCHIVED"",' '""FindingProviderFields"":' '{' '""Severity"":' '{' '""Label"":' '""HIGH""' '},' '""Types"":' '[' '""Software' and Configuration 'Checks""' ']' '}' '}' ']'
++ FINDINGS_COUNT=1
+++ seq 0 50 1
++ for i in '$(seq 0 50 $FINDINGS_COUNT)'
+++ echo '[' '{' '""SchemaVersion"":' '""2018-10-08"",' '""Id"":' '""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",' '""ProductArn"":' '""arn:aws:securityhub:us-east-1::product/prowler/prowler"",' '""ProductName"":' '""Prowler"",' '""CompanyName"":' '""Prowler"",' '""Region"":' '""us-east-1"",' '""GeneratorId"":' '""prowler-check11"",' '""AwsAccountId"":' '""XXXXXXXXXXX"",' '""Types"":' '[' '""Software' and Configuration 'Checks""' '],' '""FirstObservedAt"":' '""2022-04-08T08:34:05Z"",' '""CreatedAt"":' '""2022-04-04T17:34:54Z"",' '""UpdatedAt"":' '""2022-04-08T08:34:41Z"",' '""Severity"":' '{' '""Label"":' '""HIGH"",' '""Normalized"":' 70 '},' '""Title"":' '""iam.[check11]' Avoid the use of the root 'account"",' '""Description"":' '""us-east-1:' Root user in the account 'wasn'\''t' accessed in the last 1 'days"",' '""ProductFields"":' '{' '""ProviderName"":' '""Prowler"",' '""ProviderVersion"":' '""2.8.1-25March2022"",' '""ProwlerResourceName"":' '""root"",' '""aws/securityhub/FindingId"":' '""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",' '""aws/securityhub/ProductName"":' '""Prowler"",' '""aws/securityhub/CompanyName"":' '""Prowler""' '},' '""Resources"":' '[' '{' '""Type"":' '""AwsAccount"",' '""Id"":' '""root"",' '""Partition"":' '""aws"",' '""Region"":' '""us-east-1""' '}' '],' '""Compliance"":' '{' '""Status"":' '""PASSED"",' '""RelatedRequirements"":' '[' '""Software' and Configuration 'Checks""' ']' '},' '""WorkflowState"":' '""NEW"",' '""Workflow"":' '{' '""Status"":' '""NEW""' '},' '""RecordState"":' '""ARCHIVED"",' '""FindingProviderFields"":' '{' '""Severity"":' '{' '""Label"":' '""HIGH""' '},' '""Types"":' '[' '""Software' and Configuration 'Checks""' ']' '}' '}' ']'
+++ jq -c '.[0:0+50]'
++ BATCH_FINDINGS='[{""SchemaVersion"":""2018-10-08"",""Id"":""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""ProductArn"":""arn:aws:securityhub:us-east-1::product/prowler/prowler"",""ProductName"":""Prowler"",""CompanyName"":""Prowler"",""Region"":""us-east-1"",""GeneratorId"":""prowler-check11"",""AwsAccountId"":""XXXXXXXXXXX"",""Types"":[""Software and Configuration Checks""],""FirstObservedAt"":""2022-04-08T08:34:05Z"",""CreatedAt"":""2022-04-04T17:34:54Z"",""UpdatedAt"":""2022-04-08T08:34:41Z"",""Severity"":{""Label"":""HIGH"",""Normalized"":70},""Title"":""iam.[check11] Avoid the use of the root account"",""Description"":""us-east-1: Root user in the account wasn'\''t accessed in the last 1 days"",""ProductFields"":{""ProviderName"":""Prowler"",""ProviderVersion"":""2.8.1-25March2022"",""ProwlerResourceName"":""root"",""aws/securityhub/FindingId"":""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""aws/securityhub/ProductName"":""Prowler"",""aws/securityhub/CompanyName"":""Prowler""},""Resources"":[{""Type"":""AwsAccount"",""Id"":""root"",""Partition"":""aws"",""Region"":""us-east-1""}],""Compliance"":{""Status"":""PASSED"",""RelatedRequirements"":[""Software and Configuration Checks""]},""WorkflowState"":""NEW"",""Workflow"":{""Status"":""NEW""},""RecordState"":""ARCHIVED"",""FindingProviderFields"":{""Severity"":{""Label"":""HIGH""},""Types"":[""Software and Configuration Checks""]}}]'
+++ echo '[{""SchemaVersion"":""2018-10-08"",""Id"":""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""ProductArn"":""arn:aws:securityhub:us-east-1::product/prowler/prowler"",""ProductName"":""Prowler"",""CompanyName"":""Prowler"",""Region"":""us-east-1"",""GeneratorId"":""prowler-check11"",""AwsAccountId"":""XXXXXXXXXXX"",""Types"":[""Software' and Configuration 'Checks""],""FirstObservedAt"":""2022-04-08T08:34:05Z"",""CreatedAt"":""2022-04-04T17:34:54Z"",""UpdatedAt"":""2022-04-08T08:34:41Z"",""Severity"":{""Label"":""HIGH"",""Normalized"":70},""Title"":""iam.[check11]' Avoid the use of the root 'account"",""Description"":""us-east-1:' Root user in the account 'wasn'\''t' accessed in the last 1 'days"",""ProductFields"":{""ProviderName"":""Prowler"",""ProviderVersion"":""2.8.1-25March2022"",""ProwlerResourceName"":""root"",""aws/securityhub/FindingId"":""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""aws/securityhub/ProductName"":""Prowler"",""aws/securityhub/CompanyName"":""Prowler""},""Resources"":[{""Type"":""AwsAccount"",""Id"":""root"",""Partition"":""aws"",""Region"":""us-east-1""}],""Compliance"":{""Status"":""PASSED"",""RelatedRequirements"":[""Software' and Configuration 'Checks""]},""WorkflowState"":""NEW"",""Workflow"":{""Status"":""NEW""},""RecordState"":""ARCHIVED"",""FindingProviderFields"":{""Severity"":{""Label"":""HIGH""},""Types"":[""Software' and Configuration 'Checks""]}}]'
+++ jq '. | length'
++ BATCH_FINDINGS_COUNT=1
++ '[' 1 -gt 0 ']'
+++ /opt/homebrew/bin/aws securityhub --region eu-west-1 --profile default batch-import-findings --findings '[{""SchemaVersion"":""2018-10-08"",""Id"":""prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""ProductArn"":""arn:aws:securityhub:us-east-1::product/prowler/prowler"",""ProductName"":""Prowler"",""CompanyName"":""Prowler"",""Region"":""us-east-1"",""GeneratorId"":""prowler-check11"",""AwsAccountId"":""XXXXXXXXXXX"",""Types"":[""Software and Configuration Checks""],""FirstObservedAt"":""2022-04-08T08:34:05Z"",""CreatedAt"":""2022-04-04T17:34:54Z"",""UpdatedAt"":""2022-04-08T08:34:41Z"",""Severity"":{""Label"":""HIGH"",""Normalized"":70},""Title"":""iam.[check11] Avoid the use of the root account"",""Description"":""us-east-1: Root user in the account wasn'\''t accessed in the last 1 days"",""ProductFields"":{""ProviderName"":""Prowler"",""ProviderVersion"":""2.8.1-25March2022"",""ProwlerResourceName"":""root"",""aws/securityhub/FindingId"":""arn:aws:securityhub:us-east-1::product/prowler/prowler/prowler-1.1-XXXXXXXXXXX-us-east-1-us-east-1_Root_user_in_the_account_wasn_t_accessed_in_the_last_1_days"",""aws/securityhub/ProductName"":""Prowler"",""aws/securityhub/CompanyName"":""Prowler""},""Resources"":[{""Type"":""AwsAccount"",""Id"":""root"",""Partition"":""aws"",""Region"":""us-east-1""}],""Compliance"":{""Status"":""PASSED"",""RelatedRequirements"":[""Software and Configuration Checks""]},""WorkflowState"":""NEW"",""Workflow"":{""Status"":""NEW""},""RecordState"":""ARCHIVED"",""FindingProviderFields"":{""Severity"":{""Label"":""HIGH""},""Types"":[""Software and Configuration Checks""]}}]'
+
+An error occurred (AccessDeniedException) when calling the BatchImportFindings operation: User: arn:aws:iam::XXXXXXXXXXX:user/XXXXXX is not authorized to perform: securityhub:BatchImportFindings
++ BATCH_IMPORT_RESULT=
++ [[ -z '' ]]
++ echo -e '\n ERROR! Failed to send check output to AWS Security Hub\n'
+
+ ERROR! Failed to send check output to AWS Security Hub`
+
+```
+**From where are you running Prowler?**  
+Please, complete the following information:
+ - Resource: -
+ - OS: Mac
+ - AWS-CLI Version [`aws --version`]: aws-cli/2.4.4 Python/3.9.9
+ - Prowler Version [`./prowler -V`]: 2.8.1
+ - Shell and version: zsh
+ - Others:
+
+
+**Additional context**
+
+
+As a workaround we change get-findings filter in includes/securityhub-integration adding region (**\""Region\"":[{\""Value\"": \""$regx\"",\""Comparison\"":\""EQUALS\""}]}**):
+```
+ FILTER=""{\""GeneratorId\"":[{\""Value\"": \""prowler-$check\"",\""Comparison\"":\""EQUALS\""}],\""RecordState\"":[{\""Value\"": \""ACTIVE\"",\""Comparison\"":\""EQUALS\""}],\""AwsAccountId\"":[{\""Value\"": \""$ACCOUNT_NUM\"",\""Comparison\"":\""EQUALS\""}],\""Region\"":[{\""Value\"": \""$regx\"",\""Comparison\"":\""EQUALS\""}]}""
+```
+",NONE
+1226906409,feature,fluentd buffer chunk key configuration via SCK helm needed,"**What would you like to be added**:
+We need to configure the fluentd buffer chunk keys via SCK helm chart.
+Buffer chunk keys are explained in fluentd docs: [here](https://docs.fluentd.org/configuration/buffer-section#chunk-keys).
+In a nutshell the configuration of a chunk key makes fluentd put only events into one chunk which have the same value for the specified chunk key.
+
+**Why is this needed**:
+We need this to seperate logs from different applications for different indexes into different chunks.
+Currently fluentd dismisses a whole chunk of events if splunk hec returns unrecoverable error, e.g. incorrect index.
+We want to prevent a situation where a typo in one application implicates lag of events for other application in the same cluster.
+
+The fluent-plugin-splunk-hec supports this buffer chunk keys since 1.2.10.
+
+You would really help us, if you implement this in a future release of SCK.
+
+Thanks!
+",NONE
+1038520181,bug,problem openning .fif file,"**Describe the bug**
+Problem openning .fif file with FILE-IO 
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to 'FIle'
+2. Click on 'Import data'
+3. Scroll down to 'Using the FILE-IO interface
+4. Choose file with .fif extention. 
+
+**Expected behavior**
+I expect EEGLAB to load file. It has been previously loaded with python MNE lab and it works fine.
+
+**Screenshots**
+
+![image](https://user-images.githubusercontent.com/28632595/139265332-e06d652f-5930-4fe0-ba51-190f07917cbb.png)
+
+**Environment and versions (please complete the following information):**
+ - Windows 10
+ - MATLAB version [R2021b
+ - FieldTrip version auto installed via EEGLAB
+
+**Additional context**
+Add any other context about the problem here.
+",NONE
+1332641623,bug,[BUG]:drawio插入覆盖下面 内容，之前版本不会，图片悬浮在文档内容之上挡住了一大片,"**Describe the bug**
+<!-- A clear and concise description of what the bug is. -->
+
+**To Reproduce**
+<!-- Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+-->
+RT
+
+**Expected behavior**
+<!-- A clear and concise description of what you expected to happen. -->
+
+**Screenshots**
+<!-- If applicable, add screenshots to help explain your problem. -->
+
+**Desktop (please complete the following information):**
+ - Version [e.g. v3.23.0]
+ - OS: [e.g. macOS]
+ - Browser [e.g. chrome, safari]
+
+**Additional context**
+<!-- Add any other context about the problem here. -->
+",NONE
+962822602,bug,Fehler 13,"<No actualization since 19.07.
+Thanks for reporting a bug 🙌 ❤️
+
+Before opening a new issue, please make sure that we do not have any duplicates already open. You can ensure this by searching the issue list for this repository. If there is a duplicate, please close your issue and add a comment to the existing issue instead.
+
+Also, be sure to check our documentation first: https://github.com/corona-warn-app/cwa-documentation
+-->
+
+## Avoid duplicates
+* [ ] Bug is not mentioned in the [FAQ](https://www.coronawarn.app/en/faq/)
+* [ ] Bug is specific for iOS only, for general issues / questions that apply to iOS and Android please raise them in the [documentation repository](https://github.com/corona-warn-app/cwa-documentation)
+* [ ] Bug is not already reported in another issue
+
+## Technical details
+
+- Device name: Apple xr
+- iOS version:
+- App version:
+
+## Describe the bug
+
+<!-- Describe your issue, but please be descriptive! Thanks again 🙌 ❤️ -->
+
+## Steps to reproduce the issue
+
+<!-- include screenshots, logs, code or other info to help explain your problem -->
+
+<!--
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+-->
+
+## Expected behaviour
+
+<!-- A clear and concise description of what you expected to happen. -->
+
+## Possible Fix
+
+<!--- Not obligatory, but suggest a fix or reason for the bug -->
+
+## Additional context
+
+<!-- Add any other context about the problem here. -->
+
+---
+Internal Tracking ID: [EXPOSUREAPP-5836](https://jira-ibs.wbs.net.sap/browse/EXPOSUREAPP-5836)
+",NONE
+1070435990,bug,MAG - Improperly Set Focus On WerBell Path Removes Trade Law,"**Questions**
+
+- Operating System: Win 10
+- HOI4 Version: 1.10.8
+- TNO Version: 1.2.0a
+- Any other mods in use: Last Waltz
+- Were you using Steam? Yes.
+- Which expansions do you NOT have?
+    Death or Dishonor
+    Waking the Tiger
+    Man the Guns
+    La Resistance
+    Battle for Bosporus
+
+**Longer Description of Issue:**
+Using the ""Open For Business"" focus blanks your Trade Law, it should be replacing it with Free Trade or an Export Focus. The law's effects actually seem to be unaffected by this, however, and will keep using the previous effects as Limited Exports.
+
+**Steps to Reproduce/Cause Issue:**
+
+1. Complete the ""Open For Business"" focus.
+
+2. You will now have a blank space where your Trade Law is.
+
+**Screenshots:**
+![WerBell_issue1](https://user-images.githubusercontent.com/35203040/144585946-f4a6cdd1-9fbf-4c06-9aaf-41bac27f736f.png)
+![WerBell_issue2](https://user-images.githubusercontent.com/35203040/144585961-247f13e6-bccf-47ce-9c05-508c4573bdda.png)
+",NONE
+998789363,bug,`prisma format` panics when you use a colon to declare field type (`field: Type` syntax),"This is my schema. There is a syntax error because of the colon after `name` and `htmlTitle`. However I would expect to get a syntax error message instead of a panic about unreachable code.
+
+Here is the offending schema file:
+
+```prisma
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = ""postgresql""
+  url      = env(""DATABASE_URL"")
+}
+
+generator client {
+  provider = ""prisma-client-js""
+}
+
+model Site {
+  name: String
+  htmlTitle: String
+}
+```
+
+here is the panic message:
+
+```
+thread 'main' panicked at 'internal error: entered unreachable code: Encountered impossible declaration during formatting: [Start { rule: LEGACY_COLON, pos: Position { pos: 256 } }, End { rule: LEGACY_COLON, pos: Position { pos: 257 } }]', libs/datamodel/core/src/ast/reformat/reformatter.rs:899:18
+stack backtrace:
+   0: _rust_begin_unwind
+   1: core::panicking::panic_fmt
+   2: datamodel::ast::reformat::reformatter::Reformatter::reformat_generic_token
+   3: datamodel::ast::reformat::reformatter::Reformatter::reformat_model::{{closure}}
+   4: datamodel::ast::reformat::reformatter::Reformatter::reformat_block_element_internal
+   5: datamodel::ast::reformat::reformatter::Reformatter::reformat_internal
+   6: datamodel::ast::reformat::reformatter::Reformatter::reformat_to
+   7: prisma_fmt::format::run
+   8: prisma_fmt::main
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+```
+
+",NONE
+1149539851,feature,ImageMessage Uri Headers,"## Is your feature request related to a problem?
+cannot get network images that needs authentication because i cannot add headers to the url
+
+## What solution would you suggest?
+Adding Url Headers parameter to be added to the uri to download authenticated images
+
+Thanks!
+",NONE
+1114475900,bug,Raising Exceptions in sub-applications routes,"### Checklist
+
+- [X] The bug is reproducible against the latest release or `master`.
+- [X] There are no similar issues or pull requests to fix it yet.
+
+### Describe the bug
+
+Let's start with this PR: #1262
+
+It's about preventing raise `anyio.ExceptionGroup` in views under a `BaseHTTPMiddleware`. PR resolve that problem with nonlocal variable that stores our exception. But in the case of sub-applications, it does not work. 
+
+As I can see (fyi I am not good at asyncio), in the case below, we reach and read a response before we raise an exception and store it to our nonlocal variable:
+
+fragment of `BaseHTTPMiddleware.__call__`
+```python
+async def call_next(request: Request) -> Response:
+    app_exc: typing.Optional[Exception] = None
+    send_stream, recv_stream = anyio.create_memory_object_stream()
+
+    async def coro() -> None:
+        nonlocal app_exc
+
+        async with send_stream:
+            try:
+                task = await self.app(scope, request.receive, send_stream.send)
+            except Exception as exc:
+                app_exc = exc
+
+    task_group.start_soon(coro)
+
+    try:
+        message = await recv_stream.receive()
+    except anyio.EndOfStream:
+        if app_exc is not None:
+            raise app_exc
+        raise RuntimeError(""No response returned."")
+    
+    ...
+    response = StreamingResponse(
+        status_code=message[""status""], content=body_stream()
+    )
+    response.raw_headers = message[""headers""]
+    return response
+```
+
+in this moment: `except anyio.EndOfStream:` exception still no raised.
+
+### Steps to reproduce the bug
+
+```python
+import httpx
+import pytest
+from fastapi import FastAPI, APIRouter
+from starlette.middleware import Middleware
+from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
+from starlette.requests import Request
+from starlette.responses import Response
+from starlette.routing import Route
+
+
+class SomeError(Exception):
+    pass
+
+
+class SomeMiddleware(BaseHTTPMiddleware):
+    async def dispatch(
+        self, request: Request, call_next: RequestResponseEndpoint
+    ) -> Response:
+        return await call_next(request)
+
+# Drop (or use not BaseHTTPMiddleware based) middleware and test works fine
+app = FastAPI(middleware=[Middleware(SomeMiddleware), ])
+
+
+async def simple_route(request: Request):
+    raise SomeError
+
+
+another_router = APIRouter(
+    routes=[Route('/simple-route/', simple_route, methods=['GET'])]
+)
+sub_app = FastAPI()
+sub_app.include_router(another_router)
+app.router.mount(f'/api', sub_app)
+
+
+@pytest.mark.asyncio
+async def test_simple_route():
+    async with httpx.AsyncClient(app=app) as client:
+        with pytest.raises(SomeError):
+            await client.get(""http://testserver/api/simple-route/"")
+
+```
+
+### Expected behavior
+
+An exception was raised and caught by pytest exception
+
+### Actual behavior
+
+An exception wasn't raised
+
+### Debugging material
+
+_No response_
+
+### Environment
+
+macOS Monterey 12.0.1, starlette 0.17.1, Python 3.9.9
+
+
+### Additional context
+
+_No response_",NONE
+1284006640,bug,Why this thing is so complicated?,"### What happened?
+
+django-kubernetes/ v1""
+ensure CRDs are installed first
+what is this?
+why every time you just change api standards every time
+2 years old bug i am facing 
+google is just there to make things complicated 
+1.6 k issues no fix available what is going on?
+
+
+### What did you expect to happen?
+
+need to deploy after applying command kubectl apply -f 
+
+### How can we reproduce it (as minimally and precisely as possible)?
+
+2 years old bug needs to be fixed dude
+
+### Anything else we need to know?
+
+_No response_
+
+### Kubernetes version
+
+<details>
+
+```console
+$ kubectl version
+latest
+# paste output here
+```
+
+</details>
+
+
+### Cloud provider
+
+<details>
+Microsoft azure
+</details>
+
+
+### OS version
+
+<details>
+
+```console
+# On Linux:
+$ cat /etc/os-release
+# paste output here
+$ uname -a
+# paste output here
+
+# On Windows:
+C:\> wmic os get Caption, Version, BuildNumber, OSArchitecture
+# paste output here
+```
+
+</details>
+
+
+### Install tools
+
+<details>
+
+</details>
+
+
+### Container runtime (CRI) and version (if applicable)
+
+<details>
+
+</details>
+
+
+### Related plugins (CNI, CSI, ...) and versions (if applicable)
+
+<details>
+
+</details>
+",NONE
+1135884633,bug,"command ""Create MCProject files"" not woking","I can't use ""Create MCProject files"" command
+It return the error:
+
+![wwqwwW5q668](https://user-images.githubusercontent.com/37009584/153756231-395ddb95-e21e-4ef8-8696-9dac1ef38701.gif)
+
+",NONE
+759940082,feature,Automatically populate account/zone IDs after wrangler login,"### 💡 Feature request
+
+#### Overview and problem statement
+
+Currently, even after logging in with wrangler, you have to manually add your `account_id` to your `wrangler.toml` when generating a new project. It would be really nice to instead store the `account_id`s associated with an account when someone logs in, allow for setting a default when generating a project to put in the project's `wrangler.toml`, and then passing a flag to choose an `account_id` different than the default if the user needs to use a different stored `account_id`.",NONE
+1284537629,bug,"[BUG] Must toggle ""Force TTY"" to disable TTY mode","**Describe the bug**
+
+I use btop on RISC-V with qemu. It is exciting to see that btop really works on such a niche platform, however, I have to **toggle** ""Force TTY"" to disable TTY mode, no matter it was true or false before.
+
+**To Reproduce**
+
+1. Download ubuntu-20.04.2-preinstalled-server-riscv64 and run it on qemu
+2. Build and run btop
+3. Now TTY mode is enabled on **each** start
+4. Toggle ""Force TTY"" to disable it
+
+**Expected behavior**
+
+The value of ""Force TTY"" should be respected.
+
+**Info (please complete the following information):**
+ - btop++ version: 1.2.7  (commit 7d86602e)
+ - Compiler and version: g++-10 (Ubuntu 10.3.0-1ubuntu1~20.04) 10.3.0
+ - Architecture: riscv
+ - Platform: Linux
+ - Kernel: 5.13.0-1026-generic
+ - Terminal used: probably qemu's default TTY 
+ - Font used: Monospace
+
+**Additional context**
+
+<details>
+<summary>contents of `~/.config/btop/btop.log`</summary>
+```plain
+2022/06/25 (18:08:25) | ===> btop++ v.1.2.7
+2022/06/25 (18:08:25) | DEBUG: Starting in DEBUG mode!
+2022/06/25 (18:08:25) | INFO: Logger set to DEBUG
+2022/06/25 (18:08:25) | DEBUG: Using locale C.UTF-8
+2022/06/25 (18:08:25) | INFO: Running on /dev/ttyS0
+2022/06/25 (18:08:25) | INFO: Forcing tty mode: setting 16 color mode and using 
+tty friendly graph symbols
+2022/06/25 (18:08:30) | DEBUG: Loading theme file: /usr/local/share/btop/themes/
+flat-remix.theme
+2022/06/25 (18:08:30) | WARNING: get_cpuHZ() : Failed to read /sys/devices/syste
+m/cpu/cpufreq/policy and /proc/cpuinfo.
+2022/06/25 (18:08:35) | WARNING: Failed to join _runner thread on exit!
+2022/06/25 (18:08:35) | DEBUG: Writing new config file
+2022/06/25 (18:08:35) | INFO: Quitting! Runtime: 00:00:10
+
+2022/06/25 (18:09:00) | ===> btop++ v.1.2.7
+2022/06/25 (18:09:00) | DEBUG: Starting in DEBUG mode!
+2022/06/25 (18:09:00) | INFO: Logger set to DEBUG
+2022/06/25 (18:09:00) | DEBUG: Using locale C.UTF-8
+2022/06/25 (18:09:00) | INFO: Running on /dev/ttyS0
+2022/06/25 (18:09:00) | INFO: Real tty detected: setting 16 color mode and using tty friendly graph symbols
+2022/06/25 (18:09:03) | WARNING: Failed to join _runner thread on exit!
+2022/06/25 (18:09:03) | INFO: Quitting! Runtime: 00:00:03
+```
+</details>
+",NONE
+1118276724,feature,Hide stockpile from context menu,"It would be very handy to be able to hide a stockpile from the context menu accessed when left clicking the Stockpile button, rather than having to open the Show/Hide menu and navigate the list until you find the stockpile(s) you want to hide:
+![image](https://user-images.githubusercontent.com/36562351/151670261-20452247-ad52-4b72-b83f-c47be1f08f4b.png)
+",NONE
+1331140760,question,Custom ADO Pipeline Task - Create File and Publish as Artifact,"## Required Information
+
+**Question, Bug, or Feature?**  
+*Type*: Question
+
+**Enter Task Name**: custom
+
+## Environment
+- Server - Azure Pipelines
+- Agent - Hosted
+    
+## Issue Description
+
+I am writing a custom Azure DevOps pipeline task for the first time. The task produces a file - I would like this file to be published as a pipeline artifact by the task. Simply saving the file to Build.ArtifactStagingDirectory /  Pipeline.Workspace does not publish it (i.e. it would not appear in the job's published artifacts in Azure DevOps).
+
+My question is , is it possible to publish this newly created file , if so, any existing example you could point me to?
+
+Alternatively, as users of this custom task would almost always want this to be the case: how could I setup the task to automatically commit the file it generates to the current repo branch (without triggering another build due to it)?
+
+Please let me know what is the best approach - any guidance would be much appreciated.",NONE
+1126966050,bug,merging video and audio Invalid NAL unit size with missing picture in access,">> merging video and audio
+>> frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=34909.1kbits/s speed=0.0236x
+>> [NULL @ 000000000051e100] Invalid NAL unit size (47579137 > 88).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 92
+>> [NULL @ 000000000051e100] Invalid NAL unit size (0 > 457).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 461
+>> [NULL @ 000000000051e100] Invalid NAL unit size (-1258290944 > 1819).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1823
+>> [NULL @ 000000000051e100] Invalid NAL unit size (-67311938 > 154).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 158
+>> [NULL @ 000000000051e100] Invalid NAL unit size (27096866 > 1792).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1796
+>> [NULL @ 000000000051e100] Invalid NAL unit size (1285411430 > 141).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 145
+>> [NULL @ 000000000051e100] Invalid NAL unit size (1272528671 > 876).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 880
+>> [NULL @ 000000000051e100] Invalid NAL unit size (268435456 > 1693).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1697
+>> [NULL @ 000000000051e100] Invalid NAL unit size (2101347006 > 113).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 117
+>> [NULL @ 000000000051e100] Invalid NAL unit size (498523739 > 1638).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1642
+>> [NULL @ 000000000051e100] Invalid NAL unit size (1327726498 > 73).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 77
+>> [NULL @ 000000000051e100] Invalid NAL unit size (770302093 > 859).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 863
+>> [NULL @ 000000000051e100] Invalid NAL unit size (1902214345 > 1442).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1446
+>> [NULL @ 000000000051e100] Invalid NAL unit size (-996819667 > 109).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 113
+>> [NULL @ 000000000051e100] Invalid NAL unit size (2012968090 > 1555).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1559
+>> [NULL @ 000000000051e100] Invalid NAL unit size (2014396421 > 151).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 155
+>> [NULL @ 000000000051e100] Invalid NAL unit size (115745638 > 1538).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1542
+>> [NULL @ 000000000051e100] Invalid NAL unit size (-437471593 > 125).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 129
+>> [NULL @ 000000000051e100] Invalid NAL unit size (818427347 > 1630).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 1634
+>> [NULL @ 000000000051e100] Invalid NAL unit size (189940522 > 93).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 97
+>> [NULL @ 000000000051e100] Invalid NAL unit size (937652476 > 631).
+>> [NULL @ 000000000051e100] missing picture in access unit with size 635
+>> frame=  152 fps=0.0 q=-1.0 Lsize=    8148kB time=00:22:31.54 bitrate=  49.4kbits/s speed=3.88e+03x
+>> File: 新サクラ大戦 Part.16 第四話 追跡、望月あざみ SakuraWars.mp4, saved at: D:\i新サクラ大戦 NewSakuraWars
+>> 
+
+This is an example of a broken video that I sent
+
+https://user-images.githubusercontent.com/36833664/152954236-0d35ece1-fba1-4f88-af90-df5e610fc2d0.mp4
+
+",NONE
+1139345065,bug,CSV File Import creates column names with double quotes ,"# Bug report
+
+## Describe the bug
+
+During the table creation flow through a CSV file, the importer auto-detects the column names. When the table is then created from the CSV file, the actual column names are created with double quotes e.g. `""ID""`.  This prevents queries from being run on table columns unless they are in double quotes e.g. 
+
+```
+SELECT ""ID"" FROM bus_breakdowns;
+```
+
+Related StackOverflow post [https://stackoverflow.com/a/55297938/6084966](https://stackoverflow.com/a/55297938/6084966)
+
+## To Reproduce
+
+1. Log in to Supabase cloud
+2. Click on a project
+3. Go to table editor
+4. Create new table
+5. Click on `Import data via spreadsheet` button
+6. Upload CSV (can link example if necessary)
+7. Create table from CSV
+8. Navigate to SQL editor
+9. Try to query column name from table without double quotes around name
+10. See error `column does not exist`
+
+## Expected behavior
+
+Upon import of the CSV file, create the table columns without double quotes such that the table columns can be queried in a SQL editor with out double quotes. 
+
+## Screenshots
+<img width=""1431"" alt=""Screen Shot 2022-02-15 at 3 51 05 PM"" src=""https://user-images.githubusercontent.com/14094284/154171495-c0dfa7df-cf16-462d-baf1-4bcd1a28f54b.png"">
+<img width=""1425"" alt=""Screen Shot 2022-02-15 at 3 51 28 PM"" src=""https://user-images.githubusercontent.com/14094284/154171506-2ca5dbb5-60be-44cb-bfa0-1b89ff103ee3.png"">
+<img width=""1436"" alt=""Screen Shot 2022-02-15 at 3 49 00 PM"" src=""https://user-images.githubusercontent.com/14094284/154171512-491f7f0b-93aa-4e01-b7fe-84b4fc59edfd.png"">
+<img width=""1430"" alt=""Screen Shot 2022-02-15 at 3 50 12 PM"" src=""https://user-images.githubusercontent.com/14094284/154171526-1c8e4d27-4c16-46d1-9c5b-85e9af6b956e.png"">
+<img width=""1428"" alt=""Screen Shot 2022-02-15 at 3 50 28 PM"" src=""https://user-images.githubusercontent.com/14094284/154171562-678fb5f4-853f-4d51-ae1a-6fc568648c3a.png"">
+
+## System information
+
+- OS: macOS
+- Browser (if applies): Chrome
+- Version of Supabase: Cloud
+
+## Additional context
+
+This may be an intentional implementation to account for spaces in column names when detection happens from the CSV file. That said, it was still a bit confusing to figure out why I couldn't query imported data. Maybe if there was a way to edit the column names from the imported CSV file that could potentially solve the problem. 
+",NONE
+907874324,bug,labels' includeSelectors doesn't do what it implies,"<!--
+Please read this page: https://kubernetes-sigs.github.io/kustomize/contributing/bugs/ before
+filing a bug
+-->
+
+<!-- Feel free to skip the sections if they are not applicable. -->
+
+**Describe the bug**
+
+The new labels feature introduced in 4.1.0 includes a boolean flag called `includeSelectors`, which does not do what one might assume from the name. Examining the source code reveals that when includeSelectors is enabled, the label pairs are added just like commonLabels would be, and when `includeSelectors` is disabled, only `metadata.labels` is updated. This of course excludes selectors, but also other parts of the output that are not selectors, such as `spec.template.metadata.labels`.
+
+`includeSelectors` should in my mind be updated to only include/exclude selectors, or it should be renamed to _onlyMetadata_ or something to better reflect its actual behaviour.
+
+**Files that can reproduce the issue**
+
+kustomization.yaml
+
+```
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+
+resources:
+- deployment.yaml
+
+labels:
+- pairs:
+    foo: bar
+  includeSelectors: false
+```
+
+deployment.yaml
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/component: a
+    app.kubernetes.io/instance: b
+    app.kubernetes.io/name: c
+    app.kubernetes.io/part-of: d
+  name: deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/component: a
+      app.kubernetes.io/instance: b
+      app.kubernetes.io/name: c
+      app.kubernetes.io/part-of: d
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/component: a
+        app.kubernetes.io/instance: b
+        app.kubernetes.io/name: c
+        app.kubernetes.io/part-of: d
+```
+
+**Expected output**
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/component: a
+    app.kubernetes.io/instance: b
+    app.kubernetes.io/name: c
+    app.kubernetes.io/part-of: d
+    foo: bar
+  name: deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/component: a
+      app.kubernetes.io/instance: b
+      app.kubernetes.io/name: c
+      app.kubernetes.io/part-of: d
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/component: a
+        app.kubernetes.io/instance: b
+        app.kubernetes.io/name: c
+        app.kubernetes.io/part-of: d
+        foo: bar
+```
+
+**Actual output**
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/component: a
+    app.kubernetes.io/instance: b
+    app.kubernetes.io/name: c
+    app.kubernetes.io/part-of: d
+    foo: bar
+  name: deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/component: a
+      app.kubernetes.io/instance: b
+      app.kubernetes.io/name: c
+      app.kubernetes.io/part-of: d
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/component: a
+        app.kubernetes.io/instance: b
+        app.kubernetes.io/name: c
+        app.kubernetes.io/part-of: d
+```
+
+**Kustomize version**
+
+kustomize/v4.1.3
+
+**Platform**
+
+macOS
+",NONE
+1372134855,bug,Bug Report: Updating to 2.3.0 from any version installs 2.1.0 and it breaks the game,"#### Please check for duplicates or similar issues, as well performing simple troubleshooting steps (such as deleting the YoshiCrafter29 folder from AppData) before submitting an issue.
+#### If you're using an older version of the engine, check if the bug haven't been already fixed
+##### PS : the ""everything goes black while changing state in developer mode bug"" is not a bug, it's been designed this way to refresh all bitmaps between states to allow easier modding.
+
+## Which target are you using?
+Windows
+
+## What version of the engine are you using (Bottom left of the screen in main menu) ?
+2.2.0b, trying to go to 2.3.0
+
+## Have you identified any steps to reproduce the bug? If so, please describe them below in as much detail as possible. Use images if possible.
+yes, just update the engine lmao
+
+## Please describe your issue. Provide extensive detail and images if possible.
+![Here ya go Yosh](https://user-images.githubusercontent.com/54383469/190029007-793df674-1a1c-4cd1-8465-9ca82c22ca1c.png)
+also as you can see, the ModStates break after updating, **the current fix is just to install the EXE from the GitHub**",NONE
+1091204074,bug,[BUG] Seeds not recognized by the plugin.,"**Describe the bug**
+I tried making a Farmer Job. So I whitelisted several items:
+- minecraft: wheat_seeds, minecraft:wheat, minecraft:cocoa_beans, minecraft:cocoa_beans, minecraft:pumpkin_seeds, minecraft:melon_seeds, minecraft:nether_wart, minecraft:sugar_cane, minecraft:cactus, minecraft:sweet_berries, minecraft:beetroot, minecraft:potato, minecraft:carrot, minecraft:beetroot_seeds
+- How will the job work? - By breaking seeds. I've also tried changing the type to place. It still doesn't work also.
+
+Wheat seeds, beetroot seeds, cactus, carrots, and potatoes are not being recognized as blocks, so they aren't able to fulfill the job requirements. In contrary, sugarcanes are being recognized.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Install the plugin
+2. Change type to ""break""
+4. Whitelist items mentioned above
+5. Plant the following whitelisted items
+6. Break/place the mentioned items.
+7. Check /jobs if there are blocks destroyed/placed.
+
+**Expected behavior**
+I expected the plugin to recognize different types of seeds to be recognized by breaking/placing them in the farmland.
+
+**Screenshots and Logs**
+None.
+
+**Software Details:**
+ - Server Software: PaperSpigot
+ - Server Software Version: Paper 1.18.1
+ - Plugin Version [e.g. 1.0-beta-1b, 1.0-beta-1bc]
+ - Java Version: [e.g.  Version 8 Update 28)
+
+**Additional context**
+None.
+",NONE
+1187798762,bug,analyzing logos in video: should detect a logo in a local file failed,"Note: #644 was also for this test, but it was closed more than 10 days ago. So, I didn't mark it flaky.
+
+----
+
+commit: 02e37d247131b2892c1183a34b1d1e4b6d8ea270
+buildURL: [Build Status](https://source.cloud.google.com/results/invocations/ca632117-27c5-4979-8940-f0d691ce4f29), [Sponge](http://sponge2/ca632117-27c5-4979-8940-f0d691ce4f29)
+status: failed
+<details><summary>Test output</summary><br><pre>expected '' to match /Entity Id/
+AssertionError: expected '' to match /Entity Id/
+    at Context.<anonymous> (system-test/detect_logo.test.js:29:12)
+    at processImmediate (internal/timers.js:461:21)</pre></details>",NONE
+1228059397,feature,Add Azure Data Studio,"I almost feel bad for adding even more application to the list after one fanatic adding like 65 of them already...but I've got four I'd like to see to fulfil my needs.
+
+Azure Data Studio
+Code is available on GitHub and releases there contain a direct download link for the DEB from the Microsoft site for very release: https://github.com/microsoft/azuredatastudio/releases ",NONE
+1302178734,bug,File and folder entries are invisible and unclickable in Unity 2021.3.6,"**Description of the bug**
+
+When opening a file browser for loading up files, there are no files and folders being displayed. The entries exist in the hierarchy, but they are invisible. They cannot be clicked either.
+
+**Reproduction steps**
+
+- Open the file browser by calling ShowLoadDialog
+- There are no files or folders shown even when clicking through the quick links
+
+**Platform specs**
+
+- Unity version: 2021.3.6f1
+- Platform: macOS
+- How did you download the plugin: Through .unitypackage. Latest version was used.
+
+**Additional info**
+
+Everything still works in Unity 2020.3, but not in 2021.3
+
+",NONE
+1361738887,bug, Server: Error 413 Payload too large (>1 MB),"- Connected to self hosted Joplin Server (latest version)
+- Items more than 1MB can't be synchonized. 
+- Error Message: ...could not be uploaded: Error 413 Payload Too Large: 413 Request Entity Too Large - 413 Request Entity Too Large - nginx/1.18.0 (Ubuntu)
+
+## Environment
+
+Joplin version: Joplin 2.8.8 
+Platform: Mac
+Server Version:  2.7.4 
+Host: Docker on Ubuntu 20.04.4 LTS
+
+## Steps to reproduce
+
+1. Create Note
+2. Insert attachment larger than 1MB
+3. Start Sync
+
+Is it because of storing the data directly into the Database and would external storage solve the problem or is it a configuration issue which can be solved adapting the docker or nginx config?",NONE
+1139442504,bug,Unclaimed chunk in middle of colony that erases Town Hall and other buildings.,"<!-- PLEASE DO NOT DELETE TOPICS AS YOUR ISSUE WILL GET CLOSED -->
+### Prerequisites <!-- Replace spaces with ""x"" to tick boxes. -->
+
+- [X] I am running the latest **alpha** version of MineColonies and Structurize for my Minecraft version.
+- [X] I checked the MineColonies/Structurize [wiki](https://wiki.minecolonies.ldtteam.com/) and made sure my issue is not covered there.
+- [X] I made sure that **this issue is not a duplicate of any existing issue.**
+
+### Context <!-- Exact MineColonies and Structurize versions (e.g. 0.9.126-ALPHA or 0.9.2-RELEASE) *and* the Minecraft version you're playing, please.--> 
+
+- Minecraft Version: 1.18.1
+- MineColonies Version: minecolonies-1.18.1-1.0.437-ALPHA
+- Structurize Version: structurize-1.18.1-1.0.346-ALPHA
+- Related Mods and their Versions:
+
+## Expected behavior
+<!-- What would you expect to see if this feature was working as intended? --> No unclaimed land or erased buildings, able to upgrade without issue. 
+
+## Actual behavior
+<!-- What actually happens when this feature is used in its current state?
+Try to give as much detail as possible here to help us properly understand the issue. --> Upon starting the world up, the two buildings got erased from the colony and the land became unclaimed. 
+
+<!-- If you have any videos or images relating to the issue, please post them here as well. --> 
+![2022-02-15_21 16 26](https://user-images.githubusercontent.com/99777159/154183728-7679d289-72b5-4fcc-8555-ee537b7ad99d.png)
+
+
+## Steps to reproduce the issue
+
+<!-- What should we do to make this issue show up in our own game? I'm not sure.
+     Try to give as much detail as possible here too so it's easier for us to reproduce this issue. -->
+
+1. <!-- Do this -->
+2. <!-- And then this -->
+3. <!-- So that this happens -->
+
+### Logs
+
+<!-- Add your latest.log and crashlog (if you have one) to https://gist.github.com/ and put the link below. These are often important in figuring out where issues are. -->
+
+- latest.log: <!-- USE GIST DON'T DIRECT UPLOAD PLEASE -->
+- crashlog: <!-- USE GIST DON'T DIRECT UPLOAD PLEASE -->
+
+### Notes
+<!-- Add any other context about the problem here. --> The Town Hall block within the 2 unclaimed chunks is still there, however I'm unable to upgrade the building
+
+---
+## Viewers
+
+* Add a thumbs-up to the bug report if you are also affected. This helps the bug report become more visible to the team and doesn't clutter the comments.
+* Add a comment if you have any insights or background information that isn't already part of the conversation.
+",NONE
+814917647,bug,TypeError Example LOGO,"Dear, greetings.
+
+I'm using moviepy 1.0.3, it's amazing. 
+
+I tried to create a logo following:
+https://github.com/Zulko/moviepy/blob/master/examples/logo.py
+
+But there are several issues. For example, 
+1) the variable ""screen"" is never used
+2) 'ImageClip' object has no attribute 'with_mask'
+3) the variable ""im"" in ""im.set_pos(2 * [""center""]), shade]"" is not defined
+4) TypeError ""__init__() got an unexpected keyword argument 'is_mask'"" in VideoClip(is_mask=True, get_frame=mask_frame)
+
+I would like suggestions, please",NONE
+1082289133,bug,"""Unvailable server"" on Android Nextcloud app with framagenda.org account","### Steps to reproduce
+1. Download last version (3.18.0) of Android Nextcloud app on my smartphone (BQ aquaris X) with Android version 8.1.0
+2. Connect with my framagenda.org account
+3. Synchronize some files and notes
+
+### Expected behaviour
+- The app should synchronize files and notes from the web app framagenda (on browser) to the Nextcloud app on my smartphone.
+- I reinstalled the last version (3.17.1) and it works perfectly
+
+### Actual behaviour
+- Nextcloud app on smartphone does not synchronize files and notes and states ""unvailable server"" (but I can access my framagenda account on my browser)
+
+### Can you reproduce this problem on https://try.nextcloud.com?
+- Need a phone to do that
+
+### Environment data
+Android version: 8.1.0
+
+Device model: BQ Aquaris X
+
+Stock or customized system: Stock (I guess)
+
+Nextcloud app version: 3.18.0
+
+Nextcloud server version: Nextcloud 21.0.5.1 (using https://scan.nextcloud.com/ and testing framagenda.org)
+
+Reverse proxy: I don't know
+
+### Logs
+#### Web server error log
+```
+Insert your webserver log here
+```
+I don't know where to find that 
+
+#### Nextcloud log (data/nextcloud.log)
+```
+Insert your Nextcloud log here
+```
+I don't know where to find that
+
+**NOTE:** Be super sure to remove sensitive data like passwords, note that everybody can look here! You can use the Issue Template application to prefill some of the required information: https://apps.nextcloud.com/apps/issuetemplate
+",NONE
+1282041546,documentation,"Message Task List - View tasks, task history details text modification","消息任务列表 - 查看任务，任务历史详情文案修改
+
+![image](https://user-images.githubusercontent.com/95004531/175260102-09ac5d01-eef0-4a5d-8ab4-9c4785a55c20.png)
+",NONE
+1195664948,bug,National Insurance contributions not showing on payslip (Lancashire Leisure Limited saurabh rathore),13/12/21,NONE
+1077089991,bug,[USB-User.'Замовлення' tab ] User can't pay for order by certificate when user use bonuses and certificate simultaneously for order payment ,"**Environment:** all browsers
+**Reproducible:** always
+**Build found:** 10.12.2021
+
+**Preconditions**
+1. User is logged in as a client and navigated to a personal cabinet, tab “Замовлення”.
+2. User has made paid order and used bonuses and certificate simultaneously for order payment in the 'Order form' (step 1) 
+
+**Steps to reproduce**
+1. Go to 'Замовлення' Tab 
+2. Verify the appropriate order from precondition 2
+3. Verify 'Сертифікат' field 
+
+**Actual result**
+'Сертифікат' field is not displayed in the order, and the order is partially paid, only by bonuses 
+
+**Expected result**
+'Сертифікат' field is displayed in the order like total amount of certificate used to pay for the order, and the order is fully paid by bonuses  and certificate 
+
+**User story and test case links**
+E.g.: ""User story #3478 #2379 
+
+",NONE
+852175221,bug,Interactive area of symbols with interpolated size at fractional zoom levels,"**maplibre-gl-js version**: 1.14.0-rc.1
+
+**browser**: chrome, edge
+
+### Steps to Trigger Behavior
+
+ 1. Add a point source to map
+ 2. Add a symbol layer with icon-size determined by interpolation (e.g. ""icon-size"": [""interpolate"", [""linear""], [""zoom""], 15, 0, 16, 0.5]) 
+ 3. The interactive area at fractional zoom levels (i.e. the box around the symbol for which mouse events are triggered) is larger than the actual icon size
+
+### Link to Demonstration
+https://codepen.io/eriz0065/pen/VwPMvdj
+Open the console, mouseover and mouseout events at fractional zoom levels between 15 and 16 are triggered in a larger area with respect to actual icon size.
+
+### Expected Behavior
+Mouse events related are triggered considering the actual size of the layer symbol; mapbox from version 2.0.0 support this.
+
+",NONE
+1045619909,bug,User appears at the bottom of the sign in page when customer token lifetime expires,"**Description**:
+- User appears at the bottom of the page when completing order and customer token lifetime expires
+- User appears at the bottom of the page when switching pages in my account and customer token lifetime expires
+
+**Expected behavior**:
+Sign in page opens on the top
+
+**To Reproduce**:
+1. Log in 
+2. Open PDP
+3. Add product to cart
+4. Go to shipping step
+5. Fill form
+6. Go to billing step
+7. Select payment method
+8. Wait for customer token lifetime expires
+9. Click on Complete order
+
+**Actual result**:
+Sign in page is not scrolled up
+The same situation if user switching pages in my account
+https://drive.google.com/file/d/1XdPU0rdYcrI4Jq2DCvKpbP5csD1wAhxK/view?usp=sharing
+
+**Notes:**
+Default Customer token lifetime is 1h
+Change this setting can here:
+Open Admin panel -> Stores -> Configuration -> Services -> OAuth -> Access Token Expiration section -> Customer token lifetime",NONE
+1229967775,question,❓ Can't get it to work.,"## Synopsis
+
+I can't get this package to function against `supabase.co`
+
+## Details
+
+Whether I use the Anon key or the Service key, I can't select anything.
+
+- With `head` set to `false`, I get `[]`
+- With `head` set to `true`, I get `""""`
+
+## Reproduction
+
+```go
+func TestSelect(t *testing.T) {
+	db := postgrest.NewClient(
+		""https://<project-ref>.supabase.co/rest/v1/"",
+		""public"",
+		map[string]string{},
+	)
+	db.TokenAuth(""..."")
+
+	res, count, err := db.
+		From(""profiles"").
+		Select(""*"", """", false). // also tried specifying columns
+		ExecuteString()
+
+	spew.Dump(res, count, err)
+
+	if err != nil {
+		t.Fatalf(""error returned: %v"", err)
+	}
+
+	if res == ""[]"" || res == """" {
+		t.Fatalf(""no result"")
+	}
+}
+```
+
+```
+=== RUN   TestSelect
+(string) (len=2) ""[]""
+(int64) 0
+(interface {}) <nil>
+    select_test.go:30: no result
+--- FAIL: TestSelect (0.29s)
+```",NONE
+1229810374,feature,Websites which require authenticaton,"**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+The website hosting recipes I want to import requires authentication.
+
+**Describe the solution you'd like**
+Possibility to pass the session cookie or token
+
+**Describe alternatives you've considered**
+None
+",NONE
+1311223785,bug,[4.x]: js error when removing category tree,"### What happened?
+
+### Description
+
+Js error at BaseElementSelectInput.js:441:10
+
+### Steps to reproduce
+
+1. Have a (matrix) field with a category selector
+2. Add a multilevel category
+3. Remove the level 1 category so the other levels get removed too
+4. Js error
+
+### Expected behavior
+No error ;) and just do the autosave
+
+
+### Actual behavior
+After the js error, autosaving stops working
+
+### Craft CMS version
+
+4.1.4.1
+
+### PHP version
+
+8.1
+
+### Operating system and version
+
+_No response_
+
+### Database type and version
+
+_No response_
+
+### Image driver and version
+
+_No response_
+
+### Installed plugins and versions
+
+_No response_",NONE
+1137560441,bug,Asset Pack v2 readme.txt still says it's v1,As in the title. That's it. There's no trick.,NONE
+1299578507,feature,[AST Builder] Implement `ifnull` function,"## Backgroud
+
+The following issue is a follow-up issue of #614.
+The point is to make it easy to use SQL function `IFNULL` via method chaining.
+
+## Task
+
+The following issue is to implement the `ifnull` function in `ast_builder` module to support the `IfNull` function in the query builder.
+
+Following tests should pass in order to complete the following task.
+
+```rust
+#[test]
+fn ifnull_function() {
+    let actual = col(""updated_at"").ifnull(col(""created_at""));
+    let expected = ""IFNULL(updated_at, created_at)"";
+    test_expr(actual, expected);
+
+    let actual = text(""HELLO"").ifnull(text(""WORLD""));
+    let expected = ""IFNULL('HELLO', 'WORLD')"";
+    test_expr(actual, expected);
+}
+```",NONE
+1221860943,bug,"Regression: StreamPeerTCP always in ""STATUS_CONNECTING""","### Godot version
+
+4.0-alpha7
+
+### System information
+
+MacOS 12.3
+
+### Issue description
+
+Previously, a simple web server using `TCPServer` worked flawlessly (in alpha 6), now every StreamPeerTCP is always in `STATUS_CONNECTING`. This is probably caused by PR #59582.
+
+### Steps to reproduce
+
+1. Create a TCP Server with `TCPServer.new()`
+2. Accept a connection with `tcp_server.take_connection()` when available.
+3. The returned `StreamPeerTCP` will be always in `STATUS_CONNECTING` and no data exchange can be done, rendering the server useless.
+
+### Minimal reproduction project
+
+_No response_",NONE
+1234644278,bug,ParallelConnectedComponents cause Segmentation fault,"Hi,
+any idea what's the problem?
+
+```!python
+import networkit as nk
+
+x = nk.Graph(6)
+x.addEdge(0, 1)
+x.addEdge(1, 2)
+x.addEdge(3, 4)
+x.addEdge(4, 5)
+cc = nk.components.ParallelConnectedComponents(x)
+cc.run()
+
+cc.hasFinished()
+>> True
+cc.numberOfComponents()
+>> 2
+
+cc.getComponents()
+Segmentation fault (core dumped)
+```
+
+",NONE
+1354595786,bug,`renderdoc` needs updating,"The version of RenderDoc currently packaged is quite out-of-date; version 1.12 was released on 2021-01-28, almost 2 years ago.  It isn’t mentioned anywhere in https://alpha.de.repo.voidlinux.org/void-updates/void-updates.txt either.  The latest version is 1.21, released 2022-07-28.",NONE
+1029488798,feature,removing from list,would be nice to be able to remove files from the lists in each category ...video/audio/subs/attachments,NONE
+1140416904,bug,[UBS-User. Bonus notification] The notification about recieved bonuses differs from the required,"**Environment:** OS Windows 11 PRO Version 21H2, Browser Google Chrome Version 98.0.4758.102
+**Reproducible:** always
+**Build found:** 16.02.2022
+
+**Preconditions**
+1. Create a user and make an order that is paid for bonuses (e.g. 'Безпечні відходи' in quantity of 4 packages (each package is per 250UAH), total amount - 1000UAH).
+2. User is Logged in to GreenCity as an Administrator: https://ita-social-projects.github.io/GreenCityClient/#/ubs 
+
+**Steps to reproduce**
+1. Open 'Замовлення' tab and find order mentioned in preconditions
+2. Open the order found in step 1, change the order status on the ""Скасовано"" and click on the ""Зберегти"" button
+3. Log in to GreenCity as a User (https://ita-social-projects.github.io/GreenCityClient/#/ubs Use credentials as for Client mentioned in preconditions)
+4. Open 'Замовлення' tab and find order mentioned in preconditions
+5. Open the order found in step 4
+
+**Actual result**
+The message is: ""Вітання! Сьогодні УБС Кур’єр забрав у вас пакетів: 0. А оплачували ви: 3. Тож фіксуємо для вас депозит для наступного вивозу на суму 0 грн. Гарного дня!"" (See the attachment)
+
+**Expected result**
+The message consists of: """"Переплата у розмірі 1000 грн зарахована на Ваш бонусний рахунок"" is displayed below the ""Сума до оплати: ХХХ,ХХ грн"" label""
+
+**User story and test case links**
+User story #3633 
+Test case (https://jira.softserve.academy/projects/GC?selectedItem=com.thed.zephyr.je:zephyr-tests-page#test-cycles-tab)
+![bonus_message](https://user-images.githubusercontent.com/97729291/154333857-c3ac8d70-108a-437b-a5f2-5488460f53e7.png)
+",NONE
+1096752893,bug,[Bug] ,"Description: tried to watch a video and it appeared
+
+steps to reproduce: try to watch a video
+
+log: Title: ` (DB::PoolRetryAttemptsExceeded)`
+Date: `2022-01-07T23:07:30
+Version: `2021.12.28-a779cdd @ master`
+<details>
+<summary>Backtrace</summary>
+<p>
+   
+```
+(DB::PoolRetryAttemptsExceeded)
+  from lib/db/src/db/result_set.cr:28:5 in 'query:args'
+  from lib/db/src/db/query_methods.cr:61:12 in 'query_one?:as'
+  from src/invidious/videos.cr:997:7 in 'get_video:region'
+  from src/invidious/routes/watch.cr:63:15 in 'handle'
+  from lib/kemal/src/kemal/route.cr:13:9 in '->'
+  from /usr/share/crystal/src/primitives.cr:266:3 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from lib/kemal/src/kemal/filter_handler.cr:21:7 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from src/invidious/helpers/static_file_handler.cr:167:15 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call'
+  from /usr/share/crystal/src/http/server/handler.cr:28:7 in 'call_next'
+  from lib/kemal/src/kemal/init_handler.cr:12:7 in 'process'
+  from /usr/share/crystal/src/http/server.cr:500:5 in '->'
+  from /usr/share/crystal/src/primitives.cr:266:3 in 'run'
+  from ???
+
+</p>
+</details>
+",NONE
+1275770660,feature,Upload progress bar,"### Is there an existing feature request for this?
+
+- [X] I have searched the existing issues before opening this feature request.
+
+### Describe the feature you would like to see.
+
+A progress bar that shows the file upload status. (File manager)
+
+### Describe the solution you'd like.
+
+Under the loading bar there should be an text wich says: file out of files, Estimated time: time
+
+### Additional context to this request.
+
+_No response_",NONE
+1299356959,bug,pubsub: mod ack deadline request context deadline setting at 60 seconds is too high in v1.23.1,"**Client**
+
+Pubsub
+
+**Environment**
+
+GKE
+
+**Go Environment**
+
+hzhang4@C02F34L4MD6R hubert % go version
+go version go1.18 darwin/amd64
+hzhang4@C02F34L4MD6R hubert % go env
+GO111MODULE=""on""
+GOARCH=""amd64""
+GOBIN=""""
+GOCACHE=""/Users/hzhang4/Library/Caches/go-build""
+GOENV=""/Users/hzhang4/Library/Application Support/go/env""
+GOEXE=""""
+GOEXPERIMENT=""""
+GOFLAGS=""""
+GOHOSTARCH=""amd64""
+GOHOSTOS=""darwin""
+GOINSECURE=""""
+GOMODCACHE=""/Users/hzhang4/go/pkg/mod""
+GONOPROXY=""""
+GONOSUMDB=""""
+GOOS=""darwin""
+GOPATH=""/Users/hzhang4/go""
+GOPRIVATE=""""
+GOPROXY=""https://proxy.golang.org,direct""
+GOROOT=""/usr/local/opt/go/libexec""
+GOSUMDB=""sum.golang.org""
+GOTMPDIR=""""
+GOTOOLDIR=""/usr/local/opt/go/libexec/pkg/tool/darwin_amd64""
+GOVCS=""""
+GOVERSION=""go1.18""
+GCCGO=""gccgo""
+GOAMD64=""v1""
+AR=""ar""
+CC=""clang""
+CXX=""clang++""
+CGO_ENABLED=""1""
+GOMOD=""/Users/hzhang4/go/src/github.sc-corp.net/Snapchat/hubert/go.mod""
+GOWORK=""""
+CGO_CFLAGS=""-g -O2""
+CGO_CPPFLAGS=""""
+CGO_CXXFLAGS=""-g -O2""
+CGO_FFLAGS=""-g -O2""
+CGO_LDFLAGS=""-g -O2""
+PKG_CONFIG=""pkg-config""
+GOGCCFLAGS=""-fPIC -arch x86_64 -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/yv/y4dw11vx02s2739ktqdz1z6r0000gn/T/go-build1742512841=/tmp/go-build -gno-record-gcc-switches -fno-common""
+
+
+**Problem**
+In go/pubsub v1.23.1 the context deadline of mod ack deadline request is increased to 60 seconds from 2 seconds. In the case of high tail latency of such requests, the latency can be over 50 seconds. This will block message processing in the subscriber. I suggest making the context deadline configurable so users can configure based their use cases and environment.  https://github.com/googleapis/google-cloud-go/blob/main/pubsub/iterator.go#L422
+",NONE
+1133630861,bug,Using the search function with Dark Votescreen will cause lua errors,"**Description**
+Upon using the search function included with the Dark Votescreen, it will cause lua errors.
+
+**How to reproduce**
+Using the search function to search for the name of a map will cause lua errors.
+
+**Behaviour**
+It causes lua errors to appear in console.
+
+**Expected Behaviour**
+There should not be a lua error.
+
+**Additional Information**
+I am using PAM version 2.
+
+My settings are:
+`prefixes` gm,ttt
+`limit` 25
+`cooldown` 3
+`enabled` true
+
+The error is:
+```
+[ERROR] lua/pam/client/extensions/dark_votescreen_panel.lua:400: attempt to index field 'winning_option' (a nil value)
+  1. RefreshOptionList - lua/pam/client/extensions/dark_votescreen_panel.lua:400
+   2. OnChange - lua/pam/client/extensions/dark_votescreen_panel.lua:146
+    3. unknown - lua/vgui/dtextentry.lua:206 (x8)
+```
+
+",NONE
+1114472450,bug,`ECS_TARGET_ANDROID` is not defined in Android builds,"**Describe the bug**
+The `ECS_TARGET_ANDROID` macro doesn't get defined when compiling for Android using the NDK on Linux.
+
+**To Reproduce**
+Compile flecs for android using the NDK on a Linux machine (or inside a linux container)
+
+**Expected behavior**
+setting the preprocessor macro `ECS_TARGET_ANDROID` properly
+
+**Additional context**
+I assume this happens because of the evaluation order of where [the macro is defined](https://github.com/SanderMertens/flecs/blob/25719a4db8bce2c449f95d08e3993c4ed03b80be/include/flecs/private/api_defines.h#L13-L30) , probably hitting the first `#elif` on a Linux machine, even though the target is Android. 
+",NONE
+1108691113,bug,Multimc error -1 Help,"### Operating System
+
+_No response_
+
+### Description of bug
+
+The game starts to load, then crashes and shows error messages in the log.
+
+### Steps to reproduce
+
+Probbably a specific circumstance but
+1.Download MultiMc
+2.Add java path
+3.Add the vault hunters modpack
+4.error occours
+MultiMC version: 0.6.14-3001
+
+
+Launched instance in online mode
+
+authserver.mojang.com resolves to:
+    [13.35.107.76]
+
+session.minecraft.net resolves to:
+    [3.209.165.60, 3.223.61.237, 52.206.61.151]
+
+textures.minecraft.net resolves to:
+    [13.35.105.122, 13.35.105.57, 13.35.105.61, 13.35.105.38]
+
+api.mojang.com resolves to:
+    [13.35.117.90]
+
+
+Minecraft folder is:
+C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/instances/Vault-Hunters---Official-Modpack-1.12.2/minecraft
+
+
+Java path is:
+C:/Program Files (x86)/Minecraft Launcher/runtime/java-runtime-beta/windows-x64/java-runtime-beta/bin/java.exe
+
+
+Checking Java version...
+Java is version 17.0.1, using 64-bit architecture, from Microsoft.
+
+
+Main Class:
+  io.github.zekerzhayard.forgewrapper.installer.Main
+
+Native path:
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/instances/Vault-Hunters---Official-Modpack-1.12.2/natives
+
+Traits:
+traits FirstThreadOnMacOS
+traits XR:Initial
+
+Libraries:
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/patchy/1.3.9/patchy-1.3.9.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/authlib/2.1.28/authlib-2.1.28.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/io/github/zekerzhayard/ForgeWrapper/mmc3/ForgeWrapper-mmc3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-launcher.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/ow2/asm/asm/9.1/asm-9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/jline/jline/3.12.1/jline-3.12.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/jodah/typetools/0.8.3/typetools-0.8.3.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/minecraft/1.16.5/minecraft-1.16.5-client.jar
+
+Native libraries:
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-windows.jar
+  C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-windows.jar
+
+Mods:
+  [✔️] appleskin-forge-mc1.16.x-2.2.0
+  [✔️] appliedenergistics2-8.4.6
+  [✔️] archers_paradox-1.16.5-1.4.0.1
+  [✔️] architectury-1.28.48
+  [✔️] AutoRegLib-1.6-49
+  [✔️] blockcarpentry-1.16-0.4.0
+  [✔️] Bookshelf-Forge-1.16.5-10.3.29
+  [✔️] Botania-1.16.5-420.1
+  [✔️] buildinggadgets-1.16.5-3.8.2
+  [✔️] byg-1.3.5
+  [✔️] camera-1.16.5-1.0.14
+  [✔️] Clumps-6.0.0.27
+  [✔️] cofh_core-1.16.5-1.4.0.6
+  [✔️] comforts-forge-1.16.5-4.0.1.3
+  [✔️] Compressium-1.16.5-1.2.3
+  [✔️] Controlling-7.0.0.28
+  [✔️] CookingForBlockheads_1.16.5-9.3.4
+  [✔️] corpse-1.16.5-1.0.6
+  [✔️] CraftTweaker-1.16.5-7.1.2.487
+  [✔️] create-mc1.16.5_v0.3.2g
+  [✔️] CreateTweaker-1.0.0.26
+  [✔️] Cucumber-1.16.5-4.1.12
+  [✔️] curios-forge-1.16.5-4.0.5.2
+  [✔️] dankstorage-3.19
+  [✔️] DarkUtilities-1.16.3-6.0.3
+  [✔️] decorative_blocks-1.16.4-1.7.2
+  [✔️] DimStorage-1.16.5-4.4.1
+  [✔️] easy_villagers-1.16.5-1.0.11
+  [✔️] elevatorid-1.16.5-1.7.13
+  [✔️] EnderMail-1.16.5-1.2.2
+  [✔️] engineersdecor-1.16.5-1.1.15
+  [✔️] entitydetectors-1.16.4-1.1.0.1
+  [✔️] enviromats-1.16.5-2.0.9.0
+  [✔️] fairylights-4.0.5-1.16.5
+  [✔️] FastWorkbench-1.16.5-4.6.1
+  [✔️] FluxNetworks-1.16.5-6.1.7.12
+  [✔️] flywheel-1.16-0.2.5
+  [✔️] framedcompactdrawers-1.16-2.2.1
+  [✔️] ftb-backups-2.1.2.2
+  [✔️] ftb-library-forge-1605.3.4-build.90
+  [✔️] furniture-7.0.0-pre19-1.16.3
+  [✔️] Hwyla-forge-1.10.11-B78_1.16.2
+  [✔️] ImmersiveEngineering-1.16.5-5.0.7-143
+  [✔️] industrial-foregoing-1.16.5-3.2.14.6-14
+  [✔️] invtweaks-1.16.4-1.0.1
+  [✔️] ironchest-1.16.5-11.2.21
+  [✔️] ironfurnaces-1.16.5-2.7.7
+  [✔️] IronJetpacks-1.16.5-4.2.3
+  [✔️] iskallutilities-1.4
+  [✔️] ispawner-0.1.7-forge
+  [✔️] jei-1.16.5-7.7.1.139
+  [✔️] jeiintegration_1.16.5-7.0.1.15
+  [✔️] JEITweaker-1.16.5-1.1.0.49
+  [✔️] JustEnoughResources-1.16.5-0.12.1.133
+  [✔️] Lollipop-1.16.5-3.2.9
+  [✔️] masonry-1.16.3-0.3.6
+  [✔️] mcjtylib-1.16-5.1.2
+  [✔️] mcw-bridges-2.0.1-mc1.16.5
+  [✔️] mcw-doors-1.0.5-mc1.16.5
+  [✔️] mcw-furniture-2.0.1-mc1.16.5
+  [✔️] mcw-roofs-2.0.1-mc1.16.5-4
+  [✔️] mcw-windows-2.0.2-mc1.16.5
+  [✔️] Mekanism-1.16.5-10.1.1.456
+  [✔️] MekanismGenerators-1.16.5-10.1.1.456
+  [✔️] metalbarrels-1.16.2-3.3b
+  [✔️] mininggadgets-1.7.5
+  [✔️] MmmMmmMmmMmm-1.16.5-1.3.1
+  [✔️] modular-routers-1.16.5-7.4.0-55
+  [✔️] Morpheus-1.16.5-4.2.70
+  [✔️] MouseTweaks-2.14-mc1.16.2
+  [✔️] movingelevators-1.2.34-mc1.16.5
+  [✔️] neoncraft-2.1
+  [✔️] OpenLoader-1.16.5-9.0.3
+  [✔️] Patchouli-1.16.4-53.2
+  [✔️] Placebo-1.16.5-4.6.1
+  [✔️] platforms-1.16-1.7.12
+  [✔️] Powah-1.16.5-2.3.16
+  [✔️] PrettyPipes-1.9.5
+  [✔️] Quark-r2.4-321
+  [✔️] rangedpumps-0.8.2
+  [✔️] refinedstorage-1.9.15
+  [✔️] refinedstorageaddons-0.7.3
+  [✔️] rftoolsbase-1.16-2.1.1
+  [✔️] rftoolsbuilder-1.16-3.1.4
+  [✔️] rftoolspower-1.16-3.0.11
+  [✔️] rftoolsstorage-1.16-2.0.15
+  [✔️] rftoolsutility-1.16-3.1.7
+  [✔️] rsgauges-1.16.5-1.2.13
+  [✔️] rsrequestify-1.16.5-2.1.4
+  [✔️] Runelic-1.16.5-7.0.2
+  [✔️] selene-1.16.5-1.9.0
+  [✔️] shetiphiancore-1.16-3.8.6
+  [✔️] simplybackpacks-1.16.5-2.0.1-build.27
+  [✔️] simplylight-1.16.5-1.4.0-build.24
+  [✔️] snad-1.0.9-forge
+  [✔️] storage_overhaul-1.16.5-1.0.4
+  [✔️] StorageDrawers-1.16.3-8.5.0
+  [✔️] supermartijn642corelib-1.0.16-mc1.16.5
+  [✔️] supplementaries-1.16.5-0.18.0
+  [✔️] the_vault-1.7.0p1.12.1
+  [✔️] thermal_expansion-1.16.5-1.4.1.3
+  [✔️] thermal_foundation-1.16.5-1.4.1.7
+  [✔️] titanium-1.16.5-3.2.8.4-10
+  [✔️] torchmaster-2.3.8
+  [✔️] torohealth-1.16.4-forge-4
+  [✔️] trashcans-1.0.11-mc1.16
+  [✔️] u_team_core-1.16.5-3.2.1.196
+  [✔️] useful_railroads-1.16.5-1.4.6.38
+  [✔️] valkyrielib-1.16.5-3.0.9.5
+  [✔️] Waddles-1.16.5-0.8.13
+  [✔️] Waystones_1.16.5-7.6.4
+  [✔️] Xaeros_Minimap_21.14.1_Forge_1.16.5
+  [✔️] XaerosWorldMap_1.16.0_Forge_1.16.5
+  [✔️] xnet-1.16-3.0.15
+
+Params:
+  --username  --version MultiMC5 --gameDir C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/instances/Vault-Hunters---Official-Modpack-1.12.2/minecraft --assetsDir C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/assets --assetIndex 1.16 --uuid  --accessToken  --userType  --versionType release --launchTarget fmlclient --fml.forgeVersion 36.2.23 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550
+
+Window size: max (if available)
+
+Java Arguments:
+[-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump, -Xms2048m, -Xmx8192m, -Duser.language=en]
+
+
+Minecraft process ID: 2104
+
+
+Using onesix launcher.
+
+Checking: MC_SLIM
+Checking: MAPPINGS
+Checking: MC_EXTRA
+Checking: PATCHED
+Checking: MC_SRG
+2022-01-19 19:09:14,312 main WARN Advanced terminal features are not available in this environment
+[19:09:14] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, TonyBlock, --version, MultiMC5, --gameDir, C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/instances/Vault-Hunters---Official-Modpack-1.12.2/minecraft, --assetsDir, C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/assets, --assetIndex, 1.16, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, mojang, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.23, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[19:09:14] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 17.0.1 by Microsoft
+[19:09:14] [main/INFO] [ne.mi.fm.lo.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19:09:14] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/antho/Downloads/mmc-stable-win32/MultiMC/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[19:09:16] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:213]: Failed to start Minecraft:
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: java.lang.reflect.InvocationTargetException
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launch:245]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: Caused by: java.lang.reflect.InvocationTargetException
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:57)
+[19:09:17] [main/INFO] [STDERR/]: [org.multimc.onesix.OneSixLauncher:launchWithMainClass:214]: 	... 8 more
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: Caused by: java.lang.NoSuchMethodError: 'void sun.security.util.ManifestEntryVerifier.<init>(java.util.jar.Manifest)'
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.SecureJarHandler.createCodeSource(SecureJarHandler.java:66)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:275)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at java.base/java.lang.Class.forName0(Native Method)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at java.base/java.lang.Class.forName(Class.java:467)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.service.modlauncher.ModLauncherClassProvider.findClass(ModLauncherClassProvider.java:67)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.platform.MixinConnectorManager.loadConnectors(MixinConnectorManager.java:70)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.platform.MixinConnectorManager.inject(MixinConnectorManager.java:59)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.platform.MixinPlatformManager.inject(MixinPlatformManager.java:196)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.MixinBootstrap.inject(MixinBootstrap.java:202)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.initializeLaunch(MixinLaunchPluginLegacy.java:201)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.initializeLaunch(MixinLaunchPluginLegacy.java:195)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$9(LaunchPluginHandler.java:97)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.LaunchPluginHandler.announceLaunch(LaunchPluginHandler.java:97)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:52)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[19:09:17] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	... 13 more
+[19:09:17] [main/INFO] [STDOUT/]: [org.multimc.EntryPoint:main:37]: Exiting with -1
+Process exited with code -1.
+
+### Suspected cause
+
+No idea what could be causing this issue, maybe something with the minecraft version?
+
+### This issue is unique
+
+- [X] I have searched the issue tracker and did not find an issue describing my bug.",NONE
+1136415993,bug,"Add deepslate top texture to stairs, slabs and walls.","### Related to a problem?
+
+yes
+
+### Describe the related problem
+
+Currently, the added blocks uses the side texture of vanilla deepslate on all the sides. This makes deepslate slabs and stairs stand out when placed on regular deepslate. 
+
+### Describe the soloution you'd like
+
+Change the top textures of the deepslate stairs and slabs to match the regular deepslate top texture. Maybe do the same to the deepslate wall for parity?
+
+### Describe the alternatives considered
+
+None
+
+### Additional context
+
+_No response_",NONE
+1233802737,bug,Objects-tab cannot be loaded (InternalError: too much recursion),"Dear all,
+
+when loading the objects-tab I get an reproducable GUI Error. I tried with Firefox 100.0 and Edge 101.0.1210.39.
+
+All adapters and ioBroker are up to date.
+
+System-Info:
+
+> iobroker@iobrokerprod:~$ iob info
+Platform       : linux
+os             : linux
+Architecture   : x64
+CPUs           : 4
+Speed          : 2111 MHz
+Model          : Common KVM processor
+RAM            : 4.8 GB
+System uptime  : 01:22:52
+Node.js        : v14.19.2
+time           : 1652351887185
+timeOffset     : -120
+adapters count : 410
+NPM            : v6.14.17
+Disk size      : 31.4 GiB
+Disk free      : 20.9 GiB
+
+
+Error in the browser:
+
+
+![1](https://user-images.githubusercontent.com/55213432/168053448-8bf14618-1d30-458b-b665-45f2f08c3972.jpg)
+![2](https://user-images.githubusercontent.com/55213432/168053444-ed05fc71-3acc-4353-b758-56b252cf28f9.jpg)
+
+
+",NONE
+746856180,question,Establish criteria for inclusion / exclusion of various platform/version builds,"We currently have a very broad set of platforms/versions/impls that we build and test at the project.  It will be useful to have a set of guidelines that we use to determine if we should be including or removing builds from our project.  This issue is intended to serve as an open discussion of what various criteria we may use to determine adding or removing various builds from our project.
+
+**Criteria can include but not limited to:**
+- community requests (what is the community asking for) 
+- downloads (what is the community actually using/downloading) - as tracked through the API/[dashboard](https://dash.adoptopenjdk.net/)
+- availability and ease of use of machine resources 
+- availability of human resources for upkeep, triage, maintenance
+- sponsorship (option for people to give $$ in return for builds on less 'popular' platforms that do not meet other criteria)
+- state/health of the build (how many extra changes off of the src branch in order to run successfully)
+
+We need to also take into account the intended upcoming move to Eclipse foundation, where our ability to run compliance tests on the platform needs to also be considered (re: machine/human resource and effort).
+
+If there are other considerations that are missing, please add as comments to this discussion.",NONE
+1244326445,feature,Play queue within app,"### Checklist
+
+- [X] I made sure that there are *no existing issues* - [open](https://github.com/TeamNewPipe/NewPipe/issues) or [closed](https://github.com/TeamNewPipe/NewPipe/issues?q=is%3Aissue+is%3Aclosed) - which I could contribute my information to.
+- [X] I'm aware that this is a request for NewPipe itself and that requests for adding a new service need to be made at [NewPipeExtractor](https://github.com/TeamNewPipe/NewPipeExtractor/issues).
+- [X] I have taken the time to fill in all the required details. I understand that the feature request will be dismissed otherwise.
+- [X] This issue contains only one feature request.
+- [X] I have read and understood the [contribution guidelines](https://github.com/TeamNewPipe/NewPipe/blob/dev/.github/CONTRIBUTING.md).
+
+### Feature description
+
+The play queue should be available directly within app.
+
+### Why do you want this feature?
+
+Currently, play queue is accessible from the notification, it is a big UX problem according to me.
+
+### Additional information
+
+_No response_",NONE
+1264811448,bug,[Bug] gpu-accelerator in template don't work,"### Search before asking
+
+- [X] I searched the [issues](https://github.com/ray-project/kuberay/issues) and found no similar issues.
+
+
+### KubeRay Component
+
+apiserver
+
+### What happened + What you expected to happen
+
+When creating a template with a gpu-accelerator like ""amd.com/gpu"" and then creating a cluster than use this template the resource for gpu  remain ""nvidia.com/gpu"" but it should be ""amd.com/gpu""
+
+### Reproduction script
+
+`bash
+kuberay template compute create --name test-gpu-accelerator --namespace default --cpu 4 --memory 8 --gpu-accelerator ""amd.com/gpu"" --gpu 1
+
+kuberay cluster create --head-compute-template test-gpu-accelerator --head-image ray --name test-gpu-accelerator --namespace default --user armand --worker-compute-template test-gpu-accelerator --worker-group-name group-a --worker-image ray
+`
+
+### Anything else
+
+_No response_
+
+### Are you willing to submit a PR?
+
+- [X] Yes I am willing to submit a PR!",NONE
+1239750804,bug,Wrong encoding with Russian .style,"Converting style file with russian tags and names creates xml with wrong encoded tags and names.
+
+**To Reproduce**
+convert style file with russian tags and names
+
+![wrong tags](https://user-images.githubusercontent.com/64549817/169011008-1ce79bac-2f69-43fc-887b-1f5a1b476d4f.jpg)
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Desktop (please complete the following information):**
+ - OS: Win 10
+ - QGIS release QGIS 3.24.2
+
+**Additional context**
+Add any other context about the problem here. Examples of style, result and right result.
+[GOST2.style.zip](https://github.com/nyalldawson/slyr/files/8715199/GOST2.style.zip)
+[GOST2_converted.xml.zip](https://github.com/nyalldawson/slyr/files/8715202/GOST2_converted.xml.zip)
+[GOST2_should_be.xml.zip](https://github.com/nyalldawson/slyr/files/8715261/GOST2_should_be.xml.zip)
+
+I did not recognize what kind of codepage Arcgis uses, so cant help with it. But looks like it is cp1251 LITERALLY converts in UTF-8 or something.
+",NONE
+1333406153,bug,Unwanted buttons and Oxygen builder not working on shop page,"Hi,
+
+When I'm on a blank install and I add the WooCommerce plugin 2 things happen.
+
+First, 6 buttons make their appearance at the bottom of any page of wordpress:
+See home page: https://oxygen-qs87d2rh68dnl.oxygen-demo.qsandbox.me
+They'r bearing the class ""pswp"" and i don't know if there is a simple solution for disabling them.
+
+Second, The Oxygen builder doesn't work on the shop page. The shop page is determined in the Woocommerce's plugin settings:
+See the shop page: https://oxygen-qs87d2rh68dnl.oxygen-demo.qsandbox.me/shop/?ct_builder=true
+
+I'll attach images of the home page and the oxygen builder of the shop page if the sandbox link is down
+
+![image](https://user-images.githubusercontent.com/72215369/183687073-ec8028b8-edc2-48f8-8dde-58d83b8acff8.png)
+
+![image](https://user-images.githubusercontent.com/72215369/183687417-519ed9d8-8fb1-413e-8883-d10b606cf13e.png)
+
+Sorry for my English, and I hope you'll understand my problems.
+
+Regards
+",NONE
+1274422693,question,Configuring multiple data sources reports an error: the table does not exist,"English:
+Configure multiple data sources: DS1, ds1slave0, DS2, ds2slave0, DS3, DS4
+Only DS1 is configured with fragmentation rules, and DS1 and DS2 are configured with read / write separation; DS3 and DS4 are not configured.
+Question:
+dws_ shop_ The key table exists in DS3. Other DS do not have this table.
+But DWS is always read from DS2 during execution_ shop_ The key table indicates that there is no error in the table.
+Configuring multiple data sources reports an error: the table does not exist.
+
+中文：
+配置多数据源：ds1,ds1slave0,ds2,ds2slave0,ds3,ds4
+只有ds1配置分片规则，ds1,ds2配置了读写分离；ds3,ds4没有任何配置。
+
+问题：
+dws_shop_key表存在于ds3，其他ds都没有这张表。
+但执行时总是从ds2中读取dws_shop_key表，提示表不存在错误。
+
+配置多数据源报错：表不存在。
+
+application conmon file:
+```yaml
+spring:
+  shardingsphere:
+    props:
+      sql-show: true
+    datasource:
+      names: ds1,ds1slave0,ds2,ds2slave0,ds3,ds4
+      ds1:
+        Type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds1slave0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds2:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds2slave0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds3:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds4:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    rules:
+      sharding:
+        sharding-algorithms:
+          record-inline:
+            type: CLASS_BASED
+            props:
+              strategy: standard
+              algorithmClassName: com.sky.center.wb.sharding.CustomStandardShardingAlgorithm
+        tables:
+          bg_inside_month:
+            actual-data-nodes: ds1.xxx忽略
+            table-strategy:
+              standard:
+                sharding-column: b_date
+                sharding-algorithm-name: record-inline
+          bg_inside_country_month:
+            actual-data-nodes: ds1..xxx忽略
+            table-strategy:
+              standard:
+                sharding-column: b_date
+                sharding-algorithm-name: record-inline
+          bg_goods_country_month:
+            actual-data-nodes: ds1.xxx忽略
+            table-strategy:
+              standard:
+                sharding-column: b_date
+                sharding-algorithm-name: record-inline
+          bg_goods_month:
+            actual-data-nodes: ds1.xxx忽略
+            table-strategy:
+              standard:
+                sharding-column: b_date
+                sharding-algorithm-name: record-inline
+      readwrite-splitting:
+        data-sources:
+          ds1:
+            type: Static
+            props:
+              write-data-source-name: ds1
+              # 从库
+              read-data-source-names: ds1slave0
+              load-balancer-name: round
+          ds2:
+            type: Static
+            props:
+              write-data-source-name: ds2
+              # 从库
+              read-data-source-names: ds2slave0
+              load-balancer-name: round
+        # 负载均衡算法
+        load-balancers:
+          round:
+            type: ROUND_ROBIN
+```",NONE
+1320862225,bug,[gateway] Websocket connection error when reaching a non secure endpoint,"## :collision: Describe the bug
+When you have a websocket endpoint in your API and test using Postman, you will be able to connect but the moment you send a Request you will get a 400 error Response.
+
+## :sunrise_over_mountains: To Reproduce
+Steps to reproduce the behavior:
+1. Enable websocket in the GW gravitee.yml file
+
+![image](https://user-images.githubusercontent.com/57534152/181504821-e4d9d39d-e019-4b5c-896b-03871b878461.png)
+
+2. Use this WS https://www.bitstamp.net/websocket/v2/ , this is a chat WS so when we send a specific json body it will reply. ( https://www.bitstamp.net/websocket/v2/ )
+3. Test in 3.10.15(works well) and 3.18 or 3.15 to compare. 
+
+![image](https://user-images.githubusercontent.com/57534152/181505342-de13368a-13e1-4a6d-a38c-ac50f0f6a3b9.png)
+
+![image](https://user-images.githubusercontent.com/57534152/181505294-a69d9411-e87e-4b9a-9e1c-9c9c1020f21e.png)
+
+
+## :rainbow: Expected behavior
+We should be able to use websocket without any issue.
+
+## :movie_camera: Useful information
+Screenshot, video, logs, other supporting material
+
+## :computer: Desktop:
+
+***Please complete the following information:***
+ - Environment: Docker-Desktop
+ - OS: Windows 11
+ - Browser: Google Chrome
+## :warning: Potential impacts
+
+***What are the impacted versions?***
+- 3.15.X and 3.18.X ",NONE
+1342589587,bug,"When running on an oVirt compute node, virtual machines are reported twice.","### Bug reporting acknowledgment
+
+Yes, I read it
+
+### Professional support
+
+Yes, I know
+
+### Describe the bug
+
+When gathering the inventory for a CentOS 7 server running as oVirt compute node, the list of virtual machines running on the node is duplicated. Each virtual machine is reported twice. Once as libvirt, once as libvirt-qemu. With same uuid but slightly different attributes. (The one with type ""libvirt"" seems to be the good one)
+
+Excerpt from the json output:
+```
+...
+      ""virtualmachines"": [
+...
+         {
+            ""memory"": 1048,
+            ""name"": ""ns1.serveursdns.net"",
+            ""status"": ""running"",
+            ""subsystem"": ""kvm"",
+            ""uuid"": ""2d0965fd-f077-4337-b470-8cb098c0a827"",
+            ""vcpu"": 16,
+            ""vmtype"": ""libvirt""
+         },
+...
+         {
+            ""name"": ""qemu-27-ns1.serveursdns.net"",
+            ""status"": ""running"",
+            ""subsystem"": ""vm"",
+            ""uuid"": ""2d0965fd-f077-4337-b470-8cb098c0a827"",
+            ""vcpu"": 24,
+            ""vmtype"": ""libvirt-qemu""
+         },
+...
+      ],
+```
+### To reproduce
+
+1. On an oVirt host
+glpi-inventory --json --verbose --debug > /tmp/inventory2.json
+
+2. Inspect output file. VMs are reported twice.
+
+### Expected behavior
+
+The entries for VMs reported as type ""libvirt-qemu"" should not be there.
+
+### Operating system
+
+Linux
+
+### GLPI Agent version
+
+Other (See additional context below)
+
+### GLPI version
+
+10.0.1
+
+### GLPIInventory plugin or FusionInventory for GLPI plugin version
+
+1.0.1
+
+### Additional context
+
+CentOS Linux release 7.9.2009 (Core)
+glpi-agent Version 1.4-1",NONE
+1102128695,feature,Please add ability to pass the filename to  Error and Crash Attachments instead of pushing RAW data,"**Describe the solution you'd like**
+In the current situation when we meet OOM crashes or work with low-end devices operation with sending raw data as an attachment to AppCenter report looks o expensive. It will be more useful to pass the filename as an attachment to the report to reduce the cost of this operation for the end device.
+",NONE
+1352070277,bug,"Unable to open attachments of type TXT ""Cannot open file""","## Overview
+
+I'm unable to open attachments of type TXT. Double clicking on an attachment in the advanced tab shows the following error:
+
+```
+Unable to open attachment:
+Cannot open file ""recovery-codes.txt""
+```
+
+## Steps to Reproduce
+
+1. Add a TXT file as an attachment to an entry.
+2. Try to open it.
+
+## Expected Behavior
+
+File should open. For example in Notepad.
+
+## Actual Behavior
+
+File does not open. Error is shown.
+
+## Context
+
+Debug info:
+
+```
+KeePassXC - Version 2.7.1
+Revision: 5916a8f
+
+Qt 5.15.3
+Debugging mode is disabled.
+
+Operating system: Windows 10 Version 2009
+CPU architecture: x86_64
+Kernel: winnt 10.0.22000
+
+Enabled extensions:
+- Auto-Type
+- Browser Integration
+- SSH Agent
+- KeeShare
+- YubiKey
+- Quick Unlock
+
+Cryptographic libraries:
+- Botan 2.18.1
+```
+
+Operating System: Windows 11",NONE
+1174210413,bug,Instances and Merged skip a frame,"- `three` version: 0.137.4
+- `@react-three/fiber` version: 7.0.26
+- `@react-three/drei` version: 8.7.4
+- `node` version: 16.5.0
+- `npm` (or `yarn`) version: 1.22.17
+
+### Problem description:
+
+When using `Instances` or `Merged` and adding mesh items, they appear in the center of the scene with no transforms at (0, 0, 0) for a split second (well, 1 frame), before receiving the proper transformation.
+
+The problem can be seen in this Codesandbox: https://codesandbox.io/s/instances-skipping-an-update-m90kx3?file=/src/App.js:207-806
+
+Click on the button to add a cube. It should not flicker in the center.
+
+### Relevant code:
+
+There seems to be a comment that is likely related to this in `Instances.tsx`: https://github.com/pmndrs/drei/blob/master/src/core/Instances.tsx#L76
+
+```jsx
+    React.useEffect(() => {
+      // We might be a frame too late? 🤷‍♂️
+      parentRef.current.instanceMatrix.needsUpdate = true
+    })
+```
+
+To reproduce (same code as the Codesandbox):
+
+```jsx
+const geometry = new BoxGeometry()
+const material = new MeshStandardMaterial({ color: '#f00' })
+
+export default function App() {
+  const [cubes, setCubes] = useState([])
+
+  return (
+    <>
+      <button onClick={() => setCubes((x) => [...x, { id: Math.random(), pos: [1, 1, 1] }])}>Add cube</button>
+      <Canvas>
+        <ambientLight intensity={4} />
+        <Instances material={material} geometry={geometry}>
+          {cubes.map((c) => (
+            <Instance key={c.id} position={c.pos} />
+          ))}
+        </Instances>
+        <OrbitControls makeDefault />
+      </Canvas>
+    </>
+  )
+}
+```
+
+Is there any possible workaround in the meantime?",NONE
+1060465511,feature,Support for .NET 6 for windows/linux web app,"<!--- Please keep this note for the community --->
+
+### Community Note
+
+* Please vote on this issue by adding a 👍 [reaction](https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to the original issue to help the community and maintainers prioritize this request
+* Please do not leave ""+1"" or ""me too"" comments, they generate extra noise for issue followers and do not help prioritize the request
+* If you are interested in working on this issue or have submitted a pull request, please leave a comment
+
+<!--- Thank you for keeping this note for the community --->
+
+### Description
+
+Add .NET 6 as an option for `dotnet_version` on beta web app resources.
+Currently errors
+> Error: expected site_config.0.application_stack.0.dotnet_version to be one of [2.1 3.1 5.0], got 6.0
+
+.NET 6 is allowed for existing `azurerm_app_service` as [dotnet_framework_version](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service#dotnet_framework_version)
+
+### New or Affected Resource(s)
+
+<!--- Please list the new or affected resources and data sources. --->
+
+* azurerm_windows_web_app
+* azurerm_linux_web_app
+
+### Potential Terraform Configuration
+
+<!--- Information about code formatting: https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code --->
+
+```hcl
+resource ""azurerm_linux_web_app"" ""example"" {
+  site_config {
+    application_stack {
+      dotnet_version = ""6.0""
+    }
+  }
+  ...
+```
+
+### References
+
+<!---
+Information about referencing Github Issues: https://help.github.com/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests
+
+Are there any other GitHub issues (open or closed) or pull requests that should be linked here? Vendor blog posts or documentation? For example:
+
+* https://azure.microsoft.com/en-us/roadmap/virtual-network-service-endpoint-for-azure-cosmos-db/
+--->
+* [.NET 6 on App Service](https://azure.github.io/AppService/2021/11/08/Dot.Net6.on.App.Service.html)
+* `az webapp list-runtimes --linux` now lists .NET 6 and it's the default from the portal UI.
+```
+[
+  ""DOTNETCORE|2.1"",
+  ""DOTNETCORE|3.1"",
+  ""DOTNET|5.0"",
+  ""DOTNET|6.0"",
+  ...
+  ```
+",NONE
+1209047962,feature,Linkedin share option does not have auto captions,"Unlike Facebook and Twitter share options, Linkedin does not have captions when a particular Project donation page is shared. It only shows this:
+
+If the project has a photo, it only shows the photo with a link:
+![image](https://user-images.githubusercontent.com/93360299/164127646-11de2afe-3d17-44be-a3bb-89a538720fc5.png)
+
+If the project has not photo, this is how it is shown: 
+![image](https://user-images.githubusercontent.com/93360299/164127330-e7d4b50e-2753-4c95-841c-398bbb902f85.png)
+
+@MoeNick ",NONE
+1325299018,bug,Channels unsubscribe without account,"### Official Instance
+
+- [X] The bug is reproducable on the [official hosted instance](http://piped.kavin.rocks/) or is API related.
+
+### Describe the bug
+
+Channels unsubscribe when subscribing to them without an account on iOS
+
+### To Reproduce
+
+1. Subscribe to a bunch of channels
+2. They slowly start disappearing from your feed
+
+### Expected behavior
+
+Channels should not be unsubscribed to over time
+
+### Logs/Errors
+
+N/A
+
+### Browser, and OS with Version.
+
+Latest version of iOS
+
+### Additional context
+
+https://user-images.githubusercontent.com/89056889/182297280-6ee56dca-f8a4-452a-b825-5f8083d62664.MOV",NONE
+1118991020,bug,"Germany - As Authdem GO4 Germany post Slave Revolt, a man with no portrait called Hermann Pfeiffer","**Questions**
+
+- Operating System: idk
+- HOI4 Version: 1.1.5 or whatever the latest version is
+- TNO Version: Latest Version
+- Any other mods in use: Custom Country Paths and the Music Mod
+- Were you using Steam? Yes
+- Which expansions do you NOT have? No Step Back and Bosporus 
+
+Longer Description of Issue: Short description is the whole thing
+
+Steps to Reproduce/Cause Issue: Idk 
+
+1.
+
+2.
+
+etc...
+
+**Screenshots:**
+![20220131000810_1](https://user-images.githubusercontent.com/98728794/151743245-a18138ab-f892-4712-a878-1932a2127e13.jpg)
+
+",NONE
+418297957,feature,Validate all configs before updating,"It would be nice if the import would validate all configs before anything is deployed.
+In my case the STMP-port was a string instead of a number in my config file.
+Everything was deploy up to the point where it should deploy the SMTP settings and I got an `Schema one of` error and it aborted.
+Maybe that could have been checked before anything else was deployed?",NONE
+1345334243,bug,Broken Podcast feed (Android Only),"**Describe the bug**
+Playerprofiler podcast does not play or download in Android, but works fine on the web.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Subscribe to https://podverse.fm/podcast/ncvuf2xgU
+2. Attempt to play or download an episode, but only get errors
+
+**Smartphone (please complete the following information):**
+ - Device: Pixel 6
+ - OS: [Android 12]
+ - App Version 4.6.2
+
+Please feel free to [join our Discord](https://discord.gg/6HkyNKR) and chat with us in the #dev channel if you'd like to work on this.
+",NONE
+1352444794,bug,"TS constructor with attributes short-hand throws ""Unexpected token""","### Describe the bug
+
+TS constructor with attributes short-hand throws ""Unexpected token"": https://dev.to/satansdeer/typescript-constructor-shorthand-3ibd
+
+### Reproduction
+
+![image](https://user-images.githubusercontent.com/29567012/186944111-f48ea753-a58a-4c3c-8079-b0498f672e90.png)
+
+
+### Expected behaviour
+
+Should not throw
+
+### System Info
+
+  System:                                  
+    OS: Windows 10 10.0.22000
+    CPU: (16) x64 AMD Ryzen 9 4900H with Radeon Graphics
+    Memory: 12.16 GB / 31.42 GB
+  Binaries:
+    Node: 18.7.0 - C:\Program Files\nodejs\node.EXE
+    npm: 8.15.0 - C:\Program Files\nodejs\npm.CMD
+  Browsers:
+    Edge: Spartan (44.22000.120.0), Chromium (104.0.1293.54)
+    Internet Explorer: 11.0.22000.120
+  npmPackages:
+    @sveltejs/adapter-node: 1.0.0-next.86 => 1.0.0-next.86 
+    @sveltejs/kit: 1.0.0-next.428 => 1.0.0-next.428 
+    svelte: ^3.49.0 => 3.49.0
+
+### Which package is the issue about?
+
+Svelte for VS Code extension
+
+### Additional Information, eg. Screenshots
+
+_No response_",NONE
+1160214114,feature,Examples should be added for failfast & withParam,"# Summary
+Before all, I am new to all K8S and argo workflow stuff.
+Recently I am struggling with finding solutions for having sequential task pipeline of arbitrary steps. After endless searching on official argo documentation and googling, I finally ended up at: https://github.com/argoproj/argo-workflows/issues/3644. And that is exactly what I need, failfast & withParam!  
+I strongly recommend that we have a example for that simple but splendid solution in repos. If authors are currently too busy, I am willing to write it myself.
+
+# Use Cases
+
+For those new to argo workflow.
+
+---
+**Message from the maintainers**:
+
+Love this enhancement proposal? Give it a 👍. We prioritise the proposals with the most 👍.
+",NONE
+1368127305,feature,Freedom of Association Calculator,"<!-- PLEASE ENSURE YOU REVIEW THE CONTENT OF EACH ISSUE CAREFULLY, INCLUDING SUBSEQUENT COMMENTS BY YOURSELF OR OTHERS. -->
+<!-- IN PARTICULAR PLEASE ENSURE THAT SENSITIVE OR INAPPROPRIATE INFORMATION IS NOT UPLOADED -->
+
+Calculation of Labor Exploitation Risk methodology using the ITUC dataset.
+- Get Freedom of Association by Country from ITUC dataset
+- Get Country import Ratio for particular material in particular ratio of composition
+
+#### Description:
+<!-- Describe your idea. Including details of the intended functionality, expected behaviour and desired inputs and outputs -->
+Calculation methodology using the ITUC dataset.
+
+RW method for Labor Exploitation Risk with only ITUC data.
+![chrome_TelDiNUVaw](https://user-images.githubusercontent.com/30476060/189406342-7bf75c3a-7109-4d8e-93bc-7825eefb8de3.png)
+
+GH Sketch of Labor Exploitation Risk with only ITUC data.
+![Teams_33oJc80W6z](https://user-images.githubusercontent.com/30476060/189410295-14c29ff7-8175-40ee-b3b8-d0ca16750068.png)
+
+",NONE
+1212472659,bug,CORS error when using a DNS other than localhost,"**What happened**:
+
+A CORS error is thrown by the dashboard
+
+> Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:42286/api/ws/negotiate?negotiateVersion=1. (Reason: CORS request did not succeed). Status code: (null).
+
+**What you expected to happen**:
+
+No CORS error is thrown and the dashboard works as expected
+
+**How to reproduce it**:
+
+Run Synapse on a DNS other than localhost
+
+**Anything else we need to know?**:
+
+Probably origin is not used in one or more of the XHR requests (I got this twice on the single page reload).",NONE
+1311413902,bug,org.kohsuke:github-api:1.307 not shaded into core,"The org.kohsuke:github-api:1.307 dependency is not shaded into the final spp-platform jar resulting in a NoClassDefFoundError when attempting to download the probe.
+
+```
+Exception in thread ""vert.x-eventloop-thread-0"" java.lang.NoClassDefFoundError: org/kohsuke/github/GitHub
+	at spp.platform.bridge.probe.ProbeGenerator$githubApi$2.invoke(ProbeGenerator.kt:53)
+	at spp.platform.bridge.probe.ProbeGenerator$githubApi$2.invoke(ProbeGenerator.kt:53)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at spp.platform.bridge.probe.ProbeGenerator.getGithubApi(ProbeGenerator.kt:53)
+	at spp.platform.bridge.probe.ProbeGenerator.doProbeGeneration(ProbeGenerator.kt:90)
+	at spp.platform.bridge.probe.ProbeGenerator.access$doProbeGeneration(ProbeGenerator.kt:47)
+	at spp.platform.bridge.probe.ProbeGenerator$start$2$1.invokeSuspend(ProbeGenerator.kt:72)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.vertx.kotlin.coroutines.VertxCoroutineExecutor.execute(VertxCoroutine.kt:229)
+	at kotlinx.coroutines.ExecutorCoroutineDispatcherImpl.dispatch(Executors.kt:128)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:322)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:30)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable$default(Cancellable.kt:25)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at spp.platform.bridge.probe.ProbeGenerator.start$lambda-0(ProbeGenerator.kt:70)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1267)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.handler.impl.ResponseTimeHandlerImpl.handle(ResponseTimeHandlerImpl.java:39)
+	at io.vertx.ext.web.handler.impl.ResponseTimeHandlerImpl.handle(ResponseTimeHandlerImpl.java:28)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1267)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:163)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:141)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:72)
+	at io.vertx.ext.web.impl.RouterImpl.handle(RouterImpl.java:37)
+	at io.vertx.core.http.impl.Http1xServerRequestHandler.handle(Http1xServerRequestHandler.java:67)
+	at io.vertx.core.http.impl.Http1xServerRequestHandler.handle(Http1xServerRequestHandler.java:30)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:56)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:174)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:145)
+	at io.vertx.core.net.impl.ConnectionBase.read(ConnectionBase.java:155)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:153)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at spp.platform.dependencies.io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at spp.platform.dependencies.io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:99)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.vertx.core.http.impl.Http1xUpgradeToH2CHandler.channelRead(Http1xUpgradeToH2CHandler.java:116)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at spp.platform.dependencies.io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327)
+	at spp.platform.dependencies.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.end(Http1xOrH2CHandler.java:61)
+	at io.vertx.core.http.impl.Http1xOrH2CHandler.channelRead(Http1xOrH2CHandler.java:38)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at spp.platform.dependencies.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at spp.platform.dependencies.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at spp.platform.dependencies.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at spp.platform.dependencies.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at spp.platform.dependencies.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at spp.platform.dependencies.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at spp.platform.dependencies.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at spp.platform.dependencies.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at spp.platform.dependencies.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at spp.platform.dependencies.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at spp.platform.dependencies.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@3ba73ae7, io.vertx.kotlin.coroutines.VertxCoroutineExecutor@3a0c0199]
+Caused by: java.lang.ClassNotFoundException: org.kohsuke.github.GitHub
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 73 more
+```",NONE
+430146611,question,Right prompt shifts cursor left onto Left prompt,"<!--
+Thanks for filing an issue 😄
+
+BEFORE SUBMITTING NEW ISSUE, PLEASE, READ THE TROUBLESHOOTING PAGE!
+
+https://github.com/denysdovhan/spaceship-prompt/blob/master/docs/Troubleshooting.md
+
+Check the other issue templates if you are trying to submit a bug report, feature request, or question.
+Search open/closed issues before submitting since someone might have asked the same thing before!
+-->
+
+Since I updated spaceship, the right prompt moves my cursor left onto the left prompt:
+
+![2019-04-07_15-19](https://user-images.githubusercontent.com/24436622/55684170-955e1880-5948-11e9-86b2-ffaec37edc36.png)
+What the left prompt should look like:
+![2019-04-07_15-21](https://user-images.githubusercontent.com/24436622/55684193-b45caa80-5948-11e9-84ef-afe4f8c9a36e.png)
+
+The git plugin does this(and any plugin that takes up space)
+Here's the spaceship variables defined in `.zshrc`:
+```zsh
+SPACESHIP_PROMPT_ADD_NEWLINE=true
+SPACESHIP_DIR_COLOR=blue
+SPACESHIP_GIT_STATUS_PREFIX="" %{%b%}%{%B%}%{%b%}%{%B%F{green}%}""
+SPACESHIP_GIT_STATUS_SUFFIX=""%{%b%}%{%B%}%{%b%}%{%B%F{green}%}""
+SPACESHIP_VI_MODE_INSERT="" ""
+SPACESHIP_GIT_STATUS_UNTRACKED=""""
+SPACESHIP_GIT_BRANCH_COLOR=242
+SPACESHIP_CHAR_SYMBOL=""$> ""
+SPACESHIP_RUST_SYMBOL="" ""
+SPACESHIP_JOBS_SYMBOL="" ""
+SPACESHIP_BATTERY_SHOW=false
+SPACESHIP_EXEC_TIME_PREFIX=""  ""
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  git           # Git section (git_branch + git_status)
+  host          # Hostname section
+  hg            # Mercurial section (hg_branch  + hg_status)
+  package       # Package version
+  node          # Node.js section
+  ruby          # Ruby section
+  elixir        # Elixir section
+  xcode         # Xcode section
+  swift         # Swift section
+  golang        # Go section
+  php           # PHP section
+  rust          # Rust section
+  haskell       # Haskell Stack section
+  julia         # Julia section
+  docker        # Docker section
+  aws           # Amazon Web Services section
+  venv          # virtualenv section
+  conda         # conda virtualenv section
+  pyenv         # Pyenv section
+  dotnet        # .NET section
+  ember         # Ember.js section
+  kubecontext   # Kubectl context section
+  line_sep      # Line break
+  battery       # Battery level and status
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_RPROMPT_ORDER=(
+  time          # Time stamps section
+  #git           # Git section (git_branch + git_status)
+  exec_time     # Execution time
+  jobs          # Background jobs indicator
+  vi_mode       # Vi-mode indicator
+)
+```
+
+My entire `zshrc`:
+```zsh
+#!/usr/bin/env zsh
+
+PS1='
+%{%B%}%{%b%}%{%B%F{blue}%}%(4~||)%3~%{%b%f%}%{%B%}
+%{%b%}%{%B%}%{%b%}%{%B%F{green}%}$> %{%b%f%}%{%B%}%{%b%}'
+
+### Added by Zplugin's installer
+source '/home/mustaqim/.zplugin/bin/zplugin.zsh'
+autoload -Uz _zplugin
+(( ${+_comps} )) && _comps[zplugin]=_zplugin
+### End of Zplugin's installer chunk
+
+fpath=(
+    $HOME/.local/bin
+    $ZDOTDIR/functions
+    $ZDOTDIR/completions
+    $HOME/.emacs.d/bin
+	$HOME/.cargo/bin \
+    ""${fpath[@]}""
+)
+
+##===  VARIABLES  === {{{
+export LC_CTYPE=en_US.UTF-8
+export EDITOR=nvim
+export GNUPGHOME=$HOME/.config/gnupg
+export GPG_TTY=$(tty)
+export MANPAGER='nvim -c ""set ft=man"" -'
+export ENHANCD_FILTER=fzf:fzy
+export FZF_DEFAULT_COMMAND=""fd --type file --color=always""
+export FZF_CTRL_T_COMMAND=""$FZF_DEFAULT_COMMAND""
+export FZF_ALT_C_COMMAND=""fd -t d . $HOME""
+export FZF_TMUX_HEIGHT=80%
+export FZF_DEFAULT_OPTS=""--ansi""
+export RANGER_LOAD_DEFAULT_RC=FALSE
+export JAVA_HOME=""/usr/lib/jvm/openjdk""
+#export RUST_SRC_PATH=""$(rustc --print sysroot)/lib/rustlib/src/rust/src""
+
+HISTFILE=~/.zsh/zsh_history
+HISTSIZE=100000
+SAVEHIST=100000
+HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1				# all search results returned will be unique
+setopt incappendhistory					            # add commmand to history as soon as it's entered
+setopt extendedhistory									# save command timestamp
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_SAVE_NO_DUPS                        		# don't write duplicate entries in the history file
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_SPACE                        		# prefix commands you don't want stored with a space
+setopt NO_HUP											# don't kill jobs
+setopt NO_CHECK_JOBS
+setopt correct                                  		# spelling correction for commands
+setopt autocd
+unsetopt rm_star_silent					            # ask for confirmation for `rm *' or `rm path/*'
+
+if [ ! -S ~/.ssh/ssh_auth_sock ]; then
+  eval `ssh-agent`
+  ln -sf ""$SSH_AUTH_SOCK""    ~/.ssh/ssh_auth_sock
+fi
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+ssh-add -l > /dev/null || ssh-add
+
+zshaddhistory() {
+	whence ${${(z)1}[1]} >| /dev/null || return 1 } 	# Don't add wrong commands to history
+
+fzf-open-file-or-dir() {
+  local cmd=""command find -L . \
+    \\( -path '*/\\.*' -o -fstype 'dev' -o -fstype 'proc' \\) -prune \
+    -o -type f -print \
+    -o -type d -print \
+    -o -type l -print 2> /dev/null | sed 1d | cut -b3-""
+  local out=$(eval $cmd | fzf-tmux --exit-0)
+
+  if [ -f ""$out"" ]; then
+    $EDITOR ""$out"" < /dev/tty
+  elif [ -d ""$out"" ]; then
+    cd ""$out""
+    zle reset-prompt
+  fi
+}
+zle     -N   fzf-open-file-or-dir
+bindkey '^P' fzf-open-file-or-dir
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey ""^[[1;5C"" vi-forward-word
+bindkey ""^[[1;5D"" vi-backward-word
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+bindkey '^Q' push-line
+
+#zstyle ':completion:*' matcher-list '' \
+#       'm:{a-z\-}={A-Z\_}' \
+#       'r:[^[:alpha:]]||[[:alpha:]]=** r:|=* m:{a-z\-}={A-Z\_}' \
+#       'r:|?=** m:{a-z\-}={A-Z\_}'
+#zstyle "":completion:*:descriptions"" format ""%B%d%b""
+
+SPACESHIP_PROMPT_ADD_NEWLINE=true
+SPACESHIP_DIR_COLOR=blue
+SPACESHIP_GIT_STATUS_PREFIX="" %{%b%}%{%B%}%{%b%}%{%B%F{green}%}""
+SPACESHIP_GIT_STATUS_SUFFIX=""%{%b%}%{%B%}%{%b%}%{%B%F{green}%}""
+SPACESHIP_VI_MODE_INSERT="" ""
+SPACESHIP_GIT_STATUS_UNTRACKED=""""
+SPACESHIP_GIT_BRANCH_COLOR=242
+SPACESHIP_CHAR_SYMBOL=""$> ""
+SPACESHIP_RUST_SYMBOL="" ""
+SPACESHIP_JOBS_SYMBOL="" ""
+SPACESHIP_BATTERY_SHOW=false
+SPACESHIP_EXEC_TIME_PREFIX=""  ""
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  git           # Git section (git_branch + git_status)
+  host          # Hostname section
+  hg            # Mercurial section (hg_branch  + hg_status)
+  package       # Package version
+  node          # Node.js section
+  ruby          # Ruby section
+  elixir        # Elixir section
+  xcode         # Xcode section
+  swift         # Swift section
+  golang        # Go section
+  php           # PHP section
+  rust          # Rust section
+  haskell       # Haskell Stack section
+  julia         # Julia section
+  docker        # Docker section
+  aws           # Amazon Web Services section
+  venv          # virtualenv section
+  conda         # conda virtualenv section
+  pyenv         # Pyenv section
+  dotnet        # .NET section
+  ember         # Ember.js section
+  kubecontext   # Kubectl context section
+  line_sep      # Line break
+  battery       # Battery level and status
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_RPROMPT_ORDER=(
+  time          # Time stamps section
+  #git           # Git section (git_branch + git_status)
+  exec_time     # Execution time
+  jobs          # Background jobs indicator
+  vi_mode       # Vi-mode indicator
+)
+
+TIPZ_TEXT='💡'
+#RIPZ_TEXT='💡'
+
+typeset -gA FAST_HIGHLIGHT_STYLES
+FAST_HIGHLIGHT_STYLES[alias]=""fg=012""
+FAST_HIGHLIGHT_STYLES[path]=""fg=blue""
+FAST_HIGHLIGHT_STYLES[path-to-dir]=""fg=blue,underline""
+FAST_HIGHLIGHT_STYLES[suffix-alias]=""fg=012""
+FAST_HIGHLIGHT_STYLES[builtin]=""fg=012""
+FAST_HIGHLIGHT_STYLES[function]=""fg=012""
+FAST_HIGHLIGHT_STYLES[precommand]=""fg=red,underline""
+FAST_HIGHLIGHT_STYLES[command]=""fg=012""
+FAST_HIGHLIGHT_STYLES[commandseparator]=""fg=012""
+FAST_HIGHLIGHT_STYLES[single-hyphen-option]=""fg=047""
+FAST_HIGHLIGHT_STYLES[comment]=""fg=011,bold""
+FAST_HIGHLIGHT_STYLES[single-quoted-argument]=""fg=011""
+FAST_HIGHLIGHT_STYLES[double-quoted-argument]=""fg=011""
+FAST_HIGHLIGHT_STYLES[dollar-quoted-argument]=""fg=011""
+FAST_HIGHLIGHT_STYLES[single-hyphen-option]=""fg=080""
+FAST_HIGHLIGHT_STYLES[double-hyphen-option]=""fg=077""
+
+typeset -g HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=blue,fg=black,bold'
+# }}}
+
+##===  PLUGINS  ===
+zplugin ice wait""0"" atload""unalias run-help"" lucid
+
+zplugin ice wait'0' lucid
+zplugin light ""zsh-users/zsh-history-substring-search""
+
+zplugin ice wait""2"" lucid
+zplugin light ""hlissner/zsh-autopair""
+
+zplugin ice wait""!1"" atinit""zpcompinit; zpcdreplay"" lucid
+zplugin light ""zdharma/fast-syntax-highlighting""
+
+zplugin ice wait'0' atload'_zsh_autosuggest_start' lucid
+zplugin light ""zsh-users/zsh-autosuggestions""
+
+zplugin ice wait""0"" blockf lucid
+zplugin light ""zsh-users/zsh-completions""
+
+zplugin snippet ""OMZ::lib/completion.zsh""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/git/git.plugin.zsh""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/git-extras/git-extras.plugin.zsh""
+zplugin ice wait""2"" lucid
+zplugin ice mv""yadm* -> _yadm"" as""completion""
+zplugin snippet ""https://github.com/TheLocehiliosan/yadm/blob/master/completion/yadm.zsh_completion""
+
+zplugin ice wait""2"" pick""init.sh"" lucid
+zplugin light ""b4b4r07/enhancd""
+zplugin ice wait""2"" lucid
+zplugin light ""changyuheng/zsh-interactive-cd""
+
+zplugin ice wait""2"" lucid
+zplugin light ""molovo/tipz""
+#zplugin light ""jedahan/ripz""
+
+#zplugin light ""willghatch/zsh-cdr""
+#zplugin light ""zsh-users/zaw""
+
+zplugin ice wait""2"" mv""*cht.sh -> cht"" pick""cht"" as""program"" lucid
+zplugin snippet ""https://cht.sh/:cht.sh""
+#zplugin ice wait""2"" as""program"" pick""tldr"" id-as""tldr"" lucid
+#zplugin snippet ""https://raw.githubusercontent.com/raylee/tldr/master/tldr""
+zplugin ice wait""2"" mv""ps_mem.py -> psmem"" pick""psmem"" as""program"" lucid
+zplugin light ""pixelb/ps_mem""
+zplugin ice wait""2"" pick""diff-so-fancy"" as""program"" id-as""diff-so-fancy"" lucid
+zplugin snippet ""https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy""
+#zplugin ice wait""2"" lucid
+#zplugin snippet ""OMZ::plugins/ssh-agent/ssh-agent.plugin.zsh""
+zplugin ice wait""1"" lucid
+zplugin snippet ""https://raw.githubusercontent.com/nicodebo/base16-fzf/master/bash/base16-onedark.config""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/extract/extract.plugin.zsh""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/sudo/sudo.plugin.zsh""
+zplugin ice wait""2"" lucid
+zplugin snippet ""OMZ::plugins/fancy-ctrl-z/fancy-ctrl-z.plugin.zsh""
+
+zplugin ice svn pick""emacs.plugin.zsh""
+zplugin snippet OMZ::plugins/emacs
+
+#zplugin ice pick""fasd"" as""program""
+#zplugin snippet ""https://raw.githubusercontent.com/clvv/fasd/master/fasd""
+#zplugin snippet ""OMZ::plugins/fasd/fasd.plugin.zsh""
+
+#zplugin ice wait'2' lucid
+zplugin light ""denysdovhan/spaceship-prompt""
+#zplugin light ""geometry-zsh/geometry""
+
+zplugin ice wait'!2' lucid
+zplugin light ""chriskempson/base16-shell""
+
+# Local plugins
+zplugin ice wait'2' as""program"" pick""colorblocks"" lucid
+zplugin snippet /home/mustaqim/.local/bin/scripts/colorblocks
+
+#zplugin ice wait'2' as""program"" pick""build/release/peaclock"" atclone""./build.sh"" lucid
+#zplugin light ""octobanana/peaclock""
+
+source /usr/share/doc/fzf/key-bindings.zsh
+source $ZDOTDIR/aliases
+
+autoload -Uz mn cdl open fzf_log yadm_log_diff mkcd fz code fh fkill fco gfy plain pb
+
+zpcompdef _man mn
+# generic completions for programs which understand GNU long options(--help)
+zpcompdef _gnu_generic fd bat gocryptfs curl fzf
+zpcompinit
+zplugin cdreplay -q
+
+# Base16 Shell
+#BASE16_SHELL=""$HOME/.zplugin/plugins/chriskempson---base16-shell/""
+#[ -n ""$PS1"" ] && \
+#    [ -s ""$BASE16_SHELL/profile_helper.sh"" ] && \
+#        eval ""$(""$BASE16_SHELL/profile_helper.sh"")""
+#THEME=base16-onedark
+#$HOME/.zplugin/plugins/chriskempson---base16-shell/scripts/$THEME.sh
+
+
+# vim:ft=zsh:et:fileencoding=utf-8:ft=conf:foldmethod=marker
+```",NONE
+931783124,bug,"[BUG] Undescriptive error message: ""Error loading AssetManifest.json, e: Null check operator used on a null value""","**Describe the bug**
+I am getting the exception ```Error loading AssetManifest.json, e: Null check operator used on a null value``` on start of my app. It occurs the before the first widget is rendered (which has Google Fonts text).
+
+You can find extensive logs here, because I thought this was a Flutter issue: <https://github.com/flutter/flutter/issues/85457>
+
+The exception is not actually an exception but only a print statement concated with an error. The stack trace had to be extracted by setting a breakpoint first and then getting it via dev tools. This is the stack trace:
+
+```
+#0      PlatformAssetBundle.load (package:flutter/src/services/asset_bundle.dart:222:39)
+#1      AssetBundle.loadString (package:flutter/src/services/asset_bundle.dart:68:33)
+#2      CachingAssetBundle.loadString.<anonymous closure> (package:flutter/src/services/asset_bundle.dart:165:56)
+#3      _LinkedHashMapMixin.putIfAbsent (dart:collection-patch/compact_hash.dart:311:23)
+#4      CachingAssetBundle.loadString (package:flutter/src/services/asset_bundle.dart:165:27)
+#5      AssetManifest._loadAssetManifestJson (package:google_fonts/src/asset_manifest.dart:31:28)
+#6      AssetManifest.json (package:google_fonts/src/asset_manifest.dart:24:21)
+#7      loadFontIfNecessary (package:google_fonts/src/google_fonts_base.dart:137:51)
+#8      googleFontsTextStyle (package:google_fonts/src/google_fonts_base.dart:103:3)
+#9      GoogleFonts.poppins (package:google_fonts/google_fonts.dart:75983:12)
+#10     new DerHombergerSchwarzesBrettApp (package:der_homberger_schwarzes_brett/main.dart:23:30)
+#11     main (package:der_homberger_schwarzes_brett/main.dart:6:10)
+#12     _runMainZoned.<anonymous closure>.<anonymous closure> (dart:ui/hooks.dart:142:25)
+#13     _rootRun (dart:async/zone.dart:1354:13)
+#14     _CustomZone.run (dart:async/zone.dart:1258:19)
+#15     _runZoned (dart:async/zone.dart:1789:10)
+#16     runZonedGuarded (dart:async/zone.dart:1777:12)
+#17     _runMainZoned.<anonymous closure> (dart:ui/hooks.dart:138:5)
+#18     _delayEntrypointInvocation.<anonymous closure> (dart:isolate-patch/isolate_patch.dart:283:19)
+#19     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+```
+
+**To Reproduce**
+I actually have no clue what I have done wrong.
+
+**Expected behavior**
+No exception in the console
+
+**Include the contents of your `google_fonts` directory**
+I am sorry, I don't know where to find it. :(
+
+**Smartphone (please complete the following information if applicable):**
+ - Device: Pixel 2
+ - OS: Android 12 (Emulator)
+
+**Additional context**
+The exception is ""thrown"" on line 34 in file ```asset_manifest.dart```. I have no clue what the file does, nor, obviously, how to resolve it.",NONE
+1328846435,bug,"[BUG] ""From id is missing"" not showing for non registered account","## **Version**
+- Godwoken v1
+
+```
+curl -X POST --data '{""jsonrpc"":""2.0"",""id"":73,""method"":""eth_call"",""params"":[{""from"":""0x2dA4a1f1cBdfa7F1D4E49c1db5d1AeE10d78A814"",""data"": ""0x9749c04a0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000010000000000000000000000002da4a1f1cbdfa7f1d4e49c1db5d1aee10d78a814000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000002540be400"",""to"":""0xA4b86a26A1C6751D9dc320416F30ff2fcbCdC946"", ""value"": ""0x2540be400""},""latest""]}' https://v1.mainnet.godwoken.io/rpc  -H ""Content-Type: application/json""
+```
+
+## **Describe the bug**
+When I try to execute a transaction from non registered wallet, but it has pCKB from smart contract native send/transfer/call, I do not receive error that account is not registered and all my transactions will be accepted by the node (but wont be executed)
+
+
+**Expected behavior**
+
+From id is missing
+
+**Screenshots or Logs**
+
+https://gw-mainnet-explorer.nervosdao.community/tx/0x791c3effd2eabc08f63b423f1512e8581b56e8b10948abfe3da90e610c5b1e1c/internal-transactions
+https://gw-mainnet-explorer.nervosdao.community/tx/0x0bca6b9a8e3312b9b7a9ececb06b5839bc19dbd95d587181ee98e3f31bcf3be3/internal-transactions
+
+two transactions where they have been sent as pCKB (as native) to 0x2dA4a1f1cBdfa7F1D4E49c1db5d1AeE10d78A814",NONE
+1088540592,question,Unpreacacher,"Hi,
+
+Just a quick question, can you use the unprecacher module on the older versions? I am currently running on version 1.4. Some of the maps such as css_dust2_go, they don't work, because I get an error with 512 limit and I'm trying to find a solution to resolve this problem. If I can use, could you please advise me on how to configure the module please? 
+
+Merry Christmas! ",NONE
+1124690028,feature,Better error messages for type callable,"### Description
+
+I deliberately avoid the callable type in my code because it produces misleading error messages. 
+
+Examples:
+
+```php
+$cb = [PhpTokn::class, 'tokenize']; // typo in class name
+
+(fn(callable $cb) => 0)($cb); 
+// expected error: Argument #1 ($cb) must be of type callable, but class ""PhpTokn"" does not exist
+// actual error: Argument #1 ($cb) must be of type callable, array given 
+```
+
+```php
+$cb = [PhpToken::class, 'tokenze']; // typo in method name
+
+(fn(callable $cb) => 0)($cb); 
+// expected error: Argument #1 ($cb) must be of type callable, but method PhpToken::tokenze() does not exist
+// actual error: Argument #1 ($cb) must be of type callable, array given 
+```
+
+```php
+$cb = 'PhpTokn::tokenize'; // typo in class name
+
+(fn(callable $cb) => 0)($cb); 
+// expected error: Argument #1 ($cb) must be of type callable, but class ""PhpTokn"" does not exist
+// actual error: Argument #1 ($cb) must be of type callable, string given 
+```
+
+```php
+$cb = 'PhpToken::tokenze'; // typo in method name
+
+(fn(callable $cb) => 0)($cb); 
+// expected error: Argument #1 ($cb) must be of type callable, but method PhpToken::tokenze() does not exist
+// actual error: Argument #1 ($cb) must be of type callable, string given 
+```
+
+Not only does the error message not tell you exactly what is wrong with the callback, but it is also little misleading. Message *Must be callable, array given* suggests, that something other than array (or string) was expected. 
+
+Thanks for your consideration.",NONE
+1388698345,documentation,Create Issue in Repository-27-27cc3b47-e834-45f6-afc7-2a944e24bffa,This is the issue body,NONE
+963296082,question,Copy  Paste Files,"
+Unable to copy and paste entire files (.txt, .exe. pdf. docx ...) when performing remote service
+It was attempted from the clipboard or downloading the local clipboard to remote",NONE
+1275583683,feature,Hero image file usage: Delete the file usage if a different file is chosen,"When a new hero image file is uploaded, set the old one to temporary and remove the file usage.
+
+Something like:
+`$file = Drupal\file\Entity\File::load($old_file_id);  
+
+$file->setTemporary();  
+
+$file->save();  
+
+$file_usage = \Drupal::service('file.usage');  
+
+$file_usage->delete($file, 'welcome');`
+",NONE
+1266517393,bug,"MSFS: When Motion Reprojection is ON, it will not persist when switching in and out of VR (CTRL-TAB)","### **Describe the bug**
+When Motion Reprojection is set to ON, it works properly from a fresh start of Microsoft Flight Simulator 2020.  If you **switch out of VR** (CTRL-TAB) and then **switch back in to VR** (CTRL-TAB) you can open the OpenXR Toolkit menu (CTRL-F2) and verify that Motion Projection displays ON and set at 45FPS. However, monitoring Framerate indicates that frames are unlocked.  You can tell reprojection is no longer working.
+
+### **Environment**
+- Microsoft Flight Simulator 2020
+- HP Reverb G2
+- OpenXR v1.1.3
+- EVGA NVIDIA GeForce 3080 Ti
+
+### **To Reproduce**
+Steps to reproduce the behavior:
+1. Run Microsoft Flight Simulator 2020
+2. Set Motion Reprojection to ON at 45FPS in the OpenXR menu (CTRL-F2)
+3. If Motion Reprojection hasn't been enabled, this requires a VR Session Restart
+4. Hitting CTRL-TAB (to switch out of VR) has no effect and Motion Reprojection is not really working.  
+5. Quit Microsoft Flight Simulator 2020 back to desktop.
+6. Run Microsoft Flight Simulator 2020
+7. Switch in to VR  (CTRL-TAB)
+8. Turn on FPS to monitor frames, and you can verify Motion Reprojection is working and locked at 45 FPS
+9. Exit VR (CTRL-TAB)
+10. Enter VR (CTRL-TAB)
+11. Frames are now unlocked.  Frame Rate climbs above 45 FPS and fluctuates.  Settings (CTRL-F2) still show Motion Reprojection is ON and set at 45 FPS, but it is not actually performing reprojection. 
+
+### **Expected behavior**
+Switching in and out of VR (CTRL-TAB) should maintain the Enabled Motion Reprojection Feature.
+
+### **Work-around**
+Set Motion Reprojection to ON in both OpenXR and OpenXR Toolkit.",NONE
+1278398060,feature,IHE Template to not number headers,"may be a second template used in IHE, where the numbering is dictated by the Technical Framework (RAD, IHE, PCC, QRPH). These domains can use this template that will NOT automatically assign header numbers. Thus these IG using this template will need to manually assign header numbers in the header text. (This is how we do this in WORD today. This is necessary because we use volumes, and assigned chapters).",NONE
+1291442385,bug,weaponcore stop working in multiplayer after die or change sector-server,"## Is this a multiplayer or singleplayer bug? Multyplayer
+
+
+
+## Describe the bug: The weaponcore target system works fine, but everytime i die, the target system dont work, cant lock any grids
+and i have to do /wc setdefaults and relog everytime.
+
+
+
+## Steps To Reproduce: playing in server normally, die, target systems stop working.
+
+
+
+## Expected behavior:
+
+
+
+### User Error Report (if Weapon-Specific) and log files
+*WeaponCore lets you generate an error report for a specific weapon, while ingame, hold Ctrl+R and aim the red line at the Weapon that is erroring, and an error report will be generated in WeaponCores log cache: `Users\UserName\AppData\Roaming\SpaceEngineers\Storage\1918681825.sbm_WeaponCore`
+
+Zip up that folder and link it here:  https://drive.google.com/file/d/1vMjDHmkHnknFGA09Ad30fBQ4uG9GKG_f/view?usp=sharing
+",NONE
+1151862308,bug,[Bug]: Can't insert any data to the milvus cluster,"### Is there an existing issue for this?
+
+- [X] I have searched the existing issues
+
+### Environment
+
+```markdown
+- Milvus version: 2.0.1 
+- Deployment mode(standalone or cluster): cluster
+- SDK version(e.g. pymilvus v2.0.0rc2): 2.0.1 
+- OS(Ubuntu or CentOS): Ubuntu 20.04 nodes
+- CPU/Memory: (16/64) * 7
+- GPU: None
+- Others:
+```
+
+
+### Current Behavior
+
+After deploying the milvus2.0.1 in cluster mode and inserting about 300M vectors in different partitions cannot insert data into the cluster anymore without any error.
+![image](https://user-images.githubusercontent.com/11356471/155847535-7298af57-9822-483d-b4f7-24b20b440d5d.png)
+
+After playing with the logs a bit I found that a couple of segments are waiting to be flushed
+Here you can find the output of stern for ""proxy"" and ""datanode"" arguments.
+[logs.zip](https://github.com/milvus-io/milvus/files/8146845/logs.zip)
+
+
+
+### Expected Behavior
+
+_No response_
+
+### Steps To Reproduce
+
+```markdown
+1. Launch Milvus 2.0.1 in cluster mode 
+2. Insert about 300M vectors (384 and 256 dim) in multiple partitions
+3. Creating indices
+4. Putting cluster to query and insertion load 
+5. After a while requests timed-out
+6. Bringing the deployment down and clearing the pulsar PVCs
+7. Deploying again (without modifying etcd and minio PVCs as an HPA test)
+8. Can query vector but can't insert any other vectors
+```
+
+
+### Anything else?
+
+_No response_",NONE
+1138642432,feature,Tree export as an image?,"**Describe the feature that you'd like**
+It would be nice if there was a way to export the branch graph as an image. There have been projects where the team was really proud of the result, and being able to print a commemorative poster of the commit graph would be a nice touch. I guess this would fall under the ""nice to have"" tag more than a requirement, since this is only an aesthetic feature.
+
+Thanks in advance for your time
+",NONE
+1255208441,bug,SEGV src/njs_function.h:167:5 in njs_function_previous_frame,"Environment
+
+```
+Commit  : c62a9fb92b102c90a66aa724cb9054183a33a68c
+Version : 0.7.5
+Build   : 
+     ./configure --cc=clang --address-sanitizer=YES     
+     make
+```
+Proof of concept
+```
+// Minimizing 6DF62492-854B-4782-8E5F-C219F56258E2
+function placeholder(){}
+function main() {
+var v0 = async (v1,v2,...v3) => {
+    var v10 = `
+        var v11 = Object(-9007199254740993,-4027512271n);
+    `;
+    var v16 = `
+        var v17 = (-256n)(-9007199254740993,-4027512271n);
+    `;
+    var v27 = `
+        Object[-4027512271] **= -4027512271n;
+        var v29 = Object(-9007199254740993,...-65536n);
+    `;
+    var v33 = `
+        var v34 = Object(-9007199254740993,-4027512271n);
+    `;
+    var v37 = `
+        var v38 = Object(-9007199254740993,-9007199254740993n);
+    `;
+    var v42 = `
+        var v43 = undefined(-1290018985n,-4027512271n);
+    `;
+    var v49 = [-1000000.0,-1000000.0,-1000000.0];
+    var v57 = `
+        var v58 = (-1.7976931348623157e+308)(8980,-4027512271n);
+    `;
+    var v59 = `
+        (-4027512271n)[-4027512271] **= -4027512271n;
+        var v60 = Object(0n,-4027512271n);
+    `;
+    function v66(v67) {
+        v67[1866532165] = Map;
+    }
+    function v68(v69,v70) {
+        var v77 = new Uint8ClampedArray();
+        var v80 = {};
+        var v81 = /gL8?/;
+        var v82 = {};
+        var v83 = [v80,v82,v81];
+        function v85(v86) {
+            v83[1866532165] = Map;
+        }
+        async function v89(v90,v91) {
+            var v92 = await Map;
+        }
+        function v93(v94,v95) {
+        }
+        var v97 = new Promise(v93);
+        var v99 = v97[""catch""]();
+        var v102 = {""get"":Promise,""set"":v89};
+        var v103 = Object.defineProperty(v99,""constructor"",v102);
+        async function v104(v105,v106) {
+            var v107 = await v103;
+        }
+        var v108 = v104();
+        var v109 = v85(Map);
+        var v110 = String();
+        var v121 = `
+            var v122 = Object(-9007199254740993,-4027512271n);
+        `;
+        var v123 = `
+            (-4027512271n)[-4027512271] **= -4027512271n;
+        `;
+        var v129 = `
+            var v131 = [-4027512271n,Object,-4027512271n,1,v77,-4027512271n,Object,Uint8ClampedArray,8980,Object];
+            var v132 = Object();
+            v132[-4027512271] **= -4027512271n;
+        `;
+        var v139 = `
+            var v140 = Object(-9007199254740993,-4027512271n,0,-4027512271n);
+        `;
+        var v147 = `
+            var v148 = Object(-9007199254740993,-4027512271n,15034n);
+        `;
+        var v151 = `
+            var v152 = Object(-4294967296,-4027512271n);
+        `;
+        var v160 = `
+            var v161 = (-4027512271n)(-9007199254740993,-4027512271n);
+        `;
+        var v171 = `
+            Object[-4027512271] **= -4027512271n;
+            var v173 = Object(-9007199254740993,-4027512271n);
+        `;
+        var v175 = `
+            var v176 = Object(-9007199254740993,-9007199254740993n);
+        `;
+        var v180 = `
+            var v181 = undefined(-4027512271n,-4027512271n);
+        `;
+        var v186 = `
+            var v187 = ""bigint""();
+            v187[-4027512271] **= -4027512271n;
+            var v188 = Object(-4027512271n,-4027512271n);
+        `;
+        var v189 = `
+            (-4027512271n)[-4027512271] **= -4027512271n;
+            var v190 = Object(-9007199254740993,-4027512271n);
+        `;
+        var v194 = `
+            var v195 = ReferenceError(-4027512271n,-4027512271n);
+        `;
+        var v198 = Float64Array();
+        var v203 = `
+            v198[-4027512271] **= -4027512271n;
+            var v204 = Object(-9007199254740993,-4027512271n);
+        `;
+        var v205 = `
+            var v206 = Object(-4027512271n,-4027512271n);
+        `;
+        var v210 = `
+            var v211 = (-1070059123)(-9007199254740993,-4027512271n);
+        `;
+        var v212 = `
+            var v213 = ArrayBuffer(-4027512271n,-9007199254740993n);
+        `;
+        var v219 = `
+            var v220 = undefined(-4027512271n,-4027512271n,Uint8ClampedArray,8980,-4027512271n);
+        `;
+        var v225 = `
+            var v226 = (-4027512271n)();
+            var v227 = v226(0n,-4027512271n);
+        `;
+        var v231 = `
+            var v233 = Object();
+            v233[-1316174388] >>= -4027512271n;
+            var v235 = Object[""getPrototypeOf""](v110,-4027512271n);
+            var v236 = Object(-4027512271n,-4027512271n);
+        `;
+        var v237 = `
+            (-4027512271n)[-4027512271] **= -4027512271n;
+            var v238 = Symbol(-9007199254740993,-4027512271n);
+        `;
+        Promise[-4294967297] = Map;
+    }
+    var v240 = new Promise(v68);
+    var v248 = Object();
+    var v249 = `
+        var v250 = Object(-9007199254740993,-4027512271n);
+    `;
+    var v251 = `
+        var v252 = v251();
+        v252[-4027512271] **= -4027512271n;
+        var v253 = Object(v248,-4027512271n);
+    `;
+    var v254 = `
+        Object[-4027512271] **= -4027512271n;
+        var v256 = (-4027512271n)(-9007199254740993,-4027512271n);
+    `;
+    var v260 = `
+        var v261 = (-4027512271n)(-9007199254740993,-2147483649n);
+    `;
+    var v264 = `
+        var v265 = (-4027512271n)(v49,-4027512271n);
+    `;
+    var v271 = `
+        var v272 = Error(-9007199254740993,3272380054n,Uint8ClampedArray,8980,0n);
+    `;
+    var v276 = `
+        var v277 = (-4027512271n)(-9007199254740993,-4027512271n);
+    `;
+    var v278 = `
+        var v280 = Object();
+        v280[-4027512271] **= -767560483n;
+        var v281 = Object(-4027512271n,-3242169687n);
+    `;
+    var v282 = `
+        (-4027512271n)[-4027512271] **= -4027512271n;
+        var v283 = Object(-9007199254740993,-4027512271n);
+    `;
+    var v287 = `
+        var v288 = (-9007199254740993)();
+        v288[-4027512271] **= -4027512271n;
+        var v289 = v288(0n,-4027512271n);
+    `;
+    var v294 = `
+        undefined[-4027512271] **= -4027512271n;
+        var v295 = Object(...-2691822435,2828643507n);
+    `;
+    var v299 = [-422610.85859980097,13558,-422610.85859980097,-422610.85859980097];
+    var v301 = Object();
+    var v303 = v299[""toString""](v301);
+    var v304 = Function(v303);
+};
+var v305 = v0();
+}
+main();
+// CRASH INFO
+// ==========
+// TERMSIG: 11
+// STDERR:
+
+```
+
+Stack dump
+```
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==9592==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000056 (pc 0x0000005094d3 bp 0x7fffa7f408f0 sp 0x7fffa7f40140 T0)
+==9592==The signal is caused by a READ memory access.
+==9592==Hint: address points to the zero page.
+    #0 0x5094d3 in njs_function_previous_frame /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_function.h:167:5
+    #1 0x5094d3 in njs_vmcode_return /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_vmcode.c:1843:16
+    #2 0x5094d3 in njs_vmcode_interpreter /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_vmcode.c:737:24
+    #3 0x574c72 in njs_function_lambda_call /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_function.c:693:11
+    #4 0x573e4f in njs_function_frame_invoke /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_function.c:769:16
+    #5 0x503e61 in njs_vmcode_interpreter /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_vmcode.c:799:23
+    #6 0x4fa5ae in njs_vm_start /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_vm.c:541:11
+    #7 0x4df3fb in njs_process_script /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_shell.c:1132:19
+    #8 0x4e007f in njs_process_file /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_shell.c:836:11
+    #9 0x4ddbe8 in main /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_shell.c:483:15
+    #10 0x7fa3e91a8082 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x24082) (BuildId: 1878e6b475720c7c51969e69ab2d276fae6d1dee)
+    #11 0x41ea7d in _start (/home/ubuntu/njs-fuzz/JSEngine/njs-target/build/njs+0x41ea7d)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV /home/ubuntu/njs-fuzz/JSEngine/njs/src/njs_function.h:167:5 in njs_function_previous_frame
+==9592==ABORTING
+
+```
+
+Credit
+dramthy(@topsec alpha)
+",NONE
+1138210165,feature,Could Envoy support regex PartialMatch?,"*Description*:
+I am trying to migrate from Nginx to Envoy. There are a lot of regex configs only match a subsequence of the uri. But Enovy's `safe_regex` forces to match the entire uri. So could envoy support this scene through `re2::RE2::PartialMatch`?
+
+[optional *Relevant Links*:]
+Nginx regex match use `pcre_exec`: https://www.pcre.org/original/doc/html/pcre_exec.html
+It performs like this:
+```
+Source Code:
+    pcre *re = pcre_compile(""^/a"", 0, &errstr, &erroff, NULL);
+    if (re == NULL) {
+        printf(""regex compile failed: %s"", errstr);
+        return 1;
+    }
+    char *subjects[4] = {""/a"", ""/a/b/c"", ""/a/c"", ""/b/c""};
+    for (int i=0; i<4; i++) {
+        char *subject = subjects[i];
+        int rc = pcre_exec(re, NULL, subject, strlen(subject), 0, 0, NULL, 0);
+        printf(""%s match result %d\n"", subject, rc);
+    }
+
+Output:
+/a match result 0
+/a/b/c match result 0
+/a/c match result 0
+/b/c match result -1
+```",NONE
+794119584,bug,VideoTileGrid not displayed on iPad,"**Describe the bug**
+After joining a meeting and having the useMeetingStatus hook return a success, the videotilegrid does not display the other participants nor the iPad user himself. 
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Join meeting 
+2. Start local video tile
+
+**Expected behavior**
+The videotilegrid should display other participants and the user himself.
+
+**SDK**
+Tried all versions from 1.4 to 1.6.
+
+**Smartphone (please complete the following information):**
+ - Device: iPad 4th generation
+ - OS: 14.3
+ - Browser: Safari 
+",NONE
+1080795206,question,wav2vec-u GAN training not converging on Korean dataset,"## ❓ Questions and Help
+
+### Before asking:
+1. search the issues.
+2. search the docs.
+
+<!-- If you still can't find what you need: -->
+
+#### What is your question?
+we are trying to train wav2vec-u on Korean data but our GAN model does not converge well. Are the parameters used to train the model presented in the paper the same as those included in the repo? Also, are the parameters for the multilingual GAN the same as the English model?
+
+
+#### Code
+
+<!-- Please paste a code snippet if your question requires it! -->
+
+#### What have you tried?
+
+We successfully replicated the Librispeech experiment with English data. We prepared a Korean wav2vec 2.0 model with the public AI hub Korean dataset, but the GAN model does not converge when trained on this same data.
+( it is not decreasing until 150K)
+![image](https://user-images.githubusercontent.com/47556641/146160239-e2b4d332-dad8-4729-8313-dbbda512b7a5.png)
+
+We also tried training the GAN using the XLRS model as an encoder using English Librispeech 100 dataset, and it also does not converge well (with hyper parameter range in paper and recipe). The valididation weighted PPL does not fall below ~60.
+( it is not decreasing until 150K)
+![image](https://user-images.githubusercontent.com/47556641/146159845-4a0d577b-9e4a-46fe-848e-66c226290ce5.png)
+![image](https://user-images.githubusercontent.com/47556641/146160039-02ba5823-0576-4e51-a7c6-85e21345e9d7.png)
+![image](https://user-images.githubusercontent.com/47556641/146160087-b584f66f-54c7-44b4-a459-219229151907.png)
+
+#### What's your environment?
+
+ - fairseq Version (e.g., 1.0 or main): 1.0.0a0+741fd13
+ - PyTorch Version (e.g., 1.0): 1.8.0+cu111
+ - OS (e.g., Linux): ubuntu 20.04
+ - How you installed fairseq (`pip`, source): git clone https://github.com/pytorch/fairseq.git && cd fairseq && git reset --hard 741fd138c69eebc1fac09b590047da85cdeafe2
+ - Build command you used (if compiling from source): python3 -m pip install --editable ./
+ - Python version: 3.8.10
+ - CUDA/cuDNN version: cuda_11.1
+ - GPU models and configuration: A100 x 8
+ - Any other relevant information:
+",NONE
+1245746734,feature,Embedded terminal shell tabs,"### What's the Problem?
+
+_No response_
+
+### Solution/Idea
+
+It would be brilliant if we could have terminal shell tabs (with an option to open as a tab or as a separate window
+
+### Alternatives
+
+Always enabled function but select-able in right click menu
+
+### Priorities
+
+| Capability | Priority |
+| :---------- | :------- |
+| Option to open terminal shells as a Files tab | Must |
+| Right-click on the file location has option to open separate terminal when above option is selected | Should |
+
+
+### Files Version
+
+_No response_
+
+### Windows Version
+
+_No response_
+
+### Comments
+
+_No response_",NONE
+924124569,question,Get number of bits right,"**What is your question?**
+
+In a scaled_integer, how to get the number of bits left or right of the point?
+
+The aim is to write code immune against `power` changes.
+
+TY John
+",NONE

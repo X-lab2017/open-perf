@@ -1,0 +1,24 @@
+{
+  "task": "issue-mula-fine-cls",
+  "defi": "issue report classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nCategorize issue reports. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "bug",
+      "enhancement",
+      "question",
+      "ui",
+      "design",
+      "database",
+      "client",
+      "server",
+      "document",
+      "security",
+      "performance"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

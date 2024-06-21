@@ -1,0 +1,16 @@
+{
+  "task": "issue-sentisw-comment-sentiment-cls",
+  "defi": "issue comment sentiment classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nClassify the sentiment of issue comments. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "positive",
+      "neutral",
+      "negative"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

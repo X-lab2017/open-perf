@@ -1,0 +1,10 @@
+{
+  "task": "issue-gen-nextjs-title-gen",
+  "defi": "issue report title generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate a issue title based on the above issue description. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ""
+}

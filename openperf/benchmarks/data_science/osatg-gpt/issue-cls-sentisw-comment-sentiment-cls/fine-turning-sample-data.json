@@ -1,0 +1,29 @@
+{"sentences": "I have a component with these options:
+```
+{
+  data() {
+    return {
+      ...
+      controls: {
+        ...
+        showProduct: {
+          11: true,
+          13: true,
+          15: false
+        }
+      }
+    }
+  },
+
+  watch: {
+    ...
+    'controls.showProduct': {
+      handler(newValue, oldValue) { // some function },
+      deep: true
+    }
+  }
+}
+```
+
+Whenever I change the value of any product (i.e. controls.showProduct[ x ]) the watcher fires, but newValue and oldValue are always the same with controls.showProduct[ x ] set to the new value.
+", "labels": {"default": ["negative"]}}

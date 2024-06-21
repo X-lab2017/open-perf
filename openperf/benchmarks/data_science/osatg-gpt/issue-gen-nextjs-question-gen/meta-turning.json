@@ -1,0 +1,10 @@
+{
+  "task": "issue-gen-nextjs-question-gen",
+  "defi": "issue report question generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate a question based on the above answer. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ""
+}
