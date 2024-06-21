@@ -1,0 +1,31 @@
+{
+  "task": "issue-SoftNER-entiry-extraction",
+  "defi": "issue report entiry extraction",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nEntity:{entity}\nClassify the entities given in the sentence. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "function",
+      "class",
+      "variable",
+      "library",
+      "datatype",
+      "html xml tag",
+      "application",
+      "ui element",
+      "language",
+      "data structure",
+      "algorithm",
+      "file type",
+      "file name",
+      "version",
+      "device",
+      "operating system",
+      "website",
+      "user name"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

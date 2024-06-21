@@ -1,0 +1,31 @@
+{
+  "task": "issue-SoftNER-NER",
+  "defi": "issue report named entity recognition",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nExtract all named entity with type about {label_set} in the sentence. \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "function",
+      "class",
+      "variable",
+      "library",
+      "datatype",
+      "html xml tag",
+      "application",
+      "ui element",
+      "language",
+      "data structure",
+      "algorithm",
+      "file type",
+      "file name",
+      "version",
+      "device",
+      "operating system",
+      "website",
+      "user name"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

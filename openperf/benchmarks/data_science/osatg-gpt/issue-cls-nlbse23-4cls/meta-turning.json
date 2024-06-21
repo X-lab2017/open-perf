@@ -1,0 +1,17 @@
+{
+  "task": "issue-nlbse23-4cls",
+  "defi": "issue report classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nCategorize issue reports. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "bugs",
+      "enhancements",
+      "questions",
+      "documentation"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

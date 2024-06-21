@@ -1,0 +1,10 @@
+{
+  "task": "issue-gen-nextjs-answer-select",
+  "defi": "issue report answer select",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nAnswer:{comments}\nChoose the candidate answer that best aligns with the question. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ","
+}

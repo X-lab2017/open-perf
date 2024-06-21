@@ -1,0 +1,1 @@
+{"sentences": "Bug: [18.3.0-canary] renderToString hoists some tags to top(working in 18.2)", "labels": {"default": ["bug"]}}
