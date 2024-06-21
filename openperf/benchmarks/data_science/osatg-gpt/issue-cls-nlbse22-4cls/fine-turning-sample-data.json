@@ -1,1 +1,1796 @@
-{"sentences": "Welcome screen on every editor window is very tedious.", "labels": {"default": ["bug"]}}
+{"sentences":"Welcome screen on every editor window is very tedious","labels":{"default":["bug"]}}
+{"sentences":"\"pcopy invite\" and \"pcopy paste abc:\" does not check if clipboard exists","labels":{"default":["bug"]}}
+{"sentences":"UI: Modal overlay is half transparent, shouldn't be","labels":{"default":["bug"]}}
+{"sentences":"Make the loading screen scale with browser window size","labels":{"default":["enhancement"]}}
+{"sentences":"Spectator - Investigate a way to strip weapons before they are spectating a player","labels":{"default":["bug"]}}
+{"sentences":"Single Shroom instance for multiple canvases?","labels":{"default":["enhancement"]}}
+{"sentences":"Correct navigation bar for some resolution","labels":{"default":["bug"]}}
+{"sentences":"Return asset growth","labels":{"default":["enhancement"]}}
+{"sentences":"Add filter for logs","labels":{"default":["enhancement"]}}
+{"sentences":"Create trait for Meetup Service publisher stores","labels":{"default":["enhancement"]}}
+{"sentences":"SNMP Agent - Responding with Error Status?","labels":{"default":["enhancement"]}}
+{"sentences":"Help bubbles","labels":{"default":["enhancement"]}}
+{"sentences":"clipRect (r, Region.Op.UNION) deprecated","labels":{"default":["bug"]}}
+{"sentences":"Nvidia Boot Error","labels":{"default":["bug"]}}
+{"sentences":"catAxisLabelPos and valAxisLabelPos options are not working","labels":{"default":["bug"]}}
+{"sentences":"AutoObsidian tool handling: Use Silktouch pick for digging, use Fortune pick for echests","labels":{"default":["enhancement"]}}
+{"sentences":"Add support with Dice So Nice","labels":{"default":["enhancement"]}}
+{"sentences":"Move force-create flag to post-page","labels":{"default":["enhancement"]}}
+{"sentences":"Shim does not support instance-specific / inherited-method wrapping.","labels":{"default":["enhancement"]}}
+{"sentences":"Route to Searched Message","labels":{"default":["bug"]}}
+{"sentences":"Add SNPs inferred from AA changes","labels":{"default":["enhancement"]}}
+{"sentences":"make it so labels can have multiple characters","labels":{"default":["enhancement"]}}
+{"sentences":"Turns out -sb is a replacement of -s9","labels":{"default":["bug"]}}
+{"sentences":"Options in the MenuStrip are still enabled when processing is happening","labels":{"default":["bug"]}}
+{"sentences":"Add an option to avoid doing \"-s\" options for pingo","labels":{"default":["enhancement"]}}
+{"sentences":"imgdanke may not properly close when closing, as pingo (and maybe magick) will not be forcibly stopped","labels":{"default":["bug"]}}
+{"sentences":"If command is extremely quick to process, .tmp image may not get deleted","labels":{"default":["bug"]}}
+{"sentences":"add redis monitoring","labels":{"default":["enhancement"]}}
+{"sentences":"Code Cleanup","labels":{"default":["enhancement"]}}
+{"sentences":"latexmk 配置：建议生成并保留 synctex.gz 文件、删除 \"-outdir=out\" 选项","labels":{"default":["enhancement"]}}
+{"sentences":"Adjust user-facing function names to be more verb-like","labels":{"default":["enhancement"]}}
+{"sentences":"Suggestion: Voyager admin like replacement?","labels":{"default":["enhancement"]}}
+{"sentences":"Create React Boilerplate","labels":{"default":["enhancement"]}}
+{"sentences":"/component/Home/Footer","labels":{"default":["enhancement"]}}
+{"sentences":"미리 보기 날짜 오류 및 건의","labels":{"default":["bug"]}}
+{"sentences":"Eliminating the need for create schemas","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Xbox one app won’t load. Stuck on 2.06","labels":{"default":["bug"]}}
+{"sentences":"[BUG] All TV Shows not loading","labels":{"default":["bug"]}}
+{"sentences":"Not compatible with my school district's Schoology ","labels":{"default":["bug"]}}
+{"sentences":"Add global styles","labels":{"default":["enhancement"]}}
+{"sentences":"Refactor Layout component","labels":{"default":["enhancement"]}}
+{"sentences":"consultar comentarios en los indicadores","labels":{"default":["enhancement"]}}
+{"sentences":"Graficos de los proyectos","labels":{"default":["enhancement"]}}
+{"sentences":"Grafico de preferencias","labels":{"default":["enhancement"]}}
+{"sentences":"Visualizar lista de investigaciones en proceso","labels":{"default":["enhancement"]}}
+{"sentences":"Grafico de los recursos utilizados","labels":{"default":["enhancement"]}}
+{"sentences":"Shop Chat 3.3.0 does not work together with CCP - Core 3.3.0","labels":{"default":["bug"]}}
+{"sentences":"Catch DiscordHTTPError and re-try","labels":{"default":["bug"]}}
+{"sentences":"Feature Advanced mode","labels":{"default":["enhancement"]}}
+{"sentences":"Hour and coin display issue","labels":{"default":["question"]}}
+{"sentences":"Upgrade weapon level","labels":{"default":["bug"]}}
+{"sentences":"unable to display ground+hour+coin+weapon+wall correctly","labels":{"default":["bug"]}}
+{"sentences":"unable to display ground+hour+coin+weapon+wall correctly","labels":{"default":["question"]}}
+{"sentences":"Add \\n\\n to end of all Console.WriteLine to get same output","labels":{"default":["enhancement"]}}
+{"sentences":"Customize/Improve UI","labels":{"default":["enhancement"]}}
+{"sentences":"Naturalization disappeared from google site ","labels":{"default":["question"]}}
+{"sentences":"Save High Score ","labels":{"default":["enhancement"]}}
+{"sentences":"unhandledRejection on remote import without body","labels":{"default":["bug"]}}
+{"sentences":"workDoneProgress blocking input","labels":{"default":["bug"]}}
+{"sentences":"Raffle Improvements","labels":{"default":["bug"]}}
+{"sentences":"Raffle Improvements","labels":{"default":["enhancement"]}}
+{"sentences":"Ticketing System Improvement","labels":{"default":["enhancement"]}}
+{"sentences":"Circular dep + Props refactor","labels":{"default":["bug"]}}
+{"sentences":"IL2CPU exception on boolean","labels":{"default":["bug"]}}
+{"sentences":"Editor settings sidebar don't sync with user","labels":{"default":["bug"]}}
+{"sentences":"BUILD_PCL_EXAMPLES ON will bring us problems:","labels":{"default":["bug"]}}
+{"sentences":"SWR keeps refreshing with old bearer token","labels":{"default":["bug"]}}
+{"sentences":"Swift 4 Key path","labels":{"default":["enhancement"]}}
+{"sentences":"Passthrough support for BLheli_S ESCs not working as expected","labels":{"default":["bug"]}}
+{"sentences":"Updating Password App causing error - Nextcloud stuck in maintenance mode","labels":{"default":["bug"]}}
+{"sentences":"Support reading from stdin","labels":{"default":["enhancement"]}}
+{"sentences":"\"Auto Dismount in Flight\" breaks Travel Form -> Boomkin form","labels":{"default":["bug"]}}
+{"sentences":"Add bar chart to staking panel for total ATMOS staked for 1mo, 3mo, etc","labels":{"default":["enhancement"]}}
+{"sentences":"Add total subsidy number to staking panel","labels":{"default":["enhancement"]}}
+{"sentences":"Walrus kick doesn't affect creeps","labels":{"default":["bug"]}}
+{"sentences":"Retraining overload (with aghs shard) directly after getting it may crash the server","labels":{"default":["bug"]}}
+{"sentences":"Using illusionist cape whilst channeling sun ray may crash the game","labels":{"default":["bug"]}}
+{"sentences":"Snowflake connection not being properly parsed and configured","labels":{"default":["bug"]}}
+{"sentences":"Create a swagger description to document API","labels":{"default":["enhancement"]}}
+{"sentences":"NPC: Aire de Krasus","labels":{"default":["bug"]}}
+{"sentences":"Bug: Model Issue","labels":{"default":["bug"]}}
+{"sentences":"derive Copy for ID","labels":{"default":["question"]}}
+{"sentences":"Context menu - add a button to access the context menu, as well as right click (or add to Options menu) to ","labels":{"default":["enhancement"]}}
+{"sentences":"Profile page","labels":{"default":["enhancement"]}}
+{"sentences":"Sliding scale for model acceptance threshold","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] VRChat's HUD and Nameplate keybinds doesn't correctly change the toggle status in Quick Menu > UI Elements.","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Adding and removing notifications can sometimes crash the game","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Avatar 3.0 parameter saving breaks avatar for other players","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Starting Flight or Noclip for the first time produces a lag spike","labels":{"default":["bug"]}}
+{"sentences":"[Bug] UIExpansionKit menu coloring colors the Pin Star icon","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Permanent drop in FPS due to emmVRC's Favorite Avatars row.","labels":{"default":["bug"]}}
+{"sentences":"Widget Cards","labels":{"default":["enhancement"]}}
+{"sentences":"Widget styles","labels":{"default":["enhancement"]}}
+{"sentences":"Improving Settings.test.tsx","labels":{"default":["enhancement"]}}
+{"sentences":"Change argparse to either Click or Typer","labels":{"default":["enhancement"]}}
+{"sentences":"Implement exclusion patterns","labels":{"default":["enhancement"]}}
+{"sentences":"Mac - detect if VeraCrypt volumes are mounted","labels":{"default":["enhancement"]}}
+{"sentences":"[view] 탐색 화면 애니메이션 및 카테고리 너비 ","labels":{"default":["enhancement"]}}
+{"sentences":"ncneofetch doesn't print summary table in 2.1.3","labels":{"default":["bug"]}}
+{"sentences":"Add autogenerated captions from YouTube","labels":{"default":["enhancement"]}}
+{"sentences":"Fix document for Fisher command","labels":{"default":["bug"]}}
+{"sentences":"Fix document for Fisher command","labels":{"default":["bug"]}}
+{"sentences":"Create initial customized site layout","labels":{"default":["enhancement"]}}
+{"sentences":"Broken links on Labs page","labels":{"default":["bug"]}}
+{"sentences":"Cannot post to community forum","labels":{"default":["bug"]}}
+{"sentences":"Cannot post to community forum","labels":{"default":["bug"]}}
+{"sentences":"SSE","labels":{"default":["enhancement"]}}
+{"sentences":"Screenshot feature broken in Chrome","labels":{"default":["bug"]}}
+{"sentences":"Tab corrupts terminal display","labels":{"default":["bug"]}}
+{"sentences":"mouse clicking or scrolling will cause unexpected inputs","labels":{"default":["bug"]}}
+{"sentences":"Running the fuzzy finder (`tab`) within a session clears the screen and hides command history","labels":{"default":["bug"]}}
+{"sentences":"Anomaly in login code","labels":{"default":["bug"]}}
+{"sentences":"Abstracting functions to navigate","labels":{"default":["enhancement"]}}
+{"sentences":"Source microcontroller","labels":{"default":["enhancement"]}}
+{"sentences":"Source screen","labels":{"default":["enhancement"]}}
+{"sentences":"Create 0.2.0 schematic","labels":{"default":["enhancement"]}}
+{"sentences":"Add physical buttons","labels":{"default":["enhancement"]}}
+{"sentences":"Add fan realy","labels":{"default":["enhancement"]}}
+{"sentences":"Source relay","labels":{"default":["enhancement"]}}
+{"sentences":"Add AC realy","labels":{"default":["enhancement"]}}
+{"sentences":"Allow searching/downloading by YouTube URL","labels":{"default":["enhancement"]}}
+{"sentences":"Implement persistent difficulty and sentence selection system","labels":{"default":["enhancement"]}}
+{"sentences":"Post question diagnostics shows number/letter input when using multiple choice","labels":{"default":["bug"]}}
+{"sentences":"kdb profile doesnt print the header in OrderedDict properly.","labels":{"default":["bug"]}}
+{"sentences":"Pi Sound Support","labels":{"default":["enhancement"]}}
+{"sentences":"Solution 6 - minimal web api as a client.","labels":{"default":["enhancement"]}}
+{"sentences":"Add sample cursed object for other modders","labels":{"default":["enhancement"]}}
+{"sentences":"Add theming option","labels":{"default":["enhancement"]}}
+{"sentences":"can not look up shorthand which is more than one ASCII character","labels":{"default":["bug"]}}
+{"sentences":"Abbreviate meta names in virtual tags","labels":{"default":["enhancement"]}}
+{"sentences":"Manually wrapping an instance when the prototype was wrapped by libWrapper causes an infinite loop.","labels":{"default":["bug"]}}
+{"sentences":"Add ability for editors and admins to add maps to the stratbook at /api/strategies/add","labels":{"default":["enhancement"]}}
+{"sentences":"On launch, player fires cassettes continuously ","labels":{"default":["bug"]}}
+{"sentences":"Geração de Boleto acidental","labels":{"default":["bug"]}}
+{"sentences":"Geração de Boleto acidental","labels":{"default":["bug"]}}
+{"sentences":"Nao consigo editar o CPF cliente ","labels":{"default":["bug"]}}
+{"sentences":"Geração de boleto quando o usuário é uma PJ ou MEI","labels":{"default":["bug"]}}
+{"sentences":"Sims can be generated with opposing traits","labels":{"default":["bug"]}}
+{"sentences":"How to perform image effects (like brightness, contrast,blur,displace) on GPU for manu amount of mages","labels":{"default":["question"]}}
+{"sentences":"Add more to ArchiveMySQLBackups-Perl.pdf ","labels":{"default":["enhancement"]}}
+{"sentences":"Add more to DeleteOldFiles-Perl.pdf ","labels":{"default":["enhancement"]}}
+{"sentences":"API key leaked when error","labels":{"default":["enhancement"]}}
+{"sentences":"Add black square parsing","labels":{"default":["enhancement"]}}
+{"sentences":"Broaden Testing","labels":{"default":["enhancement"]}}
+{"sentences":"Refresh script","labels":{"default":["enhancement"]}}
+{"sentences":"Format Error","labels":{"default":["bug"]}}
+{"sentences":"Fluid output","labels":{"default":["enhancement"]}}
+{"sentences":"Pi Commander: create git doc","labels":{"default":["enhancement"]}}
+{"sentences":"Embed Instagram latest post","labels":{"default":["question"]}}
+{"sentences":"last pull request did not work","labels":{"default":["bug"]}}
+{"sentences":"Please wait dialog is naff","labels":{"default":["enhancement"]}}
+{"sentences":"Avoid overlaps or duplication between analyzers","labels":{"default":["enhancement"]}}
+{"sentences":"Player Name Prompt Error Handling","labels":{"default":["bug"]}}
+{"sentences":"Player Name Prompt Error Handling","labels":{"default":["bug"]}}
+{"sentences":"Today is Earth day!","labels":{"default":["bug"]}}
+{"sentences":"Getting Started with GitHub","labels":{"default":["bug"]}}
+{"sentences":"Keep mobile phone's display on","labels":{"default":["enhancement"]}}
+{"sentences":"gradle does not provide modules/*.jar for transient dependencies (regression)","labels":{"default":["bug"]}}
+{"sentences":"Digitigrade lizard preferences are broken","labels":{"default":["bug"]}}
+{"sentences":"Allow expanding document children during drag-and-drop","labels":{"default":["enhancement"]}}
+{"sentences":"API should respond cleanly to invalid reactToNewGame arguments","labels":{"default":["bug"]}}
+{"sentences":"I can't figure out how to use the forum [forum=1,6]text[/forum] element.","labels":{"default":["enhancement"]}}
+{"sentences":"Remove \"Forum thread:\"","labels":{"default":["enhancement"]}}
+{"sentences":"Note Editor: Add Icons to Multimedia Menu","labels":{"default":["enhancement"]}}
+{"sentences":"Hard crash on first time init & collection is corrupt","labels":{"default":["bug"]}}
+{"sentences":"rpc error: code = Unknown desc = no such table: canary_domains","labels":{"default":["bug"]}}
+{"sentences":"Insufficient Type Constraint for Records","labels":{"default":["bug"]}}
+{"sentences":"The schemagen tool and graphqlservice library should be aware of the version at runtime","labels":{"default":["enhancement"]}}
+{"sentences":"TypeDoc does not report option errors in tsconfig options if --tsconfig is not specified","labels":{"default":["bug"]}}
+{"sentences":"TypeDoc reports wrong class as parent class","labels":{"default":["bug"]}}
+{"sentences":"Enable admins to rename a system component (e.g., element)","labels":{"default":["enhancement"]}}
+{"sentences":"SIMDDispatcherUtils assumes function signature is templated","labels":{"default":["bug"]}}
+{"sentences":"Discrepancy between build.cmd and IDE build","labels":{"default":["bug"]}}
+{"sentences":"Inline temporary variable produce invalid code with the new instantiation shorthand.","labels":{"default":["bug"]}}
+{"sentences":"Add indent rule to tslint","labels":{"default":["enhancement"]}}
+{"sentences":"SQI - Wrong textbox appears when LKMT declares war on Shandong","labels":{"default":["bug"]}}
+{"sentences":"AttributeError: 'HTMLParser' object has no attribute 'unescape'","labels":{"default":["bug"]}}
+{"sentences":"distutils.errors.DistutilsOptionError: must supply either home or prefix/exec-prefix -- not both","labels":{"default":["bug"]}}
+{"sentences":"Release 0.18?","labels":{"default":["question"]}}
+{"sentences":"TeamChannel.GetByDisplayName does not work as $top=1 is not valid in the Graph query","labels":{"default":["bug"]}}
+{"sentences":"Version 3.4.0 failing to install - Unable to find requirements.txt","labels":{"default":["bug"]}}
+{"sentences":"timeline names should be unique per user","labels":{"default":["bug"]}}
+{"sentences":"timelines not sorted alphabetically anymore","labels":{"default":["bug"]}}
+{"sentences":"Elections fix","labels":{"default":["bug"]}}
+{"sentences":"I2C related error on Bananapi - solved","labels":{"default":["enhancement"]}}
+{"sentences":"Create function to call if the RTOS fails","labels":{"default":["enhancement"]}}
+{"sentences":"Write Hard Fault Handler","labels":{"default":["enhancement"]}}
+{"sentences":"Initialize Voltage, Temperature, and Amperes modules","labels":{"default":["bug"]}}
+{"sentences":"[Question] HowTo fix unstable volumes","labels":{"default":["question"]}}
+{"sentences":"Add extra HTML between next page link and footer","labels":{"default":["enhancement"]}}
+{"sentences":"Evaluate stuck after some executions in headless mode","labels":{"default":["bug"]}}
+{"sentences":"Fix card slide up/down transitions","labels":{"default":["bug"]}}
+{"sentences":"Import Source from OggDude XML","labels":{"default":["enhancement"]}}
+{"sentences":"DevOps (CircleCI): `build step` to publish latest version on Github Pages","labels":{"default":["enhancement"]}}
+{"sentences":"Change icon CSS classes to fill attribute","labels":{"default":["enhancement"]}}
+{"sentences":"Addition of ASMGCS_TAXI_ALL.XML & ENR_FREQ_LABELS.XML","labels":{"default":["enhancement"]}}
+{"sentences":"NZNE ASMGCS to be added","labels":{"default":["enhancement"]}}
+{"sentences":"Create a new modifier onlyOwnerOrDaoOrGameManager","labels":{"default":["enhancement"]}}
+{"sentences":"Add pet front and back slot","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] PFD blinking mode indication","labels":{"default":["bug"]}}
+{"sentences":"Add more nav buttons on home page","labels":{"default":["enhancement"]}}
+{"sentences":"Not saving WSJT-X QSOs","labels":{"default":["bug"]}}
+{"sentences":"Add JSON to config types.","labels":{"default":["enhancement"]}}
+{"sentences":"FP gacha not working in KR","labels":{"default":["bug"]}}
+{"sentences":"all-in bug (probably in 2-7 NL)","labels":{"default":["bug"]}}
+{"sentences":"fallin' demo breaks when run atop sexblitter-drawn background on glibc 2.31","labels":{"default":["bug"]}}
+{"sentences":"提示 jwt malformed  ","labels":{"default":["bug"]}}
+{"sentences":"Replace default gridsome.config.js site metadata","labels":{"default":["bug"]}}
+{"sentences":"Fix broken main menu link to posts","labels":{"default":["bug"]}}
+{"sentences":"printf message formatting broken","labels":{"default":["bug"]}}
+{"sentences":"Back nav button is broken","labels":{"default":["bug"]}}
+{"sentences":"Detraitor - Not all Detective weapons are showing in Detraitor shop","labels":{"default":["bug"]}}
+{"sentences":"Swapper - Gets \"stuck\" when killed by the Phantom","labels":{"default":["enhancement"]}}
+{"sentences":"Incorrect conversion between integer types","labels":{"default":["bug"]}}
+{"sentences":"Logback should not be a runtime transitive dependency","labels":{"default":["enhancement"]}}
+{"sentences":"Bookmarking and marking as read is not visible immediately","labels":{"default":["bug"]}}
+{"sentences":"Site does not load properly in Firefox","labels":{"default":["bug"]}}
+{"sentences":"Cannot compile with info.picocli:picocli-spring-boot-starter dependency","labels":{"default":["bug"]}}
+{"sentences":"Cannot compile with picocli-shell-jline3 dependency using Maven","labels":{"default":["bug"]}}
+{"sentences":"Not able to show legend properties in pie chart #PptGenJS","labels":{"default":["question"]}}
+{"sentences":"Private messaging is broken","labels":{"default":["bug"]}}
+{"sentences":"Better toast UI","labels":{"default":["enhancement"]}}
+{"sentences":"Need some feedback when QR code scanned","labels":{"default":["enhancement"]}}
+{"sentences":"Add parameter for version_comment","labels":{"default":["enhancement"]}}
+{"sentences":"requestFriendList fails with -500","labels":{"default":["bug"]}}
+{"sentences":"Seems very nice, is that possible to add blur effect to background?","labels":{"default":["enhancement"]}}
+{"sentences":"Try to accelerate `DNDF` with `Function`","labels":{"default":["enhancement"]}}
+{"sentences":"Missing typography component.","labels":{"default":["enhancement"]}}
+{"sentences":"Missing font component.","labels":{"default":["enhancement"]}}
+{"sentences":"Host Website","labels":{"default":["enhancement"]}}
+{"sentences":"Consistent number of bombs","labels":{"default":["enhancement"]}}
+{"sentences":"Allow right-click to set flag","labels":{"default":["enhancement"]}}
+{"sentences":"Still able to expose bomb on first click","labels":{"default":["bug"]}}
+{"sentences":"Expose surrounding cells when double-clicking a number next to the correct amount of flags","labels":{"default":["enhancement"]}}
+{"sentences":"Don't let the user continue exposing cells once a bomb is triggered","labels":{"default":["enhancement"]}}
+{"sentences":"Implement controller view and respective tests to upload image form","labels":{"default":["enhancement"]}}
+{"sentences":"Add object ","labels":{"default":["enhancement"]}}
+{"sentences":"Unset attributes in components should be set to blank","labels":{"default":["enhancement"]}}
+{"sentences":"<link> tag is closed","labels":{"default":["bug"]}}
+{"sentences":"hr attributes missing","labels":{"default":["bug"]}}
+{"sentences":"/component/Home/Writings","labels":{"default":["enhancement"]}}
+{"sentences":"/component/Work/AgodaFlights.js","labels":{"default":["bug"]}}
+{"sentences":"Scroll to top","labels":{"default":["enhancement"]}}
+{"sentences":"Home/Showcase: Make the Hover black and add microanimation","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature request] personal saves reward","labels":{"default":["enhancement"]}}
+{"sentences":".github 作成","labels":{"default":["enhancement"]}}
+{"sentences":"ライセンス削除","labels":{"default":["enhancement"]}}
+{"sentences":"Set up Sqlite DB","labels":{"default":["enhancement"]}}
+{"sentences":"Set up Sqlite DB","labels":{"default":["enhancement"]}}
+{"sentences":"Set up Sqlite DB","labels":{"default":["enhancement"]}}
+{"sentences":"Criar usuário no banco","labels":{"default":["enhancement"]}}
+{"sentences":"add media queries to create acc component","labels":{"default":["enhancement"]}}
+{"sentences":"Alert dialog opens up even on valid input","labels":{"default":["enhancement"]}}
+{"sentences":"Update README.md for add section of re-use","labels":{"default":["enhancement"]}}
+{"sentences":"Add persistence and optimization","labels":{"default":["enhancement"]}}
+{"sentences":"Integer input for prompt in shop() function","labels":{"default":["enhancement"]}}
+{"sentences":"Randomize order in the fight() function","labels":{"default":["enhancement"]}}
+{"sentences":"Save high score","labels":{"default":["enhancement"]}}
+{"sentences":"Integer input for prompt in shop() funtion","labels":{"default":["enhancement"]}}
+{"sentences":"Randomize order in fight() function ","labels":{"default":["enhancement"]}}
+{"sentences":"Fight/Skip prompt response handling ","labels":{"default":["bug"]}}
+{"sentences":"Integer input for prompt in shop() function","labels":{"default":["enhancement"]}}
+{"sentences":"Randomize Order in the fight() Function","labels":{"default":["enhancement"]}}
+{"sentences":"Randomize fight order for each new round","labels":{"default":["enhancement"]}}
+{"sentences":"Save high score","labels":{"default":["enhancement"]}}
+{"sentences":"Get random Pokemon","labels":{"default":["enhancement"]}}
+{"sentences":"Controlling a suspended load","labels":{"default":["question"]}}
+{"sentences":"Rails 6.0アップグレード","labels":{"default":["enhancement"]}}
+{"sentences":"Data frame with column name \"sep\" cause error","labels":{"default":["bug"]}}
+{"sentences":"Label Impact is big","labels":{"default":["bug"]}}
+{"sentences":"Re-enable caruosel autoscroll","labels":{"default":["bug"]}}
+{"sentences":"System.device.Gpio version 1.2.0 DTH11 ERRO","labels":{"default":["bug"]}}
+{"sentences":"[rllib] pytorch models not able to access batch['infos'] in custom_loss()","labels":{"default":["question"]}}
+{"sentences":"Input/Output Organization Issues","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] Disable balance limit from the Hummingbot client","labels":{"default":["enhancement"]}}
+{"sentences":"Create a bin script to generate the flow visualization","labels":{"default":["enhancement"]}}
+{"sentences":"[VR] Problems with steam vr 1.13.9 (mirror display related ?)","labels":{"default":["bug"]}}
+{"sentences":"Allow perfect (or close too) mirroring of dimensions","labels":{"default":["bug"]}}
+{"sentences":"No lava and no vanilla caves generating","labels":{"default":["enhancement"]}}
+{"sentences":"Dust of Revealing isn't working","labels":{"default":["bug"]}}
+{"sentences":"Support more than UTF-8 files","labels":{"default":["enhancement"]}}
+{"sentences":"Cluster data messing up UI","labels":{"default":["bug"]}}
+{"sentences":"Tabs in docstrings are replaced with spaces","labels":{"default":["bug"]}}
+{"sentences":"How to construct graphql query","labels":{"default":["question"]}}
+{"sentences":"Optimize a dependency aliased to an absolute path","labels":{"default":["bug"]}}
+{"sentences":"URGENT: Donate Page ","labels":{"default":["bug"]}}
+{"sentences":"[Bug Report] VRC+ avi fav ad","labels":{"default":["bug"]}}
+{"sentences":"[Bug Report] Toggle Rank button has changed position","labels":{"default":["bug"]}}
+{"sentences":"[Bug Report] HUD off doesn't save","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Instant Restart doesn't work","labels":{"default":["bug"]}}
+{"sentences":"[BUG REPORT] Instant Restart not functioning VIDEO PROVIDED","labels":{"default":["bug"]}}
+{"sentences":"File structure under Maps to be reorganized","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] First waypoint is skipped?","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Pulling for Heading doesn't cause a reversion to open climb","labels":{"default":["bug"]}}
+{"sentences":"[BUG] No checklist item for fuel pumps on","labels":{"default":["bug"]}}
+{"sentences":"Modify !anon set to take in multiple channels","labels":{"default":["enhancement"]}}
+{"sentences":"Unlimited QuickSave?","labels":{"default":["enhancement"]}}
+{"sentences":"Segmentation fault while building on Linux and macOS","labels":{"default":["bug"]}}
+{"sentences":"Integrate coverage stats for PR","labels":{"default":["enhancement"]}}
+{"sentences":"[cdk:utils]add unified util function to check type of the variable","labels":{"default":["enhancement"]}}
+{"sentences":"Option to generate rhythmic notation or slash notation","labels":{"default":["enhancement"]}}
+{"sentences":"Option to generate rhythmic notation or slash notation","labels":{"default":["enhancement"]}}
+{"sentences":"Other species can be stored for Sentinel Entries","labels":{"default":["enhancement"]}}
+{"sentences":"Other department can be stored for Sentinel Entries","labels":{"default":["enhancement"]}}
+{"sentences":"CAPTCHA required","labels":{"default":["enhancement"]}}
+{"sentences":"Процедура авторизации с 2-х факторной аутентификацией","labels":{"default":["enhancement"]}}
+{"sentences":"не добавляется устройство Телевизор","labels":{"default":["enhancement"]}}
+{"sentences":"Apply half Damage and the Chatcard","labels":{"default":["enhancement"]}}
+{"sentences":"Ranger doesn't have armor and weapon proficiencies","labels":{"default":["bug"]}}
+{"sentences":"not passing 256 or 24bit colors when using terminal-kit","labels":{"default":["bug"]}}
+{"sentences":"BiocParallel: Workaround for assumptions on foreach error messages","labels":{"default":["enhancement"]}}
+{"sentences":"BiocParallel: Workaround for assumptions on foreach error messages","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] Option to view image in full view","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] Backup and restore","labels":{"default":["enhancement"]}}
+{"sentences":"Bug: Unexpected app toolbar colours on dark mode","labels":{"default":["bug"]}}
+{"sentences":"Some benchmarks do not work on XTENSA","labels":{"default":["enhancement"]}}
+{"sentences":"Unable to connect to device, keep getting: Authentication failed, status: 0x66","labels":{"default":["bug"]}}
+{"sentences":"Trennung zwischen Bundesländern und Stadt-/Landkreisen im täglichen Bericht","labels":{"default":["enhancement"]}}
+{"sentences":"TableTransform中，调用read_cells时所用的参数名，和函数定义中的参数名不一致","labels":{"default":["bug"]}}
+{"sentences":"Routerの導入","labels":{"default":["enhancement"]}}
+{"sentences":"Add an option to specify the output interval in INTERP tool. ","labels":{"default":["enhancement"]}}
+{"sentences":"Chrome加载css,js报错","labels":{"default":["bug"]}}
+{"sentences":"Add role 4 BH","labels":{"default":["enhancement"]}}
+{"sentences":"bug: CsvError: Invalid Closing Quote: got \" \" at line 1 instead of delimiter, row delimiter, trimable character (if activated) or comment","labels":{"default":["bug"]}}
+{"sentences":"Scaffold Domain Driven Design","labels":{"default":["bug"]}}
+{"sentences":"About when to show the info columns (size when icons on, specifically)","labels":{"default":["bug"]}}
+{"sentences":"[feature request] Tensorboard support during training","labels":{"default":["enhancement"]}}
+{"sentences":"MIDI Instrument","labels":{"default":["enhancement"]}}
+{"sentences":"MIDI Patches","labels":{"default":["enhancement"]}}
+{"sentences":"MIDI Sequencer","labels":{"default":["enhancement"]}}
+{"sentences":"WAV recorder","labels":{"default":["enhancement"]}}
+{"sentences":"Pulse and Noise waveforms","labels":{"default":["enhancement"]}}
+{"sentences":"Tone Sound Generator","labels":{"default":["enhancement"]}}
+{"sentences":"Stretch Piano Key Map to entire screen","labels":{"default":["enhancement"]}}
+{"sentences":"Non-sustainable envelopes last longer when you tap a note rather than hold it in the Piano example","labels":{"default":["bug"]}}
+{"sentences":"Path setting should also affect image references","labels":{"default":["bug"]}}
+{"sentences":"Dockerfile updates have separate workflow/publishing","labels":{"default":["enhancement"]}}
+{"sentences":"Create search query for MongoDB for basic hiragana search","labels":{"default":["enhancement"]}}
+{"sentences":"Add N-Queens Endpoints","labels":{"default":["enhancement"]}}
+{"sentences":"ProposalResponsePayloads from Peers do not match","labels":{"default":["bug"]}}
+{"sentences":"Create \"Tour of Heroes\" app","labels":{"default":["enhancement"]}}
+{"sentences":"Search only shows first page results","labels":{"default":["bug"]}}
+{"sentences":"todo creation doesn't work after enabling creation","labels":{"default":["bug"]}}
+{"sentences":"Component keyword to Comp","labels":{"default":["enhancement"]}}
+{"sentences":"Create-express-server","labels":{"default":["enhancement"]}}
+{"sentences":"Command line arguments for checking only certain products","labels":{"default":["enhancement"]}}
+{"sentences":"RepositoryのMockを用意する","labels":{"default":["enhancement"]}}
+{"sentences":"Set up mutations and JWT logic","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Login create double token","labels":{"default":["bug"]}}
+{"sentences":"[Element] Better syntax for element attribute and components","labels":{"default":["enhancement"]}}
+{"sentences":"Segmentation fault on iOS in AR","labels":{"default":["bug"]}}
+{"sentences":"Another obfuscated parser bug","labels":{"default":["bug"]}}
+{"sentences":"Correctly detect \"4Kto1080p\" quality as 1080p","labels":{"default":["bug"]}}
+{"sentences":"\"Up\" key should recall previously entered command instead of previous command from history","labels":{"default":["enhancement"]}}
+{"sentences":"Webspace with Reverse Proxy","labels":{"default":["enhancement"]}}
+{"sentences":"Autologin for external pages","labels":{"default":["enhancement"]}}
+{"sentences":"Restart Counter to Screen (Gameserver)","labels":{"default":["enhancement"]}}
+{"sentences":"Add multiple addons","labels":{"default":["enhancement"]}}
+{"sentences":"Session/Speaker: Distinguish Private and Public Info Pages/Views and Separate Them","labels":{"default":["bug"]}}
+{"sentences":"Session/Speaker: Distinguish Private and Public Info Pages/Views and Separate Them","labels":{"default":["enhancement"]}}
+{"sentences":"Ingest Toll Free Phone Numbers","labels":{"default":["enhancement"]}}
+{"sentences":"Non-reproducible outputs from adjoint solver (memory leak?)","labels":{"default":["bug"]}}
+{"sentences":"runtime warning for DFT routines due to Fourier uncertainty principle","labels":{"default":["enhancement"]}}
+{"sentences":"Issue running SWIM for potato","labels":{"default":["question"]}}
+{"sentences":"Full Screen gone","labels":{"default":["bug"]}}
+{"sentences":"GER - I can't return North German Federation Their Provinces","labels":{"default":["bug"]}}
+{"sentences":"CSA - Inverted PP gain, Stability, and missing effect description from New American Dockyards","labels":{"default":["bug"]}}
+{"sentences":"EGY/JBS/OTT - War in the Desert ends with White Peace","labels":{"default":["bug"]}}
+{"sentences":"SAF - AI hasn't solved the BM by 1942, has high inflation, doesn't take at all the decision to lower inflation.","labels":{"default":["bug"]}}
+{"sentences":"Front width","labels":{"default":["bug"]}}
+{"sentences":"WebPlayer not working properly, start button gives JS error","labels":{"default":["bug"]}}
+{"sentences":"Using magickload with vips cli doesn't auto rotate images","labels":{"default":["question"]}}
+{"sentences":"Please add an environment variable that specifies a site_scons directory","labels":{"default":["enhancement"]}}
+{"sentences":"Remove Android Kotlin Extensions Gradle plugin","labels":{"default":["enhancement"]}}
+{"sentences":"Live TV plays using audio description audio track","labels":{"default":["bug"]}}
+{"sentences":"DLNA Playback Not Working?","labels":{"default":["bug"]}}
+{"sentences":"Problem with LovaszLossBinary","labels":{"default":["bug"]}}
+{"sentences":"Unexpected error during NotifRespond() with invalid argument","labels":{"default":["question"]}}
+{"sentences":"Show the \"last updated on\" timestamp for issues","labels":{"default":["enhancement"]}}
+{"sentences":"Utilize IssueTracker component for organization page","labels":{"default":["enhancement"]}}
+{"sentences":"Error Filing PIREP with ACARS","labels":{"default":["bug"]}}
+{"sentences":"feat: Add or Document search capabilities","labels":{"default":["enhancement"]}}
+{"sentences":"\"Open in terminal\" doesn't work","labels":{"default":["bug"]}}
+{"sentences":"Add GET /story/main/, GET /story/trending/","labels":{"default":["enhancement"]}}
+{"sentences":"How to delete internal `<style id=\"__twind\">`?","labels":{"default":["question"]}}
+{"sentences":"Get status data of platform which uses status.io","labels":{"default":["enhancement"]}}
+{"sentences":"Add search in region list","labels":{"default":["enhancement"]}}
+{"sentences":"Scaled Window mode","labels":{"default":["enhancement"]}}
+{"sentences":"ncneofetch is crapping white background after the palette","labels":{"default":["bug"]}}
+{"sentences":"ncdirect_putstr and the avoidance of double default","labels":{"default":["bug"]}}
+{"sentences":"Photo permission issues","labels":{"default":["enhancement"]}}
+{"sentences":"enable load a row into the start or end morph positions and recalculate the morph","labels":{"default":["enhancement"]}}
+{"sentences":"enable load a row into the start or end morph positions and recalculate the morph","labels":{"default":["enhancement"]}}
+{"sentences":"Clarify what save/load grid vs save/load morph set really means","labels":{"default":["bug"]}}
+{"sentences":"enable re-calculate a morph set when either the start or end rows have been painted over","labels":{"default":["enhancement"]}}
+{"sentences":"Investigate issues with CSS Modules and React","labels":{"default":["bug"]}}
+{"sentences":"Enable trying the algorithm on sample inputs","labels":{"default":["enhancement"]}}
+{"sentences":"Opposite Day - Investigate how to get ladders to work","labels":{"default":["bug"]}}
+{"sentences":"infinite health potions from tickling molerat","labels":{"default":["bug"]}}
+{"sentences":"bug: Room dragging","labels":{"default":["bug"]}}
+{"sentences":"RoomCamera: dragging stops when mouse is over dom elements","labels":{"default":["bug"]}}
+{"sentences":"Redeclaring a layout fragment in a decoration template that is part of a hierarchy of nested templates yields the wrong results","labels":{"default":["bug"]}}
+{"sentences":"Catch Fish not progressing","labels":{"default":["bug"]}}
+{"sentences":"Group numbers  needs a rethink","labels":{"default":["enhancement"]}}
+{"sentences":"the possibility to add orca screen reader to the mate live image?","labels":{"default":["enhancement"]}}
+{"sentences":"Bluestacks integration","labels":{"default":["enhancement"]}}
+{"sentences":"Leagues: Directors, Actors, Years - Add descriptions to output sections","labels":{"default":["enhancement"]}}
+{"sentences":"Leagues - put personal save files into a folder","labels":{"default":["enhancement"]}}
+{"sentences":"Bug - Answer component unresponsive","labels":{"default":["bug"]}}
+{"sentences":"Create a form list to register Bimbo NPCs","labels":{"default":["enhancement"]}}
+{"sentences":"Update Hello comments from Honey to use the new Bimbo form list instead","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] Codestyle在反复切换的情况下不生效","labels":{"default":["bug"]}}
+{"sentences":"[1846] wrong player highlighted for Priority Deal on spreadsheet","labels":{"default":["bug"]}}
+{"sentences":"Consolidate ChirpCsv and RepeaterBook into ChannelSource interface","labels":{"default":["enhancement"]}}
+{"sentences":"Viewpoints wrong with orthographic projection since commit 69cfc71f \"Better ortho zoom extents math\"","labels":{"default":["bug"]}}
+{"sentences":"Recharger flips close when there's a battery attached","labels":{"default":["bug"]}}
+{"sentences":"`files.from_dir` is case-sensitive, misses `.WAV` files","labels":{"default":["bug"]}}
+{"sentences":"Transaction daytrade calculation doesn't allow for deleting transactions","labels":{"default":["enhancement"]}}
+{"sentences":"Bug report","labels":{"default":["bug"]}}
+{"sentences":"[BUG] 进地图一分钟不到就直接崩溃，没有卡顿，游戏窗口直接消失，然后出现游戏非正常退出，好几次了","labels":{"default":["bug"]}}
+{"sentences":"Add assist","labels":{"default":["enhancement"]}}
+{"sentences":"增加搜索所有平台的支持","labels":{"default":["enhancement"]}}
+{"sentences":"listen1 插件ID每次打开都不一样？","labels":{"default":["question"]}}
+{"sentences":"Cleric does not have Turn option in battle","labels":{"default":["bug"]}}
+{"sentences":"Use CudaAccelerator. But i see that ILGPU using CPUAccelerator","labels":{"default":["question"]}}
+{"sentences":"Passing raw pointers around with Cuda acceleration","labels":{"default":["bug"]}}
+{"sentences":"Repository tags","labels":{"default":["enhancement"]}}
+{"sentences":"Exception loading blockstate definition.","labels":{"default":["bug"]}}
+{"sentences":"Hammock breaks if more than 1 player are on a server","labels":{"default":["bug"]}}
+{"sentences":"Survive Mod Support","labels":{"default":["enhancement"]}}
+{"sentences":"Being able to see the strip/print it after it's already been viewed","labels":{"default":["enhancement"]}}
+{"sentences":"Add support for load combinations","labels":{"default":["enhancement"]}}
+{"sentences":"Show who is alive after each vote","labels":{"default":["enhancement"]}}
+{"sentences":"Reduce game end delay on backend","labels":{"default":["enhancement"]}}
+{"sentences":"In GameOver, show characters of all players","labels":{"default":["bug"]}}
+{"sentences":"Dynamic Trees don't work on server-side","labels":{"default":["bug"]}}
+{"sentences":"[BUG] New number timed out","labels":{"default":["bug"]}}
+{"sentences":"[IssueCreator] labelとかをfzfで選べると嬉しい","labels":{"default":["enhancement"]}}
+{"sentences":"Update and Improve Styling","labels":{"default":["enhancement"]}}
+{"sentences":"extractor: vector out of range [rare]","labels":{"default":["bug"]}}
+{"sentences":"ngClass errors not working properly on form group","labels":{"default":["bug"]}}
+{"sentences":"New file is required.","labels":{"default":["enhancement"]}}
+{"sentences":"Move reusable files","labels":{"default":["enhancement"]}}
+{"sentences":"Advanced layouts using flexbox","labels":{"default":["enhancement"]}}
+{"sentences":"Mobile responsiveness with media queries","labels":{"default":["enhancement"]}}
+{"sentences":"Adding animation","labels":{"default":["enhancement"]}}
+{"sentences":"Fight/Skip prompt response handling","labels":{"default":["bug"]}}
+{"sentences":"Fight/Skip prompt response","labels":{"default":["bug"]}}
+{"sentences":"New dashboard Tab is created when click on \"Left\" arrow key on keyboard","labels":{"default":["bug"]}}
+{"sentences":"Heads up: NPE with JDK15","labels":{"default":["bug"]}}
+{"sentences":"Can I manually create and initialize an object of class named \"Efficient_ransac::Plane_range\" ?","labels":{"default":["question"]}}
+{"sentences":"How do I delete an installed provider?","labels":{"default":["bug"]}}
+{"sentences":"Fix proto6 build issues","labels":{"default":["bug"]}}
+{"sentences":"IL2CPU exception on very basic command pattern","labels":{"default":["bug"]}}
+{"sentences":"Opening a snippet w/ `language: none` fails to select in block","labels":{"default":["bug"]}}
+{"sentences":"Show others players DM / reporting button","labels":{"default":["enhancement"]}}
+{"sentences":"Possible to delete profile picture","labels":{"default":["enhancement"]}}
+{"sentences":"CSV Importer: cURL error 6: Could not resolve host with docker-compose","labels":{"default":["question"]}}
+{"sentences":"[Bug] Device credential validator throw an exception while creating a new device exception if database in short time inconsistency","labels":{"default":["bug"]}}
+{"sentences":"Feature request: add a cut-off distance parameter to rivet_console","labels":{"default":["enhancement"]}}
+{"sentences":"Remove unused dependencies ","labels":{"default":["bug"]}}
+{"sentences":"Encryption CLI is not work","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Get an error when trying to export SiteTemplate to file .pnp","labels":{"default":["bug"]}}
+{"sentences":"select,date-picker,month-picker,range-picker,week-picker 在自定义指令中绑定change 事件不生效","labels":{"default":["enhancement"]}}
+{"sentences":"Safari on macOS experience serious performance problem on scrolling.","labels":{"default":["bug"]}}
+{"sentences":"Jellyfin won't remember position when scrolling and editing something","labels":{"default":["bug"]}}
+{"sentences":"New want: Execute another web page within a secure headless context","labels":{"default":["question"]}}
+{"sentences":"Vuurwerk","labels":{"default":["enhancement"]}}
+{"sentences":"Routing buckets voor instances en interiors","labels":{"default":["enhancement"]}}
+{"sentences":"Adding column: An unexpected error has occurred.","labels":{"default":["bug"]}}
+{"sentences":"Arrows appear near the Agent name in Edit Agent popup in monitors of 24'","labels":{"default":["bug"]}}
+{"sentences":"Initial code commitment","labels":{"default":["enhancement"]}}
+{"sentences":"Right click menu animation drops down from the top when the menu is upon the cursor","labels":{"default":["bug"]}}
+{"sentences":"Update destiny point spending","labels":{"default":["enhancement"]}}
+{"sentences":"How to play plug in pojavluncher","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] BIG PERFORMANCE ISSUE LONG FLIGHT PLAN.","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Dual engine failure during flight","labels":{"default":["bug"]}}
+{"sentences":"изображения обрезаются при отображении","labels":{"default":["bug"]}}
+{"sentences":"Requisitos não-funcionais Segurança [3h]","labels":{"default":["enhancement"]}}
+{"sentences":"Adding a peerDependency without a version specification will cause its corresponding devDependency to be pinned to 0.0.0","labels":{"default":["bug"]}}
+{"sentences":"[Feature Request] Note flag --add-notes in CLI to allow additional notes for each ledger entry","labels":{"default":["enhancement"]}}
+{"sentences":"Build failure with newest Fedora Rawhide g++","labels":{"default":["bug"]}}
+{"sentences":"need a fatal signal handler for ncdirect","labels":{"default":["enhancement"]}}
+{"sentences":"update notcurses.3 to include piles","labels":{"default":["bug"]}}
+{"sentences":"客户端增加博主标识","labels":{"default":["enhancement"]}}
+{"sentences":"Bug: when groups are empty, the spinner runs ","labels":{"default":["bug"]}}
+{"sentences":"Станция определяется только если стереть файл manifest.js","labels":{"default":["question"]}}
+{"sentences":"Включить плейлист пользователя","labels":{"default":["question"]}}
+{"sentences":"Kkts request may does not return error but ohter status codes","labels":{"default":["bug"]}}
+{"sentences":"Extract OdfsWorker in to separate worker process","labels":{"default":["enhancement"]}}
+{"sentences":"not all intervals work correct","labels":{"default":["bug"]}}
+{"sentences":"Fix padding","labels":{"default":["bug"]}}
+{"sentences":"Clarify documentation around \"required\" inverse relationships","labels":{"default":["question"]}}
+{"sentences":"Human Race Bug","labels":{"default":["enhancement"]}}
+{"sentences":"Modifiers from Changes tab to attack rolls aren't added to Attack bonuses fields","labels":{"default":["bug"]}}
+{"sentences":"Just testing gh cli","labels":{"default":["bug"]}}
+{"sentences":"Adding ebay.ca","labels":{"default":["enhancement"]}}
+{"sentences":"crates.io released version does not compile","labels":{"default":["bug"]}}
+{"sentences":"Provide react-solid-state typings","labels":{"default":["enhancement"]}}
+{"sentences":"Concatenate nil value error casting spell from a macro","labels":{"default":["bug"]}}
+{"sentences":"[Date Picker] - Special characters appended to value in IE 11","labels":{"default":["bug"]}}
+{"sentences":"Command line tool: Help message should include version number","labels":{"default":["enhancement"]}}
+{"sentences":"Add don't kill my app to faq","labels":{"default":["enhancement"]}}
+{"sentences":"hide the unlock pro features banner after user unlocks pro version by default","labels":{"default":["enhancement"]}}
+{"sentences":"Problem with ESP32_DEVKIT V4  WROOM & StepperDemo","labels":{"default":["bug"]}}
+{"sentences":"Problem with ESP32_DEVKIT V4  WROOM & StepperDemo","labels":{"default":["enhancement"]}}
+{"sentences":"セクション名の変更","labels":{"default":["enhancement"]}}
+{"sentences":"Azureのアプリ情報を環境変数で読み込むようにする","labels":{"default":["enhancement"]}}
+{"sentences":"Error message for unsupported languages","labels":{"default":["bug"]}}
+{"sentences":"Set a label after  \\printbibliography","labels":{"default":["enhancement"]}}
+{"sentences":"Document the extended name format","labels":{"default":["enhancement"]}}
+{"sentences":"Compilation hangs when using volcite with pagenumber","labels":{"default":["bug"]}}
+{"sentences":"Break line first call of \\text<lang> or \\foreignlanguage","labels":{"default":["bug"]}}
+{"sentences":"Latest biblatex raises compile error with pdfx package","labels":{"default":["bug"]}}
+{"sentences":"Biblatex 3.15a \\MakeSentenceCase* issue with relatedtype bytranslator","labels":{"default":["bug"]}}
+{"sentences":"Biblatex 3.15a, casechanger=expl3, and latin1 encoding","labels":{"default":["bug"]}}
+{"sentences":"Loading isodate after biblatex causes MakeSentenceCase* to misbehave","labels":{"default":["bug"]}}
+{"sentences":"Issues with \\AfterPreamble","labels":{"default":["bug"]}}
+{"sentences":"lbx file for supporting basque language","labels":{"default":["enhancement"]}}
+{"sentences":"Biblatex 3.15a & dev, babel, and extra space before \\smartof","labels":{"default":["bug"]}}
+{"sentences":"Некорректный экспорт Enviroment Texture","labels":{"default":["bug"]}}
+{"sentences":"Lives counter broken","labels":{"default":["bug"]}}
+{"sentences":"多实例下的server每晚定时清理日志时可能会并发问题","labels":{"default":["bug"]}}
+{"sentences":"receive ProcessorTrackerStatusReportReq but system can't find TaskTracker","labels":{"default":["bug"]}}
+{"sentences":"对于快速执行完毕的任务，闲置判定不准确","labels":{"default":["bug"]}}
+{"sentences":"任务多开关几次，调度中心的worker机器都不见了","labels":{"default":["bug"]}}
+{"sentences":"Provide a setVersion task","labels":{"default":["enhancement"]}}
+{"sentences":"戦闘のエアリスバグ？","labels":{"default":["bug"]}}
+{"sentences":"[BUG]","labels":{"default":["bug"]}}
+{"sentences":"Add in STRINGs interaction data","labels":{"default":["enhancement"]}}
+{"sentences":"検索画面に異常系を実装","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] Add drag and drop support to post content with react-movable","labels":{"default":["enhancement"]}}
+{"sentences":"公開サイトの表示が崩れる","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Submitted by %MeanGirLz","labels":{"default":["bug"]}}
+{"sentences":"进入地图后过一会就未响应 也不崩溃 就是一直未响应 后台看游戏的占用率是0% 然后强行关后 出现了崩溃的报告[BUG] ","labels":{"default":["bug"]}}
+{"sentences":"[1.16.4] Media buttons pause the game","labels":{"default":["bug"]}}
+{"sentences":"Animation issues","labels":{"default":["bug"]}}
+{"sentences":"Style of error pages is ugly. At least top fix css should be applied. ","labels":{"default":["bug"]}}
+{"sentences":"Support for 3DO (Opera) emulator","labels":{"default":["enhancement"]}}
+{"sentences":"Fronius Symo inkl. Smart Meter","labels":{"default":["question"]}}
+{"sentences":"Add Release Config","labels":{"default":["enhancement"]}}
+{"sentences":"[FEATURE] Add support for moving already created files to a folder","labels":{"default":["enhancement"]}}
+{"sentences":"MakeDirectory - Finish the todos","labels":{"default":["enhancement"]}}
+{"sentences":"Landing page","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Mardown italics","labels":{"default":["bug"]}}
+{"sentences":"forge 35.1.28 incompatability","labels":{"default":["bug"]}}
+{"sentences":"Profileモデルのデフォルト値設定","labels":{"default":["bug"]}}
+{"sentences":"Cannot create Rule use Gateway in \"Gateway Groups\"","labels":{"default":["enhancement"]}}
+{"sentences":"Cannot read property 'illustration','manga' of undefined","labels":{"default":["bug"]}}
+{"sentences":"Ansage nach Uhrzeit auswählbar","labels":{"default":["enhancement"]}}
+{"sentences":"Player can't scour through .pls and .m3u if they're the stream URL","labels":{"default":["bug"]}}
+{"sentences":"Create a \"user\" in firestore with user info","labels":{"default":["enhancement"]}}
+{"sentences":"Detailed VF/AC kick messages","labels":{"default":["enhancement"]}}
+{"sentences":"svg images are wrongly detected as binary","labels":{"default":["bug"]}}
+{"sentences":"testsuite","labels":{"default":["enhancement"]}}
+{"sentences":"SecretHub authenticate with token as parameter","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] MsBuildTask does not set GitVersionInformation.UncommittedChanges","labels":{"default":["bug"]}}
+{"sentences":"Sort threads by activity","labels":{"default":["enhancement"]}}
+{"sentences":"Add Batch Payment to a Client","labels":{"default":["question"]}}
+{"sentences":"BQ769x0-variant with mbed shows wrong current/temperature","labels":{"default":["bug"]}}
+{"sentences":"Check Tab parsed successfully","labels":{"default":["question"]}}
+{"sentences":"setup.sh: pip: no such option: --target /usr/local/lib/python3.7/dist-packages","labels":{"default":["bug"]}}
+{"sentences":"Support Tray onClick event for mac","labels":{"default":["enhancement"]}}
+{"sentences":"Integration with poetry's pyproject.toml","labels":{"default":["question"]}}
+{"sentences":"Question about enviroment problems when compiling pyo3","labels":{"default":["question"]}}
+{"sentences":"Error when importing any non-system default packages","labels":{"default":["question"]}}
+{"sentences":"Question about \"#[pymethods] cannot be used with lifetime parameters or generics\"","labels":{"default":["question"]}}
+{"sentences":"How to register a built-in extension module?","labels":{"default":["question"]}}
+{"sentences":"Question: Overriding Identifiable.Id Property leads to error","labels":{"default":["question"]}}
+{"sentences":"Raycasting seems to not work if camera is inside the root (or any?) bounds","labels":{"default":["bug"]}}
+{"sentences":"Callback-actions should return the new mod view render","labels":{"default":["enhancement"]}}
+{"sentences":"Add an option to show daily new stars, not just cumulative counts","labels":{"default":["enhancement"]}}
+{"sentences":"Install php_pgsql","labels":{"default":["question"]}}
+{"sentences":"[multi-cloud]Cloud object archival should not be available for non-supported vendors","labels":{"default":["bug"]}}
+{"sentences":"Improve the default ProgressBar","labels":{"default":["enhancement"]}}
+{"sentences":"오타&수정 못한 거","labels":{"default":["bug"]}}
+{"sentences":"이미지 너무 오래됨","labels":{"default":["enhancement"]}}
+{"sentences":"add periodical schema refresh from repository","labels":{"default":["enhancement"]}}
+{"sentences":"Remove CHANGELOG in root project","labels":{"default":["enhancement"]}}
+{"sentences":"Propagate and handle errors properly","labels":{"default":["enhancement"]}}
+{"sentences":"Improve nearby bus stops tests","labels":{"default":["enhancement"]}}
+{"sentences":"Use fastlane to deploy to Apple App Store store from CI pipeline","labels":{"default":["enhancement"]}}
+{"sentences":"Use Fastlane to deploy to Android PlayStore from CI pipeline","labels":{"default":["enhancement"]}}
+{"sentences":"devise関連ページのスタイルを修正","labels":{"default":["enhancement"]}}
+{"sentences":"Use mime type to set file extension","labels":{"default":["enhancement"]}}
+{"sentences":"Add setting for default browser","labels":{"default":["enhancement"]}}
+{"sentences":"Show table of contents if page is long","labels":{"default":["enhancement"]}}
+{"sentences":"store app state in local storage","labels":{"default":["enhancement"]}}
+{"sentences":"iOS Chrome Browser not loading.","labels":{"default":["bug"]}}
+{"sentences":"Project Load and Save","labels":{"default":["enhancement"]}}
+{"sentences":"painting inteface gets really laggy / slow in some circumstances","labels":{"default":["bug"]}}
+{"sentences":"Al pulsar enter no pasa validación","labels":{"default":["bug"]}}
+{"sentences":"timer progress icons","labels":{"default":["enhancement"]}}
+{"sentences":"Panel menu label is invalidated on lock screen","labels":{"default":["bug"]}}
+{"sentences":"Can't load extension","labels":{"default":["bug"]}}
+{"sentences":"Resume gradient","labels":{"default":["enhancement"]}}
+{"sentences":"Settings","labels":{"default":["enhancement"]}}
+{"sentences":"cant generate after a save as of the project to another location","labels":{"default":["bug"]}}
+{"sentences":"make pagination menu smaler","labels":{"default":["bug"]}}
+{"sentences":"Importing a Book That You Have Marked as Read in Bookwyrm can Cause it to Switch Back to Currently Reading","labels":{"default":["bug"]}}
+{"sentences":"[REQUEST] A way to revert Seren to the version right before 2.0","labels":{"default":["enhancement"]}}
+{"sentences":"Change to not require re-checking for updates after each update.","labels":{"default":["bug"]}}
+{"sentences":"Change to not require re-checking for updates after each update.","labels":{"default":["enhancement"]}}
+{"sentences":"Allow search for non-\"karaoke\" results","labels":{"default":["enhancement"]}}
+{"sentences":"Predicate call site specific mutations","labels":{"default":["enhancement"]}}
+{"sentences":"Unable to change hyperlink color","labels":{"default":["enhancement"]}}
+{"sentences":"Add keyboard hint at the game start screen","labels":{"default":["enhancement"]}}
+{"sentences":"I think it is that i search for!","labels":{"default":["enhancement"]}}
+{"sentences":"support serving multiple zone:device mappings","labels":{"default":["enhancement"]}}
+{"sentences":"Create NMAP \"commander\" program","labels":{"default":["enhancement"]}}
+{"sentences":"ExampleDoFizzBuzz fails","labels":{"default":["bug"]}}
+{"sentences":"Add CI/CD","labels":{"default":["enhancement"]}}
+{"sentences":"Undeleting item deleted from the first row, moves it to the end","labels":{"default":["bug"]}}
+{"sentences":"[Bug] App crashes on last page of chapter","labels":{"default":["bug"]}}
+{"sentences":"strawberry 5.12 tests","labels":{"default":["bug"]}}
+{"sentences":"Plastic centroid/principal axis centroid not at elastic centroid for doubly symmetric section","labels":{"default":["bug"]}}
+{"sentences":"Unable to update a row with tableRef.onEditRowDataChanged()","labels":{"default":["bug"]}}
+{"sentences":"Terminal closes after trying to get input","labels":{"default":["question"]}}
+{"sentences":"Terminal closes after trying to get input","labels":{"default":["question"]}}
+{"sentences":"Comment inside XML","labels":{"default":["bug"]}}
+{"sentences":"A small tutorial would be nice!","labels":{"default":["question"]}}
+{"sentences":"headers on credits page are broken","labels":{"default":["bug"]}}
+{"sentences":"Backend Testing","labels":{"default":["enhancement"]}}
+{"sentences":"Backend Testing","labels":{"default":["enhancement"]}}
+{"sentences":"Align the button content","labels":{"default":["enhancement"]}}
+{"sentences":"Write postman integration tests for the API","labels":{"default":["enhancement"]}}
+{"sentences":"Tune the swipe effect as more user-friendly","labels":{"default":["enhancement"]}}
+{"sentences":"Fetch pokemons","labels":{"default":["enhancement"]}}
+{"sentences":"Overhall emailer.py","labels":{"default":["enhancement"]}}
+{"sentences":"Update emailer.py to handle one vs. multiple recipient email addresses","labels":{"default":["bug"]}}
+{"sentences":"Fix UI layout to prevent misalignment of health indicator.","labels":{"default":["bug"]}}
+{"sentences":"Known Wayland issues","labels":{"default":["bug"]}}
+{"sentences":"Build Film List Page","labels":{"default":["enhancement"]}}
+{"sentences":"Socket to remote server never explicitly closed","labels":{"default":["bug"]}}
+{"sentences":"./prometheus-nginxlog-exporter: cannot execute binary file","labels":{"default":["bug"]}}
+{"sentences":"Ability to zoom in on a section of track","labels":{"default":["enhancement"]}}
+{"sentences":"Show progress per quarter in lots of minor graphs on screen at same time","labels":{"default":["enhancement"]}}
+{"sentences":"Remove flicker and flashing when switching between analysis views","labels":{"default":["bug"]}}
+{"sentences":"Gather the recipe on show recipe click.","labels":{"default":["enhancement"]}}
+{"sentences":"Pricing table using CSS Grid","labels":{"default":["enhancement"]}}
+{"sentences":"Due date handling","labels":{"default":["enhancement"]}}
+{"sentences":"Nav scroll","labels":{"default":["bug"]}}
+{"sentences":"Carousel images on mobile","labels":{"default":["bug"]}}
+{"sentences":"View does not work on dav resources","labels":{"default":["bug"]}}
+{"sentences":"Zone Status","labels":{"default":["bug"]}}
+{"sentences":"All zones power on initial startup.","labels":{"default":["bug"]}}
+{"sentences":"The improvement of ResponseSplitting.qll","labels":{"default":["question"]}}
+{"sentences":"Rename scalar and tensor maximum and minimum Ops","labels":{"default":["enhancement"]}}
+{"sentences":"Incorrect triggered deprecation message: \"Please install the \"intl\" PHP extension for best performance.\"","labels":{"default":["bug"]}}
+{"sentences":"Inconsistent indentation with repeated calls","labels":{"default":["bug"]}}
+{"sentences":"Mobile view requires an internet connection","labels":{"default":["bug"]}}
+{"sentences":"Find a new home for Taskers ","labels":{"default":["enhancement"]}}
+{"sentences":"\".\" not supported in annotation variables (Annotation Sets)","labels":{"default":["bug"]}}
+{"sentences":"Job deletion doesn't work","labels":{"default":["bug"]}}
+{"sentences":"[filtering row] when adding faster filtering conditions, chips disappear from the view","labels":{"default":["bug"]}}
+{"sentences":"Vet Center and other facility staff can access facility dashboard without content_admin","labels":{"default":["enhancement"]}}
+{"sentences":"Bug: Multiple attendances for waitinglisted members","labels":{"default":["bug"]}}
+{"sentences":"Ability to remove someone as attending","labels":{"default":["bug"]}}
+{"sentences":"Configure AWS S3 to store sponsor logo images in production","labels":{"default":["enhancement"]}}
+{"sentences":"Ability to edit organisers on new workshop page","labels":{"default":["enhancement"]}}
+{"sentences":"Specify different roles","labels":{"default":["bug"]}}
+{"sentences":"Specify different roles","labels":{"default":["enhancement"]}}
+{"sentences":"Organisers (and Chapters) Page","labels":{"default":["enhancement"]}}
+{"sentences":"About Page/FAQ Page in the Top Nav Bar?","labels":{"default":["enhancement"]}}
+{"sentences":"Make vue/no-ref-as-operand fixable","labels":{"default":["enhancement"]}}
+{"sentences":"Unable to use custom .d.ts types in files which are excluded from tsconfig","labels":{"default":["question"]}}
+{"sentences":"View Grid render bug in both GLES2 and GLES3","labels":{"default":["bug"]}}
+{"sentences":"force_sort_within_sections is not case-insensitive","labels":{"default":["enhancement"]}}
+{"sentences":"Forbidden items does not work if you players rename the item.","labels":{"default":["bug"]}}
+{"sentences":"Better formatted support for list queries","labels":{"default":["enhancement"]}}
+{"sentences":"media-control album art issues","labels":{"default":["bug"]}}
+{"sentences":"Matrix operation docs need to be better","labels":{"default":["bug"]}}
+{"sentences":"Matrix operation docs need to be better","labels":{"default":["enhancement"]}}
+{"sentences":"amazon.com/mytv","labels":{"default":["bug"]}}
+{"sentences":"Mail search broken since 1.4.0","labels":{"default":["bug"]}}
+{"sentences":"Flatpak support for smart cards (yubikey)","labels":{"default":["enhancement"]}}
+{"sentences":"With -update flag, if a single test fails all autogold files will be removed","labels":{"default":["bug"]}}
+{"sentences":"Custom Alias config for NBT items","labels":{"default":["enhancement"]}}
+{"sentences":"Add lambda-network support","labels":{"default":["enhancement"]}}
+{"sentences":"when I use detect.py test yolov5m model, the first inference speed slow?","labels":{"default":["question"]}}
+{"sentences":"SkyWars various issues","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Invite activation ling","labels":{"default":["bug"]}}
+{"sentences":"When possessing a zombified piglin, death from other zombified piglins turns player into a regular zombie","labels":{"default":["bug"]}}
+{"sentences":"Suggestion: option to disable fancy demon rendering (or replace it with a simpler one)","labels":{"default":["enhancement"]}}
+{"sentences":"When in a demon state you can be on fire + texture bug.","labels":{"default":["bug"]}}
+{"sentences":"Villager clothes dissappear for a second when possessed.","labels":{"default":["bug"]}}
+{"sentences":"Modded inventory content appears on alternative inventory","labels":{"default":["bug"]}}
+{"sentences":"resurrect as drowned?","labels":{"default":["enhancement"]}}
+{"sentences":"Dragging WIN app window from lo-dpi to hidpi monitor results in incorrect window size","labels":{"default":["bug"]}}
+{"sentences":"Write/diff as we go rather than at the very end of the program","labels":{"default":["bug"]}}
+{"sentences":"Insta-crash when selecting \"Choose Cover\"","labels":{"default":["bug"]}}
+{"sentences":"Add functionality to compare/validate CDS file","labels":{"default":["enhancement"]}}
+{"sentences":"Update CDS processing commands","labels":{"default":["enhancement"]}}
+{"sentences":"Documentation: Pages Past \"Getting Started\" Not Loading on readthedocs.io","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Family invites doesn't works for my family","labels":{"default":["bug"]}}
+{"sentences":"Refill inventory when using #build command","labels":{"default":["enhancement"]}}
+{"sentences":"Efficiency Suggestion","labels":{"default":["enhancement"]}}
+{"sentences":"regex giving me issues, example:","labels":{"default":["bug"]}}
+{"sentences":"Add support for some PC-logo commands","labels":{"default":["enhancement"]}}
+{"sentences":"Field Array move doesn't update dirtyFields","labels":{"default":["bug"]}}
+{"sentences":"3rd party domains are not all enabled on fresh site visit","labels":{"default":["bug"]}}
+{"sentences":"Customizing location button","labels":{"default":["question"]}}
+{"sentences":"Put FlowClient behind an interface","labels":{"default":["enhancement"]}}
+{"sentences":"Navigation","labels":{"default":["enhancement"]}}
+{"sentences":"Okta authorization_code flow not working ","labels":{"default":["question"]}}
+{"sentences":"Chipmunk packages","labels":{"default":["enhancement"]}}
+{"sentences":"[Compatibility] Use column-count on Monster Blocks.","labels":{"default":["enhancement"]}}
+{"sentences":"ISSUE_TEMPLATE icon-request isn't adding the `request:icon` label","labels":{"default":["bug"]}}
+{"sentences":"Newsletter Footer","labels":{"default":["enhancement"]}}
+{"sentences":"Add default editor to images","labels":{"default":["enhancement"]}}
+{"sentences":"Add sample documentations in website ","labels":{"default":["enhancement"]}}
+{"sentences":"NZQN ASMGCS missing a building layer. Appears out of date.","labels":{"default":["enhancement"]}}
+{"sentences":"[ND][COCKPIT] Button \"STA\" should show VORs / VORTACs / TACANs atc. on ND","labels":{"default":["bug"]}}
+{"sentences":"Epic: Library Support - Library Entities","labels":{"default":["enhancement"]}}
+{"sentences":"enable 3 service nodes","labels":{"default":["enhancement"]}}
+{"sentences":"Japanese MRA has wrong checksums","labels":{"default":["bug"]}}
+{"sentences":"Group headers are offset by the Header components height using GroupedVirtuoso","labels":{"default":["bug"]}}
+{"sentences":"Bad format on resolve message.","labels":{"default":["enhancement"]}}
+{"sentences":"[CATCHER] Error report: >> Bad state: Not writing over existing file.","labels":{"default":["bug"]}}
+{"sentences":"Default version should be updated","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Error fluter build apk with SDK 30","labels":{"default":["bug"]}}
+{"sentences":"Lazy Load option for multiple videos in the same widget/list","labels":{"default":["enhancement"]}}
+{"sentences":"[FEATURE] Fadeout placeholder when the video starts playing","labels":{"default":["enhancement"]}}
+{"sentences":"[HELP] How do i iterate over a snapshot data to build data source for multiple qualities?","labels":{"default":["question"]}}
+{"sentences":"Issue since latest version in docker when password enabled","labels":{"default":["bug"]}}
+{"sentences":"Initial rendering is incorrect on Firefox","labels":{"default":["bug"]}}
+{"sentences":"slow/laggy UI when dataset has many frames/bounding boxes","labels":{"default":["bug"]}}
+{"sentences":"closest-link is sometimes wrong","labels":{"default":["bug"]}}
+{"sentences":"Link function not working","labels":{"default":["bug"]}}
+{"sentences":"Add feature to visualize class type","labels":{"default":["enhancement"]}}
+{"sentences":"Add a boolean flag to each sequence to mark as 'complete'","labels":{"default":["enhancement"]}}
+{"sentences":"Half-life failing to load","labels":{"default":["bug"]}}
+{"sentences":"Half Life & Morrowind Problems","labels":{"default":["bug"]}}
+{"sentences":"Translation / HTML issue on widget edit screen","labels":{"default":["bug"]}}
+{"sentences":"API Connection: \"Client ID and/or password invalid.\" issue? ","labels":{"default":["bug"]}}
+{"sentences":"Widget Edit Screen: Link input field doesn't work because it should be in the pro version only ","labels":{"default":["bug"]}}
+{"sentences":"Outstanding package description in Debian","labels":{"default":["enhancement"]}}
+{"sentences":"Add Drag & Drop support for apk & OBB ","labels":{"default":["enhancement"]}}
+{"sentences":"Conversions between REAL and INT types does not work","labels":{"default":["bug"]}}
+{"sentences":"recipe quantity update","labels":{"default":["bug"]}}
+{"sentences":"Load and save different values ","labels":{"default":["question"]}}
+{"sentences":"Add possibility to rename filter profiles","labels":{"default":["enhancement"]}}
+{"sentences":"Add possibility to rename filter profiles","labels":{"default":["enhancement"]}}
+{"sentences":"Have some presets for \"Set torrent location\"","labels":{"default":["enhancement"]}}
+{"sentences":"[ICantBeliveItsNotValetudo] broker_url regex does not allow value `core_mosquitto`","labels":{"default":["bug"]}}
+{"sentences":"条件分岐の実装チャット側","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Asking for printer configuration on an ESP3D-flashed SonOff turns the SonOff off","labels":{"default":["bug"]}}
+{"sentences":"ChunkRender sometimes does not update tiles","labels":{"default":["bug"]}}
+{"sentences":"Button on main page to trigger journal pull","labels":{"default":["enhancement"]}}
+{"sentences":"Run as systemd service","labels":{"default":["enhancement"]}}
+{"sentences":"Build a Product Landing Page","labels":{"default":["enhancement"]}}
+{"sentences":"להוסיף בקליטה מאקסל - בעדכון משפחות - בשלש נקודות - היסטוריה - עם דגש על תאריך, הערת המתנדב - וכתובת כפי שידענו אז","labels":{"default":["enhancement"]}}
+{"sentences":"רשימות חלוקה","labels":{"default":["enhancement"]}}
+{"sentences":"אפשרות לסימון כתובות על המפה","labels":{"default":["enhancement"]}}
+{"sentences":"לפעמים כאשר משייכים משלוחים מוסיפים משלוח וזה מאריך משמעותית את הדרך - צריך למצוא דרך לזהות את זה ולאפשר למשתמש לתקן בקלות","labels":{"default":["enhancement"]}}
+{"sentences":"להוסיף אפשרות של שכפול אירועים עם העברת הקודמים לארכיון","labels":{"default":["enhancement"]}}
+{"sentences":"Воспроизведение ошибки при пополнении счёта VIP-клиента","labels":{"default":["bug"]}}
+{"sentences":"При сложении двух переменных типа `double` получается неверный результат","labels":{"default":["bug"]}}
+{"sentences":"Problema anime ","labels":{"default":["bug"]}}
+{"sentences":"link: hooks.toml gets linked","labels":{"default":["bug"]}}
+{"sentences":"Add link for Resume in the menu","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] MQTT publish & subscribe","labels":{"default":["enhancement"]}}
+{"sentences":"[09/01/21] RF-15 Verifica Appuntamenti","labels":{"default":["enhancement"]}}
+{"sentences":"Getting Started with GitHub","labels":{"default":["bug"]}}
+{"sentences":"OGPのディスクリプションが取得できていない","labels":{"default":["bug"]}}
+{"sentences":"Scan Mailbox Task: the mailbox entry resets to the first in list","labels":{"default":["bug"]}}
+{"sentences":"Slow mouse cursor with large imnodes editor","labels":{"default":["bug"]}}
+{"sentences":"Implement compound word field: \"rating\"","labels":{"default":["enhancement"]}}
+{"sentences":"Move url generation and handling custom urls code away from database model object","labels":{"default":["enhancement"]}}
+{"sentences":"Move url generation and handling custom urls code away from database model object","labels":{"default":["enhancement"]}}
+{"sentences":"Problems when used as npm package","labels":{"default":["bug"]}}
+{"sentences":"Allow locking the chatroom","labels":{"default":["enhancement"]}}
+{"sentences":"InputHistory Type","labels":{"default":["enhancement"]}}
+{"sentences":"Separate Character MoveSet/Actions from Movement and P1 / P2","labels":{"default":["enhancement"]}}
+{"sentences":"Input management clean up","labels":{"default":["enhancement"]}}
+{"sentences":"Layer of abstraction (Input interpreter -> semantic actions)","labels":{"default":["enhancement"]}}
+{"sentences":"Система интернет-радио","labels":{"default":["enhancement"]}}
+{"sentences":"NonRandom Class","labels":{"default":["enhancement"]}}
+{"sentences":"Wheel Class","labels":{"default":["enhancement"]}}
+{"sentences":"Implement client-side GraphQL query for homepage data","labels":{"default":["enhancement"]}}
+{"sentences":"変数'exercise'を画面間で共有","labels":{"default":["enhancement"]}}
+{"sentences":"Google Charts not loading","labels":{"default":["bug"]}}
+{"sentences":"Create a function for creating node in Graph class","labels":{"default":["enhancement"]}}
+{"sentences":"number-of-covild-19-vaccinations: Prozentwerte werden nicht angezeigt","labels":{"default":["bug"]}}
+{"sentences":"wit.ai không cho xóa wit$phone_number mặc định (xóa entity)","labels":{"default":["bug"]}}
+{"sentences":"Làm sao để nhập lại thông tin khi nhập sai?","labels":{"default":["bug"]}}
+{"sentences":"Chatbot đẩy dữ liệu lên database","labels":{"default":["enhancement"]}}
+{"sentences":"Dump doesn't work with console application","labels":{"default":["bug"]}}
+{"sentences":"Auto hide on start changing too false when open Synergy configuration","labels":{"default":["bug"]}}
+{"sentences":"awesomplete.min.js.map 404 (Not Found)","labels":{"default":["question"]}}
+{"sentences":"CVEs fixed?","labels":{"default":["bug"]}}
+{"sentences":"Passwords can be stored in clear in database","labels":{"default":["bug"]}}
+{"sentences":"Asynchronous background fetching causes confusing behavior if items are requested before they are done being fetched","labels":{"default":["bug"]}}
+{"sentences":"Process abort due to thread panic","labels":{"default":["bug"]}}
+{"sentences":"Scrolling past default GUI end causes crash","labels":{"default":["bug"]}}
+{"sentences":"bytes to text from multi","labels":{"default":["question"]}}
+{"sentences":"Steam interference turns off automatically.","labels":{"default":["question"]}}
+{"sentences":"Options from style tab should reflect in the previewer as well","labels":{"default":["enhancement"]}}
+{"sentences":"Image Reveal Hover Effects","labels":{"default":["enhancement"]}}
+{"sentences":"Hover effects background image","labels":{"default":["enhancement"]}}
+{"sentences":"User notes","labels":{"default":["enhancement"]}}
+{"sentences":"RxSwift 6.0 Support","labels":{"default":["enhancement"]}}
+{"sentences":"[FEATURE] Apply filters to reply_to_message","labels":{"default":["enhancement"]}}
+{"sentences":"Refactor settings & session","labels":{"default":["enhancement"]}}
+{"sentences":"Bring baseline packages into settings","labels":{"default":["enhancement"]}}
+{"sentences":"Make provided password generator presets editable","labels":{"default":["enhancement"]}}
+{"sentences":"Mail notification for new messeages","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Discord - getting wrong timestamp with notification","labels":{"default":["bug"]}}
+{"sentences":"Draw lines with triangles","labels":{"default":["enhancement"]}}
+{"sentences":"Job Deletion Issues","labels":{"default":["bug"]}}
+{"sentences":"JS exception in the AkauntingSearch component","labels":{"default":["bug"]}}
+{"sentences":"PHOTOPRISM_THUMB_UNCACHED still creates thumbs while indexing","labels":{"default":["question"]}}
+{"sentences":"Docker Hub","labels":{"default":["question"]}}
+{"sentences":"install_name_tool error: .DS_Store is not a Mach-O file","labels":{"default":["bug"]}}
+{"sentences":"Arctic burn with arcane acceleration auto turns off arctic burn","labels":{"default":["bug"]}}
+{"sentences":"LibGUI: Closing a window with autocomplete open leaves the autocomplete on screen permanently","labels":{"default":["bug"]}}
+{"sentences":"[RESEARCH] Identify what libraries are commonly used in build settings","labels":{"default":["question"]}}
+{"sentences":"[FEATURE] Decouple and package separately Translations and Build stuff.","labels":{"default":["enhancement"]}}
+{"sentences":"[FEATURE] Port Web Host Checker as its own package","labels":{"default":["enhancement"]}}
+{"sentences":"roadside","labels":{"default":["bug"]}}
+{"sentences":"tow truck needs a fix","labels":{"default":["bug"]}}
+{"sentences":"List contributors in both Articles and Documentation","labels":{"default":["enhancement"]}}
+{"sentences":"Redirect on auth success","labels":{"default":["bug"]}}
+{"sentences":"Contract hourlyRate BigDecimal With No Decimals","labels":{"default":["bug"]}}
+{"sentences":"Make it possible to import nodes","labels":{"default":["bug"]}}
+{"sentences":"how to manage unity project on github?","labels":{"default":["enhancement"]}}
+{"sentences":"how to manage unity project on github?","labels":{"default":["question"]}}
+{"sentences":"Prompt handling in BatMud","labels":{"default":["bug"]}}
+{"sentences":"카페 상세페이지 뷰 - 카페 정보 수정","labels":{"default":["enhancement"]}}
+{"sentences":"Add a new service Data BNF","labels":{"default":["enhancement"]}}
+{"sentences":"Special action card improvment","labels":{"default":["enhancement"]}}
+{"sentences":"Global Configuration System","labels":{"default":["enhancement"]}}
+{"sentences":"Investigate squashing of incoming messages","labels":{"default":["bug"]}}
+{"sentences":"move to java 11","labels":{"default":["enhancement"]}}
+{"sentences":"cleanup and document spark-extensions module","labels":{"default":["enhancement"]}}
+{"sentences":"[Improvement] Splash screen seamless transition into loader splash","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] MVP logo not showing / too late on splash on Android","labels":{"default":["bug"]}}
+{"sentences":"Change display ","labels":{"default":["enhancement"]}}
+{"sentences":"Fix screen wiring on PCB","labels":{"default":["bug"]}}
+{"sentences":"Fix power switch footprint wiring","labels":{"default":["bug"]}}
+{"sentences":"Add DRT and RST the the FTDI headers","labels":{"default":["enhancement"]}}
+{"sentences":"[TextField] - Implement Currency Type","labels":{"default":["enhancement"]}}
+{"sentences":"Configuration input","labels":{"default":["enhancement"]}}
+{"sentences":"Stylesheet input","labels":{"default":["enhancement"]}}
+{"sentences":"Resource input","labels":{"default":["enhancement"]}}
+{"sentences":"Resource detail","labels":{"default":["enhancement"]}}
+{"sentences":"Resource context menu","labels":{"default":["enhancement"]}}
+{"sentences":"Resource hiding and showing","labels":{"default":["enhancement"]}}
+{"sentences":"Resource expansion","labels":{"default":["enhancement"]}}
+{"sentences":"Resource filtering by graph properties","labels":{"default":["enhancement"]}}
+{"sentences":"Resource filtering by semantic properties","labels":{"default":["enhancement"]}}
+{"sentences":"Multilingual user interface","labels":{"default":["enhancement"]}}
+{"sentences":"Use GitHub Action Workflow Commands","labels":{"default":["enhancement"]}}
+{"sentences":"About Breeding.cs","labels":{"default":["bug"]}}
+{"sentences":"rerun problems if the bbl-hash doesn't change","labels":{"default":["bug"]}}
+{"sentences":"\\assignrefcontextentries by named refcontext ","labels":{"default":["enhancement"]}}
+{"sentences":"Create a \\tiifsavedtitleequal togle","labels":{"default":["enhancement"]}}
+{"sentences":"[Fix] Scenario.records_diff() plots weird results for last values because of inadequate complement","labels":{"default":["bug"]}}
+{"sentences":"Replace coteafs-config with coteafs-datasource.","labels":{"default":["enhancement"]}}
+{"sentences":"Add support for custom army names in adaptive connections","labels":{"default":["enhancement"]}}
+{"sentences":"Strange bug while trying to get a hex color by histogram.","labels":{"default":["enhancement"]}}
+{"sentences":"掌打ラッシュ時の応答停止","labels":{"default":["bug"]}}
+{"sentences":"Ticking Entities (Possible Incompatibilities with Scaling Health Mod)","labels":{"default":["bug"]}}
+{"sentences":"NullPointerException on Achievement from Piglin","labels":{"default":["bug"]}}
+{"sentences":"Minecraft Crash when a creeper explodes","labels":{"default":["bug"]}}
+{"sentences":"Minecraft Crash when a creeper explodes","labels":{"default":["bug"]}}
+{"sentences":"Crash when joining a world","labels":{"default":["bug"]}}
+{"sentences":"Failing on analyserNode.getFloatTimeDomainData(input)","labels":{"default":["question"]}}
+{"sentences":"lwc Flushing protection updates causes long shutdown time","labels":{"default":["question"]}}
+{"sentences":"[bug] character convert","labels":{"default":["bug"]}}
+{"sentences":"Not all active players are displayed in Game Over screen","labels":{"default":["bug"]}}
+{"sentences":"无法加载出页面","labels":{"default":["bug"]}}
+{"sentences":"Feature request: Voxatron emulator / Tac08 emulator support.","labels":{"default":["enhancement"]}}
+{"sentences":"'MediumMotor' object has no attribute 'connected'","labels":{"default":["question"]}}
+{"sentences":"Handle members who left the server","labels":{"default":["bug"]}}
+{"sentences":"test issue labels","labels":{"default":["bug"]}}
+{"sentences":"[02/01/21] RF-7 Visualizzazione Scheda di Allenamento","labels":{"default":["enhancement"]}}
+{"sentences":"[02/01/21] RF-18 Visualizzazione Abbonamenti","labels":{"default":["enhancement"]}}
+{"sentences":"[02/01/21] RF-13 Consultazione Agenda","labels":{"default":["enhancement"]}}
+{"sentences":"関連記事修正","labels":{"default":["enhancement"]}}
+{"sentences":"Background Task Remove/Kill Automatically For some conditions","labels":{"default":["question"]}}
+{"sentences":"help pls","labels":{"default":["bug"]}}
+{"sentences":"Restore password","labels":{"default":["enhancement"]}}
+{"sentences":"Unbound Afrit Summoning Crashes servers.","labels":{"default":["bug"]}}
+{"sentences":"Djinni Machine Operator Erases Storage Actuator's Inventory","labels":{"default":["bug"]}}
+{"sentences":"Iesnium ore mineable with a regular diamond pickaxe.","labels":{"default":["bug"]}}
+{"sentences":"fix tqdm progress bar training loss stagnation issue","labels":{"default":["bug"]}}
+{"sentences":"fix tqdm progress bar training loss stagnation issue","labels":{"default":["bug"]}}
+{"sentences":"add several small-scale datasets","labels":{"default":["enhancement"]}}
+{"sentences":"[Suggestion] Sell Custom Items","labels":{"default":["enhancement"]}}
+{"sentences":"버그 발생!","labels":{"default":["bug"]}}
+{"sentences":"Cài đặt cho bot hỏi theo kịch bản","labels":{"default":["question"]}}
+{"sentences":"Cập nhật ý tưởng dự án và kiến trúc hệ thống","labels":{"default":["enhancement"]}}
+{"sentences":"Getting Started with GitHub","labels":{"default":["enhancement"]}}
+{"sentences":"Update a column value to null","labels":{"default":["question"]}}
+{"sentences":"[DomCrawler] Inconsistency between children and parents","labels":{"default":["bug"]}}
+{"sentences":"error_bubbling doesn't work properly with inherit_data","labels":{"default":["bug"]}}
+{"sentences":"[amazoechocontrol] SmartHomeDevice channels not showing on the interface & use mergeApplianceIds to gather the complete device state","labels":{"default":["bug"]}}
+{"sentences":"Sentry raises `NoMethodError: undefined method 'event_id' for false:FalseClass` on calling Sentry.capture_exception in Rails integration tests","labels":{"default":["bug"]}}
+{"sentences":"Investigate performance of cascading multiple flight servers","labels":{"default":["enhancement"]}}
+{"sentences":"webpack.js.org website doesn't load in Firefox private browsing mode (TypeError: navigator.serviceWorker is undefined)","labels":{"default":["bug"]}}
+{"sentences":"[LOWCAR] Get Encoder and PID to work on KoalaBears","labels":{"default":["enhancement"]}}
+{"sentences":"[LOWCAR] Add a invert_direction parameter to motor controllers","labels":{"default":["enhancement"]}}
+{"sentences":"[LOWCAR] Test UID for flashed lowcar devices change appear differently within net_handler and dev_handler ","labels":{"default":["bug"]}}
+{"sentences":"FileExistsError: label.pkl","labels":{"default":["bug"]}}
+{"sentences":"x_draw_decoration should fill pixmap before starting to draw","labels":{"default":["bug"]}}
+{"sentences":"ToolTip.Tip binding does not update","labels":{"default":["bug"]}}
+{"sentences":"Intel RealSense Viewer / Depth Quality Tool has crashed with Unknown error (-529697949)","labels":{"default":["question"]}}
+{"sentences":"Illegal CPU instruction! bug","labels":{"default":["question"]}}
+{"sentences":"Add support of Android Application gradle module","labels":{"default":["enhancement"]}}
+{"sentences":"libc symbols","labels":{"default":["bug"]}}
+{"sentences":"Exceptions when running from folder with space and number in name","labels":{"default":["bug"]}}
+{"sentences":"Segmentation fault  on raspberry","labels":{"default":["bug"]}}
+{"sentences":"ZigBeeDiscoveryExtension stops periodic discovery of routers","labels":{"default":["bug"]}}
+{"sentences":"Conda-installed CLI 0.10.12 throwing TypeError: 'module' object is not callable","labels":{"default":["bug"]}}
+{"sentences":"Container will not start when deployed to OpenShift 3.11 with chmod /dev/stdout /dev/stderr permission error","labels":{"default":["bug"]}}
+{"sentences":"Fix remain lyric import issue.","labels":{"default":["enhancement"]}}
+{"sentences":"OVERLAY in Bastillefile","labels":{"default":["bug"]}}
+{"sentences":"Bitfinex: Incorrect fee currency used for trades","labels":{"default":["bug"]}}
+{"sentences":"2101 Rebalance ","labels":{"default":["enhancement"]}}
+{"sentences":"nxos_config cannot execute config-replace on non-9K platforms","labels":{"default":["bug"]}}
+{"sentences":"Trading spirit bear in duos allows you to get infinite","labels":{"default":["bug"]}}
+{"sentences":"Snapfire gobble up can turn creeps into allies","labels":{"default":["bug"]}}
+{"sentences":"Lil' shredder 25 talent doesn't work","labels":{"default":["bug"]}}
+{"sentences":"Do we have to use ngrok?","labels":{"default":["question"]}}
+{"sentences":"Uber Eats at Night","labels":{"default":["bug"]}}
+{"sentences":"Police Bike","labels":{"default":["bug"]}}
+{"sentences":"Bike Passenger Seatbelt Icon","labels":{"default":["bug"]}}
+{"sentences":"Incorrect Female Shoe Heights?","labels":{"default":["bug"]}}
+{"sentences":"Add React Native support","labels":{"default":["enhancement"]}}
+{"sentences":"there is a problem when i drag it into extensions it says failed to unzip file","labels":{"default":["bug"]}}
+{"sentences":"Add KOBServer URL option to use an alternate KOBServer","labels":{"default":["enhancement"]}}
+{"sentences":"Where is grub-file?","labels":{"default":["bug"]}}
+{"sentences":"[[Feature Change]] Support for Custom Blocks and Armor that are Immune to Fire","labels":{"default":["bug"]}}
+{"sentences":"`GcInfo` checking and updating when transferring Pr47 objects to Rust","labels":{"default":["bug"]}}
+{"sentences":"Add derived query to find books by ISBN 13","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] Stop call (if call active) on room leave (logout button clicked)","labels":{"default":["bug"]}}
+{"sentences":"Plug-in crashes Home bridge when trying to view camera feed","labels":{"default":["bug"]}}
+{"sentences":"Stop requiring Personal Access Token","labels":{"default":["enhancement"]}}
+{"sentences":"Todo list duplicating tasks.","labels":{"default":["bug"]}}
+{"sentences":"Item counter text wont update after a empty list contains a new item.","labels":{"default":["bug"]}}
+{"sentences":"关于!kitten check指令 权限回显错误的问题","labels":{"default":["bug"]}}
+{"sentences":"关于!kitten check指令 权限回显错误的问题","labels":{"default":["bug"]}}
+{"sentences":"sqlite-utils insert -f colname - for configuring full-text search","labels":{"default":["enhancement"]}}
+{"sentences":"Using Ref as bucketName","labels":{"default":["question"]}}
+{"sentences":"USB devices are not auto-mounted","labels":{"default":["bug"]}}
+{"sentences":"Add movie night scheduling","labels":{"default":["enhancement"]}}
+{"sentences":"Add \"admin mode\"","labels":{"default":["enhancement"]}}
+{"sentences":"Change add-on appearance to flat","labels":{"default":["enhancement"]}}
+{"sentences":"Change add-on branding to appear flat","labels":{"default":["enhancement"]}}
+{"sentences":"App: Access phrasebook in \"Fly\" mode","labels":{"default":["enhancement"]}}
+{"sentences":"8.33khz tuning and airport frequencies","labels":{"default":["bug"]}}
+{"sentences":"AutoATC Pad display","labels":{"default":["enhancement"]}}
+{"sentences":"refactor: Migrate with iconv-lite","labels":{"default":["enhancement"]}}
+{"sentences":"refactor: Migrate with iconv-lite","labels":{"default":["enhancement"]}}
+{"sentences":"onBoarding 페이지에서 초기 데이터를 내부 DB에 넣어줘야함.","labels":{"default":["enhancement"]}}
+{"sentences":"Icecast Player","labels":{"default":["enhancement"]}}
+{"sentences":"Improve history page","labels":{"default":["enhancement"]}}
+{"sentences":"Insane damage from the Wroughnaught Axe from Mowzie's Mobs","labels":{"default":["enhancement"]}}
+{"sentences":"Add admin/meta endpoints","labels":{"default":["enhancement"]}}
+{"sentences":"Support Meater Link","labels":{"default":["enhancement"]}}
+{"sentences":"temp wrong when below 39F","labels":{"default":["bug"]}}
+{"sentences":"add option for Celsius or Fahrenheit  ","labels":{"default":["enhancement"]}}
+{"sentences":"check byte after signal for connection","labels":{"default":["enhancement"]}}
+{"sentences":"Improvements after PyPi packaging","labels":{"default":["enhancement"]}}
+{"sentences":"Improvements after PyPi packaging","labels":{"default":["enhancement"]}}
+{"sentences":"Bug: deleting a category that does not exits crashes the app.","labels":{"default":["bug"]}}
+{"sentences":"onSelectionChange and React Hooks causes a re-render that overwrites the tableData checked true","labels":{"default":["bug"]}}
+{"sentences":"프로그래스바 작동안함","labels":{"default":["bug"]}}
+{"sentences":"검색시 리스트가 화면에 표시안됨","labels":{"default":["bug"]}}
+{"sentences":"Enable creating a list","labels":{"default":["enhancement"]}}
+{"sentences":"トップページのブログ一覧をいい感じに表示する","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] unable to download scrapers every time I type the address to add the scraper it just keeps booting back to the menu screen.","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Will not install in Kodi Matrix Beta - ","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Will not install in Kodi Matrix Beta - ","labels":{"default":["bug"]}}
+{"sentences":"Bad gateway and database error","labels":{"default":["bug"]}}
+{"sentences":"素材追加画面で値がすべて空白でも、追加できてしまう","labels":{"default":["enhancement"]}}
+{"sentences":"編集画面で、既に存在する別の素材配布サイトを編集しようとした場合警告画面が出ない","labels":{"default":["bug"]}}
+{"sentences":"FATAL 123: Failed to Install necessary Dependencies required for 'Python'","labels":{"default":["bug"]}}
+{"sentences":"German translation","labels":{"default":["enhancement"]}}
+{"sentences":"Oucome Class","labels":{"default":["enhancement"]}}
+{"sentences":"Bin Class","labels":{"default":["enhancement"]}}
+{"sentences":"Add company table","labels":{"default":["enhancement"]}}
+{"sentences":"Statistic Filter Menu is enable to select although no Expense Data.","labels":{"default":["bug"]}}
+{"sentences":"Entry Add Fab is Gone after clicking twice on Home Menu.","labels":{"default":["bug"]}}
+{"sentences":"FIX　メッセージ、いいねの順番、インプットの色","labels":{"default":["bug"]}}
+{"sentences":"Pricing table using CSS grid","labels":{"default":["enhancement"]}}
+{"sentences":"Can't create in memory database when package installed to path with umlaut","labels":{"default":["bug"]}}
+{"sentences":"Selecting BIT(1) columns returns a list column","labels":{"default":["bug"]}}
+{"sentences":"Stabilize parallel writes to database tables","labels":{"default":["bug"]}}
+{"sentences":"Fix test failures on Windows and Mac","labels":{"default":["bug"]}}
+{"sentences":"Add system bundle for package com.sun.net.httpserver","labels":{"default":["enhancement"]}}
+{"sentences":"Character counter for Caller ID counts length of every field in Porting Information form","labels":{"default":["bug"]}}
+{"sentences":"Can't build this project in my computer, does any can talk about the order the build","labels":{"default":["question"]}}
+{"sentences":"I rashes while accessing large folder","labels":{"default":["bug"]}}
+{"sentences":"Fix viewing of shared files","labels":{"default":["enhancement"]}}
+{"sentences":"データインポート時に取り込みエラーが出る","labels":{"default":["bug"]}}
+{"sentences":"データインポート時に取り込みエラーが出る","labels":{"default":["bug"]}}
+{"sentences":"potential Windows and path.join issue","labels":{"default":["bug"]}}
+{"sentences":"potential Windows and path.join issue","labels":{"default":["bug"]}}
+{"sentences":"Download pair and total crypto market cap","labels":{"default":["question"]}}
+{"sentences":"[SETUP-BUG] Error initializing backend store: MS-SQL ALTER COLUMN operations with NULL or NOT NULL require the existing_type or a new type_ be passed","labels":{"default":["bug"]}}
+{"sentences":"Basic Theme: Colors and Font","labels":{"default":["enhancement"]}}
+{"sentences":"Improved HFM Province mappings","labels":{"default":["enhancement"]}}
+{"sentences":"Look into database inconsistencies","labels":{"default":["bug"]}}
+{"sentences":"MessageChain.get(PlainText.Key)会取到at的对象","labels":{"default":["question"]}}
+{"sentences":"[Ring Race] Orange team can't place wool","labels":{"default":["bug"]}}
+{"sentences":"Organization star history loading state","labels":{"default":["bug"]}}
+{"sentences":"Error Updating/Adding Routes","labels":{"default":["bug"]}}
+{"sentences":"Duplicate PIREPs in Discord","labels":{"default":["bug"]}}
+{"sentences":"Opt-in C# 8 and Nullable Reference Types","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] New/Returning users of emmVRC who have not set a PIN may not require it to connect to the Network.","labels":{"default":["bug"]}}
+{"sentences":"Micro SD card stock contents","labels":{"default":["enhancement"]}}
+{"sentences":"Chrono on ND resets to 00'00\" after a while","labels":{"default":["bug"]}}
+{"sentences":"Add GET /story/","labels":{"default":["enhancement"]}}
+{"sentences":"[Android] Firebase Realtime DB를 활용하여 Chatting 기능 구현","labels":{"default":["enhancement"]}}
+{"sentences":"希望增加一个比特币就更好了","labels":{"default":["question"]}}
+{"sentences":"Implement config to object for ISection","labels":{"default":["enhancement"]}}
+{"sentences":"IMGUI 窗口默认位置可能在 UE 窗体外","labels":{"default":["enhancement"]}}
+{"sentences":"\"/pe random\" Not Functioning","labels":{"default":["bug"]}}
+{"sentences":"Standarize Interfaces through the project","labels":{"default":["question"]}}
+{"sentences":"SoC-Abfrage, Interpolation, Restzeitberechnung fehleranfällig","labels":{"default":["question"]}}
+{"sentences":"Uncaught TypeError: Do not know how to serialize a BigInt if `raw` field missing","labels":{"default":["bug"]}}
+{"sentences":"0-star ratings should not be possible","labels":{"default":["bug"]}}
+{"sentences":"0-star ratings should not be possible","labels":{"default":["bug"]}}
+{"sentences":"Don't allow zero length timer","labels":{"default":["enhancement"]}}
+{"sentences":"add charts to the api data","labels":{"default":["enhancement"]}}
+{"sentences":"Assign Position view: record effective dates","labels":{"default":["enhancement"]}}
+{"sentences":"flower doesn't start automatically","labels":{"default":["bug"]}}
+{"sentences":"Upgrade to Debian 10.7","labels":{"default":["enhancement"]}}
+{"sentences":"False test count","labels":{"default":["question"]}}
+{"sentences":"IllegalArgumentException: Dimensions are too large","labels":{"default":["bug"]}}
+{"sentences":"View folder as big rows with thumbnail","labels":{"default":["enhancement"]}}
+{"sentences":"Too long file name on map if server deep searching","labels":{"default":["bug"]}}
+{"sentences":"SVG width and height not respected","labels":{"default":["bug"]}}
+{"sentences":"Build multi arch","labels":{"default":["enhancement"]}}
+{"sentences":"Creación inicial de la estructura del proyecto","labels":{"default":["enhancement"]}}
+{"sentences":"Consumo del listado del api de usuarios","labels":{"default":["enhancement"]}}
+{"sentences":"Documentación inicial","labels":{"default":["enhancement"]}}
+{"sentences":"Add http authentication","labels":{"default":["enhancement"]}}
+{"sentences":"Fix MSAA support","labels":{"default":["bug"]}}
+{"sentences":"Nested Function calls segfaults on code generation","labels":{"default":["bug"]}}
+{"sentences":"Monkey with key jumps directly into lava unprovoked, destroying the key","labels":{"default":["bug"]}}
+{"sentences":"Use a real infobar and allow showing details/logs for feed parsing errors","labels":{"default":["bug"]}}
+{"sentences":"Fix routing when path parameter contains a special character","labels":{"default":["bug"]}}
+{"sentences":"test bug please ignore","labels":{"default":["bug"]}}
+{"sentences":"[Unit Tests] Make unit test for Jenkiexs.Jobs.build_monitored/2","labels":{"default":["enhancement"]}}
+{"sentences":"Post News and Updates","labels":{"default":["enhancement"]}}
+{"sentences":"package-info imports are printed in wrong location","labels":{"default":["bug"]}}
+{"sentences":"[Feature]可以在play版添加课堂功能吗","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature]可以在play版添加课堂功能吗","labels":{"default":["enhancement"]}}
+{"sentences":"Disable shelf for user","labels":{"default":["question"]}}
+{"sentences":"Delete Book Error","labels":{"default":["question"]}}
+{"sentences":"Terrible UI location for 'Delete User' checkbox","labels":{"default":["enhancement"]}}
+{"sentences":"[Feature] Read book online with Gitbook styles","labels":{"default":["enhancement"]}}
+{"sentences":"Request: Add location picker for initial metadata.db /config form","labels":{"default":["enhancement"]}}
+{"sentences":"Support toggle on smoothness texture later; don't enable smoothness texture feature when creating a mesh-terrain or converting a terrain.","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Travis-CI fails to build","labels":{"default":["bug"]}}
+{"sentences":"Невидимые полигоны в сдк","labels":{"default":["bug"]}}
+{"sentences":"Bomb is picked up and simultaneously explodes if picked up at 1","labels":{"default":["bug"]}}
+{"sentences":"story 2: admin configures responsibilities and locations for the project","labels":{"default":["enhancement"]}}
+{"sentences":"Missing 'top processes' in RAM popup","labels":{"default":["bug"]}}
+{"sentences":"Wrong RAM stats","labels":{"default":["bug"]}}
+{"sentences":"NullReferenceException on NetworkWritter.WriteBlittable[T]","labels":{"default":["bug"]}}
+{"sentences":"Profiles not saved","labels":{"default":["bug"]}}
+{"sentences":"Support Aqara Smart Lock N200 (ZNMS17LM)","labels":{"default":["enhancement"]}}
+{"sentences":"Support doctype declaration","labels":{"default":["enhancement"]}}
+{"sentences":"Support HTML comments","labels":{"default":["enhancement"]}}
+{"sentences":"Support fragments","labels":{"default":["enhancement"]}}
+{"sentences":"Placing Github Action for laravel/lumen Project","labels":{"default":["enhancement"]}}
+{"sentences":"test issue labels","labels":{"default":["bug"]}}
+{"sentences":"OGPのディスクリプションが取得できていない","labels":{"default":["bug"]}}
+{"sentences":"Create incremental update example for multi-arch Godot games","labels":{"default":["enhancement"]}}
+{"sentences":"Calendar Bug","labels":{"default":["bug"]}}
+{"sentences":"fixing the display ","labels":{"default":["bug"]}}
+{"sentences":"Alarm not triggered","labels":{"default":["question"]}}
+{"sentences":"Phobos Compatibility [BUG]","labels":{"default":["bug"]}}
+{"sentences":"Переехать на новую версию базы данных ","labels":{"default":["enhancement"]}}
+{"sentences":"nothing working","labels":{"default":["bug"]}}
+{"sentences":"Sliders UI can be improved","labels":{"default":["enhancement"]}}
+{"sentences":"In mobile view fix GIF size","labels":{"default":["enhancement"]}}
+{"sentences":"question about rule_templates","labels":{"default":["question"]}}
+{"sentences":"Does not work for remote controlled character","labels":{"default":["bug"]}}
+{"sentences":"Does not work for remote controlled character","labels":{"default":["bug"]}}
+{"sentences":"図形の追加","labels":{"default":["enhancement"]}}
+{"sentences":"Dodać możliwość eksportu do bazy SQLlite","labels":{"default":["enhancement"]}}
+{"sentences":" timeLimit smaller data type","labels":{"default":["bug"]}}
+{"sentences":"Question: ist this working without the smarthings Hub? ","labels":{"default":["bug"]}}
+{"sentences":"update Header","labels":{"default":["enhancement"]}}
+{"sentences":"Add description","labels":{"default":["enhancement"]}}
+{"sentences":"add Makefile for building","labels":{"default":["enhancement"]}}
+{"sentences":"Menu Links are Broken","labels":{"default":["bug"]}}
+{"sentences":"groupArrayElements method","labels":{"default":["enhancement"]}}
+{"sentences":"Map settings pop-up too large","labels":{"default":["bug"]}}
+{"sentences":"[openweathermap] Feature request - support of the new One Call API","labels":{"default":["enhancement"]}}
+{"sentences":"Underscores in integer literals","labels":{"default":["enhancement"]}}
+{"sentences":"Constantly Recurring Popups upon Silo View","labels":{"default":["bug"]}}
+{"sentences":"Explicitly specify OCCLUM_RELEASE_ENCLAVE=1 in env for product occlum enclave runtime","labels":{"default":["bug"]}}
+{"sentences":"Tag releases and add CHANGELOG.md","labels":{"default":["enhancement"]}}
+{"sentences":"1.10.3 crashes on start in OS X 10.12.6","labels":{"default":["bug"]}}
+{"sentences":"How to decode URI parameter in Express JS","labels":{"default":["question"]}}
+{"sentences":"type parameters in generic constraints , not assign the type I reference","labels":{"default":["question"]}}
+{"sentences":"Small bugs with Save Scene popup","labels":{"default":["bug"]}}
+{"sentences":"Create Hand Weapon in BRB then reference in character entries","labels":{"default":["enhancement"]}}
+{"sentences":"Network disconnect / offline mode not detected","labels":{"default":["bug"]}}
+{"sentences":"duping menril [1.16]","labels":{"default":["bug"]}}
+{"sentences":"Slightly tweaked builder UI","labels":{"default":["enhancement"]}}
+{"sentences":"Slightly tweaked builder UI","labels":{"default":["question"]}}
+{"sentences":"Integration with MonsterInsights","labels":{"default":["enhancement"]}}
+{"sentences":"Preview for \"Style tab\" in metabox","labels":{"default":["enhancement"]}}
+{"sentences":"Preview for social sharing icons in the metabox?","labels":{"default":["enhancement"]}}
+{"sentences":"Thoughts for responsive display of Modula settings","labels":{"default":["enhancement"]}}
+{"sentences":"test Modula's dashboard on iPad as well","labels":{"default":["enhancement"]}}
+{"sentences":"pinch to zoom on mobile","labels":{"default":["bug"]}}
+{"sentences":"explained tooltip","labels":{"default":["enhancement"]}}
+{"sentences":"Border size and custom grid","labels":{"default":["bug"]}}
+{"sentences":"Опечатки","labels":{"default":["bug"]}}
+{"sentences":"Опечатки","labels":{"default":["enhancement"]}}
+{"sentences":"Request for `torch.split` to accept a tensor for input `split_size_or_sections`","labels":{"default":["enhancement"]}}
+{"sentences":"Can't create project","labels":{"default":["bug"]}}
+{"sentences":"Impact cape overrides optifine cape","labels":{"default":["bug"]}}
+{"sentences":"Some YouTube track numbers not being stripped","labels":{"default":["bug"]}}
+{"sentences":"System.NullReferenceException thrown by FontFamily == operator","labels":{"default":["bug"]}}
+{"sentences":"Choose and implement new configuration management","labels":{"default":["bug"]}}
+{"sentences":"Settings defaults does not always work in viper/viperx","labels":{"default":["bug"]}}
+{"sentences":"Selecting filters (data type) doesn't show owners assigned to candidates.","labels":{"default":["bug"]}}
+{"sentences":"Track partner addition by outreaches,","labels":{"default":["enhancement"]}}
+{"sentences":"Some commentary not showing up / cutting off","labels":{"default":["bug"]}}
+{"sentences":"[BUG]: building hover wont load properly.","labels":{"default":["bug"]}}
+{"sentences":"Uploading file progress","labels":{"default":["enhancement"]}}
+{"sentences":"Code-mixing Multi-GPU training: \"Segmentation fault\"","labels":{"default":["bug"]}}
+{"sentences":"Kiali has an accessible namespace [postgresql] which is forbidden","labels":{"default":["question"]}}
+{"sentences":"files with space not handled properly","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Some \"won't keep\" quest items stays in inventory","labels":{"default":["bug"]}}
+{"sentences":"[BUG]Wings on Sp+0","labels":{"default":["bug"]}}
+{"sentences":"[ prometheus-kube-stack] issue on tls for prometheus and alertmanager","labels":{"default":["bug"]}}
+{"sentences":"PVC for grafana in custom values - save dashboards?","labels":{"default":["bug"]}}
+{"sentences":"replace selected text with translation","labels":{"default":["enhancement"]}}
+{"sentences":"error handling 0.11.x firmware","labels":{"default":["bug"]}}
+{"sentences":"Nach Update auf 0.5.4 -> WARN Meldungen bei Verwendung von Strings","labels":{"default":["bug"]}}
+{"sentences":"Move to GitHub actions","labels":{"default":["enhancement"]}}
+{"sentences":"Add Autodiff machinery for transient FE operators","labels":{"default":["enhancement"]}}
+{"sentences":"Investigate CI in multiple cloud providers","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] Tap navigation in reader is inverted without invert tap enabled","labels":{"default":["bug"]}}
+{"sentences":"The DbContext of type 'BotDbContext' cannot be pooled because it does not have a public constructor accepting a single parameter of type DbContextOptions or has more than one constructor.","labels":{"default":["bug"]}}
+{"sentences":"Tried converting an SVG but it ends up littered with 'NaN'","labels":{"default":["bug"]}}
+{"sentences":"Behavior of the trainer.fit function","labels":{"default":["question"]}}
+{"sentences":"Behavior of the trainer.fit function","labels":{"default":["question"]}}
+{"sentences":"gh release create - add the ability to upload custom source bundles","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Starboard ","labels":{"default":["bug"]}}
+{"sentences":"[powerdns] crashlooping: Fatal error: Trying to set unknown parameter 'powerdns-udp-port-53-udp-proto'","labels":{"default":["bug"]}}
+{"sentences":"pm update doesn't work","labels":{"default":["bug"]}}
+{"sentences":"Aktive Skills auf Items binden","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] The ringtone remix is shit","labels":{"default":["bug"]}}
+{"sentences":"Map coords picker problem with Firefox","labels":{"default":["bug"]}}
+{"sentences":"TestSkyMod.java","labels":{"default":["bug"]}}
+{"sentences":"Input Step","labels":{"default":["enhancement"]}}
+{"sentences":"Very useful command:  Press CLR/DEL key in FMS for 1 second to competely delete the scratchpad","labels":{"default":["enhancement"]}}
+{"sentences":"CJ4 v0.8.3 Nav Radio Freezes when COM1/2 Disabled","labels":{"default":["bug"]}}
+{"sentences":"Easy way to build gossip Menus","labels":{"default":["enhancement"]}}
+{"sentences":"Broken pipe (os error 32)","labels":{"default":["question"]}}
+{"sentences":"管理者画面の実装","labels":{"default":["enhancement"]}}
+{"sentences":"Railsテキスト教材一覧ページの実装","labels":{"default":["enhancement"]}}
+{"sentences":"Railsテキスト教材一覧ページの実装","labels":{"default":["enhancement"]}}
+{"sentences":"카페 상세페이지 뷰 - 카페 삭제","labels":{"default":["enhancement"]}}
+{"sentences":"Parsing json file: android/google-services.json  failed","labels":{"default":["bug"]}}
+{"sentences":"Fix Google Sign In","labels":{"default":["bug"]}}
+{"sentences":"Be able to use rotation matrix of 3x3 : THREE.Quaternion().setFromRotationMatrix(matrix3)","labels":{"default":["enhancement"]}}
+{"sentences":"add checkboxes to gui","labels":{"default":["enhancement"]}}
+{"sentences":"Invalid source map generated with multi-line strings","labels":{"default":["bug"]}}
+{"sentences":"Use AboutDialog from flutter","labels":{"default":["enhancement"]}}
+{"sentences":"Не выводятся изображения на странице поиска объявлений по продаже","labels":{"default":["bug"]}}
+{"sentences":"Output changelog","labels":{"default":["enhancement"]}}
+{"sentences":"Arrows/rectangles draw tool","labels":{"default":["enhancement"]}}
+{"sentences":"Save received images locally","labels":{"default":["enhancement"]}}
+{"sentences":"Allow to open screen without holding the mouse button","labels":{"default":["enhancement"]}}
+{"sentences":"Hey, why not use a VNC/RFB?","labels":{"default":["question"]}}
+{"sentences":"Индикатор загрузки фотографий","labels":{"default":["enhancement"]}}
+{"sentences":"Write some tests","labels":{"default":["enhancement"]}}
+{"sentences":"Global hotkeys","labels":{"default":["enhancement"]}}
+{"sentences":"Make additional tab for webug","labels":{"default":["enhancement"]}}
+{"sentences":"Make additional tab for webug","labels":{"default":["question"]}}
+{"sentences":"App icon for OS X build","labels":{"default":["enhancement"]}}
+{"sentences":"Collapsed groups","labels":{"default":["enhancement"]}}
+{"sentences":"Вывод объявлений на карте","labels":{"default":["enhancement"]}}
+{"sentences":"Tabbed Content - clicking on tab button does not focus it in Safari","labels":{"default":["bug"]}}
+{"sentences":"Redisgn of kitchen timer icon","labels":{"default":["enhancement"]}}
+{"sentences":"Windows actions faisons on create release step","labels":{"default":["bug"]}}
+{"sentences":"It should be possible to enable IBus via config file, not just environment variable","labels":{"default":["bug"]}}
+{"sentences":"When changing a label value on a paragraph, note items dont get updated","labels":{"default":["bug"]}}
+{"sentences":"noteitems flicker twice when updating","labels":{"default":["bug"]}}
+{"sentences":"Improve cards and list ","labels":{"default":["enhancement"]}}
+{"sentences":"Add wizard for creating a .translatr.yml config file","labels":{"default":["enhancement"]}}
+{"sentences":"Estropada bat puntuagarria den edo ez, ez da itzultzen Euskolabel ligarako","labels":{"default":["bug"]}}
+{"sentences":"Fallback to generic English fails for non en-US locales","labels":{"default":["bug"]}}
+{"sentences":"Install fails: ModuleNotFoundError: No module named 'sklearn'","labels":{"default":["bug"]}}
+{"sentences":"Install failure","labels":{"default":["bug"]}}
+{"sentences":"Update to Hamlib 4.0","labels":{"default":["enhancement"]}}
+{"sentences":"codegen based on syntax.s file","labels":{"default":["enhancement"]}}
+{"sentences":"Lives counter broken","labels":{"default":["bug"]}}
+{"sentences":"Search and Replace using regular expressions ?","labels":{"default":["enhancement"]}}
+{"sentences":"SQL ingestion fails when Advisor recommendation text contains single quote","labels":{"default":["bug"]}}
+{"sentences":"Deployment script does not run in Azure Cloud Shell","labels":{"default":["bug"]}}
+{"sentences":"Implement forgotten deallocated VMs recommendation","labels":{"default":["enhancement"]}}
+{"sentences":"When upgrading keep existing schedules","labels":{"default":["enhancement"]}}
+{"sentences":"Should be possible to reload Automations","labels":{"default":["enhancement"]}}
+{"sentences":"replace custom autocomplete component","labels":{"default":["bug"]}}
+{"sentences":"replace custom autocomplete component","labels":{"default":["enhancement"]}}
+{"sentences":"Sviluppo di FMAN","labels":{"default":["enhancement"]}}
+{"sentences":"File config per FMAN","labels":{"default":["enhancement"]}}
+{"sentences":"Suggestion: add --keep-searching in /cfind and /cglow as in /cfinditem","labels":{"default":["enhancement"]}}
+{"sentences":"Bookmark and highlight timlines and new home page.","labels":{"default":["enhancement"]}}
+{"sentences":"Range soldiers shoot projectiles","labels":{"default":["enhancement"]}}
+{"sentences":"After update no more Card","labels":{"default":["bug"]}}
+{"sentences":"Free Mobile ISP 4G +new ipv6 option => OMR cant aggregate","labels":{"default":["bug"]}}
+{"sentences":"Dataclasses with Dataclass-Dict-Keys fail in `asdict`","labels":{"default":["bug"]}}
+{"sentences":"Create a Debian package (.deb)","labels":{"default":["enhancement"]}}
+{"sentences":"Modifying subcategory name does not update it in Budget instantly","labels":{"default":["bug"]}}
+{"sentences":"afficher le score en fonction de l'index question sélectionné","labels":{"default":["enhancement"]}}
+{"sentences":"meilleur intégration pour les mobiles","labels":{"default":["enhancement"]}}
+{"sentences":"[FR] [6axis_dev] With ASYNC_SECONDARY_AXES defined,  only axes XYZ should move syncronized and end moves simultaneously","labels":{"default":["enhancement"]}}
+{"sentences":"Vehicle Permissions","labels":{"default":["enhancement"]}}
+{"sentences":"no sync : NC-20.0.2, SubMusic-0.0.21, Fenix 6xPro","labels":{"default":["bug"]}}
+{"sentences":"installer script fails at 73%","labels":{"default":["bug"]}}
+{"sentences":"So this works but...","labels":{"default":["enhancement"]}}
+{"sentences":"Disable all but LS100?","labels":{"default":["enhancement"]}}
+{"sentences":"State of yearly maintenance","labels":{"default":["bug"]}}
+{"sentences":"Implementation of ResetLifeSpan and SetLifeSpan","labels":{"default":["enhancement"]}}
+{"sentences":"Setting game FPS to 30 breaks movement","labels":{"default":["bug"]}}
+{"sentences":"Uninstall script ","labels":{"default":["bug"]}}
+{"sentences":"Docker image tagged main, not latest","labels":{"default":["bug"]}}
+{"sentences":"Handle more errors during authentication","labels":{"default":["bug"]}}
+{"sentences":"📋 Copy current track to clipboard with customised text","labels":{"default":["enhancement"]}}
+{"sentences":"🖼 Warn before automatically downloading/caching Spotify artwork","labels":{"default":["enhancement"]}}
+{"sentences":"Getting tracks for playlists is broken with fuzzy search","labels":{"default":["bug"]}}
+{"sentences":"Wrong counter for YourMusic->Albums","labels":{"default":["bug"]}}
+{"sentences":"🌎 Only use alternative browser if safari is default ","labels":{"default":["enhancement"]}}
+{"sentences":"Add Windows support","labels":{"default":["enhancement"]}}
+{"sentences":"Podman compatibility ","labels":{"default":["enhancement"]}}
+{"sentences":"Missing Long Output","labels":{"default":["bug"]}}
+{"sentences":"Créateur de route","labels":{"default":["bug"]}}
+{"sentences":"使用Auth函数时抛出“网络错误”异常","labels":{"default":["question"]}}
+{"sentences":"Being able to generate an inner link to a section of a document","labels":{"default":["enhancement"]}}
+{"sentences":"Send E-Mails through the G-Mail REST API via OAuth 2.0","labels":{"default":["enhancement"]}}
+{"sentences":"Add a Code of Conduct","labels":{"default":["enhancement"]}}
+{"sentences":"Add unread messages count in chat list","labels":{"default":["enhancement"]}}
+{"sentences":"Set up basic project structure","labels":{"default":["enhancement"]}}
+{"sentences":"Implementer la camera","labels":{"default":["enhancement"]}}
+{"sentences":"Implementer l'enregistrement des depistes avec firebase","labels":{"default":["enhancement"]}}
+{"sentences":"Implementer l'enregistrement des depistes avec firebase","labels":{"default":["enhancement"]}}
+{"sentences":"Create the UI for the address book","labels":{"default":["enhancement"]}}
+{"sentences":"Какие-то проблемы с запросами.","labels":{"default":["bug"]}}
+{"sentences":"HOW TO IMPROVE ITS FUNCTIONALITY?","labels":{"default":["enhancement"]}}
+{"sentences":"HOW TO IMPROVE ITS FUNCTIONALITY?","labels":{"default":["question"]}}
+{"sentences":"[DKB] PDF wird nicht importiert","labels":{"default":["bug"]}}
+{"sentences":"[DKB] Verkauf von ETF Anteilen","labels":{"default":["bug"]}}
+{"sentences":"FFMPEG Configuration","labels":{"default":["question"]}}
+{"sentences":"Elegy doesnt have the bennys upgrades","labels":{"default":["bug"]}}
+{"sentences":"lineedit needs workaround for touchscreen devices","labels":{"default":["bug"]}}
+{"sentences":"Add contacts","labels":{"default":["enhancement"]}}
+{"sentences":".push does not seem to work ","labels":{"default":["question"]}}
+{"sentences":"Getting Started with GitHub","labels":{"default":["bug"]}}
+{"sentences":"Compress remote file and copy it back via stdout","labels":{"default":["question"]}}
+{"sentences":"Support for MaxReplicas in Task Spec Placement Configuration","labels":{"default":["enhancement"]}}
+{"sentences":"Client notifies \"This server does not allow sending images.\" when pasting text in chatbox","labels":{"default":["bug"]}}
+{"sentences":"Missing wifiGuestEnable Channel","labels":{"default":["question"]}}
+{"sentences":"Adding an element component without options is invalid","labels":{"default":["bug"]}}
+{"sentences":"Pass command line arguments","labels":{"default":["enhancement"]}}
+{"sentences":"threads: \"Cannot return null for non-nullable field Thread.title.\"","labels":{"default":["bug"]}}
+{"sentences":"Add SAP collection stuff","labels":{"default":["enhancement"]}}
+{"sentences":"Don't search for Bash","labels":{"default":["enhancement"]}}
+{"sentences":"First time server registration ends up in multiple online servers instead of one","labels":{"default":["enhancement"]}}
+{"sentences":"Unregister of MasterServer happens per IP, instead of per session_key","labels":{"default":["enhancement"]}}
+{"sentences":"Game crashes when loading a corrupt save","labels":{"default":["bug"]}}
+{"sentences":"Semantic prompt failed","labels":{"default":["bug"]}}
+{"sentences":"Need a `dropsubref` function","labels":{"default":["enhancement"]}}
+{"sentences":"copy-paste produces invalid range evaluation","labels":{"default":["bug"]}}
+{"sentences":"Nejde přidat email jako oddílový vedoucí","labels":{"default":["bug"]}}
+{"sentences":"Crafting terminal button text not centered","labels":{"default":["bug"]}}
+{"sentences":"Test each plugin's overhead in terms of load speed","labels":{"default":["question"]}}
+{"sentences":"improve custom responsiveness","labels":{"default":["enhancement"]}}
+{"sentences":"AccessorInterceptor#removeIndex: incorrect behavior of removeIndex(RMap<String, Object>, Object, Field) method","labels":{"default":["bug"]}}
+{"sentences":"An exception was thrown by org.redisson.misc.R in edissonPromise$$Lambda$160/1930319715.operationComplete() post redisson 3.11.5 too","labels":{"default":["bug"]}}
+{"sentences":"Smart quotes do not always gracefully handle deletion","labels":{"default":["bug"]}}
+{"sentences":"Bug With Uploading Contents to NC Server","labels":{"default":["bug"]}}
+{"sentences":"Broken CSS when accessing via reverse proxy. MIME mismatch error","labels":{"default":["bug"]}}
+{"sentences":"Read status often not saved","labels":{"default":["bug"]}}
+{"sentences":"Show warning when navigating away from recipe editing window ","labels":{"default":["enhancement"]}}
+{"sentences":"Feature Request: Do not undercut own auctions","labels":{"default":["enhancement"]}}
+{"sentences":"Problem reaching https://csv-docs.firefly-iii.org","labels":{"default":["question"]}}
+{"sentences":"Incorrect album scrobbling on YouTube Music","labels":{"default":["bug"]}}
+{"sentences":"Primephonic not scrobbling","labels":{"default":["bug"]}}
+{"sentences":"Gaana connector does not work","labels":{"default":["bug"]}}
+{"sentences":"Saavn connector does not work","labels":{"default":["bug"]}}
+{"sentences":"make expects a command \"esc\" that I do not have","labels":{"default":["bug"]}}
+{"sentences":"Adding current version to exported files?","labels":{"default":["enhancement"]}}
+{"sentences":"Is window mandatory? can this library be used headlessly?","labels":{"default":["question"]}}
+{"sentences":"Allow generating customized QR codes","labels":{"default":["enhancement"]}}
+{"sentences":"Error \"Object parameter [...] binding not supported\" with custom base types (DBeaver 7.2.4, PostgreSQL 13)","labels":{"default":["bug"]}}
+{"sentences":"Some labels should be filtered","labels":{"default":["bug"]}}
+{"sentences":"Le connecteur ne fonctionne que si l'utilisateur a uniquement des comptes chèques chez Boursorama","labels":{"default":["bug"]}}
+{"sentences":"Kiali has an accessible namespace [postgresql] which is forbidden","labels":{"default":["question"]}}
+{"sentences":"invalid prng key error when converting to arviz","labels":{"default":["question"]}}
+{"sentences":"اضافه کردن امکان تست خبرنامه قبل از ارسال نهایی","labels":{"default":["enhancement"]}}
+{"sentences":"Can't extend OTP Lifetime (to 1 min.) and/or Hash Algorithm (to SHA256) while Google Authenticator does","labels":{"default":["bug"]}}
+{"sentences":"Can you download from a private Twitter account?","labels":{"default":["question"]}}
+{"sentences":"qaac requires this library for AAC encoding","labels":{"default":["question"]}}
+{"sentences":"SQL syntax checker mistake dictGet parameters as column names ","labels":{"default":["bug"]}}
+{"sentences":"Improve import formatting configuration","labels":{"default":["enhancement"]}}
+{"sentences":"How to handle multiple batches？","labels":{"default":["question"]}}
+{"sentences":"Bug: login should allow username or ","labels":{"default":["bug"]}}
+{"sentences":"Sign-up page","labels":{"default":["enhancement"]}}
+{"sentences":"\"n. A.\" in accepting store contact data","labels":{"default":["bug"]}}
+{"sentences":"Accepting stores hidden if close to each other","labels":{"default":["bug"]}}
+{"sentences":"Fallo en la redirección de GitHub","labels":{"default":["bug"]}}
+{"sentences":"Fallo al borrar un usuario","labels":{"default":["bug"]}}
+{"sentences":"All control packet should be authenticated","labels":{"default":["enhancement"]}}
+{"sentences":"Add options to keep sections and keys case sensitive. ","labels":{"default":["enhancement"]}}
+{"sentences":"Support HEIC and HEIF Photos","labels":{"default":["enhancement"]}}
+{"sentences":"Add contents to business page","labels":{"default":["enhancement"]}}
+{"sentences":"Add contents to technology page","labels":{"default":["enhancement"]}}
+{"sentences":"Target property with decorator","labels":{"default":["question"]}}
+{"sentences":"require-description-complete-sentence does not recognize \"e.g.\" and \"i.e.\" as not beginning a new sentence","labels":{"default":["question"]}}
+{"sentences":"Fail with non-zero exit code on failure","labels":{"default":["bug"]}}
+{"sentences":"Random range","labels":{"default":["enhancement"]}}
+{"sentences":"Random velocity","labels":{"default":["enhancement"]}}
+{"sentences":"Iterative implementation is wrong","labels":{"default":["bug"]}}
+{"sentences":"Layout for edit mode not correct","labels":{"default":["bug"]}}
+{"sentences":"Feature: detect custom component suffixes in ESLint config","labels":{"default":["enhancement"]}}
+{"sentences":"Implement vedorized by revision number","labels":{"default":["enhancement"]}}
+{"sentences":"Unlocking MAM schematics should unlock the corresponding research tree","labels":{"default":["bug"]}}
+{"sentences":"Unlocking MAM schematics should unlock the corresponding research tree","labels":{"default":["enhancement"]}}
+{"sentences":"UI: Add \"random name\" checkbox to header","labels":{"default":["enhancement"]}}
+{"sentences":"Is there any misinformation?","labels":{"default":["question"]}}
+{"sentences":"Allow user to select first day of the week:","labels":{"default":["bug"]}}
+{"sentences":"Rule with class and conditions doesn't work","labels":{"default":["bug"]}}
+{"sentences":"Run uibuilder without node-red admin","labels":{"default":["question"]}}
+{"sentences":"Optimize download dialog usage","labels":{"default":["enhancement"]}}
+{"sentences":"Running Azure CLI on Windows","labels":{"default":["question"]}}
+{"sentences":"[Bug] Language switching doesn't seem to persist app wide","labels":{"default":["bug"]}}
+{"sentences":"Started getting this error today, not entirely sure what it means","labels":{"default":["bug"]}}
+{"sentences":"Doesn't install .ttl files for the LV2 plugin","labels":{"default":["bug"]}}
+{"sentences":"altitude visualization","labels":{"default":["bug"]}}
+{"sentences":"Screen recording colors are off in some cases","labels":{"default":["bug"]}}
+{"sentences":"The screen size for iPad 12.9'' 3rd is not accepted by ASC","labels":{"default":["bug"]}}
+{"sentences":"Add Semantic Release","labels":{"default":["enhancement"]}}
+{"sentences":"VS2015 x64 MFC not work","labels":{"default":["bug"]}}
+{"sentences":"Feature request : add “station availability” in map screen","labels":{"default":["enhancement"]}}
+{"sentences":"Datastore memory exception issue","labels":{"default":["bug"]}}
+{"sentences":"Warn when moving the last leader from a clan","labels":{"default":["enhancement"]}}
+{"sentences":"Settings can't be opened","labels":{"default":["bug"]}}
+{"sentences":"Icons/Switches are not properly scaled","labels":{"default":["bug"]}}
+{"sentences":"How to determine if a custom parser is needed","labels":{"default":["enhancement"]}}
+{"sentences":"As a player, I would like to participate in large games.","labels":{"default":["enhancement"]}}
+{"sentences":"GetDevices hangs on M1 Mac","labels":{"default":["bug"]}}
+{"sentences":"Indexer: create cache of published URLs","labels":{"default":["enhancement"]}}
+{"sentences":"Two bugs with a frozen column of a table","labels":{"default":["bug"]}}
+{"sentences":"panResponder has stale value from state","labels":{"default":["bug"]}}
+{"sentences":"Display list of case instances","labels":{"default":["enhancement"]}}
+{"sentences":"Auto-orient & strip source metadata.","labels":{"default":["bug"]}}
+{"sentences":"Crash on startup on server with minecolonies","labels":{"default":["bug"]}}
+{"sentences":"og tag 적용","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] 2021.1.0 Updates fails and server is stuck in maintanace mode","labels":{"default":["bug"]}}
+{"sentences":"Animate accordions","labels":{"default":["enhancement"]}}
+{"sentences":"Enhancement: Wildcarding when authorization challenging","labels":{"default":["enhancement"]}}
+{"sentences":"Barinsta Crash Report","labels":{"default":["bug"]}}
+{"sentences":"Issue (Can not see the likes of your own posts)","labels":{"default":["bug"]}}
+{"sentences":"EntityMetadata updates.","labels":{"default":["bug"]}}
+{"sentences":"EntityMetadata updates.","labels":{"default":["enhancement"]}}
+{"sentences":"Optimize UI for mobile devices","labels":{"default":["enhancement"]}}
+{"sentences":"Fix custom relation parsing","labels":{"default":["bug"]}}
+{"sentences":"AudioService.start() throws PlatformException","labels":{"default":["bug"]}}
+{"sentences":"multipleImage上传的多图，删除一个全部都消失","labels":{"default":["bug"]}}
+{"sentences":"【建议】建议 Dcat\\Admin\\Grid\\Displayers\\Label 的 display 方法返回值不要加 '&nbsp;'","labels":{"default":["enhancement"]}}
+{"sentences":"用了hasmany的表单在不知道什么原因的情况下提交的时候会跳转到详情，应该是跳转到index才对","labels":{"default":["bug"]}}
+{"sentences":"Implement a more user friendly many-to-many form field","labels":{"default":["enhancement"]}}
+{"sentences":"Update CICD pipeline","labels":{"default":["bug"]}}
+{"sentences":"Index error during game play","labels":{"default":["bug"]}}
+{"sentences":"Use the glm library instead of the self developed math classes","labels":{"default":["enhancement"]}}
+{"sentences":"Dollar signs and open braces are not escaped","labels":{"default":["bug"]}}
+{"sentences":"[FEATURE] apply damage/healing to all targets","labels":{"default":["enhancement"]}}
+{"sentences":"[Question] Dynamic SharedTypes enumeration","labels":{"default":["question"]}}
+{"sentences":"get IMvcBuilder in plugin?","labels":{"default":["enhancement"]}}
+{"sentences":"redesign Team & Overview Site","labels":{"default":["enhancement"]}}
+{"sentences":"Bans update","labels":{"default":["enhancement"]}}
+{"sentences":"Incomes","labels":{"default":["enhancement"]}}
+{"sentences":"Make the renderer cut sprites it chunck of 32*16 pxl and render them a the correct height","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Spotify not showing up for asignment","labels":{"default":["bug"]}}
+{"sentences":"Google Credential","labels":{"default":["bug"]}}
+{"sentences":"Get Rid of Static State such as NessAnticheat.getVersion()","labels":{"default":["bug"]}}
+{"sentences":"Css search results","labels":{"default":["bug"]}}
+{"sentences":"Emtpy container headers","labels":{"default":["bug"]}}
+{"sentences":"Emtpy container headers","labels":{"default":["enhancement"]}}
+{"sentences":"Color schemes","labels":{"default":["enhancement"]}}
+{"sentences":"Error in documentation","labels":{"default":["bug"]}}
+{"sentences":"Add auto conan cache cleanup feature","labels":{"default":["enhancement"]}}
+{"sentences":"Planung Strukturen ","labels":{"default":["enhancement"]}}
+{"sentences":"Véhicule perdue","labels":{"default":["bug"]}}
+{"sentences":"Add isTaskDone column to database","labels":{"default":["bug"]}}
+{"sentences":"Fix new frontend","labels":{"default":["bug"]}}
+{"sentences":"UnboundLocalError: local variable 'forecast_df_folds' referenced before assignment","labels":{"default":["bug"]}}
+{"sentences":"Biased estimation for Prophet","labels":{"default":["bug"]}}
+{"sentences":"Hard Dependency tscv not included in installation.","labels":{"default":["bug"]}}
+{"sentences":"Variation in SARIMAX and Prophet forecast dates","labels":{"default":["bug"]}}
+{"sentences":"Variation in SARIMAX and Prophet forecast dates","labels":{"default":["enhancement"]}}
+{"sentences":"Audio bug in some games","labels":{"default":["bug"]}}
+{"sentences":"Add log model and complete validation","labels":{"default":["enhancement"]}}
+{"sentences":"CUDA GPU Error on evolution task","labels":{"default":["bug"]}}
+{"sentences":"[Bug] Arrows in setting disappearing","labels":{"default":["bug"]}}
+{"sentences":"Support for single/double precision fraction numbers","labels":{"default":["enhancement"]}}
+{"sentences":"Unable to connect to mongodb database","labels":{"default":["bug"]}}
+{"sentences":"Add images to application","labels":{"default":["enhancement"]}}
+{"sentences":"Standing in some blocks detects SpeedA and FlyC","labels":{"default":["bug"]}}
+{"sentences":"FlyA on top of the cactus and water lily","labels":{"default":["bug"]}}
+{"sentences":"Some Effects detects FlyC","labels":{"default":["bug"]}}
+{"sentences":"Add Killaura Detections","labels":{"default":["enhancement"]}}
+{"sentences":"software development direction","labels":{"default":["enhancement"]}}
+{"sentences":"insert json files for the data to show","labels":{"default":["enhancement"]}}
+{"sentences":"Добавить ротацию лога для web-serv, так же, как это сделано для OPCUA сервера","labels":{"default":["bug"]}}
+{"sentences":"Legenda - ostatni luźny select","labels":{"default":["enhancement"]}}
+{"sentences":"How to contribute :)","labels":{"default":["question"]}}
+{"sentences":"Getting Started with GitHub","labels":{"default":["bug"]}}
+{"sentences":"menu owner error","labels":{"default":["bug"]}}
+{"sentences":"menu owner error","labels":{"default":["bug"]}}
+{"sentences":"Auto legend name and tooltip series name are not correct.","labels":{"default":["bug"]}}
+{"sentences":"Object(...) is not a function","labels":{"default":["bug"]}}
+{"sentences":"Support for Nanopi Duo2","labels":{"default":["enhancement"]}}
+{"sentences":"Tranforming array<array<double>> to ST_MultiPolygon","labels":{"default":["question"]}}
+{"sentences":"create_installer_linux not detecting \"distribution\" properly","labels":{"default":["bug"]}}
+{"sentences":"Camera.main (same as FindObjectWithTag) called 8-24 times per frame ","labels":{"default":["enhancement"]}}
+{"sentences":"Increased loot after /reload all command","labels":{"default":["bug"]}}
+{"sentences":"Infinitegrid does not work  in chrome mobile but work in incognito ","labels":{"default":["bug"]}}
+{"sentences":"`mv` function in `utils.py` fails when using `tmp_path` on CI","labels":{"default":["bug"]}}
+{"sentences":"editing void_deck in Database Editor generates an error","labels":{"default":["bug"]}}
+{"sentences":"Error rendering multiple layers","labels":{"default":["bug"]}}
+{"sentences":"Parallel design introduced bug in PointSource mechanism used in FSI applications","labels":{"default":["bug"]}}
+{"sentences":"Lovelace views do not automatically resize when switching from another view","labels":{"default":["bug"]}}
+{"sentences":"插件无法找到CQP.dll中的CQ_getRecord","labels":{"default":["bug"]}}
+{"sentences":"Upgrade to 20.0.4","labels":{"default":["bug"]}}
+{"sentences":"Fix [unkown] eventId:5158 occuring on port 6 / protocol 36 (incoming connection)","labels":{"default":["bug"]}}
+{"sentences":"Notifier: Remove the notifications which do not apply anymore after a Allow/Block action","labels":{"default":["enhancement"]}}
+{"sentences":"Add a \"I trust this program\" option to disable all specific rule properties at once","labels":{"default":["enhancement"]}}
+{"sentences":"MP3 support","labels":{"default":["enhancement"]}}
+{"sentences":"Bulbapedia incompletely scraped pages","labels":{"default":["bug"]}}
+{"sentences":"Bulbapedia incompletely scraped pages","labels":{"default":["question"]}}
+{"sentences":"Wikivoyage incompletely scraped pages","labels":{"default":["bug"]}}
+{"sentences":"Wikivoyage incompletely scraped pages","labels":{"default":["question"]}}
+{"sentences":"Limburgian Wiktionary homepage is incomplete","labels":{"default":["bug"]}}
+{"sentences":"Many articles missing from recent Vikidia zim files","labels":{"default":["bug"]}}
+{"sentences":"Many articles missing from recent Vikidia zim files","labels":{"default":["question"]}}
+{"sentences":"mwUrl is not valid","labels":{"default":["bug"]}}
+{"sentences":"Update all scrapers to black 20 formatting","labels":{"default":["enhancement"]}}
+{"sentences":"Loops to wrap the buffer end point","labels":{"default":["enhancement"]}}
+{"sentences":"Freeze and resume comment collection?","labels":{"default":["question"]}}
+{"sentences":"tvOS - MFI Menu button doesn't bring up Menu in-game","labels":{"default":["bug"]}}
+{"sentences":"Unintuitive envs modal in Functions view","labels":{"default":["enhancement"]}}
+{"sentences":"Unintuitive envs modal in Functions view","labels":{"default":["question"]}}
+{"sentences":"BIPM: Remaining issues","labels":{"default":["bug"]}}
+{"sentences":"DVC binaries are not signed","labels":{"default":["question"]}}
+{"sentences":"[BUG]Bow r5 has the same damage as an r4","labels":{"default":["bug"]}}
+{"sentences":"Computer starting cheat","labels":{"default":["bug"]}}
+{"sentences":"Bug: Sqldrv problems to insert when change DBPrefix ","labels":{"default":["bug"]}}
+{"sentences":"Bug: insertBatch not generating createdField","labels":{"default":["bug"]}}
+{"sentences":"Docker Premium Pull Limits","labels":{"default":["question"]}}
+{"sentences":"fmt: doesn't supports struct embeds","labels":{"default":["bug"]}}
+{"sentences":"Request: Thermoelectric Cooler (Resistive Heater opposit)","labels":{"default":["enhancement"]}}
+{"sentences":"Fix existing backend unit tests","labels":{"default":["bug"]}}
+{"sentences":"Do not show archived contexts in context view","labels":{"default":["bug"]}}
+{"sentences":"Loading hangs when exporting leaf","labels":{"default":["bug"]}}
+{"sentences":"Show airspace altitudes on map","labels":{"default":["enhancement"]}}
+{"sentences":"Mathbar not working properly","labels":{"default":["bug"]}}
+{"sentences":"Mathbar not working properly","labels":{"default":["bug"]}}
+{"sentences":"Remove items from trash after...","labels":{"default":["enhancement"]}}
+{"sentences":"minecraft:damage_sensor linting appears incorrect","labels":{"default":["bug"]}}
+{"sentences":"Semantic token provider instead of grammar injection","labels":{"default":["enhancement"]}}
+{"sentences":"Semantic token provider instead of grammar injection","labels":{"default":["enhancement"]}}
+{"sentences":"Create Federal Population Scraper","labels":{"default":["enhancement"]}}
+{"sentences":"MongoServerSelectionError: getaddrinfo ENOTFOUND","labels":{"default":["bug"]}}
+{"sentences":"Refactor typemap loading mechanism to support loading from multiple files","labels":{"default":["enhancement"]}}
+{"sentences":"Add common raw files to ue4 typemap","labels":{"default":["enhancement"]}}
+{"sentences":"(4주차) 예외 전환의 목적","labels":{"default":["question"]}}
+{"sentences":"[REQUEST] Company Route import from PLN file into MCDU","labels":{"default":["enhancement"]}}
+{"sentences":"Runtime for p5 please","labels":{"default":["question"]}}
+{"sentences":"Unable to launch 1.16.4 on both 32/64 bit runtimes","labels":{"default":["bug"]}}
+{"sentences":"Goup Delete Doesn't work","labels":{"default":["bug"]}}
+{"sentences":"Support graceful shutdown","labels":{"default":["enhancement"]}}
+{"sentences":"Glossary for scoring codes used","labels":{"default":["enhancement"]}}
+{"sentences":"Simple conditional statements","labels":{"default":["enhancement"]}}
+{"sentences":"Declare first","labels":{"default":["enhancement"]}}
+{"sentences":"Extract Qt5.11.3(Pi4) code detector to INTERFACE target","labels":{"default":["enhancement"]}}
+{"sentences":"Festival error - Mudavan Muzhukku should be on 17.11.2020","labels":{"default":["bug"]}}
+{"sentences":"Rework ContextMenu ActionHandler","labels":{"default":["enhancement"]}}
+{"sentences":"implement feature detection","labels":{"default":["enhancement"]}}
+{"sentences":"brig cat: big files are only outputted partially","labels":{"default":["bug"]}}
+{"sentences":"Can't scrape chrome webstore page","labels":{"default":["question"]}}
+{"sentences":"Add support for multiple view holders in a given section","labels":{"default":["enhancement"]}}
+{"sentences":"Is this an optimized way to host a custom draw View in Section?","labels":{"default":["question"]}}
+{"sentences":"Support onViewAttachedToWindow on Section","labels":{"default":["enhancement"]}}
+{"sentences":"how to reuse same viewholder in different section","labels":{"default":["enhancement"]}}
+{"sentences":"Is it possible to support Paging concept introduced in recent year?","labels":{"default":["enhancement"]}}
+{"sentences":"Module errors are not parsed","labels":{"default":["bug"]}}
+{"sentences":"Dogfooding readme definition link is a 404","labels":{"default":["bug"]}}
+{"sentences":"Add UI elements for comment position and margin","labels":{"default":["enhancement"]}}
+{"sentences":"Desktop: Content script plugins don't ship with external js libraries","labels":{"default":["bug"]}}
+{"sentences":"Better Logging","labels":{"default":["enhancement"]}}
+{"sentences":"Automatically strip spaces from CSV","labels":{"default":["enhancement"]}}
+{"sentences":"Support empty organizations","labels":{"default":["enhancement"]}}
+{"sentences":"[CLOUD] Fix KeyError: 'accountId' in cloud when customer already exists","labels":{"default":["bug"]}}
+{"sentences":"Support specifying service desk by project key","labels":{"default":["enhancement"]}}
+{"sentences":"error: failed to run custom build command for `mupdf-sys v0.0.3`","labels":{"default":["question"]}}
+{"sentences":"Extra fiels","labels":{"default":["question"]}}
+{"sentences":"avoid Docker Hub rate limits for my CircleCI builds","labels":{"default":["enhancement"]}}
+{"sentences":"Please help me fix my English!","labels":{"default":["bug"]}}
+{"sentences":"Please add some images in the ReadMe document.","labels":{"default":["enhancement"]}}
+{"sentences":"Please add support for sqlite and sql.js","labels":{"default":["enhancement"]}}
+{"sentences":"Make the sample rate / time step variable in the Python code","labels":{"default":["enhancement"]}}
+{"sentences":"implement editMessageText call","labels":{"default":["enhancement"]}}
+{"sentences":"bug in Pandas when reading files with 'Infinity'","labels":{"default":["bug"]}}
+{"sentences":"Add new inpainting flags","labels":{"default":["enhancement"]}}
+{"sentences":"Travel money check shows warning when exact money is carried","labels":{"default":["bug"]}}
+{"sentences":"Regex flags aren't taken into consideration","labels":{"default":["enhancement"]}}
+{"sentences":"shutdown cleanly via command-line? (SIGINT, WM_CLOSE, Rest API, TASKKILL /T)","labels":{"default":["enhancement"]}}
+{"sentences":"Warning: Unable to fully load * for source-map flattening: ENOENT: no such file or directory, open *.map","labels":{"default":["bug"]}}
+{"sentences":"add time window","labels":{"default":["enhancement"]}}
+{"sentences":"Set K/V 的时候, 重复写, 数据库不清理","labels":{"default":["bug"]}}
+{"sentences":"Opening some character blocks crashes the program on some machines","labels":{"default":["bug"]}}
+{"sentences":"[New] method of `JHUData` to know what kind of complement was done for subset for each country","labels":{"default":["enhancement"]}}
+{"sentences":"[Stock]  Add visual component when quantity is lower than required","labels":{"default":["enhancement"]}}
+{"sentences":"Any way to access the query in appBar?","labels":{"default":["enhancement"]}}
+{"sentences":"反复启用/禁用插件之后，视图部分产生ViewDataDictionary不兼容问题","labels":{"default":["bug"]}}
+{"sentences":"Fix confidence","labels":{"default":["bug"]}}
+{"sentences":"Auto Trader spawns XP orbs at coordinate [0, 0.5, 0]","labels":{"default":["bug"]}}
+{"sentences":"[lev] Fix TIM to BMP conversion for misaligned widths","labels":{"default":["bug"]}}
+{"sentences":"[mpktool] Extract models, once implemented in CTRFramework","labels":{"default":["enhancement"]}}
+{"sentences":"[viewer] Add instanced game objects","labels":{"default":["enhancement"]}}
+{"sentences":"Implement option to sneak past an enemy","labels":{"default":["enhancement"]}}
+{"sentences":"accuracy question when running vdcnn29","labels":{"default":["question"]}}
+{"sentences":"Chords for scale","labels":{"default":["enhancement"]}}
+{"sentences":"List indentation shifts to the left on the first & last values","labels":{"default":["bug"]}}
+{"sentences":"Attempting to match globs finds no files","labels":{"default":["bug"]}}
+{"sentences":"Machine learning sur les dessins","labels":{"default":["enhancement"]}}
+{"sentences":"Accessibilité pour les daltoniens","labels":{"default":["enhancement"]}}
+{"sentences":"Поддержать возможность использования логинов с дефисом","labels":{"default":["bug"]}}
+{"sentences":"Text overflows ","labels":{"default":["bug"]}}
+{"sentences":"Minor bugs for iOS version","labels":{"default":["bug"]}}
+{"sentences":"Incorporate outfit defence statistic","labels":{"default":["enhancement"]}}
+{"sentences":"空のカテゴリをクリックするとエラー","labels":{"default":["bug"]}}
+{"sentences":"SchemaClassでエラー","labels":{"default":["bug"]}}
+{"sentences":"メニューに曽孫（子メニューの下の下の下）以降が作成されるとエラー","labels":{"default":["bug"]}}
+{"sentences":"Rezept lässt sich nicht löschen","labels":{"default":["bug"]}}
+{"sentences":"Public Pages","labels":{"default":["enhancement"]}}
+{"sentences":"Add Service Worker","labels":{"default":["enhancement"]}}
+{"sentences":"Footnote length error is annoying","labels":{"default":["enhancement"]}}
+{"sentences":"Choice between Courier and Courier New","labels":{"default":["enhancement"]}}
+{"sentences":"Choice between Courier and Courier New","labels":{"default":["question"]}}
+{"sentences":"Choice between Courier and Courier New","labels":{"default":["enhancement"]}}
+{"sentences":"Choice between Courier and Courier New","labels":{"default":["question"]}}
+{"sentences":"Write to logr","labels":{"default":["enhancement"]}}
+{"sentences":"IndexError exception raised when someone sends the prefix alone","labels":{"default":["bug"]}}
+{"sentences":"Crear diseños para plantillas estáticas","labels":{"default":["enhancement"]}}
+{"sentences":"Text overflows ","labels":{"default":["bug"]}}
+{"sentences":"[BUG]Error when starting the server","labels":{"default":["bug"]}}
+{"sentences":"Event listener stops working","labels":{"default":["bug"]}}
+{"sentences":"Need to open Media Query for tab mode,as i figured it's not working perfectly in different tab size","labels":{"default":["bug"]}}
+{"sentences":"Repositoryの実装","labels":{"default":["enhancement"]}}
+{"sentences":"Bin Builder Class","labels":{"default":["enhancement"]}}
+{"sentences":"Possible memory-leak when deleting threads","labels":{"default":["bug"]}}
+{"sentences":"Unable to get User data localTo","labels":{"default":["bug"]}}
+{"sentences":"[TASK] Fundamental Layout","labels":{"default":["enhancement"]}}
+{"sentences":"던전/레이드 드랍 테이블 추가","labels":{"default":["enhancement"]}}
+{"sentences":"PA1","labels":{"default":["enhancement"]}}
+{"sentences":"PA2","labels":{"default":["enhancement"]}}
+{"sentences":"Cannot read property 'users' of undefined","labels":{"default":["question"]}}
+{"sentences":"Cannot convert from `GLib.List<weak Secret.Item>' to `GLib.List<Secret.Item>'","labels":{"default":["bug"]}}
+{"sentences":"images are not able to loaded in the website","labels":{"default":["bug"]}}
+{"sentences":"images are not able to loaded in the website","labels":{"default":["bug"]}}
+{"sentences":"Implement Manual Mode as in Frija","labels":{"default":["enhancement"]}}
+{"sentences":"Actionlara route verilmesi","labels":{"default":["bug"]}}
+{"sentences":"Actionlara route verilmesi","labels":{"default":["question"]}}
+{"sentences":"Shop Chat: returns an error when starting the server","labels":{"default":["bug"]}}
+{"sentences":"\"Attack\" feature for players","labels":{"default":["enhancement"]}}
+{"sentences":"Character statistics view","labels":{"default":["enhancement"]}}
+{"sentences":"bug: edit route param `Redirect : Enable HTTPS`, javascript raise exception","labels":{"default":["bug"]}}
+{"sentences":"Unexpected behavior when throwing an HttpException with previous AuthenticationException","labels":{"default":["enhancement"]}}
+{"sentences":"Adjust the voice of the user you want.","labels":{"default":["enhancement"]}}
+{"sentences":"[question] url variable in mux.HandleFunc(...)","labels":{"default":["question"]}}
+{"sentences":"Plug-in v3.10.1 - Cause: null, Could not convert the class 'org.jfrog.hudson.generic.ArtifactoryGenericConfigurator' to use the new overridingformat.","labels":{"default":["bug"]}}
+{"sentences":"Enable EdgeChromium in unit and UI tests when it's released, and available on Saucelabs","labels":{"default":["enhancement"]}}
+{"sentences":"netatmo should not print out stack traces in openhab.log file","labels":{"default":["bug"]}}
+{"sentences":"cross compiled jobs using wrong tags to run the binaries","labels":{"default":["bug"]}}
+{"sentences":"[question] how to use dali resize in \"not_larger\" mode?","labels":{"default":["question"]}}
+{"sentences":"Object processor queue starts too early","labels":{"default":["bug"]}}
+{"sentences":"4.5.1: build fails with gcc 11.0.0","labels":{"default":["bug"]}}
+{"sentences":"Consistent font size irrestpective of image","labels":{"default":["question"]}}
+{"sentences":"Item colours of the invension list are coloured incorrectly","labels":{"default":["bug"]}}
+{"sentences":"VM abort at the end of C3M0_B","labels":{"default":["bug"]}}
+{"sentences":"vboxsf does not work in the 5.4 lts kernel.","labels":{"default":["bug"]}}
+{"sentences":"Typo in gameFamiliesCount","labels":{"default":["bug"]}}
+{"sentences":"Field ordering in introspection queries","labels":{"default":["enhancement"]}}
+{"sentences":"Building with \"-o /dev/null\" when the input is cached triggers an assert","labels":{"default":["bug"]}}
+{"sentences":"I don't understand how to avoid using a function-scoped fixture","labels":{"default":["question"]}}
+{"sentences":"scroller模式下打印和下载图片位置不正确","labels":{"default":["bug"]}}
+{"sentences":"minimap导航窗口超出范围","labels":{"default":["bug"]}}
+{"sentences":"edge 支持 antd tooltip","labels":{"default":["enhancement"]}}
+{"sentences":"vue中使用X6数据改变画布视图刷新重叠","labels":{"default":["bug"]}}
+{"sentences":"通过highlight高亮边后无法跟随移动","labels":{"default":["bug"]}}
+{"sentences":"Item price visual comparison on \"Selling\" tab","labels":{"default":["enhancement"]}}
+{"sentences":"check URL links in CI","labels":{"default":["enhancement"]}}
+{"sentences":"MacOS Support","labels":{"default":["enhancement"]}}
+{"sentences":"Web component: Callout quote - Quote Mark (markType) option is not available on knobs sections.","labels":{"default":["bug"]}}
+{"sentences":"add private key -> unprotected -> choose pp -> \"cannot add unprotected\"","labels":{"default":["bug"]}}
+{"sentences":"Initialize-PnPPowerShellAuthentication : The term 'Initialize-PnPPowerShellAuthentication' is not recognized as the name of a cmdlet","labels":{"default":["bug"]}}
+{"sentences":"Incorrect display of the last segment (plasma current ramp down)","labels":{"default":["bug"]}}
+{"sentences":"Incorrect pre-pulse temperature","labels":{"default":["bug"]}}
+{"sentences":"Sega Mini blank Screen at Boot","labels":{"default":["bug"]}}
+{"sentences":"Documentation on Active Learning and Systematic reviewing.","labels":{"default":["enhancement"]}}
+{"sentences":"[BUG] Wordpress video not loading","labels":{"default":["bug"]}}
+{"sentences":"Small elapsed time on Render() when vsync is enabled","labels":{"default":["bug"]}}
+{"sentences":"Consider supporting Automapper dependency injection","labels":{"default":["enhancement"]}}
+{"sentences":"[grid] restore should reset decoration","labels":{"default":["bug"]}}
+{"sentences":"Fix Doxygen in CI.","labels":{"default":["bug"]}}
+{"sentences":"Move docker build process to the cloud","labels":{"default":["enhancement"]}}
+{"sentences":"登录成功后 显示 JCE cannot authenticate the provider BC","labels":{"default":["question"]}}
+{"sentences":"Implement since","labels":{"default":["enhancement"]}}
+{"sentences":"Questions about GPUStatsMonitor callback and GPU utilization","labels":{"default":["question"]}}
+{"sentences":"How to implement multiple optimizers based on epoch number?","labels":{"default":["question"]}}
+{"sentences":"Use custom batch dataloader with DDP","labels":{"default":["question"]}}
+{"sentences":"Sprint VIew ist nicht Responsive","labels":{"default":["bug"]}}
+{"sentences":"Sign Up Page ist nicht für mobile Endgeräte optimiert","labels":{"default":["bug"]}}
+{"sentences":"Login view mit Namen des Tool.","labels":{"default":["enhancement"]}}
+{"sentences":"Reihenfolge der Sprints ist manchmla falsch","labels":{"default":["bug"]}}
+{"sentences":"Dem Benutzer wird nicht angezeigt, wenn er keine Berechtigung hat eine Aktion auszuführen.","labels":{"default":["bug"]}}
+{"sentences":"Bug Sprint_Statistic API","labels":{"default":["bug"]}}
+{"sentences":"cherry-pick from github/gitignore","labels":{"default":["enhancement"]}}
+{"sentences":"Änderung Funktionsname im jedem Widget","labels":{"default":["enhancement"]}}
+{"sentences":"JSON table: Kopfzeile fixierbar machen","labels":{"default":["enhancement"]}}
+{"sentences":"Sometimes TBEAMs can sleep even though they are on USB power","labels":{"default":["bug"]}}
+{"sentences":"mdn: process window.__data__ ","labels":{"default":["enhancement"]}}
+{"sentences":"Same items don't stack","labels":{"default":["bug"]}}
+{"sentences":"CJ4 0.8.1 Changing VPA takes you to PERF INIT","labels":{"default":["bug"]}}
+{"sentences":"CJ4 v0.8.0 Flight Dirctor indication when selecting NAV (FMS)","labels":{"default":["enhancement"]}}
+{"sentences":"CJ4 0.5.0: Some Waypoint Labels on Map have text overlap","labels":{"default":["bug"]}}
+{"sentences":"Validación de order voting","labels":{"default":["enhancement"]}}
+{"sentences":"Engine.Visual.DisableRain()","labels":{"default":["enhancement"]}}
+{"sentences":"Cheats.Player.AddVehicles()","labels":{"default":["enhancement"]}}
+{"sentences":"[Android] SelectCategoryActivity","labels":{"default":["enhancement"]}}
+{"sentences":"Fix OpenStreetMap Sign In","labels":{"default":["bug"]}}
+{"sentences":"UI stops working in Next episode","labels":{"default":["bug"]}}
+{"sentences":"Update Installation in README","labels":{"default":["bug"]}}
+{"sentences":"[FEATURE] Scalar logical type should be `bool`","labels":{"default":["enhancement"]}}
+{"sentences":"Move to JDK9","labels":{"default":["enhancement"]}}
+{"sentences":"CDN Cheat Sheet Down???","labels":{"default":["bug"]}}
+{"sentences":"Grid mutate","labels":{"default":["enhancement"]}}
+{"sentences":"How to evaluate a specific option before any other option","labels":{"default":["question"]}}
+{"sentences":"3 new user submitted additions","labels":{"default":["enhancement"]}}
+{"sentences":"Neovim bug with lh-brackets","labels":{"default":["bug"]}}
+{"sentences":"Print out more event types.","labels":{"default":["enhancement"]}}
+{"sentences":"How different is typer from click command?","labels":{"default":["question"]}}
+{"sentences":"Error when transforming the `typeof(X<>)` construct","labels":{"default":["bug"]}}
+{"sentences":"HAP crashed reproduzierbar","labels":{"default":["enhancement"]}}
+{"sentences":"Guest Error","labels":{"default":["bug"]}}
+{"sentences":"Add screenshot","labels":{"default":["question"]}}
+{"sentences":"add precipitation screen","labels":{"default":["enhancement"]}}
+{"sentences":"Can't enter fractional quantity","labels":{"default":["bug"]}}
+{"sentences":"Resized previews issues","labels":{"default":["bug"]}}
+{"sentences":"User logout","labels":{"default":["enhancement"]}}
+{"sentences":"Migrate from Dark Sky to the National Weather Service","labels":{"default":["enhancement"]}}
+{"sentences":"unix shell crash with path segment  on Windows when CWD is root of drive ","labels":{"default":["bug"]}}
+{"sentences":"Decrease minimum window width","labels":{"default":["enhancement"]}}
+{"sentences":"Hide/show channel list.","labels":{"default":["enhancement"]}}
+{"sentences":"Add due date handling","labels":{"default":["enhancement"]}}
+{"sentences":"Add Commitlint","labels":{"default":["enhancement"]}}
+{"sentences":"Add create-react-app","labels":{"default":["enhancement"]}}
+{"sentences":"\"Realtime\" button text illegible","labels":{"default":["bug"]}}
+{"sentences":"Error when synching group with file","labels":{"default":["bug"]}}
+{"sentences":"[0.32.0-alpha.24][androidTV] Your undefined does not exist. You won't be able to make production releases without it! ","labels":{"default":["bug"]}}
+{"sentences":"Project fails to build on Android Studio 4.2 Beta","labels":{"default":["bug"]}}
+{"sentences":"Global dark mode in Xiaomi MIUI causes visual glitches in Loop Habit Tracker","labels":{"default":["bug"]}}
+{"sentences":"Reminders are unreliable in some phones","labels":{"default":["bug"]}}
+{"sentences":"getCommands() returns undefined","labels":{"default":["bug"]}}
+{"sentences":"getCommands() returns undefined","labels":{"default":["question"]}}
+{"sentences":"Wrong order in sorting grouped files","labels":{"default":["bug"]}}
+{"sentences":"Folder & File Mixed Sort","labels":{"default":["enhancement"]}}
+{"sentences":"Request: option to use non-\"logical\" sort order","labels":{"default":["enhancement"]}}
+{"sentences":"Popup images","labels":{"default":["enhancement"]}}
+{"sentences":"How to pull more than the top 100 listings?","labels":{"default":["bug"]}}
+{"sentences":"How to pull more than the top 100 listings?","labels":{"default":["bug"]}}
+{"sentences":"添加nvencc中的vbr-quality参数","labels":{"default":["enhancement"]}}
+{"sentences":"gop设置","labels":{"default":["enhancement"]}}
+{"sentences":"Vim-style keybindings for moving around","labels":{"default":["enhancement"]}}
+{"sentences":"Future async compatibility","labels":{"default":["question"]}}
+{"sentences":"View-distance=2 on server.propertise does not work.","labels":{"default":["bug"]}}
+{"sentences":"Error and server hanging out pasting a schematic with AsyncWe","labels":{"default":["bug"]}}
+{"sentences":"Inline whitespace control not always renders correctly","labels":{"default":["bug"]}}
+{"sentences":"Add Zero extender to complement Sign extender","labels":{"default":["enhancement"]}}
+{"sentences":"Extension causes high cpu load","labels":{"default":["question"]}}
+{"sentences":"Sigil (2019)","labels":{"default":["bug"]}}
+{"sentences":"Event time out","labels":{"default":["question"]}}
+{"sentences":"xonsh needs quotes for space","labels":{"default":["bug"]}}
+{"sentences":"PPF-137: add pylint to requirements","labels":{"default":["enhancement"]}}
+{"sentences":"New players in diff is incorrect","labels":{"default":["bug"]}}
+{"sentences":"New players in diff is incorrect","labels":{"default":["bug"]}}
+{"sentences":"Remove serenity dep from aoc-data","labels":{"default":["bug"]}}
+{"sentences":"Theme selector","labels":{"default":["enhancement"]}}
+{"sentences":"Empty string values are converted to 'nan' as text","labels":{"default":["bug"]}}
+{"sentences":"Login not working on some browsers/devices","labels":{"default":["bug"]}}
+{"sentences":"Quotes in languages other than english","labels":{"default":["bug"]}}
+{"sentences":"When switching from settings to account panel filters get reset.","labels":{"default":["bug"]}}
+{"sentences":"Update main README with the examples and their descriptions.","labels":{"default":["enhancement"]}}
+{"sentences":"openmediavault.postinst fails due to chronyd refusing to start on systems running a kernel with SECCOMP disabled","labels":{"default":["bug"]}}
+{"sentences":"\"Open Bundle\" command: Match on bundle parent paths","labels":{"default":["enhancement"]}}
+{"sentences":"\"Open bundle\" command: Don't display bundle name (again) in details","labels":{"default":["enhancement"]}}
+{"sentences":"document mode - Funktionen in type MATH übernehmen","labels":{"default":["question"]}}
+{"sentences":"move-files-and-folders","labels":{"default":["enhancement"]}}
+{"sentences":"Validate user inputs according to context","labels":{"default":["bug"]}}
+{"sentences":"Validate user inputs according to context","labels":{"default":["enhancement"]}}
+{"sentences":"Cooldown for special attack","labels":{"default":["enhancement"]}}
+{"sentences":"Several vertical-stack-in-card in a single view are stacked vertically","labels":{"default":["bug"]}}
+{"sentences":"Typography has too much props","labels":{"default":["enhancement"]}}
+{"sentences":"custom checkbox show error","labels":{"default":["bug"]}}
+{"sentences":"Bug: commetns(tokenize) bug","labels":{"default":["bug"]}}
+{"sentences":"Validator on field defined with Union of arbitrary type and with default value raises ConfigError","labels":{"default":["question"]}}
+{"sentences":"Subclass to a class inheriting from GenericModel - no validation at instantiation","labels":{"default":["bug"]}}
+{"sentences":"Deprecate Kegs","labels":{"default":["enhancement"]}}
+{"sentences":"Blinds und Spielreihenfolge für 2 Spieler sind falsch","labels":{"default":["bug"]}}
+{"sentences":"Variantenberechnung mit Lüftung detailliert","labels":{"default":["question"]}}
+{"sentences":"intermediate files to be removed","labels":{"default":["enhancement"]}}
+{"sentences":"select of punishments translation","labels":{"default":["bug"]}}
+{"sentences":"Integrating sounds","labels":{"default":["enhancement"]}}
+{"sentences":"cmake option","labels":{"default":["question"]}}
+{"sentences":"Install and setup reflector (systemd timer)","labels":{"default":["enhancement"]}}
+{"sentences":"Use lang.php instead of lang.json","labels":{"default":["enhancement"]}}
+{"sentences":"Migrate CI/CD services to GitHub Actions.","labels":{"default":["enhancement"]}}
+{"sentences":"\"poly_mesh\" feature support for bones","labels":{"default":["enhancement"]}}
+{"sentences":"BUG-6: Event Picture is Uploaded before Review","labels":{"default":["bug"]}}
+{"sentences":"Active Watts and Watts different output.","labels":{"default":["question"]}}
+{"sentences":"Translators should use the text/template package and templates should get embedded into the built binary","labels":{"default":["enhancement"]}}
+{"sentences":"UI: add weather card","labels":{"default":["enhancement"]}}
+{"sentences":"Cách sử dụng nesting trong thực tế","labels":{"default":["enhancement"]}}
+{"sentences":"No song download","labels":{"default":["bug"]}}
+{"sentences":"App suddenly closes and doesn't download any song","labels":{"default":["bug"]}}
+{"sentences":"[Question/Error] PyCharm IDE shows Warnings: Expected type '_SpecialForm[str, int, tuple, object]', got 'str' instead","labels":{"default":["enhancement"]}}
+{"sentences":"Thuật toán nesting là gì ?","labels":{"default":["bug"]}}
+{"sentences":"Cách sử dụng nesting trong thực tế","labels":{"default":["enhancement"]}}
+{"sentences":"Refactor to remove reliance on Make","labels":{"default":["enhancement"]}}
+{"sentences":"Bug report","labels":{"default":["bug"]}}
+{"sentences":"Use TypeScript instead of plain JavaScript","labels":{"default":["enhancement"]}}
+{"sentences":"Stupid Mover Bug","labels":{"default":["bug"]}}
+{"sentences":"Make did catch better with toast","labels":{"default":["enhancement"]}}
+{"sentences":"Integrate mathmod","labels":{"default":["enhancement"]}}
+{"sentences":"Login doesn't work","labels":{"default":["bug"]}}
+{"sentences":"password re-enter prompt is not shown","labels":{"default":["bug"]}}
+{"sentences":"Can't compile with new STSTM32 library","labels":{"default":["bug"]}}
+{"sentences":"Only the last images that are checked are saved to local storage","labels":{"default":["bug"]}}
+{"sentences":"Cathothic Responsorial Psalm Reference Glitch","labels":{"default":["bug"]}}
+{"sentences":"Symfony CLI Installer version 1.1.5 symfony version 4.21.3 closes automatically (Crashes) with video recording Proof","labels":{"default":["bug"]}}
+{"sentences":"[Lock] The redis store forces a TTL on the key even when there is no TTL","labels":{"default":["bug"]}}
+{"sentences":"Symfony var dumper dump() shows different results as compared to print_r and var_dump when connecting to mysql","labels":{"default":["bug"]}}
+{"sentences":"Github status push does not process git url correctly","labels":{"default":["bug"]}}
+{"sentences":"qgsXYZTilesConnections import fails with \"Connection with name [name] already exists. Overwrite?\"","labels":{"default":["bug"]}}
+{"sentences":"#r nuget seems to lock up FSAC.","labels":{"default":["bug"]}}
+{"sentences":"Improve logging subsystem","labels":{"default":["enhancement"]}}
+{"sentences":"Jenkins Generic-Artifactory Integration - FATAL: No Artifactory server configured for null","labels":{"default":["bug"]}}
+{"sentences":"[Bug] [Regression] After update from pre5 to pre6 MediaElement.Source binding to string stops working.","labels":{"default":["bug"]}}
+{"sentences":"Changing language in setup causes redirect to /undefined","labels":{"default":["bug"]}}
+{"sentences":"Display warning message if module to load/unload is already loaded/unloaded","labels":{"default":["enhancement"]}}
+{"sentences":"Execution stepping from the suspended state","labels":{"default":["enhancement"]}}
+{"sentences":"Install hooks and taskers to a remote flack","labels":{"default":["enhancement"]}}
+{"sentences":"Different results on Windows and Mac with timestamp columns ","labels":{"default":["bug"]}}
+{"sentences":"Different timestamp display in psql and RStudio","labels":{"default":["bug"]}}
+{"sentences":"Timestamp without time zone problem","labels":{"default":["bug"]}}
+{"sentences":"dbGetQuery assuming postgres database is in UTC? ","labels":{"default":["bug"]}}
+{"sentences":"Incorrect results when aggregating timestamp to date","labels":{"default":["bug"]}}
+{"sentences":"require-atomic-updates reports parameters","labels":{"default":["bug"]}}
+{"sentences":"Consider changing default location of `.eslintcache` to `node_modules/.cache`","labels":{"default":["enhancement"]}}
+{"sentences":"improving searching in sample/prep summary ","labels":{"default":["enhancement"]}}
+{"sentences":"Collect user feedback / rating / NPS survey","labels":{"default":["enhancement"]}}
+{"sentences":"Handle the maxQuantity being negative","labels":{"default":["enhancement"]}}
+{"sentences":"Top Menu Bar: Hide search box on wizard pages","labels":{"default":["enhancement"]}}
+{"sentences":"Multiple <expansion> lists","labels":{"default":["question"]}}
+{"sentences":"Consider adding configuration for markdownlint","labels":{"default":["bug"]}}
+{"sentences":"0.20.10 Error: Tried to set an option (mode) that was not declared.","labels":{"default":["bug"]}}
+{"sentences":"Italian translation for the installer","labels":{"default":["enhancement"]}}
+{"sentences":"Latest beta slow and shows white screen","labels":{"default":["bug"]}}
+{"sentences":"Degenerate cases of meshes cause runtime failures","labels":{"default":["bug"]}}
+{"sentences":"Allow adding link to event details in each card","labels":{"default":["enhancement"]}}
+{"sentences":"[Bug] Spectral Mixture kernel raw_samples and train_X has to be the same as batch_size","labels":{"default":["bug"]}}
+{"sentences":"Explorer displays \"Loading file tree\" perpetually when trying to join a session","labels":{"default":["bug"]}}
+{"sentences":"More complete implementation of CachePadded","labels":{"default":["enhancement"]}}
+{"sentences":"wdel.time(0) to auto-set the loop-size for C3","labels":{"default":["enhancement"]}}
+{"sentences":"Install Semantic Wiki","labels":{"default":["enhancement"]}}
+{"sentences":"What are TDB2 and TF2 classes in the source code?","labels":{"default":["question"]}}
+{"sentences":"Increase footer aesthetics. ","labels":{"default":["enhancement"]}}
+{"sentences":"[Swagger-ui] Request body is not declared as required","labels":{"default":["enhancement"]}}
+{"sentences":"New Win Build?","labels":{"default":["question"]}}
+{"sentences":"Multi subtrack issue","labels":{"default":["bug"]}}
