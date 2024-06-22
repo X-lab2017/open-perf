@@ -32,7 +32,7 @@ def process_text_file(file_path):
 
 			sentences.append(word)
 			if tag != 'O':
-				tag_type = tag.split('-')[-1]
+				tag_type = tag.split('-')[-1].replace('_', ' ')
 				start = offset
 				end = start + len(word)
 				spans.append({
