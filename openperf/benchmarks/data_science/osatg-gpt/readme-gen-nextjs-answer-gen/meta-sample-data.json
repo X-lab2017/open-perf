@@ -1,0 +1,3166 @@
+[
+  {
+    "question": "What is Next.js?",
+    "answer": "Next.js is a React framework for building full-stack web applications with features like server-side rendering, static site generation, and API routes."
+  },
+  {
+    "question": "What are the main features of Next.js?",
+    "answer": "Main features include routing, rendering, data fetching, styling, optimizations, and TypeScript support."
+  },
+  {
+    "question": "How does Next.js handle routing?",
+    "answer": "Next.js uses a file-system-based router, supporting layouts, nested routing, loading states, and error handling."
+  },
+  {
+    "question": "What is the difference between App Router and Pages Router in Next.js?",
+    "answer": "App Router uses React's latest features like Server Components, while Pages Router is the original router for server-rendered React applications."
+  },
+  {
+    "question": "What is Server-side Rendering (SSR) in Next.js?",
+    "answer": "SSR is a method where a page is rendered on the server for each request, providing better performance and SEO."
+  },
+  {
+    "question": "What is Static Site Generation (SSG)?",
+    "answer": "SSG generates static HTML at build time, offering fast performance and scalability."
+  },
+  {
+    "question": "How does Next.js optimize images?",
+    "answer": "Next.js includes an Image component that optimizes images for faster load times and better performance."
+  },
+  {
+    "question": "What styling options does Next.js support?",
+    "answer": "Next.js supports CSS Modules, Tailwind CSS, CSS-in-JS, and Sass."
+  },
+  {
+    "question": "What is Incremental Static Regeneration (ISR)?",
+    "answer": "ISR allows updating static content after build time by re-rendering pages in the background as traffic comes in."
+  },
+  {
+    "question": "How can you fetch data in Next.js?",
+    "answer": "Data can be fetched using `getStaticProps`, `getServerSideProps`, or the extended `fetch` API."
+  },
+  {
+    "question": "What is `getStaticProps`?",
+    "answer": "`getStaticProps` fetches data at build time for static generation of pages."
+  },
+  {
+    "question": "What is `getServerSideProps`?",
+    "answer": "`getServerSideProps` fetches data on each request for server-side rendering."
+  },
+  {
+    "question": "What is `getInitialProps`?",
+    "answer": "`getInitialProps` is an older data fetching method for both server-side and client-side rendering."
+  },
+  {
+    "question": "What are API routes in Next.js?",
+    "answer": "API routes allow creating API endpoints within a Next.js application."
+  },
+  {
+    "question": "How does Next.js support TypeScript?",
+    "answer": "Next.js has built-in TypeScript support, allowing for type-safe coding and easy integration."
+  },
+  {
+    "question": "What is dynamic routing in Next.js?",
+    "answer": "Dynamic routing allows creating routes with dynamic parameters using file and folder names prefixed with square brackets."
+  },
+  {
+    "question": "How does Next.js handle static file serving?",
+    "answer": "Static files can be served from the `public` directory."
+  },
+  {
+    "question": "What are middleware functions in Next.js?",
+    "answer": "Middleware functions in Next.js run before a request is completed, allowing to modify the response or request."
+  },
+  {
+    "question": "What is the `Head` component used for?",
+    "answer": "The `Head` component is used to modify the `<head>` section of the HTML document."
+  },
+  {
+    "question": "What is the `Link` component?",
+    "answer": "The `Link` component is used for client-side navigation between pages."
+  },
+  {
+    "question": "What are environment variables in Next.js?",
+    "answer": "Environment variables in Next.js are used to manage different environments and configurations securely."
+  },
+  {
+    "question": "What is the `next.config.js` file?",
+    "answer": "`next.config.js` is a configuration file where custom Next.js settings are defined."
+  },
+  {
+    "question": "How do you create custom error pages in Next.js?",
+    "answer": "Custom error pages can be created by defining `404.js` or `500.js` in the `pages` directory."
+  },
+  {
+    "question": "What is the purpose of the `Document` component?",
+    "answer": "The `Document` component is used to customize the default HTML document structure."
+  },
+  {
+    "question": "How does Next.js handle code splitting?",
+    "answer": "Next.js automatically splits code to improve load times by only loading the necessary parts of the application."
+  },
+  {
+    "question": "What is the `useRouter` hook?",
+    "answer": "`useRouter` is a hook that provides access to the router object, allowing navigation and access to route parameters."
+  },
+  {
+    "question": "What is the `next/image` component?",
+    "answer": "The `next/image` component is used for optimized image loading and serving."
+  },
+  {
+    "question": "How can you handle redirects in Next.js?",
+    "answer": "Redirects can be handled using the `redirects` key in `next.config.js`."
+  },
+  {
+    "question": "What is the `next/script` component?",
+    "answer": "The `next/script` component is used to load third-party scripts in a way that optimizes performance."
+  },
+  {
+    "question": "How does Next.js support PWA (Progressive Web App) features?",
+    "answer": "Next.js can be configured to support PWA features like service workers and manifest files."
+  },
+  {
+    "question": "What is the `next/dynamic` component?",
+    "answer": "`next/dynamic` is used for dynamic imports to load components asynchronously."
+  },
+  {
+    "question": "What is the `API` directory for in Next.js?",
+    "answer": "The `API` directory is used to create API routes that handle server-side logic."
+  },
+  {
+    "question": "How can you add global CSS styles in Next.js?",
+    "answer": "Global CSS styles can be added by importing CSS files in the `_app.js` file."
+  },
+  {
+    "question": "What are static HTML exports in Next.js?",
+    "answer": "Static HTML exports generate static versions of the Next.js app, suitable for deployment on static site hosts."
+  },
+  {
+    "question": "How do you handle session management in Next.js?",
+    "answer": "Session management can be handled using cookies, local storage, or third-party libraries like `next-auth`."
+  },
+  {
+    "question": "What is the `Preview Mode` in Next.js?",
+    "answer": "Preview Mode allows viewing draft content by bypassing static generation and fetching the latest content."
+  },
+  {
+    "question": "How do you perform a static export in Next.js?",
+    "answer": "A static export can be performed using the `next export` command."
+  },
+  {
+    "question": "What is the `rewrites` feature in Next.js?",
+    "answer": "The `rewrites` feature allows routing requests from one URL path to another URL path internally."
+  },
+  {
+    "question": "How does Next.js handle internationalization (i18n)?",
+    "answer": "Next.js provides built-in internationalization support with URL routing for different locales."
+  },
+  {
+    "question": "What is Fast Refresh in Next.js?",
+    "answer": "Fast Refresh is a feature that allows for instantaneous feedback on edits made to your React components."
+  },
+  {
+    "question": "How do you use environment variables in Next.js?",
+    "answer": "Environment variables can be defined in `.env` files and accessed via `process.env` in the code."
+  },
+  {
+    "question": "What is the `next/head` component?",
+    "answer": "The `next/head` component is used to manage the `<head>` section of a page for SEO and other purposes."
+  },
+  {
+    "question": "How can you customize the webpack configuration in Next.js?",
+    "answer": "Webpack configuration can be customized in `next.config.js` using the `webpack` key."
+  },
+  {
+    "question": "What is the `catch-all` route in Next.js?",
+    "answer": "A `catch-all` route is a dynamic route that matches multiple segments using square brackets and ellipses, e.g., `[...slug].js`."
+  },
+  {
+    "question": "How do you add meta tags in Next.js?",
+    "answer": "Meta tags can be added using the `Head` component from `next/head`."
+  },
+  {
+    "question": "What is the `next/link` component?",
+    "answer": "The `next/link` component is used for client-side navigation between pages."
+  },
+  {
+    "question": "How do you handle authentication in Next.js?",
+    "answer": "Authentication can be handled using libraries like `next-auth`, JWT, or custom API routes."
+  },
+  {
+    "question": "What is the `public` directory used for?",
+    "answer": "The `public` directory is used to serve static assets like images, fonts, and other files."
+  },
+  {
+    "question": "What is the `App` component in Next.js?",
+    "answer": "The `App` component is used to initialize pages, allowing you to persist layout between page changes and keep state when navigating."
+  },
+  {
+    "question": "How do you customize the default document in Next.js?",
+    "answer": "You can customize the default document by creating a `pages/_document.js` file and extending the `Document` class."
+  },
+  {
+    "question": "What is the `useRouter` hook?",
+    "answer": "`useRouter` is a hook that provides access to the Next.js router object, which includes route parameters and methods for navigation."
+  },
+  {
+    "question": "What is the purpose of the `getServerSideProps` function?",
+    "answer": "`getServerSideProps` is used to fetch data on each request, allowing for server-side rendering of pages."
+  },
+  {
+    "question": "How do you handle redirects in Next.js?",
+    "answer": "Redirects in Next.js can be configured in `next.config.js` using the `redirects` key."
+  },
+  {
+    "question": "What is the `Head` component?",
+    "answer": "The `Head` component from `next/head` is used to manage the `<head>` section of a page, allowing you to add elements like title and meta tags."
+  },
+  {
+    "question": "How can you use dynamic imports in Next.js?",
+    "answer": "Dynamic imports can be used with the `next/dynamic` component to load components asynchronously, improving performance."
+  },
+  {
+    "question": "What is the `public` directory used for?",
+    "answer": "The `public` directory is used to serve static assets like images, fonts, and other files directly."
+  },
+  {
+    "question": "How do you enable Preview Mode in Next.js?",
+    "answer": "Preview Mode is enabled by setting cookies in API routes and allows viewing draft content by bypassing static generation."
+  },
+  {
+    "question": "What is the purpose of the `next/image` component?",
+    "answer": "The `next/image` component optimizes images for better performance, including features like automatic resizing, lazy loading, and more."
+  },
+  {
+    "question": "How do you fetch data with `getStaticPaths`?",
+    "answer": "`getStaticPaths` is used alongside `getStaticProps` to generate dynamic routes at build time by specifying which paths to pre-render."
+  },
+  {
+    "question": "What is the `next/head` component?",
+    "answer": "`next/head` is a built-in component for modifying the `<head>` section of a page, useful for SEO and custom metadata."
+  },
+  {
+    "question": "How can you handle API requests in Next.js?",
+    "answer": "API requests in Next.js are handled by creating API routes within the `pages/api` directory."
+  },
+  {
+    "question": "What is the `Image` component used for?",
+    "answer": "The `Image` component in Next.js is used to serve optimized images with features like lazy loading, resizing, and more."
+  },
+  {
+    "question": "How do you configure internationalization (i18n) in Next.js?",
+    "answer": "Internationalization is configured in `next.config.js` by specifying locales, default locale, and locale detection."
+  },
+  {
+    "question": "What are the benefits of Server-side Rendering (SSR)?",
+    "answer": "SSR provides better SEO and faster initial page loads by rendering content on the server for each request."
+  },
+  {
+    "question": "What is the `next.config.js` file?",
+    "answer": "`next.config.js` is a configuration file where you can define custom settings for your Next.js application."
+  },
+  {
+    "question": "How do you create a custom 404 page in Next.js?",
+    "answer": "A custom 404 page can be created by adding a `404.js` file in the `pages` directory."
+  },
+  {
+    "question": "What is the `Link` component used for?",
+    "answer": "The `Link` component from `next/link` is used for client-side navigation between pages in a Next.js application."
+  },
+  {
+    "question": "How do you fetch data at build time with `getStaticProps`?",
+    "answer": "`getStaticProps` is used to fetch data at build time, allowing you to generate static pages with fetched data."
+  },
+  {
+    "question": "What is the purpose of `getInitialProps`?",
+    "answer": "`getInitialProps` is an older data fetching method used to fetch data on both server and client sides before rendering a page."
+  },
+  {
+    "question": "How can you use CSS Modules in Next.js?",
+    "answer": "CSS Modules can be used by importing `.module.css` files and applying scoped styles to components."
+  },
+  {
+    "question": "What are API routes?",
+    "answer": "API routes are server-side functions that can be used to create endpoints for your Next.js application."
+  },
+  {
+    "question": "What is `next-auth`?",
+    "answer": "`next-auth` is a library for managing authentication in Next.js applications with various providers like OAuth, JWT, and more."
+  },
+  {
+    "question": "How do you perform a static export in Next.js?",
+    "answer": "Static export can be performed using the `next export` command to generate a static version of the Next.js application."
+  },
+  {
+    "question": "How do you use Tailwind CSS with Next.js?",
+    "answer": "Tailwind CSS can be used by installing it via npm and configuring it in your Next.js project."
+  },
+  {
+    "question": "What is a custom `App` component?",
+    "answer": "A custom `App` component allows you to initialize pages, persist layout between page changes, and maintain state."
+  },
+  {
+    "question": "How do you add custom webpack configuration?",
+    "answer": "Custom webpack configuration can be added in `next.config.js` using the `webpack` key to extend or modify the default configuration."
+  },
+  {
+    "question": "What are `catch-all` routes?",
+    "answer": "`Catch-all` routes are dynamic routes that capture all paths and route them to a single page, using `[...slug].js`."
+  },
+  {
+    "question": "How do you use Incremental Static Regeneration (ISR)?",
+    "answer": "ISR allows updating static pages after build time by re-rendering pages in the background when requests come in."
+  },
+  {
+    "question": "What is Fast Refresh?",
+    "answer": "Fast Refresh is a feature in Next.js that provides instant feedback on edits to React components, improving development speed."
+  },
+  {
+    "question": "How do you serve static files in Next.js?",
+    "answer": "Static files can be served from the `public` directory, accessible directly via the URL."
+  },
+  {
+    "question": "How do you create API routes?",
+    "answer": "API routes can be created by adding JavaScript or TypeScript files inside the `pages/api` directory."
+  },
+  {
+    "question": "How does Next.js handle SEO?",
+    "answer": "Next.js handles SEO by providing server-side rendering, static site generation, and tools for managing metadata and open graph tags."
+  },
+  {
+    "question": "What is a custom `Document`?",
+    "answer": "A custom `Document` allows you to modify the initial HTML document structure by extending the default Document class."
+  },
+  {
+    "question": "How do you use Sass in Next.js?",
+    "answer": "Sass can be used in Next.js by installing `sass` via npm and importing `.scss` or `.sass` files into your components."
+  },
+  {
+    "question": "What is the `public` folder for?",
+    "answer": "The `public` folder is used to serve static assets like images, videos, and other files that are available to the client."
+  },
+  {
+    "question": "How do you enable TypeScript in Next.js?",
+    "answer": "TypeScript can be enabled by creating a `tsconfig.json` file and ensuring the project includes TypeScript dependencies."
+  },
+  {
+    "question": "How do you handle errors in Next.js?",
+    "answer": "Errors can be handled by creating custom error pages like `404.js` and `500.js` and using error boundaries in your components."
+  },
+  {
+    "question": "What is the `next/router` library?",
+    "answer": "`next/router` provides methods for navigating between pages and accessing route parameters."
+  },
+  {
+    "question": "How do you use the `next/link` component?",
+    "answer": "The `next/link` component is used to wrap `<a>` tags for client-side transitions between pages, preserving state and preventing full page reloads."
+  },
+  {
+    "question": "What is the `next/script` component?",
+    "answer": "`next/script` is used to optimize loading of third-party scripts by configuring when and how they should load."
+  },
+  {
+    "question": "How do you add global styles in Next.js?",
+    "answer": "Global styles can be added by importing CSS files in the `_app.js` file."
+  },
+  {
+    "question": "How do you implement client-side navigation in Next.js?",
+    "answer": "Client-side navigation in Next.js is implemented using the `next/link` component, which wraps `<a>` tags to enable fast, seamless transitions between pages without full page reloads."
+  },
+  {
+    "question": "What is the `next/script` component used for?",
+    "answer": "The `next/script` component is used to optimize the loading of third-party scripts, allowing you to control when and how they load for better performance."
+  },
+  {
+    "question": "How can you add global styles in Next.js?",
+    "answer": "Global styles can be added by importing CSS files in the `_app.js` file, which applies the styles to all pages and components in the application."
+  },
+  {
+    "question": "What is the purpose of the `next/router` library?",
+    "answer": "The `next/router` library provides methods for navigating between pages, accessing route parameters, and handling routing logic within a Next.js application."
+  },
+  {
+    "question": "How do you customize the webpack configuration in Next.js?",
+    "answer": "Custom webpack configuration in Next.js can be achieved by defining custom settings in the `next.config.js` file using the `webpack` key."
+  },
+  {
+    "question": "What are `catch-all` routes in Next.js?",
+    "answer": "`Catch-all` routes in Next.js are dynamic routes that capture all paths, enabling you to route multiple segments to a single page using `[...slug].js`."
+  },
+  {
+    "question": "What is the purpose of the `next/image` component?",
+    "answer": "The `next/image` component is designed for optimized image loading, offering features like automatic resizing, lazy loading, and responsive images for better performance."
+  },
+  {
+    "question": "How does Next.js support SEO?",
+    "answer": "Next.js supports SEO through server-side rendering, static site generation, and tools for managing metadata and open graph tags in the `<head>` section."
+  },
+  {
+    "question": "What is the `public` directory used for in Next.js?",
+    "answer": "The `public` directory is used to serve static files such as images, fonts, and other assets directly to the client."
+  },
+  {
+    "question": "How do you handle dynamic imports in Next.js?",
+    "answer": "Dynamic imports in Next.js are handled using the `next/dynamic` component, which allows you to load components asynchronously to improve performance."
+  },
+  {
+    "question": "What is Incremental Static Regeneration (ISR) in Next.js?",
+    "answer": "Incremental Static Regeneration (ISR) allows you to update static content after the initial build by re-rendering pages in the background as traffic comes in."
+  },
+  {
+    "question": "How can you add custom fonts in Next.js?",
+    "answer": "Custom fonts can be added in Next.js by including them in the `public` directory and referencing them in your CSS or by using a package like `next/font`."
+  },
+  {
+    "question": "What is the `useRouter` hook used for?",
+    "answer": "The `useRouter` hook is used to access the Next.js router object, enabling navigation and retrieval of route information within functional components."
+  },
+  {
+    "question": "How do you create a custom error page in Next.js?",
+    "answer": "Custom error pages can be created by adding `404.js` or `500.js` files in the `pages` directory to handle 404 and 500 errors respectively."
+  },
+  {
+    "question": "What is Static Site Generation (SSG) in Next.js?",
+    "answer": "Static Site Generation (SSG) is a method where pages are pre-rendered at build time, resulting in faster performance and scalability."
+  },
+  {
+    "question": "How do you use environment variables in Next.js?",
+    "answer": "Environment variables in Next.js are defined in `.env` files and accessed via `process.env` in your application code."
+  },
+  {
+    "question": "What is `getStaticPaths` in Next.js?",
+    "answer": "`getStaticPaths` is a function used with `getStaticProps` to define dynamic routes at build time by specifying which paths to pre-render."
+  },
+  {
+    "question": "How does Next.js handle code splitting?",
+    "answer": "Next.js automatically handles code splitting, creating separate bundles for each page and loading only the necessary code to improve performance."
+  },
+  {
+    "question": "What is the `next/head` component used for?",
+    "answer": "The `next/head` component is used to manage the `<head>` section of a page, allowing you to add elements like title, meta tags, and scripts."
+  },
+  {
+    "question": "How can you handle redirects in Next.js?",
+    "answer": "Redirects in Next.js can be configured in the `next.config.js` file using the `redirects` key to define source and destination URLs."
+  },
+  {
+    "question": "What is the `App` component in Next.js?",
+    "answer": "The `App` component is used to initialize pages, allowing you to persist layout between page changes and maintain state across navigations."
+  },
+  {
+    "question": "How do you use the `Link` component in Next.js?",
+    "answer": "The `Link` component from `next/link` is used to create client-side transitions between pages, improving performance and preserving state."
+  },
+  {
+    "question": "What is the purpose of `next/dynamic`?",
+    "answer": "`next/dynamic` is used to dynamically import components, allowing them to load asynchronously and improve application performance."
+  },
+  {
+    "question": "How can you fetch data with `getServerSideProps`?",
+    "answer": "`getServerSideProps` fetches data on each request, enabling server-side rendering and providing the freshest data for each page load."
+  },
+  {
+    "question": "What is `getStaticProps` used for?",
+    "answer": "`getStaticProps` is used to fetch data at build time for static generation of pages, providing fast load times and improved SEO."
+  },
+  {
+    "question": "How do you handle session management in Next.js?",
+    "answer": "Session management in Next.js can be handled using cookies, local storage, or third-party libraries like `next-auth` for authentication."
+  },
+  {
+    "question": "What is the `next/document` component?",
+    "answer": "The `next/document` component allows you to customize the HTML document structure by extending the default Document class."
+  },
+  {
+    "question": "What are API routes in Next.js?",
+    "answer": "API routes in Next.js are serverless functions that can be created in the `pages/api` directory to handle backend logic."
+  },
+  {
+    "question": "How do you create static HTML exports in Next.js?",
+    "answer": "Static HTML exports in Next.js can be created using the `next export` command, generating a static version of the application for deployment."
+  },
+  {
+    "question": "How does Next.js support TypeScript?",
+    "answer": "Next.js supports TypeScript out of the box, allowing you to create TypeScript files and providing type checking and IntelliSense in your code."
+  },
+  {
+    "question": "What is Fast Refresh in Next.js?",
+    "answer": "Fast Refresh is a feature in Next.js that provides instantaneous feedback on edits made to React components during development."
+  },
+  {
+    "question": "How do you use the `next/script` component?",
+    "answer": "The `next/script` component is used to load third-party scripts in a way that optimizes performance, with attributes to control loading behavior."
+  },
+  {
+    "question": "How do you enable PWA features in Next.js?",
+    "answer": "PWA features can be enabled in Next.js by configuring service workers and manifest files, often using third-party plugins or manual setup."
+  },
+  {
+    "question": "What is the purpose of the `public` folder?",
+    "answer": "The `public` folder is used to store static assets that are directly accessible from the root URL, such as images and other static files."
+  },
+  {
+    "question": "How can you implement custom error handling in Next.js?",
+    "answer": "Custom error handling in Next.js can be implemented by creating custom error pages and using error boundaries in your components."
+  },
+  {
+    "question": "What is the purpose of the `next/font` package?",
+    "answer": "The `next/font` package is used to optimize and manage fonts in Next.js applications, providing better performance and control over font loading."
+  },
+  {
+    "question": "How does Next.js handle static file serving?",
+    "answer": "Static files in Next.js are served from the `public` directory, allowing you to reference them directly in your application."
+  },
+  {
+    "question": "What is the `next/config` module?",
+    "answer": "The `next/config` module provides runtime configuration for your Next.js application, allowing you to access configuration settings in your code."
+  },
+  {
+    "question": "How do you create a custom App component?",
+    "answer": "A custom App component is created by extending the default App component in `_app.js`, allowing you to customize page initialization and layout."
+  },
+  {
+    "question": "What are the benefits of using Next.js for a project?",
+    "answer": "Next.js offers benefits like automatic static optimization, server-side rendering, API routes, incremental static regeneration, and built-in CSS and Sass support."
+  },
+  {
+    "question": "How does Next.js handle page-based routing?",
+    "answer": "Next.js uses a file-system based routing mechanism where each file in the `pages` directory becomes a route."
+  },
+  {
+    "question": "What is the `next.config.js` file?",
+    "answer": "`next.config.js` is a configuration file where custom settings for your Next.js application can be defined."
+  },
+  {
+    "question": "How do you pre-render pages with data in Next.js?",
+    "answer": "Pages in Next.js can be pre-rendered with data using `getStaticProps` for static generation or `getServerSideProps` for server-side rendering."
+  },
+  {
+    "question": "What is `getInitialProps`?",
+    "answer": "`getInitialProps` is a method used for data fetching in older versions of Next.js, but it's now recommended to use `getStaticProps` or `getServerSideProps`."
+  },
+  {
+    "question": "How does Next.js improve performance with automatic code splitting?",
+    "answer": "Next.js automatically splits code into smaller bundles so that each page only loads the necessary JavaScript, improving performance."
+  },
+  {
+    "question": "What is static site generation (SSG) in Next.js?",
+    "answer": "SSG in Next.js pre-renders pages at build time, resulting in faster load times and better performance."
+  },
+  {
+    "question": "How do you handle dynamic routes in Next.js?",
+    "answer": "Dynamic routes in Next.js are handled by creating files with brackets in the `pages` directory, like `[id].js`."
+  },
+  {
+    "question": "What are the benefits of using `next/image` for images?",
+    "answer": "The `next/image` component optimizes images with features like lazy loading, resizing, and automatic format selection, improving performance."
+  },
+  {
+    "question": "How do you configure environment variables in Next.js?",
+    "answer": "Environment variables in Next.js can be configured using `.env` files and accessed via `process.env` in your application."
+  },
+  {
+    "question": "How does Next.js support incremental static regeneration (ISR)?",
+    "answer": "ISR allows you to update static content after the build by re-rendering pages in the background when requests come in."
+  },
+  {
+    "question": "What is the use of the `useRouter` hook?",
+    "answer": "The `useRouter` hook provides access to the router object, allowing navigation and retrieval of route information in functional components."
+  },
+  {
+    "question": "How do you add global styles in Next.js?",
+    "answer": "Global styles are added by importing CSS files in the `_app.js` file, applying them globally across the application."
+  },
+  {
+    "question": "What is the purpose of `next/link`?",
+    "answer": "`next/link` is used to enable client-side transitions between routes, improving performance and preserving state."
+  },
+  {
+    "question": "How do you serve static assets in Next.js?",
+    "answer": "Static assets are served from the `public` directory, which can be directly accessed via the root URL."
+  },
+  {
+    "question": "What is Fast Refresh in Next.js?",
+    "answer": "Fast Refresh provides instant feedback for edits made to React components during development, improving the development experience."
+  },
+  {
+    "question": "How do you create API routes in Next.js?",
+    "answer": "API routes are created by adding JavaScript or TypeScript files inside the `pages/api` directory, defining serverless functions."
+  },
+  {
+    "question": "What are the different ways to fetch data in Next.js?",
+    "answer": "Data can be fetched using `getStaticProps`, `getServerSideProps`, `getStaticPaths`, and `getInitialProps` in Next.js."
+  },
+  {
+    "question": "How can you create a custom `Document` in Next.js?",
+    "answer": "A custom `Document` can be created by extending the default `Document` class in the `pages/_document.js` file to modify the initial HTML."
+  },
+  {
+    "question": "How do you use the `next/dynamic` component?",
+    "answer": "The `next/dynamic` component is used to dynamically import components, enabling them to load asynchronously for better performance."
+  },
+  {
+    "question": "What is the benefit of using `getServerSideProps`?",
+    "answer": "`getServerSideProps` allows server-side rendering, fetching data on each request for dynamic, up-to-date content."
+  },
+  {
+    "question": "How do you handle client-side navigation in Next.js?",
+    "answer": "Client-side navigation is handled using the `next/link` component, which enables fast transitions between pages without full reloads."
+  },
+  {
+    "question": "How do you customize the default App component?",
+    "answer": "The default App component can be customized by creating a `_app.js` file in the `pages` directory and extending the App component."
+  },
+  {
+    "question": "What is the `next/head` component used for?",
+    "answer": "The `next/head` component is used to modify the contents of the `<head>` tag in your HTML, such as adding meta tags and titles."
+  },
+  {
+    "question": "How does Next.js support internationalization (i18n)?",
+    "answer": "Internationalization is supported by configuring locales, default locale, and domain-specific locales in the `next.config.js` file."
+  },
+  {
+    "question": "What is the purpose of `getStaticPaths`?",
+    "answer": "`getStaticPaths` is used to specify dynamic routes to pre-render pages at build time, often used with `getStaticProps`."
+  },
+  {
+    "question": "How do you implement custom error pages in Next.js?",
+    "answer": "Custom error pages are implemented by creating `404.js` or `500.js` files in the `pages` directory."
+  },
+  {
+    "question": "What is the `next/config` module?",
+    "answer": "The `next/config` module provides runtime configuration for the application, allowing access to configuration settings."
+  },
+  {
+    "question": "How do you handle redirects in Next.js?",
+    "answer": "Redirects are configured in the `next.config.js` file using the `redirects` key, specifying source and destination URLs."
+  },
+  {
+    "question": "How does Next.js improve performance with static generation?",
+    "answer": "Static generation pre-renders pages at build time, resulting in faster load times and improved performance for static content."
+  },
+  {
+    "question": "What are `catch-all` routes in Next.js?",
+    "answer": "`Catch-all` routes are dynamic routes that capture all paths, using `[...slug].js` to match any route and its subpaths."
+  },
+  {
+    "question": "How do you use the `next/image` component?",
+    "answer": "The `next/image` component is used to optimize images by automatically resizing, lazy loading, and selecting appropriate formats."
+  },
+  {
+    "question": "What is the purpose of the `pages` directory?",
+    "answer": "The `pages` directory is used to define the routes of the application, with each file corresponding to a route."
+  },
+  {
+    "question": "How do you enable TypeScript support in Next.js?",
+    "answer": "TypeScript support is enabled by creating a `tsconfig.json` file and installing TypeScript dependencies in your Next.js project."
+  },
+  {
+    "question": "How do you add custom webpack configuration?",
+    "answer": "Custom webpack configuration is added by defining the `webpack` function in `next.config.js` to extend or modify the default settings."
+  },
+  {
+    "question": "What is the use of `getStaticProps`?",
+    "answer": "`getStaticProps` is used to fetch data at build time for static generation, providing fast load times and improved SEO."
+  },
+  {
+    "question": "How do you use Sass in Next.js?",
+    "answer": "Sass is used by installing `sass` via npm and importing `.scss` or `.sass` files in your components for styling."
+  },
+  {
+    "question": "What is the `next/font` package?",
+    "answer": "The `next/font` package is used to optimize font loading and management in Next.js applications, improving performance."
+  },
+  {
+    "question": "How does Next.js handle server-side rendering?",
+    "answer": "Server-side rendering in Next.js is handled by `getServerSideProps`, fetching data on each request and rendering pages on the server."
+  },
+  {
+    "question": "What is the `public` directory used for?",
+    "answer": "The `public` directory is used to store static assets that can be served directly to the client, like images and fonts."
+  },
+  {
+    "question": "How do you create a custom App component?",
+    "answer": "A custom App component is created by extending the default App component in `_app.js` to initialize pages and persist layout."
+  },
+  {
+    "question": "What is the purpose of the `next/script` component?",
+    "answer": "The `next/script` component is used to load third-party scripts with optimized performance, allowing you to control when and how they load."
+  },
+  {
+    "question": "How do you create a custom 404 page in Next.js?",
+    "answer": "You create a custom 404 page by adding a `404.js` file to the `pages` directory, which will be displayed for any undefined routes."
+  },
+  {
+    "question": "What is the role of `_document.js` in Next.js?",
+    "answer": "`_document.js` is used to customize the HTML document structure, such as adding custom HTML attributes or modifying the `<html>` and `<body>` tags."
+  },
+  {
+    "question": "How does Next.js support CSS Modules?",
+    "answer": "Next.js supports CSS Modules by allowing you to import `.module.css` files, which scope the styles locally to the component."
+  },
+  {
+    "question": "What is the `next/babel` preset?",
+    "answer": "The `next/babel` preset includes default Babel configurations optimized for Next.js applications, simplifying the setup process."
+  },
+  {
+    "question": "How do you add meta tags in Next.js?",
+    "answer": "Meta tags can be added using the `next/head` component to modify the `<head>` section of your pages."
+  },
+  {
+    "question": "What is the benefit of using `getStaticProps`?",
+    "answer": "`getStaticProps` allows you to fetch data at build time, enabling static generation of pages for improved performance and SEO."
+  },
+  {
+    "question": "How does Next.js handle static file serving?",
+    "answer": "Static files placed in the `public` directory are served directly from the root URL path."
+  },
+  {
+    "question": "What are API routes in Next.js?",
+    "answer": "API routes allow you to create API endpoints within a Next.js application by adding JavaScript files in the `pages/api` directory."
+  },
+  {
+    "question": "How do you implement dynamic routing in Next.js?",
+    "answer": "Dynamic routing is implemented by creating files with square brackets (e.g., `[id].js`) in the `pages` directory."
+  },
+  {
+    "question": "What is the `next/future/image` component?",
+    "answer": "The `next/future/image` component is an experimental feature for image optimization, designed to eventually replace the current `next/image` component."
+  },
+  {
+    "question": "How do you create a custom server in Next.js?",
+    "answer": "A custom server can be created by using Node.js and the `next` package to handle routing and requests outside the default server setup."
+  },
+  {
+    "question": "What are the benefits of Next.js static generation?",
+    "answer": "Static generation provides faster load times, better performance, and improved SEO by pre-rendering pages at build time."
+  },
+  {
+    "question": "How do you handle redirects in Next.js?",
+    "answer": "Redirects are handled by adding rules in the `next.config.js` file under the `redirects` key."
+  },
+  {
+    "question": "What is the difference between `getStaticProps` and `getServerSideProps`?",
+    "answer": "`getStaticProps` fetches data at build time for static generation, while `getServerSideProps` fetches data on each request for server-side rendering."
+  },
+  {
+    "question": "How do you use the `next/link` component?",
+    "answer": "The `next/link` component is used to enable client-side navigation between pages, improving performance by avoiding full page reloads."
+  },
+  {
+    "question": "What is `next export`?",
+    "answer": "`next export` is a command that generates a static HTML export of your Next.js application, which can be served without a Node.js server."
+  },
+  {
+    "question": "How does Next.js handle client-side rendering?",
+    "answer": "Client-side rendering in Next.js is managed through React components and dynamic imports, allowing parts of the page to be loaded on demand."
+  },
+  {
+    "question": "What is the `useRouter` hook?",
+    "answer": "The `useRouter` hook allows you to access the router object and perform navigation programmatically within functional components."
+  },
+  {
+    "question": "How do you customize the webpack configuration in Next.js?",
+    "answer": "The webpack configuration can be customized by extending the configuration in `next.config.js` using the `webpack` key."
+  },
+  {
+    "question": "What is the `next-auth` package used for?",
+    "answer": "The `next-auth` package provides authentication for Next.js applications, supporting various authentication providers and sessions."
+  },
+  {
+    "question": "How does Next.js support automatic code splitting?",
+    "answer": "Next.js automatically splits code into separate bundles for each page, loading only the necessary JavaScript to improve performance."
+  },
+  {
+    "question": "What is the purpose of `getInitialProps`?",
+    "answer": "`getInitialProps` is an older method for fetching data in Next.js, executed on the server for initial page load and client-side navigation."
+  },
+  {
+    "question": "How do you add global CSS in Next.js?",
+    "answer": "Global CSS is added by importing the CSS file in `_app.js`, which applies styles globally across all pages and components."
+  },
+  {
+    "question": "What is the `next/head` component?",
+    "answer": "The `next/head` component allows you to modify the contents of the HTML `<head>` element, such as adding titles and meta tags."
+  },
+  {
+    "question": "How do you create API endpoints in Next.js?",
+    "answer": "API endpoints are created by adding files in the `pages/api` directory, where each file exports a function to handle requests and responses."
+  },
+  {
+    "question": "What is the `next/amp` package?",
+    "answer": "The `next/amp` package allows you to create AMP (Accelerated Mobile Pages) optimized for fast loading on mobile devices."
+  },
+  {
+    "question": "How do you use environment variables in Next.js?",
+    "answer": "Environment variables are defined in `.env` files and accessed via `process.env` within your application code."
+  },
+  {
+    "question": "How does Next.js handle static exports?",
+    "answer": "Next.js handles static exports using the `next export` command, generating static HTML files for deployment without a server."
+  },
+  {
+    "question": "What is the purpose of the `public` directory?",
+    "answer": "The `public` directory is used to serve static files such as images, fonts, and other assets, which are accessible from the root URL."
+  },
+  {
+    "question": "How do you enable TypeScript in a Next.js project?",
+    "answer": "TypeScript is enabled by creating a `tsconfig.json` file and installing the necessary TypeScript dependencies, after which you can use `.ts` and `.tsx` files."
+  },
+  {
+    "question": "What is the `next/dynamic` component?",
+    "answer": "The `next/dynamic` component allows you to dynamically import components, enabling them to load asynchronously for improved performance."
+  },
+  {
+    "question": "How do you create a custom App component in Next.js?",
+    "answer": "A custom App component is created by defining a `_app.js` file in the `pages` directory, which allows you to override the default App component."
+  },
+  {
+    "question": "What is the purpose of `next/font`?",
+    "answer": "The `next/font` package is used to optimize and manage fonts within a Next.js application, improving loading performance and user experience."
+  },
+  {
+    "question": "How does Next.js support SEO?",
+    "answer": "Next.js supports SEO through features like server-side rendering, static generation, and the ability to add meta tags using `next/head`."
+  },
+  {
+    "question": "How do you handle image optimization in Next.js?",
+    "answer": "Image optimization is handled using the `next/image` component, which supports features like lazy loading, resizing, and automatic format selection."
+  },
+  {
+    "question": "What is the purpose of `getStaticPaths`?",
+    "answer": "`getStaticPaths` is used with `getStaticProps` to generate paths for dynamic routes at build time, enabling static generation of pages."
+  },
+  {
+    "question": "How do you enable PWA (Progressive Web App) features in Next.js?",
+    "answer": "PWA features are enabled by configuring a service worker and manifest file, often using a third-party plugin like `next-pwa`."
+  },
+  {
+    "question": "What is `Incremental Static Regeneration`?",
+    "answer": "Incremental Static Regeneration allows pages to be statically generated and updated incrementally after the initial build without rebuilding the entire site."
+  },
+  {
+    "question": "How do you handle client-side navigation in Next.js?",
+    "answer": "Client-side navigation is handled using the `next/link` component for internal links and the `useRouter` hook for programmatic navigation."
+  },
+  {
+    "question": "How do you implement internationalization (i18n) in Next.js?",
+    "answer": "Internationalization in Next.js is implemented by configuring the `i18n` key in `next.config.js`, specifying locales, defaultLocale, and other settings."
+  },
+  {
+    "question": "What is `getServerSideProps` used for?",
+    "answer": "`getServerSideProps` is used to fetch data on each request, enabling server-side rendering of pages for dynamic content."
+  },
+  {
+    "question": "How do you use `next/router` for navigation?",
+    "answer": "You use `next/router` for navigation by importing `useRouter` from `next/router` and using its methods to programmatically navigate between pages."
+  },
+  {
+    "question": "What is the benefit of using `next/link`?",
+    "answer": "`next/link` enables client-side navigation, which improves performance by avoiding full page reloads and preserving the application state."
+  },
+  {
+    "question": "How do you add custom headers in a Next.js API route?",
+    "answer": "Custom headers can be added in a Next.js API route by modifying the response object within the API route handler function."
+  },
+  {
+    "question": "What is `getInitialProps`?",
+    "answer": "`getInitialProps` is a method used for initial data fetching in older Next.js versions, running on both the server and client sides."
+  },
+  {
+    "question": "How does Next.js handle static file serving?",
+    "answer": "Next.js serves static files from the `public` directory, making them accessible via the root URL path in the application."
+  },
+  {
+    "question": "What is the `next/head` component used for?",
+    "answer": "The `next/head` component is used to modify the HTML `<head>` section, allowing you to set meta tags, titles, and other head elements."
+  },
+  {
+    "question": "How do you create a custom 500 error page in Next.js?",
+    "answer": "A custom 500 error page can be created by adding a `500.js` file to the `pages` directory, which will render for server errors."
+  },
+  {
+    "question": "What is `next.config.js`?",
+    "answer": "`next.config.js` is a configuration file where you can define custom settings for your Next.js application, such as redirects, rewrites, and environment variables."
+  },
+  {
+    "question": "How do you use CSS Modules in Next.js?",
+    "answer": "CSS Modules are used in Next.js by importing `.module.css` files, which scope styles locally to the component to avoid conflicts."
+  },
+  {
+    "question": "What are API routes in Next.js?",
+    "answer": "API routes allow you to create serverless API endpoints within a Next.js application by adding JavaScript files to the `pages/api` directory."
+  },
+  {
+    "question": "What is the `next/future/image` component?",
+    "answer": "The `next/future/image` component is an experimental feature for advanced image optimization, intended to improve performance and replace the current `next/image` component."
+  },
+  {
+    "question": "How do you create a custom App component in Next.js?",
+    "answer": "A custom App component is created by defining a `_app.js` file in the `pages` directory, allowing you to control the top-level component of your application."
+  },
+  {
+    "question": "How does Next.js support static site generation (SSG)?",
+    "answer": "Next.js supports SSG by pre-rendering pages at build time using `getStaticProps`, resulting in faster load times and improved SEO."
+  },
+  {
+    "question": "What is `next/font` used for?",
+    "answer": "The `next/font` package is used to optimize font loading and management, enhancing performance and user experience by loading fonts efficiently."
+  },
+  {
+    "question": "How do you use Sass in a Next.js project?",
+    "answer": "Sass is used in Next.js by installing `sass` via npm and importing `.scss` or `.sass` files into your components for styling."
+  },
+  {
+    "question": "How do you handle redirects in Next.js?",
+    "answer": "Redirects in Next.js are handled by defining rules in the `next.config.js` file under the `redirects` key, specifying source and destination paths."
+  },
+  {
+    "question": "What is Fast Refresh in Next.js?",
+    "answer": "Fast Refresh is a feature in Next.js that provides instantaneous feedback for edits made to React components during development, enhancing the developer experience."
+  },
+  {
+    "question": "How do you create dynamic routes in Next.js?",
+    "answer": "Dynamic routes in Next.js are created by adding files with square brackets in the `pages` directory, like `[id].js`, to match dynamic segments."
+  },
+  {
+    "question": "What is the purpose of `getStaticPaths`?",
+    "answer": "`getStaticPaths` is used with `getStaticProps` to generate static paths for dynamic routes at build time, enabling static generation for pages with dynamic content."
+  },
+  {
+    "question": "How does Next.js handle client-side navigation?",
+    "answer": "Client-side navigation in Next.js is handled using the `next/link` component for internal links and the `useRouter` hook for programmatic navigation."
+  },
+  {
+    "question": "What is the purpose of `next/script`?",
+    "answer": "The `next/script` component is used to load third-party scripts with optimized performance, controlling when and how scripts are loaded in your application."
+  },
+  {
+    "question": "How do you customize the HTML document structure in Next.js?",
+    "answer": "The HTML document structure is customized by creating a `_document.js` file in the `pages` directory and extending the `Document` class to modify the initial HTML."
+  },
+  {
+    "question": "How do you fetch data at build time in Next.js?",
+    "answer": "Data is fetched at build time in Next.js using the `getStaticProps` function, which pre-renders pages with static content for better performance."
+  },
+  {
+    "question": "What is `next-auth`?",
+    "answer": "`next-auth` is a package that provides authentication for Next.js applications, supporting various providers and session management out of the box."
+  },
+  {
+    "question": "How do you use the `next/dynamic` component?",
+    "answer": "The `next/dynamic` component allows you to dynamically import components, enabling them to load asynchronously to improve performance and user experience."
+  },
+  {
+    "question": "What is Incremental Static Regeneration (ISR)?",
+    "answer": "Incremental Static Regeneration allows you to update static content after the initial build, re-rendering pages in the background as requests come in."
+  },
+  {
+    "question": "How do you handle environment variables in Next.js?",
+    "answer": "Environment variables in Next.js are managed by defining them in `.env` files and accessing them via `process.env` in your application code."
+  },
+  {
+    "question": "How do you create API routes in Next.js?",
+    "answer": "API routes in Next.js are created by adding JavaScript or TypeScript files in the `pages/api` directory, defining serverless functions to handle requests."
+  },
+  {
+    "question": "What is the `next/config` module?",
+    "answer": "The `next/config` module provides runtime configuration for your Next.js application, allowing you to access configuration settings defined in `next.config.js`."
+  },
+  {
+    "question": "How does Next.js handle static file exports?",
+    "answer": "Static file exports in Next.js are handled using the `next export` command, which generates static HTML files for deployment without a Node.js server."
+  },
+  {
+    "question": "How do you optimize fonts in Next.js?",
+    "answer": "Fonts in Next.js are optimized using the `next/font` package, which manages and loads fonts efficiently to improve performance and user experience."
+  },
+  {
+    "question": "How do you enable TypeScript in Next.js?",
+    "answer": "TypeScript is enabled in Next.js by creating a `tsconfig.json` file and installing the necessary TypeScript dependencies, allowing you to use TypeScript in your project."
+  },
+  {
+    "question": "What is the purpose of `_app.js` in Next.js?",
+    "answer": "`_app.js` in Next.js is used to override the default App component, allowing you to initialize pages, persist layout, and add global CSS."
+  },
+  {
+    "question": "How do you create a custom Document in Next.js?",
+    "answer": "A custom Document in Next.js is created by defining a `_document.js` file in the `pages` directory and extending the `Document` class to modify the initial HTML."
+  },
+  {
+    "question": "How does Next.js improve SEO?",
+    "answer": "Next.js improves SEO by supporting server-side rendering, static generation, and the ability to add meta tags and titles using the `next/head` component."
+  },
+  {
+    "question": "What is the purpose of the `app/` directory in Next.js?",
+    "answer": "The `app/` directory in Next.js is used for building applications using the new App Router, which simplifies and enhances routing and layout capabilities."
+  },
+  {
+    "question": "How does the App Router differ from the Pages Router?",
+    "answer": "The App Router offers a more flexible and powerful way to structure routes and layouts compared to the Pages Router, including features like nested layouts and server components."
+  },
+  {
+    "question": "What is a Route Segment in Next.js?",
+    "answer": "A Route Segment is a part of a URL path in the App Router that maps to a specific directory or file within the `app/` directory, allowing for nested routing."
+  },
+  {
+    "question": "How are nested routes created in the App Router?",
+    "answer": "Nested routes are created by organizing components within nested directories under the `app/` directory, where each directory represents a segment of the URL path."
+  },
+  {
+    "question": "What is the purpose of the `layout.js` file?",
+    "answer": "The `layout.js` file defines a shared layout for all pages within a specific directory, providing a way to include consistent UI elements like headers and footers."
+  },
+  {
+    "question": "How do you define a default route in the App Router?",
+    "answer": "A default route is defined by creating a `page.js` file within a directory in the `app/` directory, which will be rendered when the directory's path is accessed."
+  },
+  {
+    "question": "What is a Catch-all Segment in Next.js routing?",
+    "answer": "A Catch-all Segment is created using square brackets with ellipsis (e.g., `[...slug].js`) to match any path segment and pass the parameters to the component."
+  },
+  {
+    "question": "How do you handle route groups in the App Router?",
+    "answer": "Route groups are handled by creating nested directories in the `app/` directory and organizing `layout.js` and `page.js` files within them to define layouts and pages."
+  },
+  {
+    "question": "What is a Server Component in Next.js?",
+    "answer": "A Server Component is a React component that is rendered on the server, allowing for server-side rendering and data fetching within the component."
+  },
+  {
+    "question": "How do you create dynamic routes in the App Router?",
+    "answer": "Dynamic routes are created by using square brackets in the directory or file names (e.g., `[id].js`) to capture dynamic segments from the URL."
+  },
+  {
+    "question": "What is the purpose of the `head.js` file?",
+    "answer": "The `head.js` file is used to customize the HTML `<head>` for a specific route or layout, allowing you to set meta tags, titles, and other head elements."
+  },
+  {
+    "question": "How does the App Router handle loading states?",
+    "answer": "The App Router handles loading states by providing a `loading.js` file within a directory, which will render a loading UI while the page or component is being fetched."
+  },
+  {
+    "question": "What is the use of the `error.js` file in the App Router?",
+    "answer": "The `error.js` file is used to handle errors in a specific route or layout, providing a custom error UI to be displayed when an error occurs."
+  },
+  {
+    "question": "How do you add middleware in the App Router?",
+    "answer": "Middleware can be added by creating a `middleware.js` file in the `app/` directory, which allows you to run custom logic before requests are processed by the routes."
+  },
+  {
+    "question": "What are API Routes in Next.js?",
+    "answer": "API Routes are used to create backend endpoints within a Next.js application by adding files to the `pages/api` directory, enabling serverless functions."
+  },
+  {
+    "question": "How do you perform data fetching in the App Router?",
+    "answer": "Data fetching in the App Router can be done within Server Components using fetch or other data fetching methods, allowing data to be fetched on the server."
+  },
+  {
+    "question": "What is a Parallel Route in Next.js?",
+    "answer": "A Parallel Route allows you to render multiple components in parallel within a route, useful for layouts that require simultaneous rendering of different sections."
+  },
+  {
+    "question": "How do you create a redirect in the App Router?",
+    "answer": "Redirects can be created using the `redirect` function within middleware or server components to programmatically redirect users to different routes."
+  },
+  {
+    "question": "What is the role of the `not-found.js` file?",
+    "answer": "The `not-found.js` file is used to define a custom 404 page that will be rendered when a route is not found within the App Router."
+  },
+  {
+    "question": "How does Next.js handle static assets in the App Router?",
+    "answer": "Static assets are handled by placing them in the `public` directory, where they can be accessed directly via the URL path in the application."
+  },
+  {
+    "question": "What is the `useRouter` hook used for?",
+    "answer": "The `useRouter` hook is used to access the router object and perform client-side navigation, programmatically navigating between routes."
+  },
+  {
+    "question": "How do you define route parameters in the App Router?",
+    "answer": "Route parameters are defined using square brackets in the file or directory names (e.g., `[id].js`), capturing dynamic segments from the URL."
+  },
+  {
+    "question": "What is the purpose of the `intercept` function in middleware?",
+    "answer": "The `intercept` function in middleware allows you to modify or block requests before they reach the route handlers, useful for authentication and logging."
+  },
+  {
+    "question": "How are Layouts used in the App Router?",
+    "answer": "Layouts in the App Router are used to define common UI elements that are shared across multiple pages, organized in `layout.js` files within directories."
+  },
+  {
+    "question": "What is the use of `sitemap.js` in the App Router?",
+    "answer": "The `sitemap.js` file is used to generate a sitemap for the application, helping with SEO by listing all the available routes and their URLs."
+  },
+  {
+    "question": "How does the App Router handle nested layouts?",
+    "answer": "Nested layouts are handled by organizing `layout.js` files within nested directories, allowing for hierarchical and reusable layouts across different routes."
+  },
+  {
+    "question": "What are Client Components in Next.js?",
+    "answer": "Client Components are React components that are rendered on the client side, enabling dynamic and interactive UI elements."
+  },
+  {
+    "question": "How do you configure URL rewrites in the App Router?",
+    "answer": "URL rewrites are configured in the `next.config.js` file using the `rewrites` property, mapping incoming requests to different destination paths."
+  },
+  {
+    "question": "What is a Route Handler in Next.js?",
+    "answer": "A Route Handler is a function that processes incoming requests to a specific route, often used in API Routes to handle HTTP methods like GET, POST, etc."
+  },
+  {
+    "question": "How do you add metadata to routes in the App Router?",
+    "answer": "Metadata can be added to routes using the `head.js` file within a directory, setting meta tags, titles, and other elements for the route."
+  },
+  {
+    "question": "What is the purpose of the `build.js` file?",
+    "answer": "The `build.js` file is used to customize the build process of a Next.js application, allowing you to define custom build steps and configurations."
+  },
+  {
+    "question": "How does Next.js handle dynamic imports in the App Router?",
+    "answer": "Dynamic imports in the App Router are handled using the `import()` syntax, allowing components to be loaded asynchronously for better performance."
+  },
+  {
+    "question": "What is the `useSearchParams` hook?",
+    "answer": "The `useSearchParams` hook is used to read and manipulate URL query parameters within a component, enabling dynamic and interactive filtering or navigation."
+  },
+  {
+    "question": "How do you create a custom error page in Next.js?",
+    "answer": "A custom error page can be created by defining `error.js` in the `app/` directory, which will render custom UI when an error occurs within that route."
+  },
+  {
+    "question": "What is the purpose of the `middleware.js` file?",
+    "answer": "The `middleware.js` file is used to define middleware functions that run before requests are processed by route handlers, useful for tasks like authentication."
+  },
+  {
+    "question": "How are Redirects different from Rewrites in Next.js?",
+    "answer": "Redirects send a client-side redirect response, changing the URL in the browser, while rewrites map URLs internally without changing the visible URL."
+  },
+  {
+    "question": "What is the `create-next-app` command?",
+    "answer": "The `create-next-app` command is a CLI tool for creating a new Next.js project with a default template, simplifying the initial setup process."
+  },
+  {
+    "question": "What is the main purpose of the App Router in Next.js?",
+    "answer": "The App Router in Next.js simplifies the routing and layout management in applications by using the `app/` directory, allowing developers to define routes, layouts, and components in a more organized and scalable way."
+  },
+  {
+    "question": "How are routes defined in the App Router?",
+    "answer": "Routes are defined by creating folders and files within the `app/` directory, where each folder represents a route segment and files like `page.js` or `layout.js` define the components for those routes."
+  },
+  {
+    "question": "What file is used to define the layout for a specific route in the App Router?",
+    "answer": "The `layout.js` file is used to define the layout for a specific route or set of routes in the App Router."
+  },
+  {
+    "question": "How do you define a page component for a route in Next.js?",
+    "answer": "A page component for a route is defined by creating a `page.js` file within the corresponding route directory in the `app/` folder."
+  },
+  {
+    "question": "What is a catch-all route in Next.js and how is it created?",
+    "answer": "A catch-all route is a route that matches any path segment and is created using square brackets with ellipsis in the file name (e.g., `[...slug].js`)."
+  },
+  {
+    "question": "What is the role of the `not-found.js` file in the App Router?",
+    "answer": "The `not-found.js` file defines a custom 404 page for routes that do not match any existing path in the App Router."
+  },
+  {
+    "question": "How do you handle loading states in the App Router?",
+    "answer": "Loading states are handled by providing a `loading.js` file within a route directory, which renders a loading UI while the page or component is being fetched."
+  },
+  {
+    "question": "What is the function of the `error.js` file in Next.js routing?",
+    "answer": "The `error.js` file is used to display a custom error UI for a specific route or layout when an error occurs."
+  },
+  {
+    "question": "How can you create dynamic routes in Next.js?",
+    "answer": "Dynamic routes are created by using square brackets in the directory or file names (e.g., `[id].js`) to capture dynamic URL segments."
+  },
+  {
+    "question": "What is a route group in the App Router?",
+    "answer": "A route group organizes multiple routes under a common layout or functionality, typically by nesting directories within the `app/` directory."
+  },
+  {
+    "question": "How do you redirect users in the App Router?",
+    "answer": "Redirects are handled by using the `redirect` function in middleware or within server components to programmatically navigate users to different routes."
+  },
+  {
+    "question": "What is the `useRouter` hook used for in Next.js?",
+    "answer": "The `useRouter` hook is used to access the router object for client-side navigation and to get information about the current route."
+  },
+  {
+    "question": "How do you customize the HTML <head> in a Next.js route?",
+    "answer": "Customization of the HTML `<head>` is done using the `head.js` file within a route directory, allowing you to set meta tags, titles, and other head elements."
+  },
+  {
+    "question": "What are nested layouts in Next.js?",
+    "answer": "Nested layouts allow you to define hierarchical UI structures by placing `layout.js` files within nested directories in the `app/` directory."
+  },
+  {
+    "question": "What is a Parallel Route in Next.js?",
+    "answer": "A Parallel Route enables the rendering of multiple components simultaneously within a route, useful for complex layouts that need different sections to load in parallel."
+  },
+  {
+    "question": "How do you fetch data in a Next.js Server Component?",
+    "answer": "Data fetching in a Server Component can be done using standard data fetching methods like fetch or by calling APIs directly within the component."
+  },
+  {
+    "question": "What is the purpose of the `middleware.js` file?",
+    "answer": "The `middleware.js` file is used to define middleware functions that execute before requests reach the route handlers, useful for tasks like authentication and logging."
+  },
+  {
+    "question": "How can static assets be served in Next.js?",
+    "answer": "Static assets are served by placing them in the `public` directory, where they can be accessed via the URL path directly."
+  },
+  {
+    "question": "What are API Routes in Next.js?",
+    "answer": "API Routes allow the creation of backend endpoints within a Next.js application, defined by adding files to the `pages/api` directory."
+  },
+  {
+    "question": "What is the function of the `redirect` property in `next.config.js`?",
+    "answer": "The `redirect` property in `next.config.js` is used to define server-side redirects, mapping incoming requests to different destination paths."
+  },
+  {
+    "question": "How do you use dynamic imports in the App Router?",
+    "answer": "Dynamic imports are used to load components asynchronously using the `import()` syntax, improving performance by reducing the initial load size."
+  },
+  {
+    "question": "What is the `useSearchParams` hook?",
+    "answer": "The `useSearchParams` hook is used to read and manipulate URL query parameters within a component, enabling dynamic filtering or navigation based on search parameters."
+  },
+  {
+    "question": "How do you handle authentication in Next.js?",
+    "answer": "Authentication in Next.js can be handled using middleware, API routes, and libraries like NextAuth.js, which provide tools to manage user sessions and secure routes."
+  },
+  {
+    "question": "What is the `sitemap.js` file used for?",
+    "answer": "The `sitemap.js` file is used to generate a sitemap for the application, listing all the available routes to improve SEO."
+  },
+  {
+    "question": "How does Next.js handle static site generation (SSG)?",
+    "answer": "Static site generation in Next.js is handled using functions like `getStaticProps` and `getStaticPaths`, which generate static HTML at build time."
+  },
+  {
+    "question": "What is the `next.config.js` file used for?",
+    "answer": "The `next.config.js` file is used to customize the build and runtime configurations of a Next.js application, such as defining redirects, rewrites, and environment variables."
+  },
+  {
+    "question": "How do you create a custom 500 error page in Next.js?",
+    "answer": "A custom 500 error page can be created by defining a `500.js` file in the `pages` directory, which will render a custom UI for server-side errors."
+  },
+  {
+    "question": "What is the role of the `exportPathMap` function in `next.config.js`?",
+    "answer": "The `exportPathMap` function in `next.config.js` is used to define custom mappings for exported static pages, specifying the routes to be generated during the export process."
+  },
+  {
+    "question": "How do you enable TypeScript in a Next.js project?",
+    "answer": "TypeScript is enabled in a Next.js project by adding a `tsconfig.json` file and installing the necessary TypeScript and @types packages, after which Next.js will automatically compile TypeScript files."
+  },
+  {
+    "question": "How can you optimize images in Next.js?",
+    "answer": "Image optimization in Next.js is handled using the built-in `next/image` component, which automatically optimizes images for performance and loading speed."
+  },
+  {
+    "question": "What is the `getServerSideProps` function?",
+    "answer": "The `getServerSideProps` function is used to fetch data on each request for server-side rendering, allowing dynamic content to be rendered on the server."
+  },
+  {
+    "question": "How do you implement client-side navigation in Next.js?",
+    "answer": "Client-side navigation is implemented using the `next/link` component and the `useRouter` hook, enabling smooth transitions between pages without full page reloads."
+  },
+  {
+    "question": "What is the `next build` command used for?",
+    "answer": "The `next build` command is used to compile the application for production, generating optimized static files and server-side code."
+  },
+  {
+    "question": "How do you set up a custom server in Next.js?",
+    "answer": "A custom server can be set up by creating a server file (e.g., `server.js`) and using Node.js or Express to handle requests, then configuring Next.js to use this server."
+  },
+  {
+    "question": "What is `getStaticProps` used for in Next.js?",
+    "answer": "The `getStaticProps` function is used to fetch data at build time for static generation, allowing pages to be pre-rendered with static content."
+  },
+  {
+    "question": "How do you use environment variables in Next.js?",
+    "answer": "Environment variables in Next.js are defined in a `.env` file and accessed via `process.env`, with the ability to define variables for different environments such as development and production."
+  },
+  {
+    "question": "What is the purpose of a loading UI in Next.js?",
+    "answer": "A loading UI in Next.js provides feedback to users while server components or data are being fetched, enhancing user experience by indicating that a request is in progress."
+  },
+  {
+    "question": "How do you define a loading UI in a Next.js app?",
+    "answer": "In Next.js, you define a loading UI by creating a `loading.js` file within a route directory in the `app/` directory. This component renders while the corresponding page or data is being fetched."
+  },
+  {
+    "question": "What is the benefit of using streaming in Next.js?",
+    "answer": "Streaming allows parts of a page to be sent to the client and rendered incrementally as they become available, improving perceived performance and reducing time to first render."
+  },
+  {
+    "question": "How does Next.js handle server-side rendering with streaming?",
+    "answer": "Next.js handles server-side rendering with streaming by splitting the rendering work by route segments and streaming them to the client as they are ready, allowing for faster initial render times."
+  },
+  {
+    "question": "What file do you use to handle errors during data fetching in Next.js?",
+    "answer": "To handle errors during data fetching, you use an `error.js` file within the corresponding route directory. This file defines a custom error UI for the route."
+  },
+  {
+    "question": "How can you show a fallback UI while fetching data in Next.js?",
+    "answer": "You can show a fallback UI by using the `loading.js` file in the route directory, which renders the fallback UI while the data or component is being fetched."
+  },
+  {
+    "question": "What is a key benefit of server components in Next.js?",
+    "answer": "Server components in Next.js allow you to write UI components that can be rendered and optionally cached on the server, reducing the amount of JavaScript sent to the client."
+  },
+  {
+    "question": "How does Next.js optimize server-side rendering with server components?",
+    "answer": "Next.js optimizes server-side rendering with server components by splitting rendering tasks by route segments, enabling streaming and partial rendering for faster load times."
+  },
+  {
+    "question": "What is the purpose of partial rendering in Next.js?",
+    "answer": "Partial rendering allows individual parts of a page to be rendered and sent to the client as soon as they are ready, improving performance and user experience by displaying content incrementally."
+  },
+  {
+    "question": "How do you implement dynamic rendering in Next.js?",
+    "answer": "Dynamic rendering in Next.js can be implemented by using server components and setting them up to render content based on dynamic data fetched at request time."
+  },
+  {
+    "question": "What is the difference between static and dynamic rendering in Next.js?",
+    "answer": "Static rendering generates HTML at build time and serves the same content to every user, while dynamic rendering generates HTML at request time, allowing for personalized content based on user data or other dynamic factors."
+  },
+  {
+    "question": "Can you mix static and dynamic rendering in a Next.js application?",
+    "answer": "Yes, you can mix static and dynamic rendering in a Next.js application by using static generation for some pages and server-side rendering for others based on the use case."
+  },
+  {
+    "question": "What is a route segment in Next.js?",
+    "answer": "A route segment in Next.js is a part of the URL that corresponds to a directory or file in the `app/` directory, representing a section of the route hierarchy."
+  },
+  {
+    "question": "How does Next.js use route segments to optimize rendering?",
+    "answer": "Next.js uses route segments to break down rendering tasks into smaller parts, allowing for streaming and partial rendering to send content to the client as soon as it's ready."
+  },
+  {
+    "question": "What is the `app/` directory in Next.js?",
+    "answer": "The `app/` directory in Next.js is used to define the structure of the application's routes, layouts, and components, facilitating the organization and scalability of the project."
+  },
+  {
+    "question": "How do you handle fallback content in Next.js when using streaming?",
+    "answer": "Fallback content in Next.js can be handled by defining a `loading.js` file within the route directory, which provides a loading indicator or placeholder content while the main content is streamed."
+  },
+  {
+    "question": "What is the role of the `loading.js` file in the streaming process?",
+    "answer": "The `loading.js` file plays the role of displaying a loading indicator or placeholder content while the actual data or component is being fetched and streamed to the client."
+  },
+  {
+    "question": "How do server components improve performance in Next.js?",
+    "answer": "Server components improve performance by allowing rendering to happen on the server, reducing the amount of JavaScript sent to the client and enabling faster initial page loads."
+  },
+  {
+    "question": "What is the benefit of using server components with streaming?",
+    "answer": "Using server components with streaming allows parts of the UI to be rendered and sent to the client as soon as they are ready, leading to faster initial render times and a better user experience."
+  },
+  {
+    "question": "Can you cache server components in Next.js?",
+    "answer": "Yes, server components in Next.js can be cached to optimize performance by reducing the need to re-render components that haven't changed."
+  },
+  {
+    "question": "What is the difference between `loading.js` and `error.js` files in Next.js?",
+    "answer": "`loading.js` is used to display a loading UI while data is being fetched, whereas `error.js` is used to display a custom error UI when an error occurs during data fetching or rendering."
+  },
+  {
+    "question": "How do you configure streaming for a specific route in Next.js?",
+    "answer": "Streaming for a specific route in Next.js is configured by ensuring that the route components are server components and utilizing the `loading.js` file for fallback UI during streaming."
+  },
+  {
+    "question": "What is the advantage of using partial rendering over full-page rendering?",
+    "answer": "Partial rendering has the advantage of sending and rendering parts of the page incrementally as they become ready, resulting in faster initial load times and a smoother user experience."
+  },
+  {
+    "question": "How does Next.js ensure that loading UI is displayed only when necessary?",
+    "answer": "Next.js ensures that loading UI is displayed only when necessary by rendering the `loading.js` component only when the associated data or server component is still being fetched or processed."
+  },
+  {
+    "question": "What are the key benefits of server-side streaming in Next.js?",
+    "answer": "The key benefits of server-side streaming in Next.js include faster initial page loads, reduced time to first contentful paint, and improved user experience by rendering content incrementally."
+  },
+  {
+    "question": "How does Next.js handle errors that occur during streaming?",
+    "answer": "Next.js handles errors during streaming by rendering the `error.js` component if it is defined in the route directory, providing a custom error UI to inform the user of the issue."
+  },
+  {
+    "question": "What is the purpose of the `React.lazy` function in Next.js?",
+    "answer": "The `React.lazy` function in Next.js is used to dynamically import components, enabling code-splitting and lazy loading of parts of the application to improve performance."
+  },
+  {
+    "question": "Can you use client-side components with server components in Next.js?",
+    "answer": "Yes, you can use client-side components with server components in Next.js. Client-side components can be nested within server components to handle interactivity and client-specific logic."
+  },
+  {
+    "question": "What is the role of `Suspense` in server components?",
+    "answer": "`Suspense` in server components is used to handle the loading state of components, allowing you to specify fallback content that should be displayed while the main content is being fetched."
+  },
+  {
+    "question": "How do you improve the initial load time of a Next.js application?",
+    "answer": "To improve the initial load time of a Next.js application, you can use server components, enable streaming, use `React.lazy` for code-splitting, and optimize your data fetching strategies."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous data fetching in Next.js?",
+    "answer": "Synchronous data fetching blocks the rendering process until the data is available, while asynchronous data fetching allows the rendering to proceed and provides data when it becomes available, often using `Suspense` for handling loading states."
+  },
+  {
+    "question": "Can server components be used with client-side rendering (CSR) in Next.js?",
+    "answer": "Yes, server components can be used with client-side rendering in Next.js. They can be rendered on the server and hydrated on the client to provide a seamless experience."
+  },
+  {
+    "question": "How does Next.js handle data fetching for server components?",
+    "answer": "Next.js handles data fetching for server components by allowing you to fetch data directly within the server component, leveraging server-side capabilities to fetch and render data before sending it to the client."
+  },
+  {
+    "question": "What are the three main aspects of data fetching in Next.js?",
+    "answer": "The three main aspects of data fetching in Next.js are fetching, caching, and revalidating data to ensure that applications can efficiently retrieve and serve data while maintaining performance and up-to-date content."
+  },
+  {
+    "question": "What is caching in Next.js?",
+    "answer": "Caching in Next.js involves storing fetched data to reduce redundant network requests, improve performance, and speed up data retrieval for subsequent requests."
+  },
+  {
+    "question": "How does Next.js handle revalidating cached data?",
+    "answer": "Next.js revalidates cached data using strategies like on-demand revalidation with specific APIs (e.g., `revalidatePath`, `revalidateTag`) and by setting cache-control headers to manage when and how often the data should be refreshed."
+  },
+  {
+    "question": "What is the default caching behavior for the fetch function in Next.js?",
+    "answer": "The default caching behavior for the fetch function in Next.js is 'force-cache', meaning that the fetched data is cached to reduce network requests."
+  },
+  {
+    "question": "How can you manually control caching behavior in Next.js?",
+    "answer": "You can manually control caching behavior in Next.js by using fetch options such as `cache: 'no-store'` to bypass the cache or `cache: 'force-cache'` to enforce caching."
+  },
+  {
+    "question": "What is the Router Cache in Next.js?",
+    "answer": "The Router Cache in Next.js temporarily stores the React Server Component Payload in the browser for the duration of a user session, enhancing navigation performance by caching content between navigations."
+  },
+  {
+    "question": "How is the Full Route Cache different from the Router Cache?",
+    "answer": "The Full Route Cache persistently stores the React Server Component Payload and HTML on the server across multiple user requests, whereas the Router Cache is temporary and cleared on page refresh."
+  },
+  {
+    "question": "How long does the Router Cache last in Next.js?",
+    "answer": "The Router Cache lasts for the duration of a user session and is cleared on page refresh. Additionally, it has an automatic invalidation period based on how the resource was prefetched, such as 30 seconds for default prefetching and 5 minutes for full prefetching."
+  },
+  {
+    "question": "What are the two main ways to invalidate the Router Cache in Next.js?",
+    "answer": "The Router Cache can be invalidated by using `router.refresh` to clear the cache and make a new request, or by revalidating data on-demand with `revalidatePath` or `revalidateTag` in a server action."
+  },
+  {
+    "question": "Can you opt out of the Router Cache in Next.js?",
+    "answer": "It's not possible to fully opt out of the Router Cache in Next.js, but you can invalidate it by using methods like `router.refresh`, `revalidatePath`, or `revalidateTag`."
+  },
+  {
+    "question": "How do you disable prefetching for a specific link in Next.js?",
+    "answer": "To disable prefetching for a specific link in Next.js, set the `prefetch` prop of the `<Link>` component to `false`. However, this will still temporarily store the route segments for 30 seconds to allow instant navigation between nested segments."
+  },
+  {
+    "question": "What is the purpose of revalidating data in Next.js?",
+    "answer": "Revalidating data in Next.js ensures that the cached data is up-to-date and accurate, allowing applications to serve fresh content without requiring a full page reload."
+  },
+  {
+    "question": "What is the `revalidateTag` function used for in Next.js?",
+    "answer": "The `revalidateTag` function in Next.js is used to revalidate data on-demand by cache tag, which helps in selectively refreshing specific parts of the cache when their corresponding data changes."
+  },
+  {
+    "question": "What is the difference between `fetch` with `cache: 'no-store'` and `cache: 'force-cache'`?",
+    "answer": "Using `fetch` with `cache: 'no-store'` bypasses the cache and always fetches fresh data from the network, whereas `cache: 'force-cache'` enforces caching to reduce network requests and use cached data."
+  },
+  {
+    "question": "How does Next.js handle client-side data fetching?",
+    "answer": "Next.js handles client-side data fetching by using React hooks like `useEffect` and the fetch API, allowing components to fetch and update data on the client side."
+  },
+  {
+    "question": "What is the purpose of the `revalidatePath` function?",
+    "answer": "The `revalidatePath` function in Next.js is used to revalidate data on-demand by path, ensuring that the content for a specific route is refreshed and up-to-date."
+  },
+  {
+    "question": "How does `router.refresh` affect the Router Cache?",
+    "answer": "`router.refresh` in Next.js clears the Router Cache and makes a new request to the server for the current route, ensuring that the latest data is fetched and displayed."
+  },
+  {
+    "question": "What are the benefits of using caching in Next.js?",
+    "answer": "Caching in Next.js improves performance by reducing redundant network requests, speeds up data retrieval, and enhances the user experience by serving cached content quickly."
+  },
+  {
+    "question": "How does caching interact with server-side rendering in Next.js?",
+    "answer": "Caching interacts with server-side rendering in Next.js by allowing data fetched during SSR to be cached, which can be reused for subsequent requests to improve performance."
+  },
+  {
+    "question": "What is a cache-control header and how is it used in Next.js?",
+    "answer": "A cache-control header in Next.js specifies caching policies for HTTP responses, allowing you to control how data is cached, for how long, and when it should be revalidated."
+  },
+  {
+    "question": "Can you configure the invalidation period for the Router Cache?",
+    "answer": "As of Next.js v14.2.0-canary.53, there is experimental support for configuring the invalidation period of the Router Cache, allowing more control over how long cached segments persist."
+  },
+  {
+    "question": "What happens when you revalidate the Data Cache in Next.js?",
+    "answer": "Revalidating the Data Cache in Next.js refreshes the cached data, ensuring that the application serves the latest content without requiring a full page reload."
+  },
+  {
+    "question": "How can you opt out of caching for a specific fetch request?",
+    "answer": "To opt out of caching for a specific fetch request in Next.js, use the option `cache: 'no-store'` in the fetch API, which ensures that the data is always fetched from the network."
+  },
+  {
+    "question": "What is the difference between the Data Cache and the Full Route Cache?",
+    "answer": "The Data Cache stores individual pieces of fetched data, while the Full Route Cache stores the entire HTML and React Server Component Payload for routes. Revalidating data affects both caches, but invalidating the Full Route Cache doesn't necessarily affect the Data Cache."
+  },
+  {
+    "question": "How do cookies affect caching in Next.js?",
+    "answer": "Cookies can affect caching in Next.js by invalidating the Router Cache when they are set or deleted, preventing routes that use cookies (e.g., for authentication) from becoming stale."
+  },
+  {
+    "question": "What is prefetching in Next.js and how does it work?",
+    "answer": "Prefetching in Next.js involves fetching and caching data for routes before they are navigated to, improving navigation speed and user experience by loading data in advance."
+  },
+  {
+    "question": "How does Next.js handle cache invalidation for client-side rendered content?",
+    "answer": "Next.js handles cache invalidation for client-side rendered content by using automatic invalidation periods and manual methods like `router.refresh`, ensuring that the cached data is up-to-date."
+  },
+  {
+    "question": "What is the purpose of the `fetch` options `next.revalidate`?",
+    "answer": "The `fetch` options `next.revalidate` in Next.js are used to specify revalidation strategies for fetched data, controlling how and when the data should be refreshed."
+  },
+  {
+    "question": "What role does the `useRouter` hook play in caching and prefetching?",
+    "answer": "The `useRouter` hook in Next.js provides methods like `router.prefetch` to manually prefetch routes and `router.refresh` to invalidate the Router Cache, giving more control over navigation and caching behavior."
+  },
+  {
+    "question": "How does Next.js ensure data consistency with multiple caching layers?",
+    "answer": "Next.js ensures data consistency with multiple caching layers by allowing selective revalidation of data and full routes, and by managing cache invalidation through hooks and APIs."
+  },
+  {
+    "question": "What is the impact of a hard page refresh on caching?",
+    "answer": "A hard page refresh in Next.js clears the Router Cache, but it does not affect the Full Route Cache or Data Cache, ensuring that data is only re-fetched where necessary."
+  },
+  {
+    "question": "What are Server Components in Next.js?",
+    "answer": "Server Components in Next.js are React components that are rendered on the server, allowing for efficient data fetching, improved performance, and keeping sensitive information secure on the server."
+  },
+  {
+    "question": "When should you use Server Components?",
+    "answer": "Use Server Components for fetching data, accessing backend resources, keeping sensitive information on the server, and reducing client-side JavaScript by keeping large dependencies on the server."
+  },
+  {
+    "question": "What are the benefits of using Server Components in Next.js?",
+    "answer": "The benefits include improved performance, better security for sensitive data, reduced client-side JavaScript, and the ability to fetch data directly from the server."
+  },
+  {
+    "question": "How can you keep sensitive information secure with Server Components?",
+    "answer": "By keeping sensitive information, such as API keys and access tokens, on the server and not exposing them to the client."
+  },
+  {
+    "question": "Can Server Components use React hooks like useState and useEffect?",
+    "answer": "No, Server Components cannot use state or lifecycle hooks like useState or useEffect, as these hooks are designed for client-side interactivity."
+  },
+  {
+    "question": "How do you fetch data in Server Components?",
+    "answer": "You can fetch data in Server Components using the fetch API or other server-side data fetching methods."
+  },
+  {
+    "question": "What is a common pattern for sharing data between Server Components?",
+    "answer": "A common pattern is using fetch or React's cache function to fetch the same data in different components, avoiding duplicate requests."
+  },
+  {
+    "question": "How does React's cache function help with data fetching in Server Components?",
+    "answer": "React's cache function helps by memoizing data requests, ensuring that the same data is not fetched multiple times unnecessarily."
+  },
+  {
+    "question": "What should you do if you need to use a client-only library in a Server Component?",
+    "answer": "You should move the code that depends on the client-only library into a Client Component, as Server Components cannot use browser-specific APIs."
+  },
+  {
+    "question": "How can you ensure that server-only code does not run on the client?",
+    "answer": "By using the server-only package, which provides a build-time error if server-only code is imported into a Client Component."
+  },
+  {
+    "question": "How do you install the server-only package?",
+    "answer": "You can install the server-only package using npm with the command `npm install server-only`."
+  },
+  {
+    "question": "What is a Server Component boundary in Next.js?",
+    "answer": "A Server Component boundary is a point in your application where the rendering switches from server-side to client-side, enabling you to interleave Server and Client Components."
+  },
+  {
+    "question": "Can you import Server Components into Client Components?",
+    "answer": "No, importing Server Components into Client Components is not supported. Instead, pass Server Components as props to Client Components if needed."
+  },
+  {
+    "question": "What is the recommended way to pass data from Server Components to Client Components?",
+    "answer": "The recommended way is to serialize the data and pass it as props from Server Components to Client Components."
+  },
+  {
+    "question": "Can Server Components use context providers?",
+    "answer": "No, Server Components cannot use React context providers directly, but they can pass data to Client Components that use context providers."
+  },
+  {
+    "question": "How do you use third-party packages in Server Components?",
+    "answer": "You can use third-party packages in Server Components as long as they do not rely on browser-specific APIs and are designed to run on the server."
+  },
+  {
+    "question": "What is the main difference between Server Components and Client Components?",
+    "answer": "Server Components are rendered on the server and can fetch data directly from backend services, while Client Components are rendered on the client and are responsible for interactivity and using browser APIs."
+  },
+  {
+    "question": "Can Server Components use class components in React?",
+    "answer": "No, Server Components cannot use React class components; they should be written as functional components."
+  },
+  {
+    "question": "What is the advantage of keeping large dependencies on the server?",
+    "answer": "Keeping large dependencies on the server reduces the amount of JavaScript that needs to be sent to the client, improving load times and performance."
+  },
+  {
+    "question": "How do Server Components improve performance in Next.js applications?",
+    "answer": "By reducing the amount of client-side JavaScript, enabling efficient data fetching, and rendering parts of the application on the server, which can handle heavier computational tasks."
+  },
+  {
+    "question": "What should you consider when deciding between using Server or Client Components?",
+    "answer": "Consider the need for data fetching, access to backend resources, security of sensitive data, and whether the component requires interactivity or browser-specific APIs."
+  },
+  {
+    "question": "How do you handle environment variables in Server Components?",
+    "answer": "Use environment variables without the NEXT_PUBLIC prefix in Server Components to keep them secure and not expose them to the client."
+  },
+  {
+    "question": "What happens if you accidentally import a server-only module into a Client Component?",
+    "answer": "Using the server-only package, you will get a build-time error to prevent accidental imports of server-only modules into Client Components."
+  },
+  {
+    "question": "Can you use useReducer hook in Server Components?",
+    "answer": "No, useReducer and other state management hooks cannot be used in Server Components as they are intended for client-side state management."
+  },
+  {
+    "question": "What is interleaving of Server and Client Components?",
+    "answer": "Interleaving of Server and Client Components means mixing Server Components with Client Components in the same application, allowing for optimal rendering strategies for different parts of the app."
+  },
+  {
+    "question": "How do you use the cache function in a Server Component?",
+    "answer": "You can use the cache function in a Server Component to memoize data fetching operations, reducing the number of redundant network requests."
+  },
+  {
+    "question": "What is a common mistake to avoid with Server Components?",
+    "answer": "A common mistake is to accidentally include server-only code in Client Components, which can be avoided using the server-only package."
+  },
+  {
+    "question": "How do Server Components handle data fetching compared to Client Components?",
+    "answer": "Server Components fetch data on the server, which can access backend services directly, while Client Components typically fetch data through APIs exposed to the client."
+  },
+  {
+    "question": "Can Server Components use browser-only APIs?",
+    "answer": "No, Server Components cannot use browser-only APIs as they are rendered on the server."
+  },
+  {
+    "question": "How can Server Components help in reducing client-side JavaScript?",
+    "answer": "By handling data fetching and heavy computations on the server, Server Components reduce the amount of JavaScript that needs to be sent and executed on the client."
+  },
+  {
+    "question": "What should you do if a Server Component needs to interact with the DOM?",
+    "answer": "Server Components should not interact with the DOM. Such logic should be moved to Client Components that run on the client side."
+  },
+  {
+    "question": "How does Next.js handle environment variables in Server Components?",
+    "answer": "Next.js ensures that environment variables without the NEXT_PUBLIC prefix are only available on the server, preventing them from being exposed to the client."
+  },
+  {
+    "question": "What is the server-only package in Next.js?",
+    "answer": "The server-only package in Next.js is a tool that provides build-time errors if server-only code is accidentally imported into Client Components, ensuring separation of server and client code."
+  },
+  {
+    "question": "How do you prevent environment variables from leaking to the client in Next.js?",
+    "answer": "By not prefixing sensitive environment variables with NEXT_PUBLIC, ensuring they are only available on the server."
+  },
+  {
+    "question": "Can Server Components use third-party libraries?",
+    "answer": "Yes, Server Components can use third-party libraries as long as they are designed to run on the server and do not depend on browser-specific features."
+  },
+  {
+    "question": "What type of rendering strategy should be used for components that need to fetch data from the backend?",
+    "answer": "Server Components should be used for components that need to fetch data from the backend, as they can directly access backend resources."
+  },
+  {
+    "question": "How do you handle large dependencies in a Next.js application?",
+    "answer": "Keep large dependencies on the server by using Server Components to reduce the amount of client-side JavaScript and improve application performance."
+  },
+  {
+    "question": "What is the benefit of interleaving Server and Client Components?",
+    "answer": "Interleaving Server and Client Components allows you to optimize different parts of your application for performance, security, and interactivity."
+  },
+  {
+    "question": "How can you debug issues with Server Components in Next.js?",
+    "answer": "Debug issues with Server Components by checking the server logs, ensuring proper usage of server-only code, and verifying data fetching logic."
+  },
+  {
+    "question": "What are Client Components in Next.js?",
+    "answer": "Client Components in Next.js are React components that run on the client-side, enabling interactivity and usage of browser-specific APIs."
+  },
+  {
+    "question": "When should you use Client Components?",
+    "answer": "Use Client Components when you need client-side interactivity, access to the DOM, browser APIs, or when using state and lifecycle methods like useState and useEffect."
+  },
+  {
+    "question": "How do you define a Client Component in Next.js?",
+    "answer": "Client Components are defined as regular React components and can be identified by including 'use client' at the top of the file."
+  },
+  {
+    "question": "Can Client Components fetch data directly from the server?",
+    "answer": "Client Components can fetch data using client-side methods such as fetch, but they cannot directly access server-side resources."
+  },
+  {
+    "question": "What are some examples of when to use Client Components?",
+    "answer": "Use Client Components for interactive elements like forms, buttons, modals, and any feature requiring event handlers or real-time updates."
+  },
+  {
+    "question": "How do you indicate that a component is a Client Component?",
+    "answer": "Add 'use client' at the top of the component file to indicate that it is a Client Component."
+  },
+  {
+    "question": "Can Client Components use server-side data fetching methods?",
+    "answer": "No, Client Components cannot use server-side data fetching methods like getServerSideProps or getStaticProps."
+  },
+  {
+    "question": "What is the main advantage of using Client Components?",
+    "answer": "The main advantage is enabling client-side interactivity and access to the browser's DOM and APIs."
+  },
+  {
+    "question": "Can Client Components be mixed with Server Components?",
+    "answer": "Yes, Client Components can be interleaved with Server Components, allowing you to use the best rendering strategy for different parts of your application."
+  },
+  {
+    "question": "How do you handle state in Client Components?",
+    "answer": "State in Client Components is handled using React hooks such as useState and useReducer."
+  },
+  {
+    "question": "Are Client Components suitable for heavy computations?",
+    "answer": "No, heavy computations should be handled on the server to keep client-side performance optimal."
+  },
+  {
+    "question": "How can Client Components improve the user experience?",
+    "answer": "Client Components improve the user experience by enabling dynamic, interactive features that respond quickly to user input."
+  },
+  {
+    "question": "Can Client Components use context providers?",
+    "answer": "Yes, Client Components can use React context providers to share state and functionality across the component tree."
+  },
+  {
+    "question": "What is the role of the 'use client' directive?",
+    "answer": "The 'use client' directive at the top of a component file indicates that the component should be rendered on the client side."
+  },
+  {
+    "question": "Can you use useEffect in Client Components?",
+    "answer": "Yes, you can use the useEffect hook in Client Components to perform side effects after rendering."
+  },
+  {
+    "question": "What kind of data fetching methods are appropriate for Client Components?",
+    "answer": "Client Components should use client-side data fetching methods such as fetch or third-party libraries like Axios."
+  },
+  {
+    "question": "How do you optimize Client Components for performance?",
+    "answer": "Optimize Client Components by avoiding heavy computations, minimizing re-renders, using React.memo, and lazy-loading components."
+  },
+  {
+    "question": "Are Client Components rendered on the server or the client?",
+    "answer": "Client Components are rendered on the client."
+  },
+  {
+    "question": "How do you integrate third-party libraries in Client Components?",
+    "answer": "Integrate third-party libraries in Client Components by installing them via npm or yarn and importing them as needed in your component code."
+  },
+  {
+    "question": "Can Client Components access environment variables?",
+    "answer": "Client Components can access environment variables that are prefixed with NEXT_PUBLIC."
+  },
+  {
+    "question": "How does Next.js handle code splitting with Client Components?",
+    "answer": "Next.js automatically handles code splitting for Client Components, ensuring only the necessary code is loaded for each page."
+  },
+  {
+    "question": "Can you use custom hooks in Client Components?",
+    "answer": "Yes, you can use and create custom hooks in Client Components for reusable logic."
+  },
+  {
+    "question": "How do you handle form submissions in Client Components?",
+    "answer": "Handle form submissions in Client Components by using form event handlers and client-side APIs to process the form data."
+  },
+  {
+    "question": "What is the difference between Server Components and Client Components?",
+    "answer": "Server Components are rendered on the server and can directly access server-side resources, while Client Components are rendered on the client and provide interactivity."
+  },
+  {
+    "question": "Can Client Components use local storage or session storage?",
+    "answer": "Yes, Client Components can use browser APIs like local storage and session storage for client-side state persistence."
+  },
+  {
+    "question": "How do you pass data from Server Components to Client Components?",
+    "answer": "Pass data from Server Components to Client Components as props."
+  },
+  {
+    "question": "What lifecycle methods can you use in Client Components?",
+    "answer": "You can use lifecycle hooks like useEffect, useLayoutEffect, and custom hooks in Client Components."
+  },
+  {
+    "question": "How do you handle conditional rendering in Client Components?",
+    "answer": "Handle conditional rendering in Client Components using JavaScript expressions and React's conditional rendering techniques (e.g., ternary operators, logical &&)."
+  },
+  {
+    "question": "Can Client Components be server-side rendered (SSR)?",
+    "answer": "Client Components are not server-side rendered; they are rendered on the client after being sent from the server."
+  },
+  {
+    "question": "What is the purpose of the useEffect hook in Client Components?",
+    "answer": "The useEffect hook is used to perform side effects in Client Components, such as data fetching, subscriptions, and DOM manipulations."
+  },
+  {
+    "question": "How do you manage global state in Client Components?",
+    "answer": "Manage global state in Client Components using state management libraries like Redux, Context API, or Zustand."
+  },
+  {
+    "question": "What are some common use cases for Client Components?",
+    "answer": "Common use cases include interactive UI elements, handling user input, real-time updates, and any feature that requires client-side interactivity."
+  },
+  {
+    "question": "How do you handle errors in Client Components?",
+    "answer": "Handle errors in Client Components using error boundaries, try-catch blocks, and conditional rendering to display error messages."
+  },
+  {
+    "question": "Can Client Components interact with the DOM directly?",
+    "answer": "Yes, Client Components can interact with the DOM directly using React refs and browser APIs."
+  },
+  {
+    "question": "What is the benefit of using React.memo in Client Components?",
+    "answer": "React.memo helps optimize performance by memoizing the component, preventing unnecessary re-renders if the props haven't changed."
+  },
+  {
+    "question": "How do you ensure Client Components only run on the client?",
+    "answer": "Ensure Client Components only run on the client by using the 'use client' directive at the top of the component file."
+  },
+  {
+    "question": "Can Client Components use WebSockets?",
+    "answer": "Yes, Client Components can use WebSockets for real-time communication with the server."
+  },
+  {
+    "question": "How do you perform side effects in Client Components?",
+    "answer": "Perform side effects in Client Components using the useEffect hook, which runs after the component has rendered."
+  },
+  {
+    "question": "What are the limitations of Client Components?",
+    "answer": "Limitations include not being able to access server-side resources directly and potentially impacting performance if not optimized properly."
+  },
+  {
+    "question": "Can you use CSS-in-JS libraries with Client Components?",
+    "answer": "Yes, you can use CSS-in-JS libraries like styled-components or Emotion with Client Components for styling."
+  },
+  {
+    "question": "How do you handle authentication in Client Components?",
+    "answer": "Handle authentication in Client Components by interacting with authentication APIs and managing tokens or session data."
+  },
+  {
+    "question": "What is the recommended way to manage component state in Client Components?",
+    "answer": "The recommended way to manage component state is using React hooks like useState and useReducer."
+  },
+  {
+    "question": "Can Client Components use the useContext hook?",
+    "answer": "Yes, Client Components can use the useContext hook to access and manipulate context values."
+  },
+  {
+    "question": "How do you handle loading states in Client Components?",
+    "answer": "Handle loading states by using state variables and conditional rendering to display loading indicators while data is being fetched."
+  },
+  {
+    "question": "Can Client Components be lazy-loaded?",
+    "answer": "Yes, Client Components can be lazy-loaded using React.lazy and Suspense for code splitting and improved performance."
+  },
+  {
+    "question": "What are the two runtimes supported by Next.js?",
+    "answer": "Next.js supports Edge Runtime and Node.js Runtime."
+  },
+  {
+    "question": "What is the primary use case for the Edge Runtime in Next.js?",
+    "answer": "The Edge Runtime is used for running serverless functions at the edge, allowing for low-latency responses close to the user."
+  },
+  {
+    "question": "What is the default runtime for API routes in Next.js?",
+    "answer": "The default runtime for API routes in Next.js is the Node.js Runtime."
+  },
+  {
+    "question": "How do you specify a different runtime for a specific API route?",
+    "answer": "You can specify a different runtime for an API route using the 'runtime' config in the API route file, such as 'export const config = { runtime: 'edge' }'."
+  },
+  {
+    "question": "What are some of the limitations of the Edge Runtime?",
+    "answer": "The Edge Runtime has limitations such as restricted use of Node.js APIs, limited execution time, and size constraints on the deployed code."
+  },
+  {
+    "question": "How do you enable the Edge Runtime for middleware in Next.js?",
+    "answer": "Middleware in Next.js runs on the Edge Runtime by default, and you do not need to explicitly enable it."
+  },
+  {
+    "question": "Can you use native Node.js modules in the Edge Runtime?",
+    "answer": "No, you cannot use native Node.js modules in the Edge Runtime due to its lightweight nature and limited environment."
+  },
+  {
+    "question": "What are some features of the Node.js Runtime in Next.js?",
+    "answer": "The Node.js Runtime supports full Node.js APIs, larger execution time, and is suitable for server-side rendering, API routes, and background jobs."
+  },
+  {
+    "question": "How do you configure the Node.js Runtime for an API route?",
+    "answer": "To configure the Node.js Runtime for an API route, set the 'runtime' config to 'nodejs' in the API route file, e.g., 'export const config = { runtime: 'nodejs' }'."
+  },
+  {
+    "question": "What environment variables can be used in the Edge Runtime?",
+    "answer": "In the Edge Runtime, you can use environment variables that are defined with the prefix NEXT_PUBLIC_."
+  },
+  {
+    "question": "How do you handle caching in the Edge Runtime?",
+    "answer": "You can handle caching in the Edge Runtime using the Cache API, which allows you to store and retrieve responses."
+  },
+  {
+    "question": "What is the execution time limit for the Edge Runtime?",
+    "answer": "The execution time limit for the Edge Runtime is typically around 5 milliseconds."
+  },
+  {
+    "question": "How do you debug Edge Runtime code?",
+    "answer": "Debug Edge Runtime code by deploying to a staging environment and using logging to inspect the behavior and errors."
+  },
+  {
+    "question": "Can you use file system operations in the Edge Runtime?",
+    "answer": "No, file system operations are not supported in the Edge Runtime."
+  },
+  {
+    "question": "What is the benefit of using the Edge Runtime for middleware?",
+    "answer": "The benefit is low-latency responses due to execution close to the user, enhancing performance for request handling."
+  },
+  {
+    "question": "What is the recommended way to share code between Edge and Node.js Runtimes?",
+    "answer": "Share code by using environment-specific imports and avoiding Node.js-specific APIs in shared modules."
+  },
+  {
+    "question": "How do you handle third-party packages in the Edge Runtime?",
+    "answer": "Use packages that are compatible with the Edge Runtime, typically those that do not rely on Node.js-specific features."
+  },
+  {
+    "question": "What HTTP methods are supported in Edge Middleware?",
+    "answer": "Edge Middleware supports all standard HTTP methods such as GET, POST, PUT, DELETE, etc."
+  },
+  {
+    "question": "Can you access request and response headers in Edge Middleware?",
+    "answer": "Yes, you can access and modify request and response headers in Edge Middleware."
+  },
+  {
+    "question": "What are some common use cases for the Node.js Runtime?",
+    "answer": "Common use cases include server-side rendering, complex API logic, database interactions, and running background tasks."
+  },
+  {
+    "question": "How do you handle secret management in the Edge Runtime?",
+    "answer": "Handle secrets by using environment variables prefixed with NEXT_PUBLIC_ and ensuring sensitive data is not exposed."
+  },
+  {
+    "question": "Can Edge Middleware run on every request?",
+    "answer": "Yes, Edge Middleware can be configured to run on every request to perform actions like authentication and logging."
+  },
+  {
+    "question": "What is the purpose of the 'use client' directive in Edge Middleware?",
+    "answer": "There is no 'use client' directive for Edge Middleware; this directive is used for Client Components."
+  },
+  {
+    "question": "How do you optimize performance in the Edge Runtime?",
+    "answer": "Optimize performance by minimizing the amount of code, avoiding blocking operations, and efficiently using the Cache API."
+  },
+  {
+    "question": "Can the Edge Runtime handle WebSockets?",
+    "answer": "No, the Edge Runtime does not support WebSockets."
+  },
+  {
+    "question": "What are the memory constraints of the Edge Runtime?",
+    "answer": "The Edge Runtime has strict memory constraints, typically around 128MB."
+  },
+  {
+    "question": "How do you deploy Edge Functions in Next.js?",
+    "answer": "Deploy Edge Functions using Vercel or any other platform that supports serverless edge functions."
+  },
+  {
+    "question": "Can you perform database queries in the Edge Runtime?",
+    "answer": "Performing direct database queries is not recommended in the Edge Runtime due to network latency; use APIs instead."
+  },
+  {
+    "question": "What are the benefits of using Node.js Runtime for server-side rendering?",
+    "answer": "Benefits include full access to Node.js APIs, the ability to handle complex server-side logic, and interacting with databases and other services."
+  },
+  {
+    "question": "How do you handle session management in Edge Middleware?",
+    "answer": "Handle session management using cookies and token-based authentication, avoiding stateful sessions due to Edge Runtime's stateless nature."
+  },
+  {
+    "question": "What are some alternatives to the Edge Runtime for real-time applications?",
+    "answer": "Alternatives include using serverless functions with platforms like AWS Lambda or traditional server-based solutions."
+  },
+  {
+    "question": "How do you handle errors in the Edge Runtime?",
+    "answer": "Handle errors by using try-catch blocks and logging errors for further analysis."
+  },
+  {
+    "question": "What is the size limit for Edge Functions?",
+    "answer": "The size limit for Edge Functions is typically around 1MB, including dependencies."
+  },
+  {
+    "question": "Can you use async/await in Edge Middleware?",
+    "answer": "Yes, you can use async/await syntax in Edge Middleware for asynchronous operations."
+  },
+  {
+    "question": "How do you ensure security in the Edge Runtime?",
+    "answer": "Ensure security by validating input, sanitizing data, using HTTPS, and handling authentication and authorization properly."
+  },
+  {
+    "question": "What platforms support deploying Edge Functions?",
+    "answer": "Platforms like Vercel and Cloudflare Workers support deploying Edge Functions."
+  },
+  {
+    "question": "How do you manage dependencies in the Edge Runtime?",
+    "answer": "Manage dependencies by ensuring they are lightweight and do not rely on Node.js-specific APIs."
+  },
+  {
+    "question": "Can you use GraphQL with the Edge Runtime?",
+    "answer": "Yes, you can use GraphQL with the Edge Runtime by sending requests to a GraphQL API."
+  },
+  {
+    "question": "How do you log in the Edge Runtime?",
+    "answer": "Log using lightweight logging libraries or by sending logs to an external logging service."
+  },
+  {
+    "question": "What is the primary difference between Edge and Node.js Runtimes?",
+    "answer": "The primary difference is that the Edge Runtime runs serverless functions close to the user for low-latency responses, while the Node.js Runtime runs on a traditional server environment with full access to Node.js APIs."
+  },
+  {
+    "question": "How do you test Edge Middleware?",
+    "answer": "Test Edge Middleware by deploying to a staging environment and using automated tests and logging to verify behavior."
+  },
+  {
+    "question": "Can you run cron jobs in the Edge Runtime?",
+    "answer": "No, cron jobs are not supported in the Edge Runtime; use traditional server or cloud-based cron services."
+  },
+  {
+    "question": "How do you handle API rate limiting in Edge Middleware?",
+    "answer": "Handle API rate limiting by implementing logic to track and limit requests based on IP or user identifiers."
+  },
+  {
+    "question": "What is the role of the 'config' export in API routes?",
+    "answer": "The 'config' export allows you to specify configuration options like the runtime for an API route."
+  },
+  {
+    "question": "What is caching in Next.js?",
+    "answer": "Caching in Next.js helps improve performance by storing frequently accessed data so that future requests for the same data can be served faster."
+  },
+  {
+    "question": "How does Next.js handle caching for static files?",
+    "answer": "Next.js uses HTTP headers to cache static files, allowing browsers to cache these files and reduce the need to fetch them on subsequent visits."
+  },
+  {
+    "question": "What are the different types of caching strategies available in Next.js?",
+    "answer": "Next.js supports various caching strategies such as HTTP caching, revalidation, and in-memory caching."
+  },
+  {
+    "question": "How can you enable HTTP caching in Next.js?",
+    "answer": "You can enable HTTP caching by configuring headers in the `next.config.js` file or using middleware to set cache control headers."
+  },
+  {
+    "question": "What is the purpose of the `Cache-Control` header?",
+    "answer": "The `Cache-Control` header specifies caching policies such as max-age, public, private, no-cache, and no-store, controlling how browsers and intermediate caches handle responses."
+  },
+  {
+    "question": "How do you set cache headers in a Next.js API route?",
+    "answer": "In a Next.js API route, you can set cache headers by modifying the response object, for example: `res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate');`"
+  },
+  {
+    "question": "What is ISR (Incremental Static Regeneration)?",
+    "answer": "ISR allows you to update static content after you’ve built your application by regenerating static pages in the background as traffic comes in."
+  },
+  {
+    "question": "How do you use ISR in a Next.js project?",
+    "answer": "ISR is used by setting the `revalidate` property in `getStaticProps`, which defines the time in seconds after which a page re-generation can occur."
+  },
+  {
+    "question": "What does the `revalidate` property in `getStaticProps` do?",
+    "answer": "The `revalidate` property specifies the number of seconds after which a static page re-generation can happen, allowing for stale content to be updated."
+  },
+  {
+    "question": "How can you cache API responses in Next.js?",
+    "answer": "You can cache API responses by setting appropriate cache control headers and utilizing HTTP caching mechanisms."
+  },
+  {
+    "question": "What is the difference between `public` and `private` cache control headers?",
+    "answer": "`Public` allows caching by any cache (browser, CDN, etc.), while `private` restricts caching to the client's browser only."
+  },
+  {
+    "question": "What is `s-maxage` in cache control headers?",
+    "answer": "`s-maxage` is a cache control directive for shared caches (like CDNs) that specifies how long a response is considered fresh."
+  },
+  {
+    "question": "What does the `stale-while-revalidate` directive do?",
+    "answer": "`stale-while-revalidate` allows serving stale content while revalidation is performed in the background, improving response times."
+  },
+  {
+    "question": "Can you use the Cache API in Next.js?",
+    "answer": "Yes, you can use the Cache API in Next.js, particularly in Edge Middleware or serverless functions, to store and retrieve responses."
+  },
+  {
+    "question": "How do you invalidate cache in Next.js?",
+    "answer": "Cache can be invalidated by setting appropriate cache control headers or by using methods like ISR to re-generate content."
+  },
+  {
+    "question": "What is prefetching in Next.js?",
+    "answer": "Prefetching in Next.js refers to the technique of loading data or resources before they are needed, improving page load times."
+  },
+  {
+    "question": "How does Next.js handle prefetching?",
+    "answer": "Next.js automatically prefetches linked pages in the background using the `next/link` component, enhancing navigation speed."
+  },
+  {
+    "question": "What role does `next.config.js` play in caching?",
+    "answer": "`next.config.js` allows you to configure caching policies, including setting headers for caching static assets and API responses."
+  },
+  {
+    "question": "What is the benefit of using a CDN with Next.js?",
+    "answer": "A CDN can cache static assets and serve them from locations closer to the user, significantly reducing latency and improving performance."
+  },
+  {
+    "question": "How can you configure caching for static assets in Next.js?",
+    "answer": "Configure caching for static assets by setting appropriate cache control headers in the `next.config.js` file or in the hosting provider settings."
+  },
+  {
+    "question": "What is the `next/cache` module used for?",
+    "answer": "The `next/cache` module provides utilities for working with caching in Next.js, such as the `unstable_noStore` function for dynamic rendering."
+  },
+  {
+    "question": "What does the `unstable_noStore` function do?",
+    "answer": "The `unstable_noStore` function opts a page into dynamic rendering, ensuring that the content is not cached and is fetched fresh on each request."
+  },
+  {
+    "question": "How do you handle caching in server-side rendering (SSR) in Next.js?",
+    "answer": "In SSR, you handle caching by setting cache control headers in the server response and using techniques like HTTP caching."
+  },
+  {
+    "question": "What is the benefit of using `getServerSideProps` for caching?",
+    "answer": "`getServerSideProps` enables you to fetch data on each request, allowing for up-to-date content while leveraging server-side caching strategies."
+  },
+  {
+    "question": "How do you use the `Cache API` in Edge Middleware?",
+    "answer": "Use the `Cache API` in Edge Middleware to store responses and retrieve them for subsequent requests, enhancing performance."
+  },
+  {
+    "question": "What is the `no-store` directive in cache control?",
+    "answer": "`no-store` instructs caches to not store any part of the response, ensuring that the response is always fetched fresh from the server."
+  },
+  {
+    "question": "What does the `max-age` directive do?",
+    "answer": "`max-age` specifies the maximum amount of time a resource is considered fresh, after which it needs to be revalidated."
+  },
+  {
+    "question": "How does caching impact SEO in Next.js?",
+    "answer": "Proper caching can improve page load times, which positively impacts SEO by providing a better user experience and reducing bounce rates."
+  },
+  {
+    "question": "Can you cache dynamic content in Next.js?",
+    "answer": "Dynamic content can be cached using strategies like ISR and setting appropriate cache control headers to manage revalidation."
+  },
+  {
+    "question": "What is the `etag` header used for?",
+    "answer": "The `etag` header provides a way to validate cached responses, allowing servers to determine if a cached response is still valid."
+  },
+  {
+    "question": "How do you configure `etag` in Next.js?",
+    "answer": "Configure `etag` by enabling the `generateEtags` option in the `next.config.js` file."
+  },
+  {
+    "question": "What is cache revalidation?",
+    "answer": "Cache revalidation is the process of checking if the cached content is still fresh and valid, updating it if necessary."
+  },
+  {
+    "question": "How does the `stale-if-error` directive work?",
+    "answer": "`stale-if-error` allows serving stale content if the server encounters an error while fetching fresh content."
+  },
+  {
+    "question": "What are the benefits of caching in Next.js?",
+    "answer": "Caching improves performance, reduces server load, enhances user experience, and can contribute to better SEO."
+  },
+  {
+    "question": "How can you disable caching for specific routes in Next.js?",
+    "answer": "Disable caching by setting the `no-store` or `no-cache` directive in the cache control headers for specific routes."
+  },
+  {
+    "question": "What is the `must-revalidate` directive?",
+    "answer": "`must-revalidate` instructs caches that the response must be revalidated with the server once it becomes stale."
+  },
+  {
+    "question": "How do you handle cache control for API routes in Next.js?",
+    "answer": "Handle cache control for API routes by setting appropriate cache control headers in the API route response."
+  },
+  {
+    "question": "What does the `immutable` directive do in caching?",
+    "answer": "`Immutable` indicates that the response will not change over time, allowing it to be cached indefinitely."
+  },
+  {
+    "question": "What is the purpose of the `vary` header?",
+    "answer": "The `vary` header specifies which request headers are used to determine if a cached response can be used, supporting content negotiation."
+  },
+  {
+    "question": "How can you optimize image caching in Next.js?",
+    "answer": "Optimize image caching by using the `next/image` component, setting cache control headers, and configuring an image loader."
+  },
+  {
+    "question": "How do you enable TypeScript in a Next.js project?",
+    "answer": "To enable TypeScript, add a `tsconfig.json` file to the root of your project. Next.js will automatically detect and compile TypeScript files."
+  },
+  {
+    "question": "What command is used to install Next.js and TypeScript dependencies?",
+    "answer": "You can use `npm install next react react-dom typescript @types/react @types/node` to install Next.js along with TypeScript dependencies."
+  },
+  {
+    "question": "How does Next.js handle TypeScript configuration?",
+    "answer": "Next.js automatically generates a `tsconfig.json` file with recommended settings if it doesn't detect one."
+  },
+  {
+    "question": "What are the default compiler options set by Next.js in `tsconfig.json`?",
+    "answer": "The default compiler options include settings like `strict: true`, `jsx: preserve`, `module: esnext`, and `target: es5`."
+  },
+  {
+    "question": "Can you customize the `tsconfig.json` file in Next.js?",
+    "answer": "Yes, you can customize the `tsconfig.json` file to fit your project's needs by adding or modifying compiler options."
+  },
+  {
+    "question": "What is the purpose of the `next-env.d.ts` file in a Next.js project?",
+    "answer": "The `next-env.d.ts` file ensures that Next.js types are included and helps with TypeScript type checking."
+  },
+  {
+    "question": "What should you do if you encounter TypeScript errors after upgrading Next.js?",
+    "answer": "Check the Next.js release notes for breaking changes and update your TypeScript configuration or code accordingly."
+  },
+  {
+    "question": "How can you add path aliases in a Next.js TypeScript project?",
+    "answer": "You can add path aliases by modifying the `paths` option in the `compilerOptions` section of the `tsconfig.json` file."
+  },
+  {
+    "question": "What are type-checking tools recommended for use with Next.js?",
+    "answer": "Type-checking tools recommended include TypeScript itself and ESLint with TypeScript plugins."
+  },
+  {
+    "question": "How do you handle type-checking during development in Next.js?",
+    "answer": "Use the `next dev` command, which includes type-checking by default, or run `tsc --noEmit` for a standalone type check."
+  },
+  {
+    "question": "How do you set up ESLint with TypeScript in Next.js?",
+    "answer": "Install `eslint`, `eslint-config-next`, and `@typescript-eslint/parser`, then configure `.eslintrc.json` to extend `next`."
+  },
+  {
+    "question": "Can you use JavaScript and TypeScript files together in a Next.js project?",
+    "answer": "Yes, you can use both JavaScript and TypeScript files in the same project. Next.js will handle the compilation."
+  },
+  {
+    "question": "What is the `@types/react` package used for?",
+    "answer": "The `@types/react` package provides TypeScript definitions for React, enabling better type-checking and autocompletion."
+  },
+  {
+    "question": "What should be included in the `include` section of `tsconfig.json`?",
+    "answer": "Include paths to TypeScript files and the `next-env.d.ts` file, such as `**/*.ts`, `**/*.tsx`, and `next-env.d.ts`."
+  },
+  {
+    "question": "How do you exclude certain files or directories from TypeScript compilation in Next.js?",
+    "answer": "Use the `exclude` section in `tsconfig.json` to specify files or directories to be excluded from compilation."
+  },
+  {
+    "question": "How can you enable incremental type-checking in TypeScript?",
+    "answer": "Set `incremental: true` in the `compilerOptions` section of `tsconfig.json` to enable incremental type-checking."
+  },
+  {
+    "question": "What is the purpose of the `baseUrl` option in `tsconfig.json`?",
+    "answer": "The `baseUrl` option sets the base directory for non-relative module names, aiding in module resolution."
+  },
+  {
+    "question": "How do you use custom TypeScript plugins in Next.js?",
+    "answer": "Add the plugin configuration in the `plugins` section of `tsconfig.json` to use custom TypeScript plugins."
+  },
+  {
+    "question": "What is the `noEmit` option in `tsconfig.json` used for?",
+    "answer": "The `noEmit` option prevents TypeScript from emitting compiled files, useful when you only want to type-check the code."
+  },
+  {
+    "question": "How does Next.js handle TypeScript errors during production builds?",
+    "answer": "Next.js will fail the production build if there are any TypeScript errors to ensure type safety."
+  },
+  {
+    "question": "How can you ignore specific TypeScript errors in Next.js?",
+    "answer": "Use the `// @ts-ignore` comment above the line of code where you want to ignore a specific TypeScript error."
+  },
+  {
+    "question": "What is the recommended way to migrate a JavaScript Next.js project to TypeScript?",
+    "answer": "Incrementally rename files from `.js` to `.ts` or `.tsx`, add TypeScript dependencies, and fix type errors step by step."
+  },
+  {
+    "question": "How do you define global types in a Next.js TypeScript project?",
+    "answer": "Create a `global.d.ts` file in the root directory and include it in the `include` section of `tsconfig.json`."
+  },
+  {
+    "question": "Can you use third-party TypeScript declaration files in Next.js?",
+    "answer": "Yes, you can install and use third-party TypeScript declaration files from DefinitelyTyped or other sources."
+  },
+  {
+    "question": "What are `typeRoots` in `tsconfig.json`?",
+    "answer": "`typeRoots` specifies directories containing type definitions, which TypeScript will include for type-checking."
+  },
+  {
+    "question": "How do you configure module resolution for custom paths in Next.js?",
+    "answer": "Use the `paths` and `baseUrl` options in `tsconfig.json` to configure module resolution for custom paths."
+  },
+  {
+    "question": "What is the `strict` option in TypeScript?",
+    "answer": "The `strict` option enables all strict type-checking options, such as `strictNullChecks` and `noImplicitAny`."
+  },
+  {
+    "question": "How can you handle module resolution for Node.js modules in TypeScript?",
+    "answer": "Set `moduleResolution` to `node` in `tsconfig.json` to handle module resolution for Node.js modules."
+  },
+  {
+    "question": "What is the purpose of the `esModuleInterop` option?",
+    "answer": "The `esModuleInterop` option allows for better compatibility between CommonJS and ES modules."
+  },
+  {
+    "question": "How do you enable JSX syntax in TypeScript?",
+    "answer": "Set the `jsx` option to `preserve` or `react` in `tsconfig.json` to enable JSX syntax in TypeScript files."
+  },
+  {
+    "question": "What is the `forceConsistentCasingInFileNames` option?",
+    "answer": "The `forceConsistentCasingInFileNames` option ensures consistent casing in file names to avoid case-sensitive issues."
+  },
+  {
+    "question": "How do you configure TypeScript to resolve JSON modules?",
+    "answer": "Set `resolveJsonModule: true` in the `compilerOptions` section of `tsconfig.json` to resolve JSON modules."
+  },
+  {
+    "question": "What is the `skipLibCheck` option?",
+    "answer": "The `skipLibCheck` option skips type checking of declaration files, speeding up compilation."
+  },
+  {
+    "question": "How do you add TypeScript paths for absolute imports?",
+    "answer": "Configure the `baseUrl` and `paths` in `tsconfig.json` to add TypeScript paths for absolute imports."
+  },
+  {
+    "question": "What should you do if TypeScript definitions are missing for a library?",
+    "answer": "Install the corresponding `@types` package from DefinitelyTyped or create your own declaration files."
+  },
+  {
+    "question": "How do you extend TypeScript configuration in a monorepo setup?",
+    "answer": "Use the `extends` option in `tsconfig.json` to extend configuration from a base config file."
+  },
+  {
+    "question": "What is the `target` option in TypeScript?",
+    "answer": "The `target` option specifies the JavaScript language version for emitted code, such as `es5` or `esnext`."
+  },
+  {
+    "question": "How do you handle different TypeScript configurations for different environments?",
+    "answer": "Use multiple `tsconfig` files and the `extends` option to handle different configurations for various environments."
+  },
+  {
+    "question": "How do you add custom TypeScript definitions for global objects?",
+    "answer": "Create a `global.d.ts` file and declare the types for global objects within it."
+  },
+  {
+    "question": "How do you set up ESLint in a Next.js project?",
+    "answer": "To set up ESLint in a Next.js project, you can run `npx next lint` which will install the required packages and create a `.eslintrc.json` file with a recommended configuration."
+  },
+  {
+    "question": "What is the command to initialize ESLint in Next.js?",
+    "answer": "Use the command `npx next lint` to initialize ESLint in your Next.js project."
+  },
+  {
+    "question": "What file is created by running `npx next lint`?",
+    "answer": "Running `npx next lint` creates a `.eslintrc.json` file in your project."
+  },
+  {
+    "question": "Can you customize the ESLint configuration in a Next.js project?",
+    "answer": "Yes, you can customize the ESLint configuration by editing the `.eslintrc.json` file."
+  },
+  {
+    "question": "What ESLint configurations are recommended by Next.js?",
+    "answer": "Next.js recommends using configurations that extend from `next` and `next/core-web-vitals` for best practices and optimal performance."
+  },
+  {
+    "question": "How do you extend the default ESLint configuration provided by Next.js?",
+    "answer": "You can extend the default configuration by adding additional rules or extending other configurations in the `.eslintrc.json` file."
+  },
+  {
+    "question": "How do you disable ESLint for specific files in a Next.js project?",
+    "answer": "To disable ESLint for specific files, you can add those files to the `eslintIgnore` array in your package.json or create a `.eslintignore` file."
+  },
+  {
+    "question": "What is the purpose of the `next lint` command?",
+    "answer": "The `next lint` command is used to run ESLint on your Next.js project, checking for code quality and errors."
+  },
+  {
+    "question": "Can you use ESLint plugins in a Next.js project?",
+    "answer": "Yes, you can use ESLint plugins by installing them and including them in the `plugins` array of your `.eslintrc.json` file."
+  },
+  {
+    "question": "How do you add custom ESLint rules in a Next.js project?",
+    "answer": "Custom ESLint rules can be added by specifying them in the `rules` section of the `.eslintrc.json` file."
+  },
+  {
+    "question": "What package is required to use ESLint with Next.js?",
+    "answer": "The `eslint-config-next` package is required to use ESLint with Next.js."
+  },
+  {
+    "question": "How can you lint your project automatically before each commit?",
+    "answer": "Use a tool like `husky` to run the `next lint` command in a pre-commit hook to lint your project automatically before each commit."
+  },
+  {
+    "question": "What is the `next/core-web-vitals` configuration used for?",
+    "answer": "The `next/core-web-vitals` configuration includes rules that ensure your project follows best practices for Core Web Vitals."
+  },
+  {
+    "question": "How do you handle ESLint warnings as errors in a Next.js project?",
+    "answer": "To treat ESLint warnings as errors, you can set the `ESLINT_NO_DEV_ERRORS` environment variable to `true` or adjust your ESLint configuration to treat warnings as errors."
+  },
+  {
+    "question": "Can ESLint be configured to fix issues automatically?",
+    "answer": "Yes, you can configure ESLint to fix issues automatically by running `npx eslint . --fix`."
+  },
+  {
+    "question": "How do you ignore ESLint rules for specific lines of code?",
+    "answer": "You can ignore ESLint rules for specific lines of code by adding `// eslint-disable-next-line` before the line or `/* eslint-disable */` around the block of code."
+  },
+  {
+    "question": "How do you add a new ESLint plugin to your Next.js project?",
+    "answer": "Install the plugin using npm or yarn, then include it in the `plugins` array and configure any desired rules in your `.eslintrc.json` file."
+  },
+  {
+    "question": "What command is used to run ESLint in a Next.js project?",
+    "answer": "The command `npx next lint` is used to run ESLint in a Next.js project."
+  },
+  {
+    "question": "How do you exclude a file or directory from ESLint checks?",
+    "answer": "You can exclude files or directories by adding them to the `.eslintignore` file or specifying them in the `eslintIgnore` array in `package.json`."
+  },
+  {
+    "question": "Can ESLint be integrated with VS Code for a better development experience?",
+    "answer": "Yes, by installing the ESLint extension for VS Code, you can integrate ESLint and get real-time feedback on code quality issues."
+  },
+  {
+    "question": "What is the purpose of the `eslint-config-next` package?",
+    "answer": "The `eslint-config-next` package provides ESLint configurations that are optimized for Next.js applications."
+  },
+  {
+    "question": "How can you disable a specific ESLint rule in your configuration?",
+    "answer": "You can disable a specific ESLint rule by setting its value to `off` in the `rules` section of your `.eslintrc.json` file."
+  },
+  {
+    "question": "How do you run ESLint only on changed files?",
+    "answer": "Use tools like `lint-staged` to run ESLint only on changed files in your project."
+  },
+  {
+    "question": "What ESLint configuration is recommended for accessibility checks?",
+    "answer": "Use the `eslint-plugin-jsx-a11y` plugin along with its recommended configuration to perform accessibility checks."
+  },
+  {
+    "question": "How do you set up ESLint for TypeScript in a Next.js project?",
+    "answer": "Install `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin`, then configure them in the `parserOptions` and `extends` sections of your `.eslintrc.json` file."
+  },
+  {
+    "question": "Can you extend multiple ESLint configurations in Next.js?",
+    "answer": "Yes, you can extend multiple configurations by specifying them in the `extends` array of your `.eslintrc.json` file."
+  },
+  {
+    "question": "How do you ensure ESLint runs on all files, including hidden ones?",
+    "answer": "Use the `--ext` flag with `npx next lint` to specify file extensions, and ensure hidden files are included by using appropriate glob patterns."
+  },
+  {
+    "question": "What is the benefit of using the `next` ESLint configuration?",
+    "answer": "The `next` ESLint configuration is tailored for Next.js projects, providing rules and settings that enhance development and ensure best practices."
+  },
+  {
+    "question": "How do you fix all ESLint errors automatically?",
+    "answer": "Run `npx eslint . --fix` to automatically fix all fixable ESLint errors in your project."
+  },
+  {
+    "question": "How do you add custom ESLint rules in a Next.js project?",
+    "answer": "Custom ESLint rules can be added in the `rules` section of your `.eslintrc.json` file."
+  },
+  {
+    "question": "Can you use ESLint with Prettier in a Next.js project?",
+    "answer": "Yes, you can use ESLint with Prettier by installing `eslint-config-prettier` and `eslint-plugin-prettier`, then extending `prettier` in your ESLint configuration."
+  },
+  {
+    "question": "How do you specify the environments in ESLint configuration?",
+    "answer": "Specify environments in the `env` section of your `.eslintrc.json` file, such as `browser: true` or `node: true`."
+  },
+  {
+    "question": "What is the `eslint-plugin-react` used for?",
+    "answer": "The `eslint-plugin-react` is used to enforce React-specific linting rules in your project."
+  },
+  {
+    "question": "How do you configure ESLint to ignore files in the `.next` directory?",
+    "answer": "Add `.next` to the `.eslintignore` file to prevent ESLint from checking files in the `.next` directory."
+  },
+  {
+    "question": "How do you override specific ESLint rules for certain files?",
+    "answer": "Use the `overrides` section in your `.eslintrc.json` to specify different rules for certain files or file patterns."
+  },
+  {
+    "question": "What is the `extends` keyword used for in ESLint configuration?",
+    "answer": "The `extends` keyword is used to inherit configurations from other ESLint config packages."
+  },
+  {
+    "question": "How do you lint code for stylistic issues in a Next.js project?",
+    "answer": "Use `eslint-config-prettier` to turn off ESLint rules that conflict with Prettier and run Prettier for stylistic issues."
+  },
+  {
+    "question": "How can you set environment variables in a Next.js project?",
+    "answer": "Environment variables in a Next.js project can be set by creating a `.env.local` file in the root of your project and defining your variables there."
+  },
+  {
+    "question": "What is the purpose of the `NEXT_PUBLIC_` prefix in environment variables?",
+    "answer": "The `NEXT_PUBLIC_` prefix is used to expose environment variables to the browser, making them accessible in the client-side code."
+  },
+  {
+    "question": "How do you load environment variables from a `.env.local` file?",
+    "answer": "Next.js automatically loads environment variables from a `.env.local` file when the server starts."
+  },
+  {
+    "question": "Are environment variables in Next.js available both on the server and client by default?",
+    "answer": "By default, environment variables are only available on the server. To make them available on the client, they must be prefixed with `NEXT_PUBLIC_`."
+  },
+  {
+    "question": "How can you access environment variables in Next.js server-side code?",
+    "answer": "Environment variables can be accessed in server-side code using `process.env.VARIABLE_NAME`."
+  },
+  {
+    "question": "How do you make an environment variable available to the client in Next.js?",
+    "answer": "To make an environment variable available to the client, prefix it with `NEXT_PUBLIC_` in your `.env.local` file."
+  },
+  {
+    "question": "Can environment variables be different in production and development in Next.js?",
+    "answer": "Yes, you can create `.env`, `.env.local`, `.env.development`, and `.env.production` files to specify different environment variables for each environment."
+  },
+  {
+    "question": "What is the priority order of environment variable files in Next.js?",
+    "answer": "The priority order is `.env.local`, `.env.development` or `.env.production`, and then `.env`."
+  },
+  {
+    "question": "How can you use runtime environment variables in Next.js?",
+    "answer": "Runtime environment variables can be read using `getServerSideProps` or by using dynamic rendering with the App Router."
+  },
+  {
+    "question": "What happens to public environment variables during the `next build` process?",
+    "answer": "Public environment variables (those prefixed with `NEXT_PUBLIC_`) are inlined into the JavaScript bundle during the `next build` process."
+  },
+  {
+    "question": "Can you use environment variables in Next.js API routes?",
+    "answer": "Yes, environment variables can be used in API routes just like in any other server-side code in Next.js."
+  },
+  {
+    "question": "Is it recommended to use runtimeConfig for environment variables in Next.js?",
+    "answer": "No, using `runtimeConfig` is not recommended as it does not work with the standalone output mode. It's better to use the App Router for runtime environment variables."
+  },
+  {
+    "question": "How do you access environment variables in a Next.js custom server?",
+    "answer": "Environment variables can be accessed in a custom server using `process.env.VARIABLE_NAME`."
+  },
+  {
+    "question": "How can you set environment variables for different stages in Next.js?",
+    "answer": "You can set environment variables for different stages by creating `.env.development`, `.env.production`, and `.env.local` files."
+  },
+  {
+    "question": "Are environment variables defined in `.env.local` file secure?",
+    "answer": "Environment variables in the `.env.local` file are only secure if they are not prefixed with `NEXT_PUBLIC_`. Variables with this prefix are exposed to the client."
+  },
+  {
+    "question": "Can you use environment variables in Next.js middleware?",
+    "answer": "Yes, environment variables can be used in Next.js middleware."
+  },
+  {
+    "question": "How do you ensure environment variables are not exposed to the client in Next.js?",
+    "answer": "Do not prefix the environment variables with `NEXT_PUBLIC_` to ensure they are not exposed to the client."
+  },
+  {
+    "question": "How do you configure Next.js to use environment variables with Docker?",
+    "answer": "You can pass environment variables to Docker containers using the `-e` flag or by defining them in a Dockerfile or a docker-compose file."
+  },
+  {
+    "question": "How can you load environment variables conditionally based on environment in Next.js?",
+    "answer": "You can use `.env.development`, `.env.production`, and `.env.local` files to conditionally load environment variables based on the environment."
+  },
+  {
+    "question": "What file format is used for environment variables in Next.js?",
+    "answer": "Environment variables are typically stored in files with a `.env` extension and are formatted as `KEY=VALUE` pairs."
+  },
+  {
+    "question": "Can you use environment variables in client-side JavaScript in Next.js?",
+    "answer": "Yes, but only if they are prefixed with `NEXT_PUBLIC_`."
+  },
+  {
+    "question": "How do you handle secrets in Next.js?",
+    "answer": "Secrets should be stored in environment variables that are not prefixed with `NEXT_PUBLIC_` to ensure they are only available on the server."
+  },
+  {
+    "question": "What should you do if you need to change an environment variable in production?",
+    "answer": "Update the environment variable in your hosting provider's dashboard or the environment configuration file, then redeploy your application."
+  },
+  {
+    "question": "How do you access environment variables in a Next.js API route?",
+    "answer": "Environment variables can be accessed in a Next.js API route using `process.env.VARIABLE_NAME`."
+  },
+  {
+    "question": "What is the use of `NEXT_PUBLIC_` prefix in Next.js environment variables?",
+    "answer": "The `NEXT_PUBLIC_` prefix is used to expose environment variables to the client-side code."
+  },
+  {
+    "question": "Can you override environment variables in Next.js at runtime?",
+    "answer": "Yes, environment variables can be overridden at runtime by setting them directly in the hosting environment."
+  },
+  {
+    "question": "How do you manage different environment variables for different deployment stages?",
+    "answer": "You can manage different environment variables by creating separate `.env` files for each deployment stage, such as `.env.development` and `.env.production`."
+  },
+  {
+    "question": "What happens to environment variables without the `NEXT_PUBLIC_` prefix during build?",
+    "answer": "Environment variables without the `NEXT_PUBLIC_` prefix are only available on the server and not exposed to the client."
+  },
+  {
+    "question": "How do you read environment variables at build time in Next.js?",
+    "answer": "Environment variables are read at build time from the `.env` files and can be accessed using `process.env`."
+  },
+  {
+    "question": "Can environment variables be used in Next.js middleware?",
+    "answer": "Yes, environment variables can be accessed and used in Next.js middleware."
+  },
+  {
+    "question": "What is the recommended way to use environment variables in server-side functions?",
+    "answer": "The recommended way is to access them using `process.env.VARIABLE_NAME` in server-side functions such as `getServerSideProps`."
+  },
+  {
+    "question": "How do you define environment variables in a Next.js project?",
+    "answer": "Environment variables are defined in `.env` files or directly in the hosting provider's environment configuration."
+  },
+  {
+    "question": "Are environment variables with `NEXT_PUBLIC_` prefix available during static generation?",
+    "answer": "Yes, environment variables with the `NEXT_PUBLIC_` prefix are available during static generation as they are inlined into the JavaScript bundle."
+  },
+  {
+    "question": "How can you secure sensitive information in environment variables?",
+    "answer": "Ensure sensitive information is stored in environment variables without the `NEXT_PUBLIC_` prefix so they remain on the server."
+  },
+  {
+    "question": "What is the effect of `NEXT_PUBLIC_` prefix on environment variables?",
+    "answer": "Environment variables prefixed with `NEXT_PUBLIC_` are exposed to the client-side code."
+  },
+  {
+    "question": "How do you use different environment variables in different deployment environments?",
+    "answer": "Create separate `.env` files for each environment, such as `.env.development` for development and `.env.production` for production."
+  },
+  {
+    "question": "Can environment variables be accessed in Next.js custom server?",
+    "answer": "Yes, they can be accessed using `process.env.VARIABLE_NAME`."
+  },
+  {
+    "question": "What is the best practice for naming environment variables in Next.js?",
+    "answer": "Use uppercase letters and underscores for environment variable names and prefix variables with `NEXT_PUBLIC_` if they need to be exposed to the client."
+  },
+  {
+    "question": "How do you load environment variables from multiple files?",
+    "answer": "Next.js automatically loads environment variables from `.env`, `.env.local`, `.env.development`, and `.env.production` files."
+  },
+  {
+    "question": "What is MDX in the context of Next.js?",
+    "answer": "MDX is a format that allows you to write JSX in Markdown documents, enabling you to use React components within your Markdown content in Next.js applications."
+  },
+  {
+    "question": "How can you enable MDX in a Next.js project?",
+    "answer": "You can enable MDX in a Next.js project by installing the necessary packages (`@next/mdx` and `@mdx-js/loader`) and configuring your `next.config.js` to support MDX."
+  },
+  {
+    "question": "Which packages are required to use MDX in Next.js?",
+    "answer": "You need to install `@next/mdx` and `@mdx-js/loader` to use MDX in Next.js."
+  },
+  {
+    "question": "How do you configure Next.js to use MDX?",
+    "answer": "In your `next.config.js`, use `@next/mdx` to extend your configuration and set up the MDX loader."
+  },
+  {
+    "question": "Can you import and use React components in MDX files with Next.js?",
+    "answer": "Yes, you can import and use React components directly in your MDX files with Next.js."
+  },
+  {
+    "question": "How do you create a custom MDX component in Next.js?",
+    "answer": "Create a React component in your project, and then import and use it within your MDX files."
+  },
+  {
+    "question": "What is the file extension used for MDX files?",
+    "answer": "The file extension used for MDX files is `.mdx`."
+  },
+  {
+    "question": "Can you use MDX with static site generation (SSG) in Next.js?",
+    "answer": "Yes, you can use MDX with static site generation (SSG) by using `getStaticProps` to load your MDX content."
+  },
+  {
+    "question": "How do you dynamically import MDX files in Next.js?",
+    "answer": "You can dynamically import MDX files using the `import()` function and `next/dynamic` for dynamic imports."
+  },
+  {
+    "question": "Can you customize the MDX provider in Next.js?",
+    "answer": "Yes, you can customize the MDX provider by creating a custom `MDXProvider` component and wrapping your application with it."
+  },
+  {
+    "question": "What is `next-mdx-remote`?",
+    "answer": "`next-mdx-remote` is a library that allows you to load MDX content from remote sources or strings, useful for dynamic content rendering."
+  },
+  {
+    "question": "How do you use `next-mdx-remote` in Next.js?",
+    "answer": "Install `next-mdx-remote`, and use its `MDXRemote` component to render MDX content fetched from a remote source or string."
+  },
+  {
+    "question": "Can you use MDX for blog posts in Next.js?",
+    "answer": "Yes, MDX is commonly used for writing blog posts in Next.js due to its flexibility in embedding React components."
+  },
+  {
+    "question": "How do you handle images in MDX files in Next.js?",
+    "answer": "Handle images in MDX files by using the Next.js `<Image>` component or standard HTML `<img>` tags."
+  },
+  {
+    "question": "What is the role of the MDX loader in Next.js?",
+    "answer": "The MDX loader processes `.mdx` files, converting them into JSX so that they can be rendered by React."
+  },
+  {
+    "question": "Can you use frontmatter in MDX files with Next.js?",
+    "answer": "Yes, you can use frontmatter in MDX files to include metadata such as titles, dates, and descriptions."
+  },
+  {
+    "question": "How do you parse frontmatter in MDX files?",
+    "answer": "Frontmatter in MDX files can be parsed using libraries like `gray-matter` to extract metadata."
+  },
+  {
+    "question": "Can you apply custom styles to MDX content in Next.js?",
+    "answer": "Yes, you can apply custom styles to MDX content using CSS modules, styled-components, or any other CSS-in-JS library."
+  },
+  {
+    "question": "How do you integrate syntax highlighting in MDX files?",
+    "answer": "Integrate syntax highlighting in MDX files by using libraries like `prism-react-renderer` or `react-syntax-highlighter`."
+  },
+  {
+    "question": "Can you use TypeScript with MDX in Next.js?",
+    "answer": "Yes, you can use TypeScript with MDX by ensuring your Next.js project is set up for TypeScript and using `.tsx` extensions where necessary."
+  },
+  {
+    "question": "How do you handle MDX content from a CMS in Next.js?",
+    "answer": "Fetch MDX content from a CMS and use `next-mdx-remote` or a similar approach to render the content in your Next.js application."
+  },
+  {
+    "question": "Is it possible to use MDX with Next.js API routes?",
+    "answer": "Yes, you can use MDX with Next.js API routes to dynamically generate and serve MDX content."
+  },
+  {
+    "question": "What are the benefits of using MDX in Next.js?",
+    "answer": "The benefits of using MDX in Next.js include the ability to write content with Markdown and seamlessly include React components, making it powerful for creating rich, interactive content."
+  },
+  {
+    "question": "How do you optimize MDX content for performance in Next.js?",
+    "answer": "Optimize MDX content by leveraging static generation, caching strategies, and optimizing images and other assets within your MDX files."
+  },
+  {
+    "question": "Can you use MDX with Next.js's App Router?",
+    "answer": "Yes, MDX can be used with Next.js's App Router to create dynamic and content-rich applications."
+  },
+  {
+    "question": "How do you structure an MDX blog in Next.js?",
+    "answer": "Structure an MDX blog in Next.js by creating a `posts` directory, storing MDX files there, and using `getStaticProps` to fetch and render them."
+  },
+  {
+    "question": "Can you extend MDX with custom syntax or plugins in Next.js?",
+    "answer": "Yes, you can extend MDX with custom syntax or plugins by configuring the MDX loader with additional remark or rehype plugins."
+  },
+  {
+    "question": "How do you use MDX components globally in a Next.js project?",
+    "answer": "Use MDX components globally by defining them in a custom `MDXProvider` and wrapping your `_app.js` with this provider."
+  },
+  {
+    "question": "Can you use MDX with Next.js and Tailwind CSS?",
+    "answer": "Yes, you can use MDX with Next.js and Tailwind CSS by importing Tailwind classes into your MDX files or components."
+  },
+  {
+    "question": "How do you set up a Next.js project to use MDX and TypeScript?",
+    "answer": "Set up your project with TypeScript and MDX by installing the necessary packages and configuring both in your `next.config.js` and tsconfig.json."
+  },
+  {
+    "question": "What is the use of `MDXProvider` in Next.js?",
+    "answer": "`MDXProvider` is used to provide custom components and context to MDX content, allowing you to customize how elements are rendered."
+  },
+  {
+    "question": "How can you deploy a Next.js project that uses MDX?",
+    "answer": "Deploy a Next.js project that uses MDX by building it as usual with `next build` and deploying it to a platform that supports Next.js, such as Vercel."
+  },
+  {
+    "question": "Can you use GraphQL to fetch MDX content in Next.js?",
+    "answer": "Yes, you can use GraphQL to fetch MDX content and then render it using `next-mdx-remote` or a similar approach."
+  },
+  {
+    "question": "How do you import MDX files in a Next.js page component?",
+    "answer": "Import MDX files in a Next.js page component by using dynamic import or by configuring your `next.config.js` to handle `.mdx` files."
+  },
+  {
+    "question": "Can MDX files include interactive components in Next.js?",
+    "answer": "Yes, MDX files can include interactive components by embedding React components directly within the Markdown content."
+  },
+  {
+    "question": "How do you test MDX components in a Next.js project?",
+    "answer": "Test MDX components in a Next.js project using testing libraries such as Jest or React Testing Library."
+  },
+  {
+    "question": "What are some common use cases for MDX in Next.js?",
+    "answer": "Common use cases for MDX in Next.js include documentation sites, blogs, tutorials, and any content that benefits from mixing Markdown and React components."
+  },
+  {
+    "question": "Can you use MDX with server-side rendering in Next.js?",
+    "answer": "Yes, MDX can be used with server-side rendering by using `getServerSideProps` to fetch and render the content."
+  },
+  {
+    "question": "What is Draft Mode in Next.js?",
+    "answer": "Draft Mode in Next.js allows you to bypass static generation and render draft content at request time, enabling immediate previews of draft content from a headless CMS."
+  },
+  {
+    "question": "How do you enable Draft Mode in Next.js?",
+    "answer": "Enable Draft Mode by creating an API route that calls `res.setDraftMode`, which sets cookies on the browser to activate Draft Mode."
+  },
+  {
+    "question": "What is the purpose of Draft Mode?",
+    "answer": "The purpose of Draft Mode is to preview draft content from your CMS without rebuilding the entire site, providing a more dynamic and immediate preview experience."
+  },
+  {
+    "question": "How do you create a Draft Mode API route?",
+    "answer": "Create a Draft Mode API route by adding a file like `pages/api/draft.js` and implementing a handler that calls `res.setDraftMode`."
+  },
+  {
+    "question": "Can Draft Mode be used with getStaticProps?",
+    "answer": "Yes, Draft Mode can be used with `getStaticProps` to fetch draft data and render it instead of the static content."
+  },
+  {
+    "question": "How do you fetch preview data in Draft Mode?",
+    "answer": "Fetch preview data in Draft Mode by checking the `draftMode` context in your `getStaticProps` or `getServerSideProps` functions and fetching draft content accordingly."
+  },
+  {
+    "question": "Is Draft Mode secure?",
+    "answer": "Yes, Draft Mode is secure if properly implemented, as it relies on cookies that can be secured and only accessible by authorized users."
+  },
+  {
+    "question": "How do you end Draft Mode?",
+    "answer": "End Draft Mode by clearing the Draft Mode cookies using the `res.clearDraftMode` method in an API route."
+  },
+  {
+    "question": "What are the benefits of using Draft Mode?",
+    "answer": "The benefits of using Draft Mode include immediate preview of draft content, improved workflow for content creators, and reduced need for full site rebuilds during content edits."
+  },
+  {
+    "question": "Can you use Draft Mode with getServerSideProps?",
+    "answer": "Yes, Draft Mode works with `getServerSideProps` to fetch and render draft content dynamically."
+  },
+  {
+    "question": "What is the maximum size for draftMode cookies?",
+    "answer": "The maximum size for `draftMode` cookies is 4KB, which should be sufficient for storing necessary draft state data."
+  },
+  {
+    "question": "How do you set up Draft Mode with a Headless CMS?",
+    "answer": "Set up Draft Mode with a Headless CMS by configuring your CMS to trigger the Draft Mode API route in Next.js and ensuring your `getStaticProps` or `getServerSideProps` fetches draft content based on the draftMode context."
+  },
+  {
+    "question": "Can Draft Mode be used with incremental static regeneration (ISR)?",
+    "answer": "Yes, Draft Mode can be used with ISR to provide draft previews without affecting the ISR caching mechanism for published content."
+  },
+  {
+    "question": "How do you handle authentication for Draft Mode?",
+    "answer": "Handle authentication for Draft Mode by securing your Draft Mode API route with authentication checks, ensuring only authorized users can enable or access Draft Mode."
+  },
+  {
+    "question": "How does Draft Mode affect static optimization?",
+    "answer": "Draft Mode bypasses static optimization for the pages in draft mode, rendering them dynamically at request time."
+  },
+  {
+    "question": "Can you use Draft Mode in development and production?",
+    "answer": "Yes, Draft Mode can be used in both development and production environments to preview draft content."
+  },
+  {
+    "question": "What happens if draftMode data exceeds the cookie size limit?",
+    "answer": "If `draftMode` data exceeds the cookie size limit, it will result in an error. Ensure the data is within the 4KB limit."
+  },
+  {
+    "question": "How do you test Draft Mode locally?",
+    "answer": "Test Draft Mode locally by accessing the Draft Mode API route directly in your browser and verifying that draft content is rendered correctly."
+  },
+  {
+    "question": "Can Draft Mode be used with API routes?",
+    "answer": "Yes, Draft Mode can be used with API routes to fetch and render draft content through API calls."
+  },
+  {
+    "question": "What is the default duration for Draft Mode?",
+    "answer": "The default duration for Draft Mode is set when configuring `res.setDraftMode`, typically using session-based cookies."
+  },
+  {
+    "question": "Can Draft Mode be customized?",
+    "answer": "Yes, Draft Mode can be customized by modifying the Draft Mode API route and how draft content is fetched and rendered."
+  },
+  {
+    "question": "How do you clear Draft Mode cookies manually?",
+    "answer": "Clear Draft Mode cookies manually by implementing a clear draft mode API route that calls `res.clearDraftMode`."
+  },
+  {
+    "question": "Is Draft Mode tied to specific routes or pages?",
+    "answer": "Draft Mode can be applied to specific routes or pages by configuring your `getStaticProps` or `getServerSideProps` to check for draft mode and fetch draft data only for those routes."
+  },
+  {
+    "question": "How do you access Draft Mode data in getStaticProps?",
+    "answer": "Access Draft Mode data in `getStaticProps` by checking the `draftMode` context and fetching draft content accordingly."
+  },
+  {
+    "question": "Can you use Draft Mode with client-side rendering?",
+    "answer": "Draft Mode is primarily designed for server-side rendering and static generation, but client-side logic can be implemented to handle draft content as needed."
+  },
+  {
+    "question": "What are the prerequisites for using Draft Mode?",
+    "answer": "The prerequisites for using Draft Mode include understanding Next.js API routes, `getStaticProps`, and how cookies work."
+  },
+  {
+    "question": "Can Draft Mode be used with different authentication mechanisms?",
+    "answer": "Yes, Draft Mode can be used with different authentication mechanisms by securing the Draft Mode API route appropriately."
+  },
+  {
+    "question": "What is the difference between Draft Mode and Preview Mode?",
+    "answer": "Draft Mode is the updated feature that supersedes Preview Mode, providing more flexibility and improvements for handling draft content."
+  },
+  {
+    "question": "How do you fetch draft content from a CMS in Draft Mode?",
+    "answer": "Fetch draft content from a CMS in Draft Mode by configuring your `getStaticProps` or `getServerSideProps` to request draft data when draft mode is active."
+  },
+  {
+    "question": "How do you verify Draft Mode is active?",
+    "answer": "Verify Draft Mode is active by checking for the presence of draft mode cookies and ensuring your content fetch logic responds accordingly."
+  },
+  {
+    "question": "Can Draft Mode be disabled after it is enabled?",
+    "answer": "Yes, Draft Mode can be disabled by clearing the draft mode cookies through the appropriate API route."
+  },
+  {
+    "question": "What should be included in the setDraftMode argument?",
+    "answer": "The argument for `setDraftMode` should be an object containing any necessary data to identify and fetch draft content."
+  },
+  {
+    "question": "Does Draft Mode affect SEO?",
+    "answer": "Draft Mode does not affect SEO for published content, as it is only active for authenticated preview sessions and not for public access."
+  },
+  {
+    "question": "Can you customize the draftMode cookies?",
+    "answer": "Yes, you can customize the draftMode cookies by setting additional options in the `res.setDraftMode` method."
+  },
+  {
+    "question": "How do you handle errors in Draft Mode?",
+    "answer": "Handle errors in Draft Mode by implementing proper error handling in your API routes and content fetch functions."
+  },
+  {
+    "question": "Can Draft Mode be used with multiple CMS platforms?",
+    "answer": "Yes, Draft Mode can be used with multiple CMS platforms by configuring the content fetch logic for each CMS accordingly."
+  },
+  {
+    "question": "What is the recommended way to secure Draft Mode?",
+    "answer": "Secure Draft Mode by implementing authentication checks in the Draft Mode API route and ensuring only authorized users can enable it."
+  },
+  {
+    "question": "Can Draft Mode be used in multi-tenant applications?",
+    "answer": "Yes, Draft Mode can be used in multi-tenant applications by ensuring each tenant's draft data is isolated and secured appropriately."
+  },
+  {
+    "question": "How do you debug issues with Draft Mode?",
+    "answer": "Debug issues with Draft Mode by checking the draft mode cookies, verifying API routes, and ensuring draft content fetch logic is correct."
+  },
+  {
+    "question": "Can Draft Mode be integrated with CI/CD workflows?",
+    "answer": "Yes, Draft Mode can be integrated with CI/CD workflows by ensuring the preview API routes and draft content fetch logic are tested and validated."
+  },
+  {
+    "question": "How do you update Draft Mode configurations?",
+    "answer": "Update Draft Mode configurations by modifying the API route and content fetch logic as needed."
+  },
+  {
+    "question": "What are composition patterns in Next.js?",
+    "answer": "Composition patterns in Next.js refer to ways of structuring and combining components to build efficient and maintainable applications."
+  },
+  {
+    "question": "Why are composition patterns important?",
+    "answer": "Composition patterns are important because they help in organizing code, promoting reusability, and improving the readability and maintainability of applications."
+  },
+  {
+    "question": "What is the Render-as-You-Fetch pattern?",
+    "answer": "The Render-as-You-Fetch pattern allows components to start rendering before all data is loaded, leveraging React Suspense to handle loading states."
+  },
+  {
+    "question": "How does the Render-as-You-Fetch pattern improve performance?",
+    "answer": "It improves performance by starting to render components as soon as possible, which reduces the perceived loading time for users."
+  },
+  {
+    "question": "What is the benefit of using React Suspense with Next.js?",
+    "answer": "React Suspense allows you to handle asynchronous data fetching gracefully, showing loading states and preventing UI blocking."
+  },
+  {
+    "question": "What are nested layouts in Next.js?",
+    "answer": "Nested layouts allow you to define reusable layout components that can be nested within each other to create complex page structures."
+  },
+  {
+    "question": "How do you implement a nested layout in Next.js?",
+    "answer": "You implement a nested layout by creating layout components and using them within your pages or other layout components."
+  },
+  {
+    "question": "What is the benefit of using nested layouts?",
+    "answer": "Nested layouts promote code reuse and simplify the management of common UI structures across different pages."
+  },
+  {
+    "question": "What is the difference between parallel and sequential data fetching?",
+    "answer": "Parallel data fetching initiates multiple requests simultaneously, while sequential data fetching waits for each request to complete before starting the next."
+  },
+  {
+    "question": "Why is parallel data fetching preferred over sequential?",
+    "answer": "Parallel data fetching is preferred because it reduces overall loading times by fetching data concurrently."
+  },
+  {
+    "question": "What is the Preload Pattern?",
+    "answer": "The Preload Pattern involves preloading data for components that are likely to be needed soon, improving perceived performance."
+  },
+  {
+    "question": "How does preloading data benefit user experience?",
+    "answer": "Preloading data reduces waiting times by having the necessary data ready before it is requested by the user."
+  },
+  {
+    "question": "What is the role of React cache in data fetching?",
+    "answer": "React cache memoizes fetch requests, ensuring that the same data is not fetched multiple times, which enhances performance."
+  },
+  {
+    "question": "What is server-only data fetching?",
+    "answer": "Server-only data fetching involves fetching data exclusively on the server, which can enhance security and performance by keeping sensitive data off the client."
+  },
+  {
+    "question": "How do server components improve data fetching?",
+    "answer": "Server components can directly access backend data sources and fetch data without exposing sensitive information to the client."
+  },
+  {
+    "question": "What is streaming in Next.js?",
+    "answer": "Streaming allows parts of a page to be progressively rendered and sent to the client as they become ready, rather than waiting for the entire page to load."
+  },
+  {
+    "question": "How does streaming enhance user experience?",
+    "answer": "Streaming enhances user experience by allowing users to start interacting with parts of the page while other parts are still loading."
+  },
+  {
+    "question": "What are React Server Components?",
+    "answer": "React Server Components allow you to build components that are rendered on the server, providing better performance and security."
+  },
+  {
+    "question": "How do you use the 'fetch' function in Next.js components?",
+    "answer": "You can use the 'fetch' function directly in Next.js components to fetch data, benefiting from automatic memoization to avoid redundant requests."
+  },
+  {
+    "question": "What is the Suspense fallback component?",
+    "answer": "The Suspense fallback component is displayed while a component is waiting for asynchronous data to load, providing a loading state."
+  },
+  {
+    "question": "How do you handle loading states in nested components?",
+    "answer": "Handle loading states in nested components using React Suspense with a fallback component to show a loading indicator."
+  },
+  {
+    "question": "What is the benefit of using Suspense for data fetching?",
+    "answer": "Using Suspense for data fetching simplifies handling loading states and errors, and integrates seamlessly with React's rendering lifecycle."
+  },
+  {
+    "question": "How do you prevent data fetching waterfalls?",
+    "answer": "Prevent data fetching waterfalls by initiating fetch requests in parallel whenever possible, rather than waiting for one to complete before starting another."
+  },
+  {
+    "question": "What are blocking data requests?",
+    "answer": "Blocking data requests occur when fetching data at the root of the application, which blocks rendering until all data is loaded."
+  },
+  {
+    "question": "How do you avoid blocking data requests?",
+    "answer": "Avoid blocking data requests by using Suspense and parallel data fetching to allow parts of the page to render independently."
+  },
+  {
+    "question": "What is the use of the 'await' keyword in data fetching?",
+    "answer": "The 'await' keyword is used to wait for a promise to resolve before continuing execution, commonly used in asynchronous data fetching."
+  },
+  {
+    "question": "How can you optimize data fetching in Next.js?",
+    "answer": "Optimize data fetching by fetching data on the server, using React cache, and employing parallel data fetching patterns."
+  },
+  {
+    "question": "What is incremental static regeneration (ISR)?",
+    "answer": "ISR allows you to update static pages after build time by re-rendering them in the background as new requests come in."
+  },
+  {
+    "question": "How does ISR work with data fetching?",
+    "answer": "ISR works with data fetching by enabling pages to be statically regenerated with updated data at a specified interval or on demand."
+  },
+  {
+    "question": "What is the benefit of using server-side rendering (SSR) for data fetching?",
+    "answer": "SSR ensures that data is fetched and rendered on the server, reducing client load and improving initial page load times."
+  },
+  {
+    "question": "What is static site generation (SSG)?",
+    "answer": "SSG pre-renders pages at build time, creating static HTML files for better performance and scalability."
+  },
+  {
+    "question": "How does SSG differ from SSR?",
+    "answer": "SSG generates static pages at build time, while SSR generates pages dynamically on each request."
+  },
+  {
+    "question": "Can you use client-side rendering (CSR) with Next.js?",
+    "answer": "Yes, CSR can be used with Next.js for interactive parts of the application that require frequent updates and client-side logic."
+  },
+  {
+    "question": "What is the advantage of using client-side data fetching?",
+    "answer": "Client-side data fetching allows for dynamic updates and interactions without needing to reload the entire page."
+  },
+  {
+    "question": "How do you handle sensitive data in Next.js?",
+    "answer": "Handle sensitive data by fetching it on the server and never exposing it to the client to ensure security."
+  },
+  {
+    "question": "What is the role of caching in data fetching?",
+    "answer": "Caching improves performance by storing and reusing fetched data, reducing the need for repeated requests."
+  },
+  {
+    "question": "How do you implement global data fetching in Next.js?",
+    "answer": "Implement global data fetching by placing fetch logic in higher-level components or using context to provide data throughout the application."
+  },
+  {
+    "question": "What is the benefit of memoizing fetch requests?",
+    "answer": "Memoizing fetch requests ensures that identical requests are only made once, improving performance and reducing server load."
+  },
+  {
+    "question": "What is 'partial prerendering' in Next.js?",
+    "answer": "Partial prerendering allows selectively pre-rendering parts of a page, enhancing performance by only generating necessary static content."
+  },
+  {
+    "question": "How do you use React cache for data fetching?",
+    "answer": "Use React cache by leveraging its automatic memoization to prevent redundant data fetching and improve component performance."
+  },
+  {
+    "question": "What is the advantage of using parallel data fetching?",
+    "answer": "Parallel data fetching reduces total load times by initiating multiple fetch requests simultaneously, enhancing user experience."
+  },
+  {
+    "question": "How do you handle sequential data fetching in nested components?",
+    "answer": "Handle sequential data fetching by structuring fetch logic to wait for necessary data before proceeding, often using async/await."
+  },
+  {
+    "question": "What is the benefit of using nested Suspense components?",
+    "answer": "Nested Suspense components allow more granular control over loading states, improving user experience by showing parts of the UI as soon as they're ready."
+  },
+  {
+    "question": "How do you structure a Next.js application with complex data dependencies?",
+    "answer": "Structure a complex Next.js application by using nested layouts, Suspense, and parallel data fetching to manage data dependencies efficiently."
+  }
+]

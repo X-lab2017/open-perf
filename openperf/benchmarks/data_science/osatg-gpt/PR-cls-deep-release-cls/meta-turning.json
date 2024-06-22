@@ -1,0 +1,20 @@
+{
+  "task": "PR-cls-deep-release-cls",
+  "defi": "pull request classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nCategorize pull request. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "documentation",
+      "issues fixed",
+      "non-functional",
+      "new features",
+      "misc",
+      "internal",
+      "refactor"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

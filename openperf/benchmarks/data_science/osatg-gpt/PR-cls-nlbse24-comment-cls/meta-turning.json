@@ -1,0 +1,17 @@
+{
+  "task": "PR-cls-nlbse24-comment-cls",
+  "defi": "pull request comment classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nCategorize pull request commment. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "summary",
+      "Pointer",
+      "deprecation",
+      "rational"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}

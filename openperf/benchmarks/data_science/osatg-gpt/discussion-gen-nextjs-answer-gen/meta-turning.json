@@ -1,0 +1,10 @@
+{
+  "task": "discusstion-gen-nextjs-answer-gen",
+  "defi": "Next.js discussion answer generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate answer based on the above discussion question. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ", "
+}

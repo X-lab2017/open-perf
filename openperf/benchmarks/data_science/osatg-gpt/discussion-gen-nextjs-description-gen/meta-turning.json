@@ -1,0 +1,10 @@
+{
+  "task": "discusstion-gen-nextjs-description-gen",
+  "defi": "Next.js discussion description generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate description based on the above discussion title. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ", "
+}
