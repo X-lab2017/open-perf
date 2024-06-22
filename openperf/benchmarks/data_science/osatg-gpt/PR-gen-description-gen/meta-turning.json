@@ -1,0 +1,10 @@
+{
+  "task": "PR-gen-description-gen",
+  "defi": "pull request description generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate description based on the above pull request title. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ", "
+}

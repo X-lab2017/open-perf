@@ -1,0 +1,10 @@
+{
+  "task": "readme-gen-nextjs-question-gen",
+  "defi": "Next.js repository documentation question generation",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nGenerate question based on the above answer. \n### Response:"
+  },
+  "label_set": {},
+  "label_key": "",
+  "label_sep": ", "
+}

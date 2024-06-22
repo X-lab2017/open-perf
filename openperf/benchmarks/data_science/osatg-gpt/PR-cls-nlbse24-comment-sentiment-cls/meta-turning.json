@@ -1,0 +1,15 @@
+{
+  "task": "PR-cls-nlbse24-comment-sentiment-cls",
+  "defi": "pull request comment sentiment classfication",
+  "test_prompt": {
+    "instruction": "### Instruction:\n{sentences}\nClassify the sentiment of pull request comments. Candidates: {label_set} \n### Response:"
+  },
+  "label_set": {
+    "default": [
+      "positive",
+      "negative"
+    ]
+  },
+  "label_key": "default",
+  "label_sep": ", "
+}
