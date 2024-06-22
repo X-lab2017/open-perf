@@ -1,0 +1,1 @@
+{"sentences": "Cannot connect to vercel postgres database from wsl", "answer": "I just converted wsl 2 to wsl 1 and the issue is now solved. It's weird. idk what really happened there. but for some reason wsl 1 do no have any issues."}
