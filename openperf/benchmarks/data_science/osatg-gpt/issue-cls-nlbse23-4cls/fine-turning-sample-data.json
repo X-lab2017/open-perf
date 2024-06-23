@@ -1,1 +1,108 @@
-{"sentences": "A possible misleading expression in the Virtual Environment Tutorial.", "labels": {"default": ["documentation"]}}
+{"sentences":"A possible misleading expression in the Virtual Environment Tutorial","labels":{"default":["documentation"]}}
+{"sentences":"[BUG] a valid `gameName` in the `create a new project` page causes an unexcepted error","labels":{"default":["bug"]}}
+{"sentences":"How to check if a certain entity still exists?","labels":{"default":["feature"]}}
+{"sentences":"chose the timezone in dbeaver option","labels":{"default":["feature"]}}
+{"sentences":"[Issue]: Multiple Versions of a Movie not working as expected","labels":{"default":["bug"]}}
+{"sentences":"[Bug] 9anime is down","labels":{"default":["bug"]}}
+{"sentences":"GATT Server connected & can write but cannot read services","labels":{"default":["question"]}}
+{"sentences":"Zentyal 7 ERROR The client was disconnected by the server because of inactivity","labels":{"default":["bug"]}}
+{"sentences":"defaultValue prop not working on DynamicRangeSlider component","labels":{"default":["bug"]}}
+{"sentences":"'Invite friends' dialog doesn't look good in the minimized app mode","labels":{"default":["bug"]}}
+{"sentences":"write in append mode doesn't work anymore","labels":{"default":["bug"]}}
+{"sentences":"[bug] Clicking on one of the breadcrumb items causes Files instance to crash","labels":{"default":["bug"]}}
+{"sentences":"Any roadmap about OkHttp supports HTTP/3","labels":{"default":["feature"]}}
+{"sentences":"[Keyboard Maestro - List Macros] Add Edit Macro Option","labels":{"default":["feature"]}}
+{"sentences":"[Bug Report] Revite ignores VITE_API_URL","labels":{"default":["bug"]}}
+{"sentences":"Can not find the Demo_China_A_share_market.ipynb","labels":{"default":["bug"]}}
+{"sentences":"Custom \"compile_path\" setting getting ignored when loading plugins","labels":{"default":["bug"]}}
+{"sentences":"[Bug]: Send findings to securityhub fails when using an aggregation Region","labels":{"default":["bug"]}}
+{"sentences":"fluentd buffer chunk key configuration via SCK helm needed","labels":{"default":["feature"]}}
+{"sentences":"problem openning .fif file","labels":{"default":["bug"]}}
+{"sentences":"[BUG]:drawio插入覆盖下面 内容，之前版本不会，图片悬浮在文档内容之上挡住了一大片","labels":{"default":["bug"]}}
+{"sentences":"Fehler 13","labels":{"default":["bug"]}}
+{"sentences":"MAG - Improperly Set Focus On WerBell Path Removes Trade Law","labels":{"default":["bug"]}}
+{"sentences":"`prisma format` panics when you use a colon to declare field type (`field: Type` syntax)","labels":{"default":["bug"]}}
+{"sentences":"ImageMessage Uri Headers","labels":{"default":["feature"]}}
+{"sentences":"Raising Exceptions in sub-applications routes","labels":{"default":["bug"]}}
+{"sentences":"Why this thing is so complicated?","labels":{"default":["bug"]}}
+{"sentences":"command \"Create MCProject files\" not woking","labels":{"default":["bug"]}}
+{"sentences":"Automatically populate account/zone IDs after wrangler login","labels":{"default":["feature"]}}
+{"sentences":"[BUG] Must toggle \"Force TTY\" to disable TTY mode","labels":{"default":["bug"]}}
+{"sentences":"Hide stockpile from context menu","labels":{"default":["feature"]}}
+{"sentences":"Custom ADO Pipeline Task - Create File and Publish as Artifact","labels":{"default":["question"]}}
+{"sentences":"merging video and audio Invalid NAL unit size with missing picture in access","labels":{"default":["bug"]}}
+{"sentences":"CSV File Import creates column names with double quotes ","labels":{"default":["bug"]}}
+{"sentences":"labels' includeSelectors doesn't do what it implies","labels":{"default":["bug"]}}
+{"sentences":"Bug Report: Updating to 2.3.0 from any version installs 2.1.0 and it breaks the game","labels":{"default":["bug"]}}
+{"sentences":"[BUG] Seeds not recognized by the plugin.","labels":{"default":["bug"]}}
+{"sentences":"analyzing logos in video: should detect a logo in a local file failed","labels":{"default":["bug"]}}
+{"sentences":"Add Azure Data Studio","labels":{"default":["feature"]}}
+{"sentences":"File and folder entries are invisible and unclickable in Unity 2021.3.6","labels":{"default":["bug"]}}
+{"sentences":" Server: Error 413 Payload too large (>1 MB)","labels":{"default":["bug"]}}
+{"sentences":"Unclaimed chunk in middle of colony that erases Town Hall and other buildings.","labels":{"default":["bug"]}}
+{"sentences":"TypeError Example LOGO","labels":{"default":["bug"]}}
+{"sentences":"\"Unvailable server\" on Android Nextcloud app with framagenda.org account","labels":{"default":["bug"]}}
+{"sentences":"Message Task List - View tasks, task history details text modification","labels":{"default":["documentation"]}}
+{"sentences":"National Insurance contributions not showing on payslip (Lancashire Leisure Limited saurabh rathore)","labels":{"default":["bug"]}}
+{"sentences":"[USB-User.'Замовлення' tab ] User can't pay for order by certificate when user use bonuses and certificate simultaneously for order payment ","labels":{"default":["bug"]}}
+{"sentences":"Interactive area of symbols with interpolated size at fractional zoom levels","labels":{"default":["bug"]}}
+{"sentences":"User appears at the bottom of the sign in page when customer token lifetime expires","labels":{"default":["bug"]}}
+{"sentences":"❓ Can't get it to work.","labels":{"default":["question"]}}
+{"sentences":"Websites which require authenticaton","labels":{"default":["feature"]}}
+{"sentences":"[4.x]: js error when removing category tree","labels":{"default":["bug"]}}
+{"sentences":"Asset Pack v2 readme.txt still says it's v1","labels":{"default":["bug"]}}
+{"sentences":"[AST Builder] Implement `ifnull` function","labels":{"default":["feature"]}}
+{"sentences":"Regression: StreamPeerTCP always in \"STATUS_CONNECTING\"","labels":{"default":["bug"]}}
+{"sentences":"ParallelConnectedComponents cause Segmentation fault","labels":{"default":["bug"]}}
+{"sentences":"`renderdoc` needs updating","labels":{"default":["bug"]}}
+{"sentences":"removing from list","labels":{"default":["feature"]}}
+{"sentences":"[UBS-User. Bonus notification] The notification about recieved bonuses differs from the required","labels":{"default":["bug"]}}
+{"sentences":"[Bug] ","labels":{"default":["bug"]}}
+{"sentences":"Upload progress bar","labels":{"default":["feature"]}}
+{"sentences":"pubsub: mod ack deadline request context deadline setting at 60 seconds is too high in v1.23.1","labels":{"default":["bug"]}}
+{"sentences":"Using the search function with Dark Votescreen will cause lua errors","labels":{"default":["bug"]}}
+{"sentences":"`ECS_TARGET_ANDROID` is not defined in Android builds","labels":{"default":["bug"]}}
+{"sentences":"Multimc error -1 Help","labels":{"default":["bug"]}}
+{"sentences":"Add deepslate top texture to stairs, slabs and walls.","labels":{"default":["bug"]}}
+{"sentences":"Objects-tab cannot be loaded (InternalError: too much recursion)","labels":{"default":["bug"]}}
+{"sentences":"Establish criteria for inclusion / exclusion of various platform/version builds","labels":{"default":["question"]}}
+{"sentences":"Play queue within app","labels":{"default":["feature"]}}
+{"sentences":"[Bug] gpu-accelerator in template don't work","labels":{"default":["bug"]}}
+{"sentences":"Wrong encoding with Russian .style","labels":{"default":["bug"]}}
+{"sentences":"Unwanted buttons and Oxygen builder not working on shop page","labels":{"default":["bug"]}}
+{"sentences":"Configuring multiple data sources reports an error: the table does not exist","labels":{"default":["question"]}}
+{"sentences":"[gateway] Websocket connection error when reaching a non secure endpoint","labels":{"default":["bug"]}}
+{"sentences":"When running on an oVirt compute node, virtual machines are reported twice.","labels":{"default":["bug"]}}
+{"sentences":"Please add ability to pass the filename to  Error and Crash Attachments instead of pushing RAW data","labels":{"default":["feature"]}}
+{"sentences":"Unable to open attachments of type TXT \"Cannot open file\"","labels":{"default":["bug"]}}
+{"sentences":"Instances and Merged skip a frame","labels":{"default":["bug"]}}
+{"sentences":"Support for .NET 6 for windows/linux web app","labels":{"default":["feature"]}}
+{"sentences":"Linkedin share option does not have auto captions","labels":{"default":["feature"]}}
+{"sentences":"Channels unsubscribe without account","labels":{"default":["bug"]}}
+{"sentences":"Germany - As Authdem GO4 Germany post Slave Revolt, a man with no portrait called Hermann Pfeiffer","labels":{"default":["bug"]}}
+{"sentences":"Validate all configs before updating","labels":{"default":["feature"]}}
+{"sentences":"Broken Podcast feed (Android Only)","labels":{"default":["bug"]}}
+{"sentences":"TS constructor with attributes short-hand throws \"Unexpected token\"","labels":{"default":["bug"]}}
+{"sentences":"Examples should be added for failfast & withParam","labels":{"default":["feature"]}}
+{"sentences":"Freedom of Association Calculator","labels":{"default":["feature"]}}
+{"sentences":"CORS error when using a DNS other than localhost","labels":{"default":["bug"]}}
+{"sentences":"org.kohsuke:github-api:1.307 not shaded into core","labels":{"default":["bug"]}}
+{"sentences":"Right prompt shifts cursor left onto Left prompt","labels":{"default":["question"]}}
+{"sentences":"[BUG] Undescriptive error message: \"Error loading AssetManifest.json, e: Null check operator used on a null value\"","labels":{"default":["bug"]}}
+{"sentences":"[BUG] \"From id is missing\" not showing for non registered account","labels":{"default":["bug"]}}
+{"sentences":"Unpreacacher","labels":{"default":["question"]}}
+{"sentences":"Better error messages for type callable","labels":{"default":["feature"]}}
+{"sentences":"Create Issue in Repository-27-27cc3b47-e834-45f6-afc7-2a944e24bffa","labels":{"default":["documentation"]}}
+{"sentences":"Copy  Paste Files","labels":{"default":["question"]}}
+{"sentences":"Hero image file usage: Delete the file usage if a different file is chosen","labels":{"default":["feature"]}}
+{"sentences":"MSFS: When Motion Reprojection is ON, it will not persist when switching in and out of VR (CTRL-TAB)","labels":{"default":["bug"]}}
+{"sentences":"IHE Template to not number headers","labels":{"default":["feature"]}}
+{"sentences":"weaponcore stop working in multiplayer after die or change sector-server","labels":{"default":["bug"]}}
+{"sentences":"[Bug]: Can't insert any data to the milvus cluster","labels":{"default":["bug"]}}
+{"sentences":"Tree export as an image?","labels":{"default":["feature"]}}
+{"sentences":"SEGV src/njs_function.h:167:5 in njs_function_previous_frame","labels":{"default":["bug"]}}
+{"sentences":"Could Envoy support regex PartialMatch?","labels":{"default":["feature"]}}
+{"sentences":"VideoTileGrid not displayed on iPad","labels":{"default":["bug"]}}
+{"sentences":"wav2vec-u GAN training not converging on Korean dataset","labels":{"default":["question"]}}
+{"sentences":"Embedded terminal shell tabs","labels":{"default":["feature"]}}
+{"sentences":"Get number of bits right","labels":{"default":["question"]}}

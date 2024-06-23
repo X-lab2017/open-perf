@@ -2,7 +2,7 @@
 import json
 
 csv_file = './meta-sample-data.csv'
-json_file = 'final-data.json'
+json_file = 'fine-turning-sample-data.json'
 
 json_data = []
 
@@ -18,7 +18,6 @@ with open(csv_file, mode='r', encoding='utf-8') as file:
 
 		json_data.append(json_entry)
 
-json_file = 'test.json'
 with open(json_file, mode='w', encoding='utf-8') as file:
 	for entry in json_data:
 		json_line = json.dumps(entry, ensure_ascii=False, separators=(',', ':'))

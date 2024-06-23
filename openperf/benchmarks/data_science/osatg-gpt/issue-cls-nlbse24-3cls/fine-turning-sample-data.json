@@ -1,1 +1,154 @@
-{"sentences": "Bug: [18.3.0-canary] renderToString hoists some tags to top(working in 18.2)", "labels": {"default": ["bug"]}}
+{"sentences":"Bug: [18.3.0-canary] renderToString hoists some tags to top(working in 18.2)","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Chrome extension gets disconnected from the page after 30sec of inactivity","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Deprecated __REACT_DEVTOOLS_GLOBAL_HOOK__ ????","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: React devtools stuck at Loading React Element Tree, troubleshooting instructions are Chrome-specific","labels":{"default":["bug"]}}
+{"sentences":"Bug: Radio button onChange not called in current React Canary","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Strict mode badge points to the old docs","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Regression - profiling doesn't store props value ","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"1751\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: React pages not being detected as using React in Incognito mode","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: components tree not loaded in Microsoft Edge","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"108084\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: DevTools settings are not being saved in the Edge browser","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: 'Unable to find React on the page' in incognito on Firefox","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"8891\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"Bug: Error occurs when returning empty fragment '<></>' on a page","labels":{"default":["bug"]}}
+{"sentences":"why not?[DevTools Bug]: ","labels":{"default":["bug"]}}
+{"sentences":"Unable to establish connection with the sandpack bundler.[DevTools Bug]: ","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: React Dev Tools breaks craigslist?","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Expected static flag was missing","labels":{"default":["bug"]}}
+{"sentences":"ERROR TypeError: Cannot read property 'createElement' of undefined, js engine: hermes","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: This page doesn't appear to be using react","labels":{"default":["bug"]}}
+{"sentences":"Bug: Suspense | client component should have a queue","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Too Much Recursion - Firefox & Appsync","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"5\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"65\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"24\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Components Tab does not show up","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"35\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"7\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"717\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"34\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"6\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Element \"21\" not found","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: react-devtools depends on vulnerable version of electron","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find ID for Fiber \"MiddleSectionContainer\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"5370\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: React extension tab in Edge DevTools doesn't have emoji prefix in title.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: DevTools shouldn't skip over keyed Fragments in the tree","labels":{"default":["bug"]}}
+{"sentences":"Bug: out of order application of useState changes","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"7448\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: \"open in editor\" not working for vscode remote files","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: window.bundle.js:2 TypeError: Cannot read properties of undefined (reading 'action')","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not inspect element with id \"69\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot remove node \"0\" because no matching node was found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Uncaught TypeError: hook.sub is not a function","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot remove node \"25\" because no matching node was found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: devtool show every page use `React`","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Warning: Internal React error: Expected static flag was missing. Please notify the React team.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] When inspecting, hook values after `useDeferredValue` are offset","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"1\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Chrome Devtools missing from Chrome extensions Webstore - 404 response","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: console.log crashes when I enable DevTools on Chrome","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Component shown twice in flame graph when using React.memo","labels":{"default":["bug"]}}
+{"sentences":"Bug: setState is not flushed if an iframe is added in the same tick in Safari","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"1\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Error in event handler: Error: Attempting to use a disconnected port object","labels":{"default":["bug"]}}
+{"sentences":"Bug: Incorrect Hydration Mismatch Detection during Suspense - \"Hydration failed because the initial UI does not match what was rendered on the server.\"","labels":{"default":["bug"]}}
+{"sentences":"Bug: Some transition updates haven't been rendered","labels":{"default":["bug"]}}
+{"sentences":"Bug: componentWillUnmount is called twice","labels":{"default":["bug"]}}
+{"sentences":"Bug: `suppressHydrationWarning` is not taken into account in production builds in React 18","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add child \"2\" to parent \"1\" because parent node was not found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"NPM \"version\" export format changed (now includes SHA and date)","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: useEffect hook incorrectly labelled as reason for component rendering","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Unsupported Bridge operation \"0\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Components + Profile tabs not showing up in Chrome 99","labels":{"default":["bug"]}}
+{"sentences":"renderToReadableStream Passes Reusable Chunks","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"1\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot read properties of undefined (reading 'skin')","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find node with id \"18\" in commit tree","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find ID for Fiber \"App\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Different results in chrome and firefox","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: not sure if bug or  not:  devtools marks Youtube as built with react.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools]: Confusing \"Why did this render?\" with hooks","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"6194\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add child \"34\" to parent \"33\" because parent node was not found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"1\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find ID for Fiber \"Route\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"7184\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find ID for Fiber \"App\"","labels":{"default":["bug"]}}
+{"sentences":"Revert changes to react-devtools-inline Webpack config from PR #22760","labels":{"default":["bug"]}}
+{"sentences":"[react-devtools-inline][4.22.0]: broken published package","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not find node with id \"99\" in commit tree","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: CDN-based site not working","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Scheduling Profiler Tab Doesn't Show Up In DevTools","labels":{"default":["bug"]}}
+{"sentences":"React 18 Bug: Hydration mismatch if empty string is rendered","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add node \"378218\" because a node with that id is already in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot add child \"44\" to parent \"42\" because parent node was not found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"Named hooks parsing fails for certain Code Sandbox examples","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: \"Reload and start profiling\" button is missing on Microsoft Edge","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Cannot remove node \"264\" because no matching node was found in the Store.","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Loading / parsing hook names is failing on v4.20","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: Firefox and Edge show error in console about unrecognized installation on v4.20.0","labels":{"default":["bug"]}}
+{"sentences":"Standalone Devtools splash page unresponsive after client disconnects ","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug] Could not inspect element with id \"2\". Error thrown:Cached data for element \"2\" not found","labels":{"default":["bug"]}}
+{"sentences":"Bug: setState updater called but not rendered, in Safari, in concurrent mode","labels":{"default":["bug"]}}
+{"sentences":"Bug: Components inside typescript namespaces cause ReferenceError","labels":{"default":["bug"]}}
+{"sentences":"Error: \"Cannot read property 'length' of undefined\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools Bug]: hook resolution throws fetch failure","labels":{"default":["bug"]}}
+{"sentences":"Bug: Maximum call stack size exceeded (React Devtools)","labels":{"default":["bug"]}}
+{"sentences":"[DevTools] Support providing the number of components above selected or \"depth\"","labels":{"default":["bug"]}}
+{"sentences":"[DevTools] Manifest version 2 is deprecated","labels":{"default":["feature"]}}
+{"sentences":"Bug: react-devtools not working inside react based chrome extensions","labels":{"default":["feature"]}}
+{"sentences":"Suggestion: show HOC names in profiler","labels":{"default":["feature"]}}
+{"sentences":"Add https support to standalone DevTools","labels":{"default":["feature"]}}
+{"sentences":"Improve UX of finding full `key` value","labels":{"default":["feature"]}}
+{"sentences":"Expose API like `createStyles` for converting style object to CSS string","labels":{"default":["feature"]}}
+{"sentences":"Profiler should highlight host components (e.g. DOM elements) on mouseover","labels":{"default":["feature"]}}
+{"sentences":"Adding visible state to Suspense Fallback component to enhance CSS transitions.","labels":{"default":["feature"]}}
+{"sentences":"Make it easier to debug (undefined components) in production","labels":{"default":["feature"]}}
+{"sentences":"Add \"search\" functionality to Profiler graphs","labels":{"default":["feature"]}}
+{"sentences":"react-devtools: tiny feature request (copy to clipboard related)","labels":{"default":["feature"]}}
+{"sentences":"Devtools: Impossible to debug firefox webextension moz-extension: pages due to strict CSP","labels":{"default":["feature"]}}
+{"sentences":"DevTools: Ability to save inspected values as global variable (as it was in previous version)","labels":{"default":["feature"]}}
+{"sentences":"New React Developer Tools does not clearly indicate empty object or array","labels":{"default":["feature"]}}
+{"sentences":"New React DevTools can't access immutable.js objects?","labels":{"default":["feature"]}}
+{"sentences":"DevTools in production environment ","labels":{"default":["feature"]}}
+{"sentences":"act() should warn in testing frameworks besides jest ","labels":{"default":["feature"]}}
+{"sentences":"allow to disable style hydration missmatch warning","labels":{"default":["feature"]}}
+{"sentences":"useRef eslint rule proposal","labels":{"default":["feature"]}}
+{"sentences":"Hook equivalent for `getSnapshotBeforeUpdate`","labels":{"default":["feature"]}}
+{"sentences":"[eslint-plugin-react-hooks] Add option to require functions from core hooks in dependencies","labels":{"default":["feature"]}}
+{"sentences":"eslint-react-hooks: should we enforce to use React.useMemo if there is no state hooks?","labels":{"default":["feature"]}}
+{"sentences":"Collapse forwardRef and other wrappers in React error stacks","labels":{"default":["feature"]}}
+{"sentences":"Shallow renderer does not support React.memo","labels":{"default":["feature"]}}
+{"sentences":"Simultaneous key events in effect handled out of order","labels":{"default":["feature"]}}
+{"sentences":"Allow the same DOM node to use both a callback and a RefObject in its ref prop","labels":{"default":["feature"]}}
+{"sentences":"React.Suspense provide a lifecycle so components can handle the `display:none` removal","labels":{"default":["feature"]}}
+{"sentences":"[Hooks] Proposal: expose info about current component for custom hooks","labels":{"default":["feature"]}}
+{"sentences":"[Scheduler] Add support for delayed scheduling of callbacks.","labels":{"default":["feature"]}}
+{"sentences":"Provide a way to pass context to renderToStaticMarkup on the client","labels":{"default":["feature"]}}
+{"sentences":"React.lazy does not allow retrying a rejected promise","labels":{"default":["feature"]}}
+{"sentences":"setState/dispatch 2nd arg callback or emitEffect() use case","labels":{"default":["feature"]}}
+{"sentences":"<option> and <textarea> elements should be able to contain Components that return strings and render their output correctly","labels":{"default":["feature"]}}
+{"sentences":"More helpful interaction for \"React does not recognize the 'propName' prop on a DOM Element\"","labels":{"default":["feature"]}}
+{"sentences":"Support for classList","labels":{"default":["feature"]}}
+{"sentences":"Accessing ReactDebugCurrentFrame without using __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED","labels":{"default":["feature"]}}
+{"sentences":"Make possible to get component stack or at least its hash","labels":{"default":["feature"]}}
+{"sentences":"KeyboardEvent.repeat is not normalized","labels":{"default":["feature"]}}
+{"sentences":"React.cloneElement cannot remove existing props","labels":{"default":["feature"]}}
+{"sentences":"Setting rendering mode to <Surface> component of react-art","labels":{"default":["feature"]}}
+{"sentences":"Some means of determining component order in hierarchy","labels":{"default":["feature"]}}
+{"sentences":"Allow `ref` attribute on custom elements","labels":{"default":["feature"]}}
+{"sentences":"ReactIs.typeOf for non-elements","labels":{"default":["feature"]}}
+{"sentences":"Callback in react-test-renderer for component changes","labels":{"default":["feature"]}}
+{"sentences":"Expose a way of creating a ReactTestInstance for React DOM nodes","labels":{"default":["feature"]}}
+{"sentences":"Show culprit in `Cannot update during an existing state transition...` ?","labels":{"default":["feature"]}}
+{"sentences":"Support partial hydration for static content","labels":{"default":["feature"]}}
+{"sentences":"Uncaught Error: Unexpected object passed to ReactTestInstance constructor (tag: 13). This is probably a bug in React.","labels":{"default":["feature"]}}
+{"sentences":"[SVG] Enable focusable to accept boolean values","labels":{"default":["feature"]}}
+{"sentences":"Elements loose focus when moving to or from a portal","labels":{"default":["feature"]}}
+{"sentences":"Expose the `onSelect` event for any focusable element?","labels":{"default":["feature"]}}
+{"sentences":"Support for changing a Portal's container without remounting children?","labels":{"default":["feature"]}}
+{"sentences":"Context Transform","labels":{"default":["feature"]}}
+{"sentences":"[FEATURE] implement a `getState` method to get the sync state since `setState` is async.","labels":{"default":["feature"]}}
