@@ -1,5 +1,3 @@
-# Recommendation-Systems-for-GitHub
-GitHub dataset
-
-The dataset can be downloaded from below link
-https://drive.google.com/drive/folders/16kx84U8zoKuAxXoSMrOd9Q1N_qduMS0R?usp=sharing
+# [OSS101] Task 1: Developer/Repository Recommendation Method Based on GitHub Collaboration Network
+This recommendation is based on Mingpt and Decision Transformer.
+Run `python main.py`.
