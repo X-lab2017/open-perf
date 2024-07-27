@@ -1,4 +1,4 @@
-# 任务2 Construction of an open-source community question-answering dataset and implementation of a question-answering model
+# 任务2 
 任务要求：The task aims to collect and organize question-answering data from the open-source community to construct an open, multi-domain question-answering dataset, and to implement a question-answering model based on this dataset. By analyzing the behavior and language characteristics of members in the open-source community during the process of asking and answering questions, as well as the diversity and complexity of questions, you will design and train an efficient question-answering model capable of accurately understanding and answering various questions, thereby promoting knowledge sharing and communication within the open-source community.
 
 The relevant code and dataset for this task need to be provided in the repository.
