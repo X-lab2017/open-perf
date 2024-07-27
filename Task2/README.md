@@ -77,6 +77,7 @@ Similarly, for other datasets (OpenBookQA, MedQA-USMLE), run `./eval_qagnn__obqa
 <p align="center">
   <img src="./figs/overview.png" width="1000" title="Overview of QA-GNN" alt="">
 </p>
+
 模型的主要特点主要有两点
 - 相关性评分，我们使用语言模型（LMs）来估计知识图谱（KG）节点相对于给定的问答（QA）上下文的重要性
 - 联合推理，我们将QA上下文和知识图谱连接起来形成联合图，并通过网络神经网络相互更新它们的表示
