@@ -4,11 +4,17 @@
 The relevant code and dataset for this task need to be provided in the repository.
 
 # 数据集介绍
+数据集来自8000 多条保险行业问答数据，15.6 万条电信问答数据，77 万条金融行业问答数据，3.6 万条法律问答数据，20.3 万条联通问答数据，4 万条农业银行问答数据，58.8 万条保险行业问答数据合并成的数据。
+数据集各个字段的含义如下
+- title:问题的标题
+- question:问题内容（可为空）
+- reply:回复内容
+- isbest:是否是页面上显示的最佳答案
 
-
-
-
-
+# 数据处理代码
+数据处理部分的代码主要由data_merge.py 和 csv_to_json.py 两个文件构成
+data_merge.py的作用是将多个csv文件合并成一个
+csv_to_json.py文件的作用是将csv文件转换为json格式的输出以便于用于模型的训练的输入
 
 
 
@@ -31,7 +37,8 @@ pip install torch-geometric==1.7.0 -f https://pytorch-geometric.com/whl/torch-1.
 
 ### 1.下载数据
 
-
+运行数据处理代码获得输入
+运行preprogress.py代码来为输入数据提取子图
 
 
 ### 2.训练模型
@@ -58,3 +65,18 @@ For CommonsenseQA, run
 ```
 Similarly, for other datasets (OpenBookQA, MedQA-USMLE), run `./eval_qagnn__obqa.sh` and `./eval_qagnn__medqa_usmle.sh`.
 
+
+
+### 4.使用新的数据集
+- Convert your dataset to {train,dev,test}.statement.jsonl in .jsonl format 
+- Create a directory in data/{yourdataset}/ to store the .jsonl files
+- Modify preprocess.py and perform subgraph extraction for your data
+- Modify utils/parser_utils.py to support your own dataset
+
+# 模型介绍
+<p align="center">
+  <img src="./figs/overview.png" width="1000" title="Overview of QA-GNN" alt="">
+</p>
+模型的主要特点主要有两点
+- 相关性评分，我们使用语言模型（LMs）来估计知识图谱（KG）节点相对于给定的问答（QA）上下文的重要性
+- 联合推理，我们将QA上下文和知识图谱连接起来形成联合图，并通过网络神经网络相互更新它们的表示
