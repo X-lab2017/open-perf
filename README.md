@@ -1,61 +1,40 @@
-# OpenPerf
+# Developer Role Classification in GitHub Open Source Community
+## Project Overview
+The aim of this project is to classify the roles of developers in the GitHub open source community. Based on the developer's behavior and influence in the project, their roles can be roughly divided into four categories: observer, contributor, maintainer, and leader. This project involves constructing a dataset and building a classification model to divide the role of the developer. Additionally, the classification algorithm will be compared with other models, and a deep analysis of behavior patterns based on classification results will be conducted to understand the collaboration mechanism and open source ecology.
 
-OpenPerf is a benchmarking suite tailored for the sustainable management of open-source projects. It assesses key metrics and standards vital for the successful development of open-source ecosystems.
+# Methodology
+## Data Collection:
 
-## Features
+Data is collected from various GitHub repositories.
+Key features include stars, forks, watches, issues, pull_requests, projects, commits, branches, packages, releases, contributors, and license.
+# Data Cleaning:
 
-- **Data Science Benchmarks**: Focus on analyzing and predicting behaviors that impact the sustainability of open-source projects, such as bot detection mechanisms.
-- **Standard Benchmarks**: Includes a wide range of benchmarks that measure company, developer, and project impacts on open-source community health and growth.
-- **Index Benchmarks**: Provides tools for evaluating and ranking different entities based on metrics critical to open-source sustainability, such as activity levels and influence.
-- **Modular CLI**: A robust command-line interface that allows for straightforward interaction with all available benchmarks, facilitating ease of use and integration into other tools.
-- **Extensible Framework**: Designed to be flexible and expandable, allowing researchers and developers to add new benchmarks and features as the field evolves.
+Convert values such as 2.1k to 2100.
+Remove commas and quotes from numeric fields.
+One-hot encode the license field, expanding it into multiple columns.
+Reason for Dataset Construction
+The chosen features reflect the developer's activities and influence within the project. By cleaning and processing these features, we ensure that the dataset accurately represents the developer's behavior and influence.
 
-## Installation
+# Classification Models
+##Model Selection
+MLP + GMM (Gaussian Mixture Model):
 
-To get started with OpenPerf, clone the repository to your local machine:
+The dataset is first processed through a Multi-Layer Perceptron (MLP) to extract meaningful features.
+These features are then used in a Gaussian Mixture Model (GMM) to classify developers into four roles.
+## Comparison with Other Models:
 
-```bash
-git clone https://github.com/yourgithubusername/openperf.git
-cd openperf
-```
+K-Means Clustering: A simple and commonly used clustering algorithm.
+Hierarchical Clustering: Builds a hierarchy of clusters.
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise): Identifies clusters based on the density of data points.
 
-Install the required dependencies:
+# Evaluation Metric
+Silhouette Score: Used to evaluate the quality of clustering. It measures how similar an object is to its own cluster compared to other clusters.
 
-```bash
-pip install -r requirements.txt
-```
+# Results and Analysis
+Model	Silhouette Score
+MLP + GMM	0.55
+Behavioral Patterns Analysis
+Based on the classification results, the behavior patterns of different developer roles can be analyzed to gain insights into the collaboration mechanism and open source ecology. This involves examining how developers in each role contribute to the project, their frequency of interactions, and their overall impact on the project's success.
 
-## Usage
-
-OpenPerf is equipped with a CLI for easy execution of benchmarks. Here’s how you can run different types of benchmarks:
-
-### Running Data Science Benchmarks
-To run the bot detection benchmark, which helps understand automated interactions in project management:
-```bash
-openperf data_science bot_detection
-```
-
-### Running Standard Benchmarks
-Evaluate the impact of companies, developers, and projects on open-source sustainability:
-```bash
-openperf standard company
-openperf standard developer
-openperf standard project
-```
-
-### Running Index Benchmarks
-To assess activity and influence indices, crucial for understanding leadership and contributions in open-source projects:
-```bash
-openperf index activity
-openperf index influence
-```
-
-### Extending OpenPerf
-To add a new benchmark, create a new module under the appropriate directory and update the main.py to include this benchmark in the CLI.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Acknowledgments
-Thanks to all the contributors who have helped to expand and maintain OpenPerf.
-Special thanks to the community for the continuous feedback that enriches the project's scope and functionality.
+# Conclusion
+This project provides a comprehensive approach to classify developer roles in the GitHub open source community. By analyzing the behavior patterns based on classification results, we can gain valuable insights into the collaboration mechanism and open source ecology. The comparison of different models highlights the effectiveness of the chosen approach.
