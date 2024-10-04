@@ -32,7 +32,7 @@ OpenPerf is equipped with a CLI for easy execution of benchmarks. Here’s how y
 ### Running Data Science Benchmarks
 To run the bot detection benchmark, which helps understand automated interactions in project management:
 ```bash
-openperf data_science bot_detection
+openperf data-science bot-detection
 ```
 
 ### Running Standard Benchmarks
